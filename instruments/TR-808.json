@@ -1,0 +1,283 @@
+{
+  "name": "TR-808",
+  "zones": [
+    {
+      "generators": {
+        "releaseVolEnv": 5888
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "35-35",
+        "modEnvToFilterFc": 12000,
+        "releaseVolEnv": 3600,
+        "coarseTune": -1,
+        "overridingRootKey": 35,
+        "sample": "808 Kick 1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "36-36",
+        "modEnvToFilterFc": 12000,
+        "decayVolEnv": 3208,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": -2786,
+        "overridingRootKey": 36,
+        "sample": "808 Kick 2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "38-38",
+        "modEnvToFilterFc": 1000,
+        "releaseVolEnv": 3600,
+        "overridingRootKey": 38,
+        "sample": "808 Snare 1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "39-39",
+        "overridingRootKey": 39,
+        "sample": "808 Clap"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "40-40",
+        "modEnvToFilterFc": 1000,
+        "overridingRootKey": 40,
+        "sample": "808 Snare 2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "41-41",
+        "fineTune": -30,
+        "overridingRootKey": 41,
+        "sample": "808 Tom 1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "42-42",
+        "overridingRootKey": 42,
+        "sample": "808 Closed Hat"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "43-43",
+        "fineTune": -40,
+        "overridingRootKey": 43,
+        "sample": "808 Tom 2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "44-44",
+        "decayVolEnv": 1902,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": 1200,
+        "overridingRootKey": 44,
+        "sample": "808 Open Hat"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "45-45",
+        "coarseTune": -2,
+        "fineTune": 20,
+        "overridingRootKey": 45,
+        "sample": "808 Tom 3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "46-46",
+        "releaseVolEnv": 3369,
+        "overridingRootKey": 46,
+        "sample": "808 Open Hat"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "47-47",
+        "overridingRootKey": 47,
+        "sample": "808 Tom 4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "48-48",
+        "coarseTune": 1,
+        "overridingRootKey": 48,
+        "sample": "808 Tom 5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "50-50",
+        "coarseTune": 1,
+        "overridingRootKey": 50,
+        "sample": "808 Tom 6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "51-51",
+        "overridingRootKey": 51,
+        "sample": "808 Ride"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "56-56",
+        "overridingRootKey": 56,
+        "sample": "808 Cowbell"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "62-62",
+        "initialFilterFc": 13508,
+        "pan": -397,
+        "freqModLFO": -807,
+        "freqVibLFO": -807,
+        "decayModEnv": -526,
+        "sustainModEnv": 1000,
+        "releaseModEnv": 68,
+        "decayVolEnv": -735,
+        "releaseVolEnv": 68,
+        "overridingRootKey": 62,
+        "sample": "808 High Conga"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "63-63",
+        "initialFilterFc": 13508,
+        "pan": -397,
+        "freqModLFO": -807,
+        "freqVibLFO": -807,
+        "decayModEnv": -526,
+        "sustainModEnv": 1000,
+        "releaseModEnv": 68,
+        "decayVolEnv": -735,
+        "releaseVolEnv": 68,
+        "overridingRootKey": 63,
+        "sample": "808 Mid Conga"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "64-64",
+        "initialFilterFc": 13508,
+        "pan": -397,
+        "freqModLFO": -807,
+        "freqVibLFO": -807,
+        "decayModEnv": -526,
+        "sustainModEnv": 1000,
+        "releaseModEnv": 68,
+        "decayVolEnv": -735,
+        "releaseVolEnv": 68,
+        "overridingRootKey": 64,
+        "sample": "808 Low Conga"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "75-75",
+        "overridingRootKey": 75,
+        "sample": "808 Clave"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    }
+  ]
+}

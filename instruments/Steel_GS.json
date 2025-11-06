@@ -1,0 +1,118 @@
+{
+  "name": "Steel/GS",
+  "zones": [
+    {
+      "generators": {
+        "holdVolEnv": 0,
+        "sustainVolEnv": 1000,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-43",
+        "decayVolEnv": 6590,
+        "releaseVolEnv": 5573,
+        "sample": "Steel E3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "44-48",
+        "decayVolEnv": 6471,
+        "releaseVolEnv": 5351,
+        "sample": "Steel A3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "49-53",
+        "decayVolEnv": 6342,
+        "releaseVolEnv": 5098,
+        "sample": "Steel D4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "54-58",
+        "decayVolEnv": 6251,
+        "releaseVolEnv": 4800,
+        "sample": "Steel G4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "59-62",
+        "decayVolEnv": 6155,
+        "releaseVolEnv": 4441,
+        "sample": "Steel B4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "63-67",
+        "decayVolEnv": 6000,
+        "releaseVolEnv": 3986,
+        "sample": "Steel E5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "68-70",
+        "holdVolEnv": -11959,
+        "decayVolEnv": 5428,
+        "releaseVolEnv": 3369,
+        "sample": "Steel A5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "71-75",
+        "holdVolEnv": -11959,
+        "decayVolEnv": 5004,
+        "releaseVolEnv": 2400,
+        "sample": "Steel B6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "76-83",
+        "holdVolEnv": -11959,
+        "decayVolEnv": 3600,
+        "releaseVolEnv": 0,
+        "sample": "Steel E6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "84-127",
+        "holdVolEnv": -2786,
+        "decayVolEnv": 3102,
+        "sample": "Extension"
+      }
+    }
+  ]
+}

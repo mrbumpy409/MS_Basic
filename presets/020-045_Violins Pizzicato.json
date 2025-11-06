@@ -1,0 +1,45 @@
+{
+  "name": "Violins Pizzicato",
+  "bank": 20,
+  "preset_number": 45,
+  "library": 80020677,
+  "genre": 80020677,
+  "morphology": 80020677,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 100
+      }
+    },
+    {
+      "generators": {
+        "initialAttenuation": 410,
+        "instrument": "Violins Pizz_v1"
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 470,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "initialAttenuation": 210,
+        "instrument": "Violins Pizz_v2"
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 1050,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Banjo",
+  "bank": 0,
+  "preset_number": 105,
+  "library": 52036378,
+  "genre": 52036378,
+  "morphology": 52036378,
+  "zones": [
+    {
+      "generators": {}
+    },
+    {
+      "generators": {
+        "reverbEffectsSend": 100,
+        "instrument": "Banjo"
+      }
+    }
+  ]
+}

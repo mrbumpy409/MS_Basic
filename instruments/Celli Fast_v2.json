@@ -1,0 +1,436 @@
+{
+  "name": "Celli Fast_v2",
+  "zones": [
+    {
+      "generators": {
+        "pan": -500,
+        "attackVolEnv": -3986,
+        "releaseVolEnv": 0,
+        "initialAttenuation": 50,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -3800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 0,
+          "amount": -4000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-37",
+        "initialAttenuation": 60,
+        "sample": "Celli_C1_v3",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "0-37",
+        "pan": 500,
+        "initialAttenuation": 60,
+        "sample": "Celli_C1_v3",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "38-41",
+        "sample": "Celli_E1_v3",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "38-41",
+        "pan": 500,
+        "sample": "Celli_E1_v3",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "42-44",
+        "initialAttenuation": 30,
+        "sample": "Celli_G1_v3",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "42-44",
+        "pan": 500,
+        "initialAttenuation": 30,
+        "sample": "Celli_G1_v3",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "45-48",
+        "startAddrsOffset": 2000,
+        "startAddrsCoarseOffset": 0,
+        "sample": "Celli_B1_v3",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "45-48",
+        "startAddrsOffset": 2000,
+        "startAddrsCoarseOffset": 0,
+        "pan": 500,
+        "sample": "Celli_B1_v3",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "49-51",
+        "sample": "Celli_D2_v3",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "49-51",
+        "pan": 500,
+        "sample": "Celli_D2_v3",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "52-54",
+        "startAddrsOffset": 5000,
+        "startAddrsCoarseOffset": 0,
+        "initialAttenuation": 80,
+        "sample": "Celli_F2_v3",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "52-54",
+        "startAddrsOffset": 5000,
+        "startAddrsCoarseOffset": 0,
+        "pan": 500,
+        "initialAttenuation": 80,
+        "sample": "Celli_F2_v3",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "55-57",
+        "startAddrsOffset": 1000,
+        "startAddrsCoarseOffset": 0,
+        "initialAttenuation": 20,
+        "sample": "Celli_A2_v3",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "55-57",
+        "startAddrsOffset": 1000,
+        "startAddrsCoarseOffset": 0,
+        "pan": 500,
+        "initialAttenuation": 20,
+        "sample": "Celli_A2_v3",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "58-60",
+        "initialFilterFc": 11921,
+        "initialAttenuation": 70,
+        "sample": "Celli_C3_v3",
+        "sample_channel": "left"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -3500,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "58-60",
+        "initialFilterFc": 11921,
+        "pan": 500,
+        "initialAttenuation": 70,
+        "sample": "Celli_C3_v3",
+        "sample_channel": "right"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -3500,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "61-64",
+        "startAddrsOffset": 2000,
+        "startAddrsCoarseOffset": 0,
+        "sample": "Celli_E3_v3",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-64",
+        "startAddrsOffset": 2000,
+        "startAddrsCoarseOffset": 0,
+        "pan": 500,
+        "sample": "Celli_E3_v3",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "65-68",
+        "initialAttenuation": 70,
+        "sample": "Celli_G3_v3",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "65-68",
+        "pan": 500,
+        "initialAttenuation": 70,
+        "sample": "Celli_G3_v3",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "69-72",
+        "startAddrsOffset": 4000,
+        "startAddrsCoarseOffset": 0,
+        "initialAttenuation": 70,
+        "sample": "Celli_B3_v3",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "69-72",
+        "startAddrsOffset": 4000,
+        "startAddrsCoarseOffset": 0,
+        "pan": 500,
+        "initialAttenuation": 70,
+        "sample": "Celli_B3_v3",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "73-75",
+        "startAddrsOffset": 3000,
+        "startAddrsCoarseOffset": 0,
+        "initialAttenuation": 90,
+        "sample": "Celli_D4_v3",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "73-75",
+        "startAddrsOffset": 3000,
+        "startAddrsCoarseOffset": 0,
+        "pan": 500,
+        "initialAttenuation": 90,
+        "sample": "Celli_D4_v3",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "76-79",
+        "startAddrsOffset": 4000,
+        "startAddrsCoarseOffset": 0,
+        "attackVolEnv": -3284,
+        "initialAttenuation": 70,
+        "sample": "Celli_F4_v3",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "76-79",
+        "startAddrsOffset": 4000,
+        "startAddrsCoarseOffset": 0,
+        "pan": 500,
+        "attackVolEnv": -3284,
+        "initialAttenuation": 70,
+        "sample": "Celli_F4_v3",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "80-81",
+        "startAddrsOffset": 3000,
+        "startAddrsCoarseOffset": 0,
+        "initialFilterFc": 12308,
+        "attackVolEnv": -2786,
+        "initialAttenuation": 70,
+        "sample": "Celli_F4_v3",
+        "sample_channel": "left"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -2300,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "80-81",
+        "startAddrsOffset": 3000,
+        "startAddrsCoarseOffset": 0,
+        "initialFilterFc": 12308,
+        "pan": 500,
+        "attackVolEnv": -2786,
+        "initialAttenuation": 70,
+        "sample": "Celli_F4_v3",
+        "sample_channel": "right"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -2300,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "82-87",
+        "startAddrsOffset": 2000,
+        "startAddrsCoarseOffset": 0,
+        "initialFilterFc": 12125,
+        "attackVolEnv": -2786,
+        "initialAttenuation": 70,
+        "sample": "Celli_F4_v3e",
+        "sample_channel": "left"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -1900,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "82-87",
+        "startAddrsOffset": 2000,
+        "startAddrsCoarseOffset": 0,
+        "initialFilterFc": 12125,
+        "pan": 500,
+        "attackVolEnv": -2786,
+        "initialAttenuation": 70,
+        "sample": "Celli_F4_v3e",
+        "sample_channel": "right"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -1900,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "88-127",
+        "startAddrsOffset": 1000,
+        "startAddrsCoarseOffset": 0,
+        "initialFilterFc": 11810,
+        "attackVolEnv": -2786,
+        "initialAttenuation": 70,
+        "sample": "Celli_F4_v3f",
+        "sample_channel": "left"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -1500,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "88-127",
+        "startAddrsOffset": 1000,
+        "startAddrsCoarseOffset": 0,
+        "initialFilterFc": 11810,
+        "pan": 500,
+        "attackVolEnv": -2786,
+        "initialAttenuation": 70,
+        "sample": "Celli_F4_v3f",
+        "sample_channel": "right"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -1500,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    }
+  ]
+}

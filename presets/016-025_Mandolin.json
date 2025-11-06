@@ -1,0 +1,25 @@
+{
+  "name": "Mandolin",
+  "bank": 16,
+  "preset_number": 25,
+  "library": 14811362,
+  "genre": 14811362,
+  "morphology": 14811362,
+  "zones": [
+    {
+      "generators": {}
+    },
+    {
+      "generators": {
+        "initialFilterFc": -2084,
+        "reverbEffectsSend": 40,
+        "decayModEnv": 900,
+        "sustainModEnv": 5,
+        "decayVolEnv": -1700,
+        "releaseVolEnv": -3986,
+        "keynumToVolEnvDecay": -5,
+        "instrument": "Steel/GS"
+      }
+    }
+  ]
+}

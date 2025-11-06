@@ -1,0 +1,66 @@
+{
+  "name": "Goblin",
+  "zones": [
+    {
+      "generators": {
+        "initialFilterFc": 5535,
+        "modEnvToFilterFc": 5000,
+        "attackModEnv": 3787,
+        "decayModEnv": -5293,
+        "releaseModEnv": 1902,
+        "attackVolEnv": -459,
+        "holdVolEnv": -11959,
+        "decayVolEnv": -11959,
+        "releaseVolEnv": 2786,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "initialAttenuation": 100,
+        "sample": "SynthVz C7"
+      }
+    },
+    {
+      "generators": {
+        "initialFilterFc": 7935,
+        "attackVolEnv": 0,
+        "initialAttenuation": 100,
+        "sample": "Wind"
+      }
+    },
+    {
+      "generators": {
+        "modLfoToPitch": 100,
+        "vibLfoToPitch": -100,
+        "initialFilterQ": 30,
+        "freqModLFO": 2394,
+        "initialAttenuation": 1000,
+        "sample": "Vox C4"
+      }
+    }
+  ]
+}

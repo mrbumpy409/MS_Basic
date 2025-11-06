@@ -1,0 +1,81 @@
+{
+  "name": "Hi Hats Treb",
+  "zones": [
+    {
+      "generators": {
+        "initialFilterQ": 100,
+        "holdVolEnv": 2786,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": 5830,
+        "initialAttenuation": 0,
+        "exclusiveClass": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "42-42",
+        "holdVolEnv": -11959,
+        "decayVolEnv": 702,
+        "releaseVolEnv": 702,
+        "initialAttenuation": 170,
+        "overridingRootKey": 42,
+        "sample": "Hi-Hat Closed"
+      },
+      "modulators": [
+        {
+          "src_oper": 2,
+          "dest_oper": 38,
+          "amount": 3369,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 2,
+          "dest_oper": 36,
+          "amount": 3369,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "44-44",
+        "initialAttenuation": 170,
+        "overridingRootKey": 44,
+        "sample": "Hi-Hat Foot"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "46-46",
+        "initialAttenuation": 70,
+        "overridingRootKey": 46,
+        "sample": "Hi-Hat Half-Open"
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Calliope Lead",
+  "zones": [
+    {
+      "generators": {
+        "modLfoToVolume": 10,
+        "chorusEffectsSend": 300,
+        "reverbEffectsSend": 100,
+        "freqModLFO": -15597,
+        "releaseVolEnv": 1902
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-108",
+        "sampleModes": 1,
+        "sample": "Calliope Lead"
+      }
+    }
+  ]
+}

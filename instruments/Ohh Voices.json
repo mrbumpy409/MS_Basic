@@ -1,0 +1,76 @@
+{
+  "name": "Ohh Voices",
+  "zones": [
+    {
+      "generators": {
+        "releaseVolEnv": 316,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-53",
+        "sample": "Ohh Voices C4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "54-59",
+        "sample": "Ohh Voices F#4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "60-65",
+        "sample": "Ohh Voices C5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "66-71",
+        "sample": "Ohh Voices F#5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "72-77",
+        "sample": "Ohh Voices C6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "78-83",
+        "sample": "Ohh Voices F#6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "84-96",
+        "sample": "Ohh Voices C7"
+      }
+    }
+  ]
+}

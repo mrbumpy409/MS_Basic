@@ -1,0 +1,83 @@
+{
+  "name": "Dulcimer",
+  "zones": [
+    {
+      "generators": {
+        "modLfoToVolume": 10,
+        "chorusEffectsSend": 100,
+        "freqModLFO": -427,
+        "freqVibLFO": -1238,
+        "releaseModEnv": -1200,
+        "holdVolEnv": -1200,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": 1200,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-61",
+        "decayVolEnv": 3986,
+        "sample": "dulci_c3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "62-70",
+        "decayVolEnv": 3951,
+        "sample": "dulci_g3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "71-73",
+        "decayVolEnv": 3823,
+        "sample": "dulci_c4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "74-81",
+        "decayVolEnv": 3785,
+        "sample": "dulci_g4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "82-88",
+        "decayVolEnv": 3634,
+        "sample": "dulci_c5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "89-108",
+        "decayVolEnv": 3488,
+        "sample": "dulci_c6"
+      }
+    }
+  ]
+}

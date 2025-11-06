@@ -1,0 +1,8 @@
+{
+  "sample_name": "Sine-1500Hz",
+  "sample_type": "mono",
+  "start_loop": 16,
+  "end_loop": 48,
+  "original_key": 90,
+  "correction": -23
+}

@@ -1,0 +1,18 @@
+{
+  "name": "OldMarchingBass",
+  "bank": 128,
+  "preset_number": 57,
+  "library": 54264636,
+  "genre": 54264636,
+  "morphology": 54264636,
+  "zones": [
+    {
+      "generators": {}
+    },
+    {
+      "generators": {
+        "instrument": "MDL Bass Drums-old"
+      }
+    }
+  ]
+}

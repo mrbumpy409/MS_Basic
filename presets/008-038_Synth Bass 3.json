@@ -1,0 +1,62 @@
+{
+  "name": "Synth Bass 3",
+  "bank": 8,
+  "preset_number": 38,
+  "library": 5111886,
+  "genre": 5111886,
+  "morphology": 5111886,
+  "zones": [
+    {
+      "generators": {
+        "initialFilterFc": 316,
+        "initialFilterQ": 80,
+        "chorusEffectsSend": 70,
+        "delayModLFO": -7973,
+        "delayVibLFO": -7973,
+        "delayModEnv": -7973,
+        "attackModEnv": -7973,
+        "holdModEnv": -7973,
+        "decayModEnv": -2786,
+        "sustainModEnv": 830,
+        "releaseModEnv": -2786,
+        "delayVolEnv": -7973,
+        "attackVolEnv": -7973,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 5406,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": -1200,
+        "initialAttenuation": 170
+      },
+      "modulators": [
+        {
+          "src_oper": 3,
+          "dest_oper": 8,
+          "amount": 1000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 2,
+          "dest_oper": 11,
+          "amount": 4898,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "modEnvToFilterFc": 500,
+        "decayModEnv": -3284,
+        "instrument": "0 Saw Incline"
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Detuned Organ 1",
+  "bank": 8,
+  "preset_number": 16,
+  "library": 17367305,
+  "genre": 17367305,
+  "morphology": 17367305,
+  "zones": [
+    {
+      "generators": {},
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "initialFilterFc": -1132,
+        "chorusEffectsSend": 625,
+        "initialAttenuation": 128,
+        "instrument": "DrawbarOrgan"
+      }
+    }
+  ]
+}

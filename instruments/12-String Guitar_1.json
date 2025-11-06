@@ -1,0 +1,112 @@
+{
+  "name": "12-String Guitar_1",
+  "zones": [
+    {
+      "generators": {
+        "startAddrsOffset": 2205,
+        "startAddrsCoarseOffset": 0,
+        "holdVolEnv": 0,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": -1586,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-43",
+        "decayVolEnv": 6590,
+        "sample": "Steel Gtr E3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "44-48",
+        "decayVolEnv": 6471,
+        "sample": "Steel Gtr A3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "49-53",
+        "decayVolEnv": 6342,
+        "sample": "Steel Gtr D4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "54-56",
+        "decayVolEnv": 6251,
+        "sample": "Steel Gtr G4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "57-60",
+        "decayVolEnv": 6155,
+        "sample": "Steel Gtr B4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-65",
+        "decayVolEnv": 6000,
+        "sample": "Steel Gtr E5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "66-69",
+        "holdVolEnv": -11959,
+        "decayVolEnv": 5428,
+        "sample": "Steel Gtr A5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "70-73",
+        "holdVolEnv": -11959,
+        "decayVolEnv": 5004,
+        "sample": "Steel Gtr B6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "74-83",
+        "holdVolEnv": -11959,
+        "decayVolEnv": 3600,
+        "sample": "Steel Gtr E6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "84-127",
+        "holdVolEnv": -2786,
+        "decayVolEnv": 3102,
+        "sample": "Steel Gtr Ext"
+      }
+    }
+  ]
+}

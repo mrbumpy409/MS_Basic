@@ -1,0 +1,117 @@
+{
+  "name": "Acoustic Bass",
+  "zones": [
+    {
+      "generators": {
+        "initialFilterFc": 12308,
+        "holdVolEnv": 702,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": -2786,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-28",
+        "holdVolEnv": 702,
+        "decayVolEnv": 5830,
+        "sample": "Acoustic Bass E2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "29-29",
+        "holdVolEnv": 454,
+        "decayVolEnv": 5573,
+        "sample": "Acoustic Bass F2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "30-36",
+        "holdVolEnv": 316,
+        "decayVolEnv": 5351,
+        "sample": "Acoustic Bass C3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "37-41",
+        "holdVolEnv": 165,
+        "decayVolEnv": 4905,
+        "sample": "Acoustic Bass F3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "42-46",
+        "holdVolEnv": 0,
+        "decayVolEnv": 4506,
+        "sample": "Acoustic Bass A#3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "47-50",
+        "holdVolEnv": -182,
+        "decayVolEnv": 3951,
+        "sample": "Acoustic Bass F#4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "51-54",
+        "holdVolEnv": -386,
+        "decayVolEnv": 3664,
+        "sample": "Acoustic Bass F#4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "55-60",
+        "holdVolEnv": -746,
+        "decayVolEnv": 3643,
+        "sample": "Acoustic Bass C5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-66",
+        "holdVolEnv": -1035,
+        "decayVolEnv": 3622,
+        "sample": "Acoustic Bass F#5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "67-127",
+        "holdVolEnv": -1382,
+        "decayVolEnv": 3369,
+        "sample": "Acoustic Bass C6"
+      }
+    }
+  ]
+}

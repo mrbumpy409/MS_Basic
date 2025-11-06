@@ -1,0 +1,30 @@
+{
+  "name": "Fretless Bass",
+  "bank": 0,
+  "preset_number": 35,
+  "library": 49939194,
+  "genre": 49939194,
+  "morphology": 49939194,
+  "zones": [
+    {
+      "generators": {
+        "initialAttenuation": 50
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -4800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "reverbEffectsSend": 20,
+        "instrument": "Fretless Bass"
+      }
+    }
+  ]
+}

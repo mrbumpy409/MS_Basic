@@ -1,0 +1,37 @@
+{
+  "name": "Recorder Expr.",
+  "bank": 17,
+  "preset_number": 74,
+  "library": 61408169,
+  "genre": 61408169,
+  "morphology": 61408169,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 150,
+        "initialAttenuation": 50
+      },
+      "modulators": [
+        {
+          "src_oper": 386,
+          "dest_oper": 8,
+          "amount": -3600,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1410,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "instrument": "Recorder"
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Castanets/GS",
+  "zones": [
+    {
+      "generators": {},
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "initialFilterFc": 9377,
+        "modEnvToFilterFc": 3375,
+        "reverbEffectsSend": 70,
+        "freqModLFO": -807,
+        "freqVibLFO": -807,
+        "releaseModEnv": 2900,
+        "releaseVolEnv": 2900,
+        "coarseTune": 4,
+        "fineTune": -1,
+        "scaleTuning": 20,
+        "overridingRootKey": 97,
+        "sample": "Castanet"
+      }
+    }
+  ]
+}

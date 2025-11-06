@@ -1,0 +1,21 @@
+{
+  "name": "Synth Drum",
+  "bank": 0,
+  "preset_number": 118,
+  "library": 50594564,
+  "genre": 50594564,
+  "morphology": 50594564,
+  "zones": [
+    {
+      "generators": {}
+    },
+    {
+      "generators": {
+        "chorusEffectsSend": 100,
+        "reverbEffectsSend": 100,
+        "initialAttenuation": 50,
+        "instrument": "Synth Drum"
+      }
+    }
+  ]
+}

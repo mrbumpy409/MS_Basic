@@ -1,0 +1,69 @@
+{
+  "name": "Synth Strings 3",
+  "bank": 8,
+  "preset_number": 50,
+  "library": 76416142,
+  "genre": 76416142,
+  "morphology": 76416142,
+  "zones": [
+    {
+      "generators": {},
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "vibLfoToPitch": 17,
+        "initialFilterFc": 4592,
+        "initialFilterQ": 34,
+        "pan": -250,
+        "delayModEnv": -7973,
+        "attackModEnv": -7973,
+        "delayVolEnv": -7973,
+        "releaseVolEnv": 2400,
+        "initialAttenuation": 160,
+        "fineTune": -1,
+        "instrument": "+1 Saw Stack-lite"
+      },
+      "modulators": [
+        {
+          "src_oper": 3,
+          "dest_oper": 8,
+          "amount": 1000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "initialFilterFc": 5186,
+        "initialFilterQ": 89,
+        "modLfoToFilterFc": 1800,
+        "modEnvToFilterFc": 200,
+        "pan": 180,
+        "freqModLFO": -2400,
+        "attackModEnv": -7973,
+        "holdModEnv": -3821,
+        "decayModEnv": 34,
+        "sustainModEnv": 438,
+        "releaseModEnv": 3985,
+        "attackVolEnv": -913,
+        "holdVolEnv": -3986,
+        "decayVolEnv": 7468,
+        "sustainVolEnv": 53,
+        "releaseVolEnv": 1902,
+        "initialAttenuation": 100,
+        "fineTune": 2,
+        "instrument": "Strings Layer"
+      }
+    }
+  ]
+}

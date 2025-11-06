@@ -1,0 +1,47 @@
+{
+  "name": "Basses Trem Expr.",
+  "bank": 51,
+  "preset_number": 44,
+  "library": 88474950,
+  "genre": 88474950,
+  "morphology": 88474950,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 100,
+        "releaseVolEnv": 316
+      }
+    },
+    {
+      "generators": {
+        "initialAttenuation": 230,
+        "instrument": "Basses Trem_v1"
+      },
+      "modulators": [
+        {
+          "src_oper": 1410,
+          "dest_oper": 48,
+          "amount": 470,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "releaseVolEnv": 0,
+        "initialAttenuation": 180,
+        "instrument": "Basses Trem_v2x"
+      },
+      "modulators": [
+        {
+          "src_oper": 1410,
+          "dest_oper": 48,
+          "amount": 1050,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    }
+  ]
+}

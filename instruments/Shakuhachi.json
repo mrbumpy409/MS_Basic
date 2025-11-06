@@ -1,0 +1,51 @@
+{
+  "name": "Shakuhachi",
+  "zones": [
+    {
+      "generators": {
+        "modLfoToPitch": 1,
+        "initialFilterFc": 7704,
+        "modEnvToFilterFc": 4000,
+        "modLfoToVolume": -9,
+        "freqModLFO": -851,
+        "holdModEnv": -2084,
+        "decayModEnv": 3894,
+        "sustainModEnv": 690,
+        "releaseModEnv": 0,
+        "holdVolEnv": -3284,
+        "decayVolEnv": 3684,
+        "sustainVolEnv": 30,
+        "releaseVolEnv": -1586
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "sampleModes": 1,
+        "sample": "shakhchi c6"
+      }
+    }
+  ]
+}

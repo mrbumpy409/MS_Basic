@@ -1,0 +1,76 @@
+{
+  "name": "Tubular Bells",
+  "zones": [
+    {
+      "generators": {
+        "holdVolEnv": -8359,
+        "decayVolEnv": 2400,
+        "sustainVolEnv": 1000,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-66",
+        "decayVolEnv": 4302,
+        "releaseVolEnv": 3986,
+        "sample": "Tubular Bells C7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "67-75",
+        "decayVolEnv": 4136,
+        "releaseVolEnv": 3600,
+        "sample": "Tubular Bells C7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "76-84",
+        "decayVolEnv": 3804,
+        "releaseVolEnv": 3102,
+        "sample": "Tubular Bells C7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "85-94",
+        "decayVolEnv": 3393,
+        "releaseVolEnv": 2400,
+        "sample": "Tubular Bells C7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "95-108",
+        "decayVolEnv": 2854,
+        "releaseVolEnv": 1200,
+        "sample": "Tubular Bells C7"
+      }
+    }
+  ]
+}

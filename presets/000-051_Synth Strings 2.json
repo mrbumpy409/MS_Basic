@@ -1,0 +1,84 @@
+{
+  "name": "Synth Strings 2",
+  "bank": 0,
+  "preset_number": 51,
+  "library": 10551457,
+  "genre": 10551457,
+  "morphology": 10551457,
+  "zones": [
+    {
+      "generators": {
+        "vibLfoToPitch": 10,
+        "initialFilterFc": 3102,
+        "chorusEffectsSend": 100,
+        "reverbEffectsSend": 150,
+        "delayModLFO": -7973,
+        "delayVibLFO": -7973,
+        "delayModEnv": -7973,
+        "attackModEnv": -7973,
+        "holdModEnv": -7973,
+        "decayModEnv": 0,
+        "releaseModEnv": 3393,
+        "delayVolEnv": -7973,
+        "attackVolEnv": 1902,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 0,
+        "releaseVolEnv": 2400,
+        "initialAttenuation": 220
+      },
+      "modulators": [
+        {
+          "src_oper": 515,
+          "dest_oper": 8,
+          "amount": 4000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 2,
+          "dest_oper": 11,
+          "amount": 1500,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -2400,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "initialFilterQ": 50,
+        "modEnvToFilterFc": 2553,
+        "pan": -250,
+        "holdModEnv": -2786,
+        "decayModEnv": 619,
+        "sustainModEnv": 1000,
+        "releaseModEnv": 619,
+        "fineTune": -1,
+        "instrument": "0 Saw Stack-lite"
+      }
+    },
+    {
+      "generators": {
+        "initialFilterQ": 50,
+        "modEnvToFilterFc": 1000,
+        "pan": 250,
+        "attackVolEnv": 1200,
+        "fineTune": 2,
+        "instrument": "0 Saw Stack-lt-off1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Applause",
+  "bank": 0,
+  "preset_number": 126,
+  "library": 43909790,
+  "genre": 43909790,
+  "morphology": 43909790,
+  "zones": [
+    {
+      "generators": {}
+    },
+    {
+      "generators": {
+        "initialAttenuation": 100,
+        "instrument": "Applause"
+      }
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "name": "Jazz Guitar",
+  "bank": 0,
+  "preset_number": 26,
+  "library": 44827308,
+  "genre": 44827308,
+  "morphology": 44827308,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 30,
+        "initialAttenuation": 150
+      }
+    },
+    {
+      "generators": {
+        "velRange": "121-127",
+        "initialFilterFc": -182,
+        "releaseVolEnv": 316,
+        "instrument": "Jazz Guitar"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "113-120",
+        "initialFilterFc": -386,
+        "releaseVolEnv": 165,
+        "instrument": "Jazz Guitar"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "105-112",
+        "initialFilterFc": -617,
+        "releaseVolEnv": 0,
+        "instrument": "Jazz Guitar"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "97-104",
+        "initialFilterFc": -884,
+        "releaseVolEnv": -182,
+        "instrument": "Jazz Guitar"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "89-96",
+        "initialFilterFc": -1200,
+        "releaseVolEnv": -386,
+        "instrument": "Jazz Guitar"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "81-88",
+        "initialFilterFc": -1586,
+        "releaseVolEnv": -617,
+        "instrument": "Jazz Guitar"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "73-80",
+        "initialFilterFc": -2084,
+        "releaseVolEnv": -884,
+        "instrument": "Jazz Guitar"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "65-72",
+        "initialFilterFc": -2786,
+        "releaseVolEnv": -1200,
+        "instrument": "Jazz Guitar"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "0-64",
+        "initialFilterFc": -3986,
+        "releaseVolEnv": -1586,
+        "instrument": "Jazz Guitar"
+      }
+    }
+  ]
+}

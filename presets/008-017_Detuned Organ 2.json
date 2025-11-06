@@ -1,0 +1,39 @@
+{
+  "name": "Detuned Organ 2",
+  "bank": 8,
+  "preset_number": 17,
+  "library": 17170694,
+  "genre": 17170694,
+  "morphology": 17170694,
+  "zones": [
+    {
+      "generators": {},
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "initialFilterFc": -1688,
+        "pan": 125,
+        "initialAttenuation": 60,
+        "fineTune": 3,
+        "instrument": "DrawbarOrgan"
+      }
+    },
+    {
+      "generators": {
+        "pan": -94,
+        "initialAttenuation": 100,
+        "fineTune": -3,
+        "instrument": "Percussive Organ"
+      }
+    }
+  ]
+}

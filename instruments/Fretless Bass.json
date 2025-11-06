@@ -1,0 +1,111 @@
+{
+  "name": "Fretless Bass",
+  "zones": [
+    {
+      "generators": {
+        "modEnvToFilterFc": -100,
+        "holdVolEnv": 1902,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": -2786,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-28",
+        "decayVolEnv": 6204,
+        "sample": "Fretless E1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "29-31",
+        "decayVolEnv": 6000,
+        "sample": "Fretless G1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "32-34",
+        "decayVolEnv": 5769,
+        "sample": "Fretless A#1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "35-38",
+        "decayVolEnv": 5502,
+        "sample": "Fretless D2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "39-44",
+        "decayVolEnv": 5186,
+        "sample": "Fretless G#2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "45-48",
+        "decayVolEnv": 4688,
+        "sample": "Fretless C3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "49-84",
+        "decayVolEnv": 4151,
+        "sample": "Fretless A3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "0-84",
+        "initialFilterFc": 6786,
+        "initialFilterQ": 48,
+        "freqModLFO": -699,
+        "freqVibLFO": -725,
+        "releaseModEnv": 68,
+        "attackVolEnv": -5331,
+        "holdVolEnv": -7657,
+        "decayVolEnv": 4653,
+        "releaseVolEnv": -2345,
+        "initialAttenuation": 90,
+        "sample": "Sine Wave E4"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    }
+  ]
+}

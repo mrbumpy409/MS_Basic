@@ -1,0 +1,57 @@
+{
+  "name": "Room 7",
+  "bank": 128,
+  "preset_number": 15,
+  "library": 27460003,
+  "genre": 27460003,
+  "morphology": 27460003,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 200,
+        "initialAttenuation": -100
+      }
+    },
+    {
+      "generators": {
+        "instrument": "Misc. Percussion"
+      }
+    },
+    {
+      "generators": {
+        "instrument": "Std Snare 1"
+      }
+    },
+    {
+      "generators": {
+        "instrument": "Percussion"
+      }
+    },
+    {
+      "generators": {
+        "instrument": "Std Tom"
+      }
+    },
+    {
+      "generators": {
+        "instrument": "Crashes & Rides"
+      }
+    },
+    {
+      "generators": {
+        "instrument": "Hand Perc"
+      }
+    },
+    {
+      "generators": {
+        "instrument": "Room Kick"
+      }
+    },
+    {
+      "generators": {
+        "initialAttenuation": -70,
+        "instrument": "Hi Hats"
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Space Voice",
+  "bank": 0,
+  "preset_number": 91,
+  "library": 51249934,
+  "genre": 51249934,
+  "morphology": 51249934,
+  "zones": [
+    {
+      "generators": {},
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "initialAttenuation": 72,
+        "instrument": "Space Voice"
+      }
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Applause",
+  "zones": [
+    {
+      "generators": {
+        "initialFilterFc": 11000,
+        "modEnvToFilterFc": 8936,
+        "releaseModEnv": 3208,
+        "attackVolEnv": -620,
+        "holdVolEnv": 1200,
+        "decayVolEnv": 6386,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": 2786,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "scaleTuning": 5,
+        "sample": "Applause"
+      }
+    },
+    {
+      "generators": {
+        "coarseTune": -5,
+        "fineTune": -72,
+        "scaleTuning": 10,
+        "sample": "Applause"
+      }
+    }
+  ]
+}

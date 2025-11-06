@@ -1,0 +1,93 @@
+{
+  "name": "English Horn",
+  "zones": [
+    {
+      "generators": {
+        "initialFilterFc": 10450,
+        "chorusEffectsSend": 70,
+        "decayVolEnv": 5186,
+        "sustainVolEnv": 50,
+        "releaseVolEnv": -2204,
+        "initialAttenuation": 50,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-52",
+        "initialAttenuation": 130,
+        "sample": "English Horn E4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "53-55",
+        "initialAttenuation": 100,
+        "sample": "English Horn G4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "56-58",
+        "initialAttenuation": 100,
+        "sample": "English Horn B4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "59-61",
+        "decayVolEnv": 4302,
+        "initialAttenuation": 100,
+        "sample": "English Horn C5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "62-64",
+        "initialAttenuation": 0,
+        "sample": "English Horn F#5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "65-68",
+        "sample": "English Horn G5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "69-72",
+        "sample": "English Horn B5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "73-127",
+        "sample": "English Horn D6"
+      }
+    }
+  ]
+}

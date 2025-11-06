@@ -1,0 +1,36 @@
+{
+  "name": "Feedback Guitar",
+  "bank": 8,
+  "preset_number": 30,
+  "library": 16318713,
+  "genre": 16318713,
+  "morphology": 16318713,
+  "zones": [
+    {
+      "generators": {}
+    },
+    {
+      "generators": {
+        "initialFilterFc": -844,
+        "initialFilterQ": 34,
+        "modLfoToFilterFc": 1,
+        "modLfoToVolume": 5,
+        "freqModLFO": 312,
+        "attackVolEnv": 427,
+        "decayVolEnv": 2250,
+        "initialAttenuation": 50,
+        "coarseTune": 12,
+        "fineTune": 2,
+        "instrument": "Feedback/GS"
+      }
+    },
+    {
+      "generators": {
+        "decayVolEnv": 400,
+        "initialAttenuation": 35,
+        "fineTune": -2,
+        "instrument": "Distortion Guitar"
+      }
+    }
+  ]
+}

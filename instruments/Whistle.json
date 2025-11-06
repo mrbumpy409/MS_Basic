@@ -1,0 +1,50 @@
+{
+  "name": "Whistle",
+  "zones": [
+    {
+      "generators": {
+        "modLfoToPitch": 19,
+        "modLfoToVolume": 2,
+        "delayModLFO": -2090,
+        "freqModLFO": -851,
+        "freqVibLFO": -851,
+        "decayModEnv": 1516,
+        "sustainModEnv": 1000,
+        "releaseModEnv": 84,
+        "holdVolEnv": -5573,
+        "decayVolEnv": 3479,
+        "sustainVolEnv": 20,
+        "releaseVolEnv": -887,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "sample": "whistle"
+      }
+    }
+  ]
+}

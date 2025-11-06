@@ -1,0 +1,20 @@
+{
+  "name": "Taiko Drum",
+  "bank": 0,
+  "preset_number": 116,
+  "library": 47383251,
+  "genre": 47383251,
+  "morphology": 47383251,
+  "zones": [
+    {
+      "generators": {}
+    },
+    {
+      "generators": {
+        "reverbEffectsSend": 50,
+        "initialAttenuation": 80,
+        "instrument": "Taiko Drum"
+      }
+    }
+  ]
+}

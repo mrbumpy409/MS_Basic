@@ -1,0 +1,38 @@
+{
+  "name": "Contrabass",
+  "bank": 0,
+  "preset_number": 43,
+  "library": 0,
+  "genre": 0,
+  "morphology": 0,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 150,
+        "initialAttenuation": 120
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 34,
+          "amount": 10758,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "releaseVolEnv": 1018,
+        "instrument": "Contrabass"
+      }
+    }
+  ]
+}

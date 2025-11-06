@@ -1,0 +1,75 @@
+{
+  "name": "Soundtrack",
+  "bank": 0,
+  "preset_number": 97,
+  "library": 6488163,
+  "genre": 6488163,
+  "morphology": 6488163,
+  "zones": [
+    {
+      "generators": {
+        "initialFilterQ": 110,
+        "chorusEffectsSend": 140,
+        "reverbEffectsSend": 140,
+        "delayModEnv": -7973,
+        "attackModEnv": -7973,
+        "holdModEnv": -7973,
+        "decayModEnv": -7973,
+        "releaseModEnv": -7973,
+        "delayVolEnv": -7973,
+        "attackVolEnv": -7973,
+        "holdVolEnv": -7973,
+        "decayVolEnv": -7973,
+        "releaseVolEnv": -7973
+      },
+      "modulators": [
+        {
+          "src_oper": 515,
+          "dest_oper": 8,
+          "amount": 1500,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "modEnvToPitch": -200,
+        "initialFilterFc": 1654,
+        "modLfoToFilterFc": 200,
+        "modEnvToFilterFc": 1446,
+        "pan": 300,
+        "delayModLFO": -2084,
+        "freqModLFO": -3173,
+        "decayModEnv": -2786,
+        "sustainModEnv": 1000,
+        "releaseModEnv": -2786,
+        "attackVolEnv": 2604,
+        "releaseVolEnv": 1365,
+        "coarseTune": 7,
+        "instrument": "0 Saw Stack-lt-off1"
+      }
+    },
+    {
+      "generators": {
+        "initialFilterFc": 414,
+        "modEnvToFilterFc": 2094,
+        "pan": -300,
+        "freqModLFO": -1919,
+        "freqVibLFO": -884,
+        "attackModEnv": 4979,
+        "releaseModEnv": 7973,
+        "attackVolEnv": 1902,
+        "releaseVolEnv": 1902,
+        "instrument": "0 Saw Stack-lite"
+      }
+    }
+  ]
+}

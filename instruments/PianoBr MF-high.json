@@ -1,0 +1,354 @@
+{
+  "name": "PianoBr MF-high",
+  "zones": [
+    {
+      "generators": {
+        "initialFilterFc": 6237,
+        "pan": -500,
+        "sustainModEnv": 1000,
+        "releaseModEnv": -1200,
+        "attackVolEnv": -3986,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": -1200,
+        "initialAttenuation": 100,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "89-90",
+        "holdModEnv": 2218,
+        "decayModEnv": 2119,
+        "releaseModEnv": 3369,
+        "holdVolEnv": 2218,
+        "decayVolEnv": 2119,
+        "releaseVolEnv": 3369,
+        "initialAttenuation": 110,
+        "sample": "Piano MF D#5",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "89-90",
+        "pan": 500,
+        "holdModEnv": 2218,
+        "decayModEnv": 2119,
+        "releaseModEnv": 3369,
+        "holdVolEnv": 2218,
+        "decayVolEnv": 2119,
+        "releaseVolEnv": 3369,
+        "initialAttenuation": 110,
+        "sample": "Piano MF D#5",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "91-92",
+        "holdModEnv": 2174,
+        "decayModEnv": 1986,
+        "releaseModEnv": 3285,
+        "holdVolEnv": 2174,
+        "decayVolEnv": 1986,
+        "releaseVolEnv": 3285,
+        "initialAttenuation": 85,
+        "sample": "Piano MF F5",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "91-92",
+        "pan": 500,
+        "holdModEnv": 2174,
+        "decayModEnv": 1986,
+        "releaseModEnv": 3285,
+        "holdVolEnv": 2174,
+        "decayVolEnv": 1986,
+        "releaseVolEnv": 3285,
+        "initialAttenuation": 85,
+        "sample": "Piano MF F5",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "93-94",
+        "holdModEnv": 1419,
+        "decayModEnv": 2279,
+        "releaseModEnv": 3102,
+        "holdVolEnv": 1419,
+        "decayVolEnv": 2279,
+        "releaseVolEnv": 3102,
+        "initialAttenuation": 120,
+        "sample": "Piano MF G5",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "93-94",
+        "pan": 500,
+        "holdModEnv": 1419,
+        "decayModEnv": 2279,
+        "releaseModEnv": 3102,
+        "holdVolEnv": 1419,
+        "decayVolEnv": 2279,
+        "releaseVolEnv": 3102,
+        "initialAttenuation": 120,
+        "sample": "Piano MF G5",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "95-96",
+        "holdModEnv": 1396,
+        "decayModEnv": 1953,
+        "releaseModEnv": 2897,
+        "holdVolEnv": 1396,
+        "decayVolEnv": 1953,
+        "releaseVolEnv": 2897,
+        "initialAttenuation": 68,
+        "sample": "Piano MF A5",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "95-96",
+        "pan": 500,
+        "holdModEnv": 1396,
+        "decayModEnv": 1953,
+        "releaseModEnv": 2897,
+        "holdVolEnv": 1396,
+        "decayVolEnv": 1953,
+        "releaseVolEnv": 2897,
+        "initialAttenuation": 68,
+        "sample": "Piano MF A5",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "97-98",
+        "holdModEnv": 1357,
+        "decayModEnv": 1572,
+        "releaseModEnv": 2668,
+        "holdVolEnv": 1357,
+        "decayVolEnv": 1572,
+        "releaseVolEnv": 2668,
+        "initialAttenuation": 125,
+        "sample": "Piano MF B5",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "97-98",
+        "pan": 500,
+        "holdModEnv": 1357,
+        "decayModEnv": 1572,
+        "releaseModEnv": 2668,
+        "holdVolEnv": 1357,
+        "decayVolEnv": 1572,
+        "releaseVolEnv": 2668,
+        "initialAttenuation": 125,
+        "sample": "Piano MF B5",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "99-100",
+        "holdModEnv": 969,
+        "decayModEnv": 1551,
+        "releaseModEnv": 2484,
+        "holdVolEnv": 969,
+        "decayVolEnv": 1551,
+        "releaseVolEnv": 2484,
+        "initialAttenuation": 135,
+        "sample": "Piano MF C#6",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "99-100",
+        "pan": 500,
+        "holdModEnv": 969,
+        "decayModEnv": 1551,
+        "releaseModEnv": 2484,
+        "holdVolEnv": 969,
+        "decayVolEnv": 1551,
+        "releaseVolEnv": 2484,
+        "initialAttenuation": 135,
+        "sample": "Piano MF C#6",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "101-102",
+        "holdModEnv": 1388,
+        "decayModEnv": 713,
+        "releaseModEnv": 2279,
+        "holdVolEnv": 1388,
+        "decayVolEnv": 713,
+        "releaseVolEnv": 2279,
+        "initialAttenuation": 110,
+        "sample": "Piano MF D#6",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "101-102",
+        "pan": 500,
+        "holdModEnv": 1388,
+        "decayModEnv": 713,
+        "releaseModEnv": 2279,
+        "holdVolEnv": 1388,
+        "decayVolEnv": 713,
+        "releaseVolEnv": 2279,
+        "initialAttenuation": 110,
+        "sample": "Piano MF D#6",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "103-104",
+        "holdModEnv": 979,
+        "decayModEnv": 713,
+        "releaseModEnv": 2051,
+        "holdVolEnv": 979,
+        "decayVolEnv": 713,
+        "releaseVolEnv": 2051,
+        "initialAttenuation": 115,
+        "sample": "Piano MF F6",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "103-104",
+        "pan": 500,
+        "holdModEnv": 979,
+        "decayModEnv": 713,
+        "releaseModEnv": 2051,
+        "holdVolEnv": 979,
+        "decayVolEnv": 713,
+        "releaseVolEnv": 2051,
+        "initialAttenuation": 115,
+        "sample": "Piano MF F6",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "105-106",
+        "holdModEnv": 1084,
+        "decayModEnv": 51,
+        "releaseModEnv": 1843,
+        "holdVolEnv": 1084,
+        "decayVolEnv": 51,
+        "releaseVolEnv": 1843,
+        "sample": "Piano MF G6",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "105-106",
+        "pan": 500,
+        "holdModEnv": 1084,
+        "decayModEnv": 51,
+        "releaseModEnv": 1843,
+        "holdVolEnv": 1084,
+        "decayVolEnv": 51,
+        "releaseVolEnv": 1843,
+        "sample": "Piano MF G6",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "107-108",
+        "holdModEnv": 1209,
+        "decayModEnv": 0,
+        "releaseModEnv": 1607,
+        "holdVolEnv": 1209,
+        "decayVolEnv": 0,
+        "releaseVolEnv": 1607,
+        "initialAttenuation": 115,
+        "sample": "Piano MF A6",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "107-108",
+        "pan": 500,
+        "holdModEnv": 1209,
+        "decayModEnv": 0,
+        "releaseModEnv": 1607,
+        "holdVolEnv": 1209,
+        "decayVolEnv": 0,
+        "releaseVolEnv": 1607,
+        "initialAttenuation": 115,
+        "sample": "Piano MF A6",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "88-88",
+        "holdModEnv": 2134,
+        "decayModEnv": 2631,
+        "holdVolEnv": 2134,
+        "decayVolEnv": 2631,
+        "initialAttenuation": 90,
+        "sample": "Piano MF C#5",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "88-88",
+        "pan": 500,
+        "holdModEnv": 2134,
+        "decayModEnv": 2631,
+        "holdVolEnv": 2134,
+        "decayVolEnv": 2631,
+        "initialAttenuation": 90,
+        "sample": "Piano MF C#5",
+        "sample_channel": "right"
+      }
+    }
+  ]
+}

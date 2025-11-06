@@ -1,0 +1,61 @@
+{
+  "name": "Clarinet Expr.",
+  "bank": 17,
+  "preset_number": 71,
+  "library": 61014947,
+  "genre": 61014947,
+  "morphology": 61014947,
+  "zones": [
+    {
+      "generators": {
+        "vibLfoToPitch": 3,
+        "reverbEffectsSend": 150,
+        "delayModLFO": 2786,
+        "freqVibLFO": -883,
+        "initialAttenuation": 100
+      },
+      "modulators": [
+        {
+          "src_oper": 3,
+          "dest_oper": 8,
+          "amount": 500,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 386,
+          "dest_oper": 8,
+          "amount": -3000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1410,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 386,
+          "dest_oper": 11,
+          "amount": -4000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 386,
+          "dest_oper": 9,
+          "amount": 8,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "instrument": "Clarinet"
+      }
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "name": "Sitar",
+  "zones": [
+    {
+      "generators": {
+        "modEnvToPitch": -5,
+        "initialFilterFc": 11921,
+        "initialFilterQ": 100,
+        "modEnvToFilterFc": -766,
+        "modLfoToVolume": 5,
+        "chorusEffectsSend": 100,
+        "delayModLFO": -1788,
+        "freqModLFO": -6424,
+        "freqVibLFO": -1133,
+        "attackModEnv": 2193,
+        "holdModEnv": -1788,
+        "decayModEnv": 1902,
+        "sustainModEnv": 1000,
+        "releaseModEnv": 1807,
+        "holdVolEnv": -1200,
+        "sustainVolEnv": 1000,
+        "fineTune": 1,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-54",
+        "decayVolEnv": 4302,
+        "releaseVolEnv": 3241,
+        "sample": "Sitar E2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "55-59",
+        "decayVolEnv": 4198,
+        "releaseVolEnv": 3131,
+        "sample": "Sitar G2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "60-63",
+        "decayVolEnv": 4004,
+        "releaseVolEnv": 3013,
+        "sample": "Sitar C3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "64-67",
+        "decayVolEnv": 3934,
+        "releaseVolEnv": 2786,
+        "sample": "Sitar E3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "68-72",
+        "decayVolEnv": 3823,
+        "releaseVolEnv": 2604,
+        "sample": "Sitar C4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "73-80",
+        "decayVolEnv": 3733,
+        "releaseVolEnv": 2352,
+        "sample": "Sitar E4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "81-88",
+        "decayVolEnv": 3600,
+        "releaseVolEnv": 2035,
+        "sample": "Sitar C5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "89-108",
+        "decayVolEnv": 3451,
+        "releaseVolEnv": 1783,
+        "sample": "Sitar G5"
+      }
+    }
+  ]
+}

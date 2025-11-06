@@ -1,0 +1,123 @@
+{
+  "name": "Ice Rain",
+  "bank": 0,
+  "preset_number": 96,
+  "library": 6684774,
+  "genre": 6684774,
+  "morphology": 6684774,
+  "zones": [
+    {
+      "generators": {
+        "chorusEffectsSend": 50,
+        "reverbEffectsSend": 210,
+        "decayVolEnv": 702,
+        "initialAttenuation": 1000
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-57",
+        "initialFilterFc": 7973,
+        "modEnvToFilterFc": 7200,
+        "reverbEffectsSend": 500,
+        "attackVolEnv": 3558,
+        "sustainVolEnv": -130,
+        "releaseVolEnv": 1902,
+        "coarseTune": 31,
+        "instrument": "Ice Rain_2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "58-71",
+        "initialFilterFc": 7973,
+        "modEnvToFilterFc": 7200,
+        "reverbEffectsSend": 500,
+        "attackVolEnv": 3558,
+        "sustainVolEnv": -130,
+        "releaseVolEnv": 1902,
+        "coarseTune": 19,
+        "instrument": "Ice Rain_2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "72-86",
+        "initialFilterFc": 7973,
+        "modEnvToFilterFc": 7200,
+        "reverbEffectsSend": 500,
+        "attackVolEnv": 3558,
+        "sustainVolEnv": -130,
+        "releaseVolEnv": 1902,
+        "coarseTune": 7,
+        "instrument": "Ice Rain_2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "87-127",
+        "initialFilterFc": 7973,
+        "modEnvToFilterFc": 7200,
+        "reverbEffectsSend": 500,
+        "attackVolEnv": 3558,
+        "sustainVolEnv": -130,
+        "releaseVolEnv": 1902,
+        "coarseTune": -5,
+        "instrument": "Ice Rain_2"
+      }
+    },
+    {
+      "generators": {
+        "initialFilterFc": 1586,
+        "modEnvToFilterFc": 300,
+        "chorusEffectsSend": 210,
+        "delayModEnv": -7973,
+        "attackModEnv": -7973,
+        "holdModEnv": -7973,
+        "decayModEnv": -3284,
+        "sustainModEnv": 1000,
+        "releaseModEnv": -2786,
+        "delayVolEnv": -7973,
+        "attackVolEnv": -7973,
+        "decayVolEnv": 5573,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": 2400,
+        "initialAttenuation": 100,
+        "instrument": "0 Saw Stack-lt-off1"
+      },
+      "modulators": [
+        {
+          "src_oper": 2,
+          "dest_oper": 11,
+          "amount": 3000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 515,
+          "dest_oper": 8,
+          "amount": 1500,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "decayVolEnv": 0,
+        "releaseVolEnv": 702,
+        "initialAttenuation": 550,
+        "instrument": "Ice Rain_1"
+      }
+    }
+  ]
+}

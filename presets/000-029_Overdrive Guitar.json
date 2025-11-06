@@ -1,0 +1,22 @@
+{
+  "name": "Overdrive Guitar",
+  "bank": 0,
+  "preset_number": 29,
+  "library": 25428356,
+  "genre": 25428356,
+  "morphology": 25428356,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 100,
+        "initialAttenuation": 150
+      }
+    },
+    {
+      "generators": {
+        "releaseVolEnv": 702,
+        "instrument": "Overdrive Guitar"
+      }
+    }
+  ]
+}

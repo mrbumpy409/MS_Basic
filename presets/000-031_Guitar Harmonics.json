@@ -1,0 +1,22 @@
+{
+  "name": "Guitar Harmonics",
+  "bank": 0,
+  "preset_number": 31,
+  "library": 48956139,
+  "genre": 48956139,
+  "morphology": 48956139,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 100,
+        "initialAttenuation": 150
+      }
+    },
+    {
+      "generators": {
+        "releaseVolEnv": 2400,
+        "instrument": "Guitar Harmonics"
+      }
+    }
+  ]
+}

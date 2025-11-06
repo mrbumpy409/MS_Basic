@@ -1,0 +1,148 @@
+{
+  "name": "Sax-Baritone",
+  "zones": [
+    {
+      "generators": {
+        "initialFilterFc": 12308,
+        "modEnvToFilterFc": -1957,
+        "delayModEnv": 2723,
+        "attackModEnv": 3208,
+        "decayVolEnv": 2400,
+        "sustainVolEnv": 20,
+        "releaseVolEnv": -2084,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-37",
+        "sample": "Sax-Baritone C#3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "38-39",
+        "sample": "Sax-Baritone D3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "40-41",
+        "sample": "Sax-Baritone E3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "42-43",
+        "sample": "Sax-Baritone G3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "44-45",
+        "sample": "Sax-Baritone A3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "46-47",
+        "sample": "Sax-Baritone B3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "48-49",
+        "sample": "Sax-Baritone C4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "50-51",
+        "sample": "Sax-Baritone D4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "52-52",
+        "sample": "Sax-Baritone E4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "53-54",
+        "sample": "Sax-Baritone F#4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "55-56",
+        "sample": "Sax-Baritone G4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "57-58",
+        "sample": "Sax-Baritone A4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "59-60",
+        "sample": "Sax-Baritone B4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-62",
+        "sample": "Sax-Baritone D5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "63-64",
+        "sample": "Sax-Baritone E5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "65-66",
+        "sample": "Sax-Baritone F#5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "67-72",
+        "sample": "Sax-Baritone G#5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "73-127",
+        "sample": "Sax-Tenor D#6"
+      }
+    }
+  ]
+}

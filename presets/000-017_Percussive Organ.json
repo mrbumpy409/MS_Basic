@@ -1,0 +1,30 @@
+{
+  "name": "Percussive Organ",
+  "bank": 0,
+  "preset_number": 17,
+  "library": 39256663,
+  "genre": 39256663,
+  "morphology": 39256663,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 100,
+        "initialAttenuation": 50
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "instrument": "Percussive Organ"
+      }
+    }
+  ]
+}

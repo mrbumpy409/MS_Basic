@@ -1,0 +1,37 @@
+{
+  "name": "Flute",
+  "bank": 0,
+  "preset_number": 73,
+  "library": 18219286,
+  "genre": 18219286,
+  "morphology": 18219286,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 150,
+        "initialAttenuation": 110
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -1200,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "instrument": "Flute"
+      }
+    }
+  ]
+}

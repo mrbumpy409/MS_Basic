@@ -1,0 +1,35 @@
+{
+  "name": "Church Bell",
+  "bank": 8,
+  "preset_number": 14,
+  "library": 17498379,
+  "genre": 17498379,
+  "morphology": 17498379,
+  "zones": [
+    {
+      "generators": {}
+    },
+    {
+      "generators": {
+        "pan": 85,
+        "decayVolEnv": -2250,
+        "releaseVolEnv": -1000,
+        "initialAttenuation": 63,
+        "instrument": "Tubular Bells"
+      }
+    },
+    {
+      "generators": {
+        "modLfoToFilterFc": 675,
+        "modLfoToVolume": 24,
+        "pan": -94,
+        "freqModLFO": -8292,
+        "decayVolEnv": 1200,
+        "releaseVolEnv": 1000,
+        "coarseTune": -12,
+        "fineTune": 2,
+        "instrument": "Tubular Bells"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Bagpipe",
+  "bank": 0,
+  "preset_number": 109,
+  "library": 19398952,
+  "genre": 19398952,
+  "morphology": 19398952,
+  "zones": [
+    {
+      "generators": {
+        "chorusEffectsSend": 30,
+        "reverbEffectsSend": 150,
+        "initialAttenuation": 75
+      }
+    },
+    {
+      "generators": {
+        "initialFilterQ": 10,
+        "pan": -1000,
+        "instrument": "BagPipe"
+      }
+    },
+    {
+      "generators": {
+        "initialFilterFc": -1200,
+        "pan": 1000,
+        "instrument": "BagPipe"
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Detuned Saw",
+  "bank": 20,
+  "preset_number": 81,
+  "library": 90899811,
+  "genre": 90899811,
+  "morphology": 90899811,
+  "zones": [
+    {
+      "generators": {
+        "initialFilterFc": 4302,
+        "initialFilterQ": 61,
+        "chorusEffectsSend": 140,
+        "delayModLFO": -7973,
+        "delayVibLFO": -7973,
+        "delayModEnv": -7973,
+        "attackModEnv": -7973,
+        "holdModEnv": -7973,
+        "decayModEnv": -1200,
+        "sustainModEnv": 504,
+        "releaseModEnv": -1200,
+        "delayVolEnv": -7973,
+        "attackVolEnv": -7973,
+        "holdVolEnv": -7973,
+        "decayVolEnv": -1200,
+        "releaseVolEnv": -2786,
+        "initialAttenuation": 180
+      },
+      "modulators": [
+        {
+          "src_oper": 2,
+          "dest_oper": 11,
+          "amount": 5000,
+          "amt_src_oper": 3,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "pan": -49,
+        "attackVolEnv": -4373,
+        "fineTune": -6,
+        "instrument": "0 Saw Decline"
+      }
+    },
+    {
+      "generators": {
+        "modLfoToPitch": 3,
+        "pan": 50,
+        "freqModLFO": -3986,
+        "fineTune": 6,
+        "instrument": "0 Saw Decline-off1"
+      }
+    }
+  ]
+}

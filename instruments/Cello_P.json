@@ -1,0 +1,119 @@
+{
+  "name": "Cello_P",
+  "zones": [
+    {
+      "generators": {
+        "modEnvToFilterFc": 12000,
+        "delayModLFO": -7973,
+        "freqModLFO": -851,
+        "delayVibLFO": -7973,
+        "freqVibLFO": -851,
+        "attackVolEnv": -5186,
+        "releaseVolEnv": -884,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-38",
+        "sample": "Cello-C#1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "39-40",
+        "sample": "Cello-D#1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "41-42",
+        "sample": "Cello-F1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "43-45",
+        "sample": "Cello-G#1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "46-48",
+        "sample": "Cello-A#1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "49-52",
+        "sample": "Cello-D#2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "53-56",
+        "sample": "Cello-F#2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "57-60",
+        "sample": "Cello-B2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-64",
+        "sample": "Cello-E3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "65-66",
+        "sample": "Cello-F3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "67-69",
+        "sample": "Cello-A3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "70-72",
+        "initialAttenuation": 50,
+        "sample": "Cello-B3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "73-127",
+        "sample": "Cello-D#4"
+      }
+    }
+  ]
+}

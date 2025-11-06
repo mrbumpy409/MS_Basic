@@ -1,0 +1,29 @@
+{
+  "name": "Tuba Expr.",
+  "bank": 17,
+  "preset_number": 58,
+  "library": 59310985,
+  "genre": 59310985,
+  "morphology": 59310985,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 150
+      },
+      "modulators": [
+        {
+          "src_oper": 1410,
+          "dest_oper": 48,
+          "amount": 700,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "instrument": "Tuba"
+      }
+    }
+  ]
+}

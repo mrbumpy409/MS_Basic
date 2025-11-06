@@ -1,0 +1,189 @@
+{
+  "name": "Overdrive Guitar",
+  "zones": [
+    {
+      "generators": {
+        "chorusEffectsSend": 20,
+        "holdVolEnv": 1586,
+        "sustainVolEnv": 163,
+        "releaseVolEnv": -2786,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-43",
+        "decayVolEnv": 6874,
+        "initialAttenuation": 80,
+        "sample": "Distortion E3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "44-48",
+        "decayVolEnv": 6702,
+        "sample": "Distortion A3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "49-53",
+        "decayVolEnv": 6773,
+        "sample": "Distortion D4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "54-57",
+        "decayVolEnv": 6512,
+        "sample": "Distortion G4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "58-60",
+        "decayVolEnv": 5888,
+        "sample": "Distortion B4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-65",
+        "decayVolEnv": 5573,
+        "sample": "Distortion E5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "66-69",
+        "decayVolEnv": 5351,
+        "sample": "Distortion A5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "70-72",
+        "decayVolEnv": 5186,
+        "sample": "Distortion B6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "73-76",
+        "decayVolEnv": 4905,
+        "sample": "Distortion E6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "77-108",
+        "decayVolEnv": 4665,
+        "sample": "Distortion G6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "0-43",
+        "initialFilterFc": 8321,
+        "decayVolEnv": 6874,
+        "initialAttenuation": 80,
+        "sample": "Distortion E3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "44-48",
+        "initialFilterFc": 8321,
+        "decayVolEnv": 6702,
+        "sample": "Distortion A3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "49-53",
+        "initialFilterFc": 8321,
+        "decayVolEnv": 6773,
+        "sample": "Distortion D4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "54-57",
+        "initialFilterFc": 8321,
+        "decayVolEnv": 6512,
+        "sample": "Distortion G4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "58-60",
+        "initialFilterFc": 8321,
+        "decayVolEnv": 5888,
+        "sample": "Distortion B4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-65",
+        "initialFilterFc": 8321,
+        "decayVolEnv": 5573,
+        "sample": "Distortion E5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "66-69",
+        "initialFilterFc": 8321,
+        "decayVolEnv": 5351,
+        "sample": "Distortion A5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "70-72",
+        "initialFilterFc": 8321,
+        "decayVolEnv": 5186,
+        "sample": "Distortion B6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "73-76",
+        "initialFilterFc": 8321,
+        "decayVolEnv": 4905,
+        "sample": "Distortion E6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "77-108",
+        "initialFilterFc": 8321,
+        "decayVolEnv": 4665,
+        "sample": "Distortion G6"
+      }
+    }
+  ]
+}

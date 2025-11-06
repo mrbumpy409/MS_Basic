@@ -1,0 +1,38 @@
+{
+  "name": "Baritone Sax Expr.",
+  "bank": 17,
+  "preset_number": 67,
+  "library": 60490651,
+  "genre": 60490651,
+  "morphology": 60490651,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 100,
+        "delayModLFO": 3986,
+        "initialAttenuation": 65
+      },
+      "modulators": [
+        {
+          "src_oper": 386,
+          "dest_oper": 8,
+          "amount": -4300,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1410,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "instrument": "Sax-Baritone"
+      }
+    }
+  ]
+}

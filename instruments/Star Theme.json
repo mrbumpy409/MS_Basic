@@ -1,0 +1,101 @@
+{
+  "name": "Star Theme",
+  "zones": [
+    {
+      "generators": {
+        "chorusEffectsSend": 250,
+        "attackModEnv": -3986,
+        "decayModEnv": -3986,
+        "releaseModEnv": -386,
+        "attackVolEnv": -8359,
+        "decayVolEnv": 5186,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": 1200,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-44",
+        "sample": "Clean F10"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "45-49",
+        "sample": "Clean F20"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "50-54",
+        "sample": "Clean F30"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "55-58",
+        "sample": "Clean F40"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "59-63",
+        "sample": "Clean F50"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "64-65",
+        "sample": "Clean F60"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "66-69",
+        "sample": "Clean F65"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "70-71",
+        "sample": "Clean F67"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "72-76",
+        "sample": "Clean F612"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "77-127",
+        "sample": "Clean F615"
+      }
+    }
+  ]
+}

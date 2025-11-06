@@ -1,0 +1,99 @@
+{
+  "name": "Harmonica",
+  "zones": [
+    {
+      "generators": {
+        "initialFilterFc": 11423,
+        "modEnvToFilterFc": -85,
+        "modLfoToVolume": 6,
+        "delayModLFO": -1249,
+        "freqModLFO": -1238,
+        "attackModEnv": 1902,
+        "decayModEnv": 2509,
+        "sustainModEnv": 411,
+        "holdVolEnv": -1837,
+        "decayVolEnv": 3974,
+        "sustainVolEnv": 20,
+        "releaseVolEnv": -3068,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-60",
+        "sample": "harmon_c2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-65",
+        "sample": "harmnc_e3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "66-69",
+        "sample": "harmnc_g3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "70-72",
+        "sample": "harmon_c4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "73-76",
+        "sample": "harmnc_e4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "77-80",
+        "sample": "harmnc_g4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "81-84",
+        "sample": "harmon_c5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "85-108",
+        "sample": "harmnc_e5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "54-59",
+        "sample": "SynthVz F#4"
+      }
+    }
+  ]
+}

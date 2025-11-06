@@ -1,0 +1,524 @@
+{
+  "name": "Violins Pizz_v2",
+  "zones": [
+    {
+      "generators": {
+        "pan": -500,
+        "releaseVolEnv": 2786,
+        "initialAttenuation": 50
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -3600,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-55",
+        "sample": "VlnsPzz_G2_v2_r1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "0-55",
+        "pan": 500,
+        "sample": "VlnsPzz_G2_v2_r1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "56-56",
+        "sample": "VlnsPzz_A2_v2_r1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "56-56",
+        "pan": 500,
+        "sample": "VlnsPzz_A2_v2_r1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "57-57",
+        "sample": "VlnsPzz_A2_v2_r2",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "57-57",
+        "pan": 500,
+        "sample": "VlnsPzz_A2_v2_r2",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "58-58",
+        "initialAttenuation": 20,
+        "sample": "VlnsPzz_B2_v2_r1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "58-58",
+        "pan": 500,
+        "initialAttenuation": 20,
+        "sample": "VlnsPzz_B2_v2_r1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "59-60",
+        "initialAttenuation": 0,
+        "sample": "VlnsPzz_B2_v2_r2",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "59-60",
+        "pan": 500,
+        "initialAttenuation": 0,
+        "sample": "VlnsPzz_B2_v2_r2",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-61",
+        "sample": "VlnsPzz_D3_v2_r1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-61",
+        "pan": 500,
+        "sample": "VlnsPzz_D3_v2_r1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "62-63",
+        "sample": "VlnsPzz_D3_v2_r2",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "62-63",
+        "pan": 500,
+        "sample": "VlnsPzz_D3_v2_r2",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "64-65",
+        "sample": "VlnsPzz_F#3_v2_r1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "64-65",
+        "pan": 500,
+        "sample": "VlnsPzz_F#3_v2_r1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "66-67",
+        "sample": "VlnsPzz_F#3_v2_r2",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "66-67",
+        "pan": 500,
+        "sample": "VlnsPzz_F#3_v2_r2",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "68-68",
+        "initialAttenuation": 20,
+        "sample": "VlnsPzz_A3_v2_r1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "68-68",
+        "pan": 500,
+        "initialAttenuation": 20,
+        "sample": "VlnsPzz_A3_v2_r1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "69-70",
+        "initialAttenuation": 0,
+        "sample": "VlnsPzz_A3_v2_r2",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "69-70",
+        "pan": 500,
+        "initialAttenuation": 0,
+        "sample": "VlnsPzz_A3_v2_r2",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "71-71",
+        "sample": "VlnsPzz_C4_v2_r1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "71-71",
+        "pan": 500,
+        "sample": "VlnsPzz_C4_v2_r1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "72-73",
+        "sample": "VlnsPzz_C4_v2_r2",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "72-73",
+        "pan": 500,
+        "sample": "VlnsPzz_C4_v2_r2",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "74-75",
+        "initialAttenuation": 20,
+        "sample": "VlnsPzz_E4_v2_r1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "74-75",
+        "pan": 500,
+        "initialAttenuation": 20,
+        "sample": "VlnsPzz_E4_v2_r1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "76-77",
+        "sample": "VlnsPzz_E4_v2_r2",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "76-77",
+        "pan": 500,
+        "sample": "VlnsPzz_E4_v2_r2",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "78-78",
+        "initialAttenuation": 20,
+        "sample": "VlnsPzz_G4_v2_r1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "78-78",
+        "pan": 500,
+        "initialAttenuation": 20,
+        "sample": "VlnsPzz_G4_v2_r1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "79-80",
+        "sample": "VlnsPzz_G4_v2_r2",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "79-80",
+        "pan": 500,
+        "sample": "VlnsPzz_G4_v2_r2",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "81-82",
+        "initialAttenuation": 20,
+        "sample": "VlnsPzz_B4_v2_r1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "81-82",
+        "pan": 500,
+        "initialAttenuation": 20,
+        "sample": "VlnsPzz_B4_v2_r1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "83-84",
+        "initialAttenuation": 80,
+        "sample": "VlnsPzz_B4_v2_r2",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "83-84",
+        "pan": 500,
+        "initialAttenuation": 80,
+        "sample": "VlnsPzz_B4_v2_r2",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "85-86",
+        "sample": "VlnsPzz_D5_v2_r1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "85-86",
+        "pan": 500,
+        "sample": "VlnsPzz_D5_v2_r1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "87-89",
+        "sample": "VlnsPzz_D5_v2_r2",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "87-89",
+        "pan": 500,
+        "sample": "VlnsPzz_D5_v2_r2",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "90-91",
+        "initialFilterFc": 12473,
+        "sample": "VlnsPzz_D5_v2_r2e",
+        "sample_channel": "left"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -2900,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "90-91",
+        "initialFilterFc": 12473,
+        "pan": 500,
+        "sample": "VlnsPzz_D5_v2_r2e",
+        "sample_channel": "right"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -2900,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "92-94",
+        "initialFilterFc": 12308,
+        "decayVolEnv": 3102,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": 3102,
+        "sample": "VlnsPzz_D5_v2_r1e",
+        "sample_channel": "left"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -2600,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "92-94",
+        "initialFilterFc": 12308,
+        "pan": 500,
+        "decayVolEnv": 3102,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": 3102,
+        "sample": "VlnsPzz_D5_v2_r1e",
+        "sample_channel": "right"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -2600,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "95-97",
+        "initialFilterFc": 12125,
+        "decayVolEnv": 3102,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": 3102,
+        "sample": "VlnsPzz_D5_v2_r1f",
+        "sample_channel": "left"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -2300,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "95-97",
+        "initialFilterFc": 12125,
+        "pan": 500,
+        "decayVolEnv": 3102,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": 3102,
+        "sample": "VlnsPzz_D5_v2_r1f",
+        "sample_channel": "right"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -2300,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "98-127",
+        "initialFilterFc": 12026,
+        "decayVolEnv": 3102,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": 3102,
+        "sample": "VlnsPzz_D5_v2_r2f",
+        "sample_channel": "left"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -2000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "98-127",
+        "initialFilterFc": 12026,
+        "pan": 500,
+        "decayVolEnv": 3102,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": 3102,
+        "sample": "VlnsPzz_D5_v2_r2f",
+        "sample_channel": "right"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -2000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    }
+  ]
+}

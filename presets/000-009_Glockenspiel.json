@@ -1,0 +1,87 @@
+{
+  "name": "Glockenspiel",
+  "bank": 0,
+  "preset_number": 9,
+  "library": 51381008,
+  "genre": 51381008,
+  "morphology": 51381008,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 100,
+        "initialAttenuation": 100
+      }
+    },
+    {
+      "generators": {
+        "velRange": "121-127",
+        "releaseVolEnv": 316,
+        "instrument": "Glockenspiel"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "113-120",
+        "initialFilterFc": -182,
+        "releaseVolEnv": 165,
+        "instrument": "Glockenspiel"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "105-112",
+        "initialFilterFc": -386,
+        "releaseVolEnv": 0,
+        "instrument": "Glockenspiel"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "97-104",
+        "initialFilterFc": -617,
+        "releaseVolEnv": -182,
+        "instrument": "Glockenspiel"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "89-96",
+        "initialFilterFc": -884,
+        "releaseVolEnv": -386,
+        "instrument": "Glockenspiel"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "81-88",
+        "initialFilterFc": -1200,
+        "releaseVolEnv": -617,
+        "instrument": "Glockenspiel"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "73-80",
+        "initialFilterFc": -1586,
+        "releaseVolEnv": -884,
+        "instrument": "Glockenspiel"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "65-72",
+        "initialFilterFc": -2084,
+        "releaseVolEnv": -1200,
+        "instrument": "Glockenspiel"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "0-64",
+        "initialFilterFc": -2786,
+        "releaseVolEnv": -1586,
+        "instrument": "Glockenspiel"
+      }
+    }
+  ]
+}

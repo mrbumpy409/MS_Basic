@@ -1,0 +1,74 @@
+{
+  "name": "Charang Layer 2",
+  "zones": [
+    {
+      "generators": {
+        "initialFilterFc": 10721,
+        "modEnvToFilterFc": 200,
+        "delayModEnv": -3986,
+        "attackModEnv": 0,
+        "decayModEnv": 1200,
+        "sustainModEnv": 600,
+        "attackVolEnv": -8359,
+        "holdVolEnv": -1200,
+        "decayVolEnv": 4302,
+        "sustainVolEnv": 50,
+        "releaseVolEnv": -2400,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-56",
+        "sample": "Smooth Saw A1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "57-68",
+        "sample": "Smooth Saw A2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "69-80",
+        "sample": "Smooth Saw A3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "81-92",
+        "sample": "Smooth Saw A4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "93-127",
+        "sample": "Smooth Saw A5"
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "name": "Glockenspiel",
+  "zones": [
+    {
+      "generators": {
+        "holdVolEnv": -1200,
+        "decayVolEnv": 4302,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": 3369,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-79",
+        "sample": "Glocken G7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "80-84",
+        "sample": "Glocken C8"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "85-87",
+        "sample": "Glocken D#8"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "88-91",
+        "sample": "Glocken G8"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "92-96",
+        "sample": "Glocken C9"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "97-99",
+        "modEnvToFilterFc": -100,
+        "sample": "Glocken D#9"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "100-103",
+        "sample": "Glocken G9"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "104-127",
+        "sample": "Glocken C10"
+      }
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "name": "MDL Tenor Xtra",
+  "zones": [
+    {
+      "generators": {
+        "releaseVolEnv": 6773,
+        "scaleTuning": 0
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -4000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "40-40",
+        "coarseTune": 2,
+        "sample": "55_28_TNR4_SHELL"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "52-52",
+        "coarseTune": 1,
+        "sample": "55_52_TNR3_SHELL"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "73-73",
+        "initialAttenuation": 30,
+        "sample": "MTnr-1 rim 2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "74-74",
+        "velRange": "85-127",
+        "releaseVolEnv": -1200,
+        "initialAttenuation": 50,
+        "sampleModes": 1,
+        "sample": "MTnr-1 roll F"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "74-74",
+        "velRange": "0-84",
+        "releaseVolEnv": -1200,
+        "initialAttenuation": 50,
+        "sampleModes": 1,
+        "sample": "MTnr-1 roll P"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-61",
+        "sample": "MTnr-2 rim 3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "62-62",
+        "velRange": "85-127",
+        "releaseVolEnv": -1200,
+        "initialAttenuation": 50,
+        "sampleModes": 1,
+        "sample": "MTnr-2 roll F"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "62-62",
+        "velRange": "0-84",
+        "releaseVolEnv": -1200,
+        "initialAttenuation": 50,
+        "sampleModes": 1,
+        "sample": "MTnr-2 roll P"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "49-49",
+        "sample": "MTnr-3 rim 4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "50-50",
+        "velRange": "85-127",
+        "releaseVolEnv": -1200,
+        "initialAttenuation": 50,
+        "sampleModes": 1,
+        "sample": "MTnr-3 roll F"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "50-50",
+        "velRange": "0-84",
+        "releaseVolEnv": -1200,
+        "initialAttenuation": 50,
+        "sampleModes": 1,
+        "sample": "MTnr-3 roll P"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "37-37",
+        "sample": "MTnr-4 rim 3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "38-38",
+        "velRange": "85-127",
+        "releaseVolEnv": -1200,
+        "sampleModes": 1,
+        "sample": "MTnr-4 roll F"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "38-38",
+        "velRange": "0-84",
+        "releaseVolEnv": -1200,
+        "sampleModes": 1,
+        "sample": "MTnr-4 roll P"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "43-43",
+        "initialAttenuation": 30,
+        "sample": "MTnr-mallet click 4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "97-97",
+        "initialAttenuation": 60,
+        "sample": "MTnr-sp1 rim 2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "98-98",
+        "velRange": "85-127",
+        "releaseVolEnv": -1200,
+        "initialAttenuation": 100,
+        "sampleModes": 1,
+        "sample": "MTnr-sp1 roll F"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "98-98",
+        "velRange": "0-84",
+        "releaseVolEnv": -1200,
+        "initialAttenuation": 100,
+        "sampleModes": 1,
+        "sample": "MTnr-sp1 roll P"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "85-85",
+        "initialAttenuation": 30,
+        "sample": "MTnr-sp2 rim 3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "86-86",
+        "velRange": "85-127",
+        "releaseVolEnv": -1200,
+        "initialAttenuation": 70,
+        "sampleModes": 1,
+        "sample": "MTnr-sp2 roll F"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "86-86",
+        "velRange": "0-84",
+        "releaseVolEnv": -1200,
+        "initialAttenuation": 70,
+        "sampleModes": 1,
+        "sample": "MTnr-sp2 roll P"
+      }
+    }
+  ]
+}

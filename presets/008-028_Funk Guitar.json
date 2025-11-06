@@ -1,0 +1,33 @@
+{
+  "name": "Funk Guitar",
+  "bank": 8,
+  "preset_number": 28,
+  "library": 13828307,
+  "genre": 13828307,
+  "morphology": 13828307,
+  "zones": [
+    {
+      "generators": {}
+    },
+    {
+      "generators": {
+        "initialFilterFc": -356,
+        "initialFilterQ": 34,
+        "chorusEffectsSend": -1000,
+        "decayModEnv": -202,
+        "sustainModEnv": 63,
+        "releaseVolEnv": -2786,
+        "instrument": "Clean Guitar"
+      }
+    },
+    {
+      "generators": {
+        "initialFilterQ": 75,
+        "modEnvToFilterFc": -25,
+        "decayVolEnv": 100,
+        "initialAttenuation": 35,
+        "instrument": "Slap Bass"
+      }
+    }
+  ]
+}

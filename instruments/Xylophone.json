@@ -1,0 +1,106 @@
+{
+  "name": "Xylophone",
+  "zones": [
+    {
+      "generators": {
+        "initialFilterFc": 11690,
+        "modEnvToFilterFc": 500,
+        "holdVolEnv": -3986,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": 3986
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-59",
+        "decayVolEnv": 3102,
+        "sample": "Xylophone F#4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "60-65",
+        "decayVolEnv": 3013,
+        "sample": "Xylophone C5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "66-71",
+        "decayVolEnv": 2887,
+        "sample": "Xylophone F#5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "72-77",
+        "decayVolEnv": 2716,
+        "sample": "Xylophone C6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "78-83",
+        "decayVolEnv": 2484,
+        "sample": "Xylophone F#6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "84-89",
+        "decayVolEnv": 2169,
+        "sample": "Xylophone C7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "90-95",
+        "decayVolEnv": 1720,
+        "sample": "Xylophone F#7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "96-101",
+        "decayVolEnv": 1018,
+        "sample": "Xylophone C8"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "102-107",
+        "decayVolEnv": -386,
+        "sample": "Xylophone F#8"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "108-127",
+        "sample": "Xylophone C9"
+      }
+    }
+  ]
+}

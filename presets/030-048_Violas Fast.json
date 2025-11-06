@@ -1,0 +1,111 @@
+{
+  "name": "Violas Fast",
+  "bank": 30,
+  "preset_number": 48,
+  "library": 84083971,
+  "genre": 84083971,
+  "morphology": 84083971,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 100,
+        "releaseVolEnv": 454,
+        "initialAttenuation": 130
+      }
+    },
+    {
+      "generators": {
+        "initialAttenuation": 180,
+        "instrument": "Violas Fast_v1"
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 570,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "releaseVolEnv": 0,
+        "instrument": "Violas Fast_v2"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 34,
+          "amount": 1200,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 950,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "104-127",
+        "initialFilterFc": -182,
+        "instrument": "Violas High"
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 600,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -500,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "velRange": "0-86",
+        "releaseVolEnv": 0,
+        "initialAttenuation": 540,
+        "instrument": "Violas Fast_Att1"
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 900,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "velRange": "87-127",
+        "releaseVolEnv": 0,
+        "initialAttenuation": 420,
+        "instrument": "Violas Fast_Att2"
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 1200,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    }
+  ]
+}

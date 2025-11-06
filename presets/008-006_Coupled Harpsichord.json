@@ -1,0 +1,33 @@
+{
+  "name": "Coupled Harpsichord",
+  "bank": 8,
+  "preset_number": 6,
+  "library": 17694990,
+  "genre": 17694990,
+  "morphology": 17694990,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 100
+      }
+    },
+    {
+      "generators": {
+        "pan": 102,
+        "initialAttenuation": 260,
+        "fineTune": 2,
+        "instrument": "Harpsichord"
+      }
+    },
+    {
+      "generators": {
+        "pan": -125,
+        "decayVolEnv": -900,
+        "initialAttenuation": 123,
+        "coarseTune": 12,
+        "fineTune": -5,
+        "instrument": "Harpsichord"
+      }
+    }
+  ]
+}

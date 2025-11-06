@@ -1,0 +1,59 @@
+{
+  "name": "Jazz 4",
+  "bank": 128,
+  "preset_number": 36,
+  "library": 22937950,
+  "genre": 22937950,
+  "morphology": 22937950,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 100,
+        "initialAttenuation": -200
+      }
+    },
+    {
+      "generators": {
+        "instrument": "Misc. Percussion"
+      }
+    },
+    {
+      "generators": {
+        "instrument": "Std Snare 3"
+      }
+    },
+    {
+      "generators": {
+        "instrument": "Percussion"
+      }
+    },
+    {
+      "generators": {
+        "reverbEffectsSend": 50,
+        "instrument": "Std Tom"
+      }
+    },
+    {
+      "generators": {
+        "instrument": "Crashes & Rides"
+      }
+    },
+    {
+      "generators": {
+        "instrument": "Hand Perc"
+      }
+    },
+    {
+      "generators": {
+        "reverbEffectsSend": 20,
+        "instrument": "Std Kick 1"
+      }
+    },
+    {
+      "generators": {
+        "initialAttenuation": -120,
+        "instrument": "Hi Hats"
+      }
+    }
+  ]
+}

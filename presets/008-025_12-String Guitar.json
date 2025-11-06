@@ -1,0 +1,47 @@
+{
+  "name": "12-String Guitar",
+  "bank": 8,
+  "preset_number": 25,
+  "library": 4128831,
+  "genre": 4128831,
+  "morphology": 4128831,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 100,
+        "initialAttenuation": 170
+      },
+      "modulators": [
+        {
+          "src_oper": 515,
+          "dest_oper": 8,
+          "amount": 1000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -3800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "pan": -70,
+        "releaseVolEnv": 702,
+        "instrument": "12-String Guitar_1"
+      }
+    },
+    {
+      "generators": {
+        "pan": 70,
+        "releaseVolEnv": 702,
+        "initialAttenuation": 230,
+        "instrument": "12-String Guitar_2"
+      }
+    }
+  ]
+}

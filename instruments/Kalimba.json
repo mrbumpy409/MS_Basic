@@ -1,0 +1,73 @@
+{
+  "name": "Kalimba",
+  "zones": [
+    {
+      "generators": {
+        "holdVolEnv": -3986,
+        "decayVolEnv": 1516,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": 2400,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-56",
+        "sample": "Kalimba G4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "57-65",
+        "sample": "Kalimba F5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "66-69",
+        "sample": "Kalimba A5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "70-78",
+        "sample": "Kalimba F6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "79-84",
+        "sample": "Kalimba C7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "85-127",
+        "sample": "Kalimba C8"
+      }
+    }
+  ]
+}

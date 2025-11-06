@@ -1,0 +1,95 @@
+{
+  "name": "Muted Trumpet",
+  "zones": [
+    {
+      "generators": {
+        "modLfoToPitch": 10,
+        "initialFilterFc": 10223,
+        "modEnvToFilterFc": 3600,
+        "delayModLFO": -593,
+        "freqModLFO": -631,
+        "attackModEnv": -8590,
+        "decayModEnv": 3600,
+        "sustainModEnv": 350,
+        "releaseModEnv": -2084,
+        "attackVolEnv": -7973,
+        "decayVolEnv": 0,
+        "releaseVolEnv": -2471,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 26,
+          "amount": 10000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 34,
+          "amount": 3000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-59",
+        "sample": "Muted Trumpet F#4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "60-65",
+        "sample": "Muted Trumpet C5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "66-70",
+        "sample": "Muted Trumpet F#5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "71-74",
+        "sample": "Muted Trumpet C6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "75-78",
+        "sample": "Muted Trumpet F#6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "79-96",
+        "sample": "Muted Trumpet C7"
+      }
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "name": "Saw Lead",
+  "bank": 0,
+  "preset_number": 81,
+  "library": 89851223,
+  "genre": 89851223,
+  "morphology": 89851223,
+  "zones": [
+    {
+      "generators": {
+        "initialFilterFc": 3986,
+        "initialFilterQ": 61,
+        "modEnvToFilterFc": 700,
+        "chorusEffectsSend": 140,
+        "pan": -50,
+        "delayModLFO": -7973,
+        "delayVibLFO": -7973,
+        "freqVibLFO": 316,
+        "delayModEnv": -7973,
+        "attackModEnv": -7973,
+        "holdModEnv": -7973,
+        "decayModEnv": -1200,
+        "sustainModEnv": 700,
+        "releaseModEnv": -1200,
+        "delayVolEnv": -7973,
+        "attackVolEnv": -7973,
+        "holdVolEnv": -7973,
+        "decayVolEnv": -1200,
+        "releaseVolEnv": -2786,
+        "initialAttenuation": 180,
+        "fineTune": -4
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -500,
+          "amt_src_oper": 259,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 2,
+          "dest_oper": 28,
+          "amount": 1902,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "modLfoToPitch": 1,
+        "pan": 50,
+        "freqModLFO": -3986,
+        "fineTune": 4,
+        "instrument": "0 Saw Decline-off1.1"
+      },
+      "modulators": [
+        {
+          "src_oper": 771,
+          "dest_oper": 52,
+          "amount": 4,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 2,
+          "dest_oper": 11,
+          "amount": 4000,
+          "amt_src_oper": 3,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-48",
+        "modEnvToPitch": -2,
+        "instrument": "0 Saw Decline"
+      },
+      "modulators": [
+        {
+          "src_oper": 771,
+          "dest_oper": 52,
+          "amount": -4,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 2,
+          "dest_oper": 11,
+          "amount": 4000,
+          "amt_src_oper": 3,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "49-127",
+        "modEnvToPitch": -1,
+        "attackVolEnv": -4373,
+        "instrument": "0 Saw Decline"
+      },
+      "modulators": [
+        {
+          "src_oper": 771,
+          "dest_oper": 52,
+          "amount": -4,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 2,
+          "dest_oper": 11,
+          "amount": 4000,
+          "amt_src_oper": 3,
+          "trans_oper": 0
+        }
+      ]
+    }
+  ]
+}

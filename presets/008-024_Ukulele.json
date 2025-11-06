@@ -1,0 +1,26 @@
+{
+  "name": "Ukulele",
+  "bank": 8,
+  "preset_number": 24,
+  "library": 16646398,
+  "genre": 16646398,
+  "morphology": 16646398,
+  "zones": [
+    {
+      "generators": {}
+    },
+    {
+      "generators": {
+        "initialFilterFc": -2143,
+        "modEnvToFilterFc": -350,
+        "decayModEnv": -1500,
+        "sustainModEnv": 188,
+        "holdVolEnv": 1050,
+        "decayVolEnv": -1900,
+        "releaseVolEnv": -1500,
+        "initialAttenuation": -12,
+        "instrument": "Nylon Guitar"
+      }
+    }
+  ]
+}

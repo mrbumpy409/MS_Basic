@@ -1,0 +1,88 @@
+{
+  "name": "Xylophone",
+  "bank": 0,
+  "preset_number": 13,
+  "library": 37093942,
+  "genre": 37093942,
+  "morphology": 37093942,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 100,
+        "initialAttenuation": 50
+      }
+    },
+    {
+      "generators": {
+        "velRange": "121-127",
+        "releaseVolEnv": 316,
+        "instrument": "Xylophone"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "113-120",
+        "initialFilterFc": -182,
+        "releaseVolEnv": 165,
+        "instrument": "Xylophone"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "105-112",
+        "initialFilterFc": -386,
+        "reverbEffectsSend": 240,
+        "releaseVolEnv": 0,
+        "instrument": "Xylophone"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "97-104",
+        "initialFilterFc": -617,
+        "releaseVolEnv": -182,
+        "instrument": "Xylophone"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "89-96",
+        "initialFilterFc": -884,
+        "releaseVolEnv": -386,
+        "instrument": "Xylophone"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "81-88",
+        "initialFilterFc": -1200,
+        "releaseVolEnv": -617,
+        "instrument": "Xylophone"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "73-80",
+        "initialFilterFc": -1586,
+        "releaseVolEnv": -884,
+        "instrument": "Xylophone"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "65-72",
+        "initialFilterFc": -2084,
+        "releaseVolEnv": -1200,
+        "instrument": "Xylophone"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "0-64",
+        "initialFilterFc": -2786,
+        "releaseVolEnv": -1586,
+        "instrument": "Xylophone"
+      }
+    }
+  ]
+}

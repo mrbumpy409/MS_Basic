@@ -1,0 +1,240 @@
+{
+  "name": "Jazz Guitar",
+  "zones": [
+    {
+      "generators": {
+        "initialFilterFc": 11645,
+        "initialFilterQ": 10,
+        "chorusEffectsSend": 100,
+        "pan": 500,
+        "holdVolEnv": 0,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": -3986,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-40",
+        "chorusEffectsSend": 140,
+        "holdVolEnv": 1200,
+        "decayVolEnv": 6938,
+        "sample": "Jazz Guitar E3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "41-43",
+        "chorusEffectsSend": 140,
+        "decayVolEnv": 6702,
+        "sample": "Jazz Guitar G3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "44-45",
+        "chorusEffectsSend": 140,
+        "decayVolEnv": 6773,
+        "sample": "Jazz Guitar A3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "46-48",
+        "chorusEffectsSend": 140,
+        "decayVolEnv": 6702,
+        "sample": "Jazz Guitar C4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "49-50",
+        "chorusEffectsSend": 140,
+        "holdVolEnv": 1200,
+        "decayVolEnv": 6702,
+        "sample": "Jazz Guitar D4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "51-54",
+        "chorusEffectsSend": 140,
+        "decayVolEnv": 6628,
+        "sample": "Jazz Guitar F#4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "55-55",
+        "chorusEffectsSend": 140,
+        "holdVolEnv": 1200,
+        "decayVolEnv": 6386,
+        "sample": "Jazz Guitar G4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "56-60",
+        "chorusEffectsSend": 140,
+        "decayVolEnv": 6386,
+        "sample": "Jazz Guitar Bb4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-64",
+        "chorusEffectsSend": 140,
+        "holdVolEnv": 1200,
+        "decayVolEnv": 5888,
+        "sample": "Jazz Guitar E5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "65-69",
+        "chorusEffectsSend": 140,
+        "decayVolEnv": 5573,
+        "sample": "Jazz Guitar A5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "70-74",
+        "chorusEffectsSend": 140,
+        "decayVolEnv": 5390,
+        "sample": "Jazz Guitar D6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "75-96",
+        "chorusEffectsSend": 140,
+        "decayVolEnv": 5390,
+        "sample": "Jazz Guitar G6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "0-40",
+        "pan": -500,
+        "holdVolEnv": 1200,
+        "decayVolEnv": 6938,
+        "sample": "Jazz Guitar E3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "41-43",
+        "pan": -500,
+        "decayVolEnv": 6702,
+        "sample": "Jazz Guitar G3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "44-45",
+        "pan": -500,
+        "decayVolEnv": 6773,
+        "sample": "Jazz Guitar A3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "46-48",
+        "pan": -500,
+        "decayVolEnv": 6702,
+        "sample": "Jazz Guitar C4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "49-50",
+        "pan": -500,
+        "holdVolEnv": 1200,
+        "decayVolEnv": 6702,
+        "sample": "Jazz Guitar D4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "51-54",
+        "pan": -500,
+        "decayVolEnv": 6628,
+        "sample": "Jazz Guitar F#4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "55-55",
+        "pan": -500,
+        "holdVolEnv": 1200,
+        "decayVolEnv": 6386,
+        "sample": "Jazz Guitar G4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "56-60",
+        "pan": -500,
+        "decayVolEnv": 6386,
+        "sample": "Jazz Guitar Bb4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-64",
+        "pan": -500,
+        "holdVolEnv": 1200,
+        "decayVolEnv": 5888,
+        "sample": "Jazz Guitar E5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "65-69",
+        "pan": -500,
+        "decayVolEnv": 5573,
+        "sample": "Jazz Guitar A5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "70-74",
+        "pan": -500,
+        "decayVolEnv": 5390,
+        "sample": "Jazz Guitar D6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "75-96",
+        "pan": -500,
+        "decayVolEnv": 5390,
+        "sample": "Jazz Guitar G6"
+      }
+    }
+  ]
+}

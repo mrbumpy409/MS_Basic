@@ -1,0 +1,101 @@
+{
+  "name": "Crashes & Rides",
+  "zones": [
+    {
+      "generators": {
+        "modEnvToFilterFc": 12000,
+        "releaseModEnv": 7973,
+        "holdVolEnv": 3556,
+        "decayVolEnv": 6590,
+        "releaseVolEnv": 5186
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "49-49",
+        "releaseVolEnv": 5888,
+        "initialAttenuation": 130,
+        "overridingRootKey": 49,
+        "sample": "Crsh 1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "57-57",
+        "releaseVolEnv": 5888,
+        "initialAttenuation": 170,
+        "overridingRootKey": 57,
+        "sample": "Crsh 2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "53-53",
+        "modEnvToFilterFc": 0,
+        "decayVolEnv": -11959,
+        "releaseVolEnv": 5888,
+        "initialAttenuation": 150,
+        "overridingRootKey": 53,
+        "sample": "BellRide"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "59-59",
+        "releaseVolEnv": 5573,
+        "initialAttenuation": 150,
+        "overridingRootKey": 59,
+        "sample": "Ride2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "51-51",
+        "initialAttenuation": 150,
+        "overridingRootKey": 51,
+        "sample": "Ride1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "52-52",
+        "decayVolEnv": 6386,
+        "initialAttenuation": 130,
+        "overridingRootKey": 52,
+        "sample": "China Crash"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "55-55",
+        "decayVolEnv": 6386,
+        "initialAttenuation": 100,
+        "overridingRootKey": 55,
+        "sample": "Splash"
+      }
+    }
+  ]
+}

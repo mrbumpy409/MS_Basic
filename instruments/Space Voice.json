@@ -1,0 +1,78 @@
+{
+  "name": "Space Voice",
+  "zones": [
+    {
+      "generators": {
+        "modEnvToFilterFc": 12000,
+        "chorusEffectsSend": 200,
+        "reverbEffectsSend": 200,
+        "releaseModEnv": 6311,
+        "releaseVolEnv": 2786,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-48",
+        "sample": "Solo Vox C2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "49-60",
+        "sample": "Solo Vox C3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-72",
+        "sample": "Solo Vox C4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "73-84",
+        "sample": "Solo Vox C5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "85-127",
+        "sample": "Solo Vox C6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "0-98",
+        "decayVolEnv": 3102,
+        "sustainVolEnv": 480,
+        "releaseVolEnv": 1902,
+        "initialAttenuation": 228,
+        "sample": "Fantasia"
+      }
+    }
+  ]
+}

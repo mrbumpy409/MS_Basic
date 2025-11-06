@@ -1,0 +1,210 @@
+{
+  "name": "MDL Bass Drums-old",
+  "zones": [
+    {
+      "generators": {
+        "releaseVolEnv": 6773,
+        "scaleTuning": 0
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -4000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "96-96",
+        "velRange": "95-127",
+        "pan": 140,
+        "sample": "MBass-2 hit 2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "96-96",
+        "velRange": "0-94",
+        "pan": 140,
+        "sample": "MBass-2 hit 3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "98-98",
+        "velRange": "95-127",
+        "pan": 140,
+        "initialAttenuation": 70,
+        "sample": "MBass-2 rim 1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "98-98",
+        "velRange": "0-94",
+        "pan": 140,
+        "initialAttenuation": 70,
+        "sample": "MBass-2 rim 4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "69-69",
+        "velRange": "95-127",
+        "pan": 70,
+        "sample": "MBass-3 hit 1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "69-69",
+        "velRange": "0-94",
+        "pan": 70,
+        "sample": "MBass-3 hit 4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "71-71",
+        "velRange": "95-127",
+        "pan": 70,
+        "initialAttenuation": 70,
+        "sample": "MBass-3 rim 2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "71-71",
+        "velRange": "0-94",
+        "pan": 70,
+        "initialAttenuation": 70,
+        "sample": "MBass-3 rim 4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "48-48",
+        "velRange": "95-127",
+        "sample": "MBass-4 hit 1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "48-48",
+        "velRange": "0-94",
+        "sample": "MBass-4 hit 3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "50-50",
+        "velRange": "95-127",
+        "initialAttenuation": 90,
+        "sample": "MBass-4 rim 2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "50-50",
+        "velRange": "0-94",
+        "initialAttenuation": 100,
+        "sample": "MBass-4 rim 3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "24-24",
+        "velRange": "95-127",
+        "pan": -70,
+        "sample": "MBass-5 hit 1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "24-24",
+        "velRange": "0-94",
+        "pan": -70,
+        "sample": "MBass-5 hit 4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "26-26",
+        "velRange": "95-127",
+        "pan": -70,
+        "initialAttenuation": 30,
+        "sample": "MBass-5 rim 2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "26-26",
+        "velRange": "0-94",
+        "pan": -70,
+        "initialAttenuation": 30,
+        "sample": "MBass-5 rim 4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "1-1",
+        "velRange": "107-127",
+        "pan": -140,
+        "sample": "MBass-6 hit 1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "1-1",
+        "velRange": "85-106",
+        "pan": -140,
+        "sample": "MBass-6 hit 2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "1-1",
+        "velRange": "0-84",
+        "pan": -140,
+        "sample": "MBass-6 hit 4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "2-2",
+        "velRange": "95-127",
+        "pan": -140,
+        "initialAttenuation": 30,
+        "coarseTune": -2,
+        "sample": "MBass-5 rim 1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "2-2",
+        "velRange": "0-94",
+        "pan": -140,
+        "initialAttenuation": 30,
+        "coarseTune": -2,
+        "sample": "MBass-5 rim 3"
+      }
+    }
+  ]
+}

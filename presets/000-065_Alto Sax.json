@@ -1,0 +1,38 @@
+{
+  "name": "Alto Sax",
+  "bank": 0,
+  "preset_number": 65,
+  "library": 55051080,
+  "genre": 55051080,
+  "morphology": 55051080,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 100,
+        "delayModLFO": 3986,
+        "initialAttenuation": 40
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -3600,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "instrument": "Sax-Alto"
+      }
+    }
+  ]
+}

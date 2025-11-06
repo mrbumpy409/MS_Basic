@@ -1,0 +1,75 @@
+{
+  "name": "Electric Toms",
+  "zones": [
+    {
+      "generators": {
+        "releaseVolEnv": 5888
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "41-41",
+        "overridingRootKey": 45,
+        "sample": "ElectTom"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "43-43",
+        "overridingRootKey": 45,
+        "sample": "ElectTom"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "45-45",
+        "overridingRootKey": 45,
+        "sample": "ElectTom"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "47-47",
+        "overridingRootKey": 45,
+        "sample": "ElectTom"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "48-48",
+        "overridingRootKey": 42,
+        "sample": "ElectTom"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "50-50",
+        "overridingRootKey": 39,
+        "sample": "ElectTom"
+      }
+    }
+  ]
+}

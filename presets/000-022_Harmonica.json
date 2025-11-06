@@ -1,0 +1,36 @@
+{
+  "name": "Harmonica",
+  "bank": 0,
+  "preset_number": 22,
+  "library": 14024918,
+  "genre": 14024918,
+  "morphology": 14024918,
+  "zones": [
+    {
+      "generators": {},
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -2000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "reverbEffectsSend": 100,
+        "initialAttenuation": 120,
+        "instrument": "Harmonica"
+      }
+    }
+  ]
+}

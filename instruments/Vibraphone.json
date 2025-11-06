@@ -1,0 +1,129 @@
+{
+  "name": "Vibraphone",
+  "zones": [
+    {
+      "generators": {
+        "initialFilterFc": 11423,
+        "modLfoToVolume": 20,
+        "freqModLFO": -1153,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": 0,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "104-108",
+        "decayVolEnv": 702,
+        "sample": "Vibraphone B8"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "100-103",
+        "decayVolEnv": 1018,
+        "sample": "Vibraphone G8"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "97-99",
+        "decayVolEnv": 1284,
+        "sample": "Vibraphone D#8"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "95-96",
+        "decayVolEnv": 1720,
+        "sample": "Vibraphone C8"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "89-94",
+        "decayVolEnv": 1902,
+        "sample": "Vibraphone A#7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "86-88",
+        "decayVolEnv": 2218,
+        "sample": "Vibraphone E7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "82-85",
+        "decayVolEnv": 2400,
+        "sample": "Vibraphone C#7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "79-81",
+        "decayVolEnv": 2604,
+        "sample": "Vibraphone A6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "72-78",
+        "decayVolEnv": 2951,
+        "sample": "Vibraphone F#6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "67-71",
+        "decayVolEnv": 3073,
+        "sample": "Vibraphone B5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "64-66",
+        "decayVolEnv": 3186,
+        "sample": "Vibraphone F#5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "58-63",
+        "decayVolEnv": 3369,
+        "sample": "Vibraphone D#5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "0-57",
+        "decayVolEnv": 3511,
+        "sample": "Vibraphone A4"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "name": "Pan Flute",
+  "zones": [
+    {
+      "generators": {
+        "initialFilterFc": 7935,
+        "modEnvToFilterFc": 4000,
+        "modLfoToVolume": 4,
+        "freqModLFO": -1444,
+        "decayModEnv": -617,
+        "releaseModEnv": 583,
+        "sustainVolEnv": 20,
+        "releaseVolEnv": -2786,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-55",
+        "sample": "Pan Flute F#4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "56-61",
+        "sample": "Pan Flute C5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "62-67",
+        "sample": "Pan Flute F#5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "68-73",
+        "sample": "Pan Flute C6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "74-79",
+        "sample": "Pan Flute F#6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "80-85",
+        "sample": "Pan Flute C7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "86-91",
+        "sample": "Pan Flute F#7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "92-127",
+        "sample": "Pan Flute C8"
+      }
+    }
+  ]
+}

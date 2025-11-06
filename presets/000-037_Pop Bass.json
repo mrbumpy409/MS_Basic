@@ -1,0 +1,19 @@
+{
+  "name": "Pop Bass",
+  "bank": 0,
+  "preset_number": 37,
+  "library": 14680288,
+  "genre": 14680288,
+  "morphology": 14680288,
+  "zones": [
+    {
+      "generators": {}
+    },
+    {
+      "generators": {
+        "reverbEffectsSend": 20,
+        "instrument": "Pop Bass"
+      }
+    }
+  ]
+}

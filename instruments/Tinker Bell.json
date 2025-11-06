@@ -1,0 +1,186 @@
+{
+  "name": "Tinker Bell",
+  "zones": [
+    {
+      "generators": {
+        "modEnvToFilterFc": 787,
+        "reverbEffectsSend": 70,
+        "freqModLFO": -725,
+        "freqVibLFO": -725,
+        "sustainModEnv": 1000,
+        "releaseModEnv": 2179,
+        "sustainVolEnv": 1000
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-49",
+        "initialFilterFc": 11152,
+        "decayModEnv": 2460,
+        "decayVolEnv": 3203,
+        "releaseVolEnv": 2460,
+        "initialAttenuation": 30,
+        "sample": "Tinker Bell"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "50-61",
+        "initialFilterFc": 11152,
+        "holdModEnv": -7657,
+        "decayModEnv": 2517,
+        "releaseModEnv": 2227,
+        "holdVolEnv": -5021,
+        "decayVolEnv": 2900,
+        "releaseVolEnv": 2320,
+        "initialAttenuation": 30,
+        "sample": "Tinker Bell"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "62-73",
+        "initialFilterFc": 11208,
+        "decayModEnv": 2460,
+        "decayVolEnv": 2615,
+        "releaseVolEnv": 1942,
+        "initialAttenuation": 30,
+        "sample": "Tinker Bell"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "74-85",
+        "initialFilterFc": 11208,
+        "decayModEnv": 2460,
+        "decayVolEnv": 2316,
+        "releaseVolEnv": 1732,
+        "sample": "Tinker Bell"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "86-97",
+        "initialFilterFc": 11208,
+        "decayModEnv": 2460,
+        "decayVolEnv": 2179,
+        "releaseVolEnv": 1544,
+        "sample": "Tinker Bell"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "98-102",
+        "initialFilterFc": 10914,
+        "holdModEnv": -7657,
+        "decayModEnv": 2320,
+        "sustainModEnv": 863,
+        "releaseModEnv": 2030,
+        "holdVolEnv": -5959,
+        "decayVolEnv": 2030,
+        "releaseVolEnv": 1251,
+        "initialAttenuation": 7,
+        "sample": "Tinker Bell"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "103-108",
+        "initialFilterFc": 11208,
+        "decayModEnv": 2316,
+        "sustainModEnv": 863,
+        "releaseModEnv": 2056,
+        "decayVolEnv": 1732,
+        "releaseVolEnv": 1074,
+        "initialAttenuation": 15,
+        "sample": "Tinker Bell"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    }
+  ]
+}

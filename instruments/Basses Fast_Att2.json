@@ -1,0 +1,240 @@
+{
+  "name": "Basses Fast_Att2",
+  "zones": [
+    {
+      "generators": {
+        "pan": -500,
+        "attackVolEnv": -5573,
+        "decayVolEnv": 1200,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": 1902,
+        "initialAttenuation": 100
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 34,
+          "amount": 1200,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -3800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-28",
+        "releaseVolEnv": 2400,
+        "sample": "BassAtk_E0_v3",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "0-28",
+        "pan": 500,
+        "releaseVolEnv": 2400,
+        "sample": "BassAtk_E0_v3",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "29-32",
+        "sample": "BassAtk_F#0_v3",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "29-32",
+        "pan": 500,
+        "sample": "BassAtk_F#0_v3",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "33-36",
+        "decayVolEnv": 702,
+        "releaseVolEnv": 702,
+        "initialAttenuation": 50,
+        "sample": "BassAtk_A#0_v3",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "33-36",
+        "pan": 500,
+        "decayVolEnv": 702,
+        "releaseVolEnv": 702,
+        "initialAttenuation": 50,
+        "sample": "BassAtk_A#0_v3",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "37-40",
+        "startAddrsOffset": 500,
+        "startAddrsCoarseOffset": 0,
+        "sample": "BassAtk_D1_v3",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "37-40",
+        "startAddrsOffset": 500,
+        "startAddrsCoarseOffset": 0,
+        "pan": 500,
+        "sample": "BassAtk_D1_v3",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "41-44",
+        "initialAttenuation": 85,
+        "sample": "BassAtk_F#1_v1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "41-44",
+        "pan": 500,
+        "initialAttenuation": 85,
+        "sample": "BassAtk_F#1_v1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "45-46",
+        "initialAttenuation": 125,
+        "sample": "BassAtk_A1_v1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "45-46",
+        "pan": 500,
+        "initialAttenuation": 125,
+        "sample": "BassAtk_A1_v1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "47-50",
+        "startAddrsOffset": 400,
+        "startAddrsCoarseOffset": 0,
+        "initialAttenuation": 115,
+        "sample": "BassAtk_C#2_v1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "47-50",
+        "startAddrsOffset": 400,
+        "startAddrsCoarseOffset": 0,
+        "pan": 500,
+        "initialAttenuation": 115,
+        "sample": "BassAtk_C#2_v1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "51-53",
+        "initialAttenuation": 130,
+        "sample": "BassAtk_E2_v1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "51-53",
+        "pan": 500,
+        "initialAttenuation": 130,
+        "sample": "BassAtk_E2_v1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "54-60",
+        "initialAttenuation": 115,
+        "sample": "BassAtk_G#2_v1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "54-60",
+        "pan": 500,
+        "initialAttenuation": 115,
+        "sample": "BassAtk_G#2_v1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-69",
+        "initialAttenuation": 150,
+        "sample": "BassAtk_G#2_v1a",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-69",
+        "pan": 500,
+        "initialAttenuation": 150,
+        "sample": "BassAtk_G#2_v1a",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "70-127",
+        "initialAttenuation": 200,
+        "sample": "BassAtk_G#2_v1b",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "70-127",
+        "pan": 500,
+        "initialAttenuation": 200,
+        "sample": "BassAtk_G#2_v1b",
+        "sample_channel": "right"
+      }
+    }
+  ]
+}

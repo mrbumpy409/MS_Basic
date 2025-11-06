@@ -1,0 +1,29 @@
+{
+  "name": "Bottle Chiff",
+  "bank": 0,
+  "preset_number": 76,
+  "library": 52167452,
+  "genre": 52167452,
+  "morphology": 52167452,
+  "zones": [
+    {
+      "generators": {},
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "reverbEffectsSend": 50,
+        "initialAttenuation": 30,
+        "instrument": "Bottle Chiff"
+      }
+    }
+  ]
+}

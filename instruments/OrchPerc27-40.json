@@ -1,0 +1,153 @@
+{
+  "name": "OrchPerc27-40",
+  "zones": [
+    {
+      "generators": {
+        "releaseVolEnv": 6773,
+        "scaleTuning": 0
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "27-27",
+        "decayVolEnv": 702,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": 702,
+        "initialAttenuation": 150,
+        "exclusiveClass": 1,
+        "sample": "Hi-Hat Closed"
+      },
+      "modulators": [
+        {
+          "src_oper": 2,
+          "dest_oper": 38,
+          "amount": 3369,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 2,
+          "dest_oper": 36,
+          "amount": 3369,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "28-28",
+        "releaseVolEnv": 5186,
+        "initialAttenuation": 150,
+        "exclusiveClass": 1,
+        "sample": "Hi-Hat Foot"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "29-29",
+        "releaseVolEnv": 4811,
+        "initialAttenuation": 50,
+        "exclusiveClass": 1,
+        "sample": "Hi-Hat Half-Open"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "30-30",
+        "releaseVolEnv": 4811,
+        "initialAttenuation": 50,
+        "sample": "Ride1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "31-31",
+        "sample": "Sticks",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "32-32",
+        "sample": "Metronome Click"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "33-33",
+        "releaseVolEnv": 5888,
+        "sample": "Metronome Bell(L)"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "34-34",
+        "sample": "Square Click"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "35-36",
+        "releaseVolEnv": 4811,
+        "sample": "Orch Bass Drum"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "37-37",
+        "decayVolEnv": 1902,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": 1902,
+        "sample": "Rim Tap"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "38-38",
+        "decayVolEnv": 3986,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": 2786,
+        "sample": "Orch Snare"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "39-39",
+        "sample": "Castanet"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "40-40",
+        "decayVolEnv": 3986,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": 2786,
+        "sample": "Orch Snare"
+      }
+    }
+  ]
+}

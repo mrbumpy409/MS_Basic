@@ -1,0 +1,61 @@
+{
+  "name": "Charang Expr.",
+  "bank": 17,
+  "preset_number": 84,
+  "library": 62653372,
+  "genre": 62653372,
+  "morphology": 62653372,
+  "zones": [
+    {
+      "generators": {
+        "chorusEffectsSend": 400,
+        "reverbEffectsSend": 100
+      },
+      "modulators": [
+        {
+          "src_oper": 1410,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "initialFilterFc": -182,
+        "initialFilterQ": 180,
+        "attackModEnv": -2084,
+        "initialAttenuation": 90,
+        "fineTune": -1,
+        "instrument": "Charang Layer 2"
+      }
+    },
+    {
+      "generators": {
+        "releaseVolEnv": -2786,
+        "initialAttenuation": 80,
+        "instrument": "Clavinet"
+      }
+    },
+    {
+      "generators": {
+        "initialFilterFc": 5186,
+        "initialFilterQ": 220,
+        "modEnvToFilterFc": 200,
+        "attackModEnv": 3986,
+        "decayModEnv": 1200,
+        "sustainModEnv": 600,
+        "delayVolEnv": -7973,
+        "attackVolEnv": -4373,
+        "holdVolEnv": 2786,
+        "decayVolEnv": 4302,
+        "sustainVolEnv": 50,
+        "releaseVolEnv": -2400,
+        "initialAttenuation": 50,
+        "fineTune": 1,
+        "instrument": "0 Saw Decline"
+      }
+    }
+  ]
+}

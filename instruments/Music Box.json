@@ -1,0 +1,150 @@
+{
+  "name": "Music Box",
+  "zones": [
+    {
+      "generators": {
+        "initialFilterQ": 170,
+        "pan": -150,
+        "sustainVolEnv": 1000,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-72",
+        "decayVolEnv": 3765,
+        "releaseVolEnv": 2169,
+        "sample": "Celeste-D#4"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "73-80",
+        "startAddrsOffset": 0,
+        "endAddrsOffset": 0,
+        "startAddrsCoarseOffset": 0,
+        "endAddrsCoarseOffset": 0,
+        "decayVolEnv": 3578,
+        "releaseVolEnv": 2041,
+        "fineTune": 0,
+        "sample": "Celeste-A4"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "81-90",
+        "startAddrsOffset": 1624,
+        "startAddrsCoarseOffset": 0,
+        "decayVolEnv": 3369,
+        "releaseVolEnv": 1843,
+        "sample": "Celeste-F#5"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "91-97",
+        "decayVolEnv": 3102,
+        "releaseVolEnv": 1621,
+        "sample": "Celeste-D#6"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "98-125",
+        "startAddrsOffset": 1624,
+        "startAddrsCoarseOffset": 0,
+        "decayVolEnv": 2786,
+        "releaseVolEnv": 1365,
+        "sample": "Celeste-D#7"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-80",
+        "pan": 150,
+        "decayVolEnv": 3369,
+        "releaseVolEnv": 1843,
+        "coarseTune": 12,
+        "sample": "Celeste-F#5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "81-113",
+        "pan": 150,
+        "decayVolEnv": 2786,
+        "releaseVolEnv": 1365,
+        "coarseTune": 12,
+        "sample": "Celeste-D#7"
+      }
+    }
+  ]
+}

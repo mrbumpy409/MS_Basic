@@ -1,0 +1,45 @@
+{
+  "name": "It. Accordion Expr.",
+  "bank": 18,
+  "preset_number": 21,
+  "library": 66651129,
+  "genre": 66651129,
+  "morphology": 66651129,
+  "zones": [
+    {
+      "generators": {},
+      "modulators": [
+        {
+          "src_oper": 386,
+          "dest_oper": 8,
+          "amount": -3600,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1410,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "pan": -53,
+        "initialAttenuation": 120,
+        "fineTune": 3,
+        "instrument": "Accordion"
+      }
+    },
+    {
+      "generators": {
+        "pan": 55,
+        "initialAttenuation": 120,
+        "fineTune": -5,
+        "instrument": "Accordion"
+      }
+    }
+  ]
+}

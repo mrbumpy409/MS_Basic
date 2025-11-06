@@ -1,0 +1,30 @@
+{
+  "name": "Acoustic Bass",
+  "bank": 0,
+  "preset_number": 32,
+  "library": 46465733,
+  "genre": 46465733,
+  "morphology": 46465733,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 40
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -4800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "releaseVolEnv": 1200,
+        "instrument": "Acoustic Bass"
+      }
+    }
+  ]
+}

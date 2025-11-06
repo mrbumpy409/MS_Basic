@@ -1,0 +1,180 @@
+{
+  "name": "Std Kick 1",
+  "zones": [
+    {
+      "generators": {
+        "releaseModEnv": 7973,
+        "sustainVolEnv": 1000,
+        "overridingRootKey": 36
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "35-36",
+        "velRange": "0-80",
+        "initialFilterFc": 11108,
+        "attackVolEnv": -8590,
+        "decayVolEnv": 1902,
+        "releaseVolEnv": 1902,
+        "fineTune": -6,
+        "sample": "Std Kick 1"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "35-36",
+        "velRange": "81-88",
+        "initialFilterFc": 11273,
+        "attackVolEnv": -8857,
+        "decayVolEnv": 2786,
+        "releaseVolEnv": 2786,
+        "fineTune": -5,
+        "sample": "Std Kick 1"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "35-36",
+        "velRange": "89-96",
+        "initialFilterFc": 11423,
+        "attackVolEnv": -9173,
+        "decayVolEnv": 3369,
+        "releaseVolEnv": 3369,
+        "fineTune": -4,
+        "sample": "Std Kick 1"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "35-36",
+        "velRange": "97-104",
+        "initialFilterFc": 11562,
+        "attackVolEnv": -9559,
+        "decayVolEnv": 3804,
+        "releaseVolEnv": 3804,
+        "fineTune": -3,
+        "sample": "Std Kick 1"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "35-36",
+        "velRange": "105-112",
+        "initialFilterFc": 11690,
+        "attackVolEnv": -10057,
+        "decayVolEnv": 4151,
+        "releaseVolEnv": 4151,
+        "fineTune": -2,
+        "sample": "Std Kick 1"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "35-36",
+        "velRange": "113-120",
+        "initialFilterFc": 11810,
+        "attackVolEnv": -10759,
+        "decayVolEnv": 4441,
+        "releaseVolEnv": 4441,
+        "fineTune": -1,
+        "sample": "Std Kick 1"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "35-36",
+        "velRange": "121-127",
+        "initialFilterFc": 11921,
+        "decayVolEnv": 4688,
+        "releaseVolEnv": 4688,
+        "sample": "Std Kick 1"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    }
+  ]
+}

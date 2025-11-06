@@ -1,0 +1,108 @@
+{
+  "name": "Violins2 Fast Expr.",
+  "bank": 26,
+  "preset_number": 48,
+  "library": 82969842,
+  "genre": 82969842,
+  "morphology": 82969842,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 100,
+        "releaseVolEnv": 315,
+        "initialAttenuation": 80
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "0-103",
+        "attackVolEnv": 1200,
+        "initialAttenuation": 180,
+        "instrument": "Violins2 Fast_v1"
+      },
+      "modulators": [
+        {
+          "src_oper": 1410,
+          "dest_oper": 48,
+          "amount": 470,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-103",
+        "releaseVolEnv": -281,
+        "instrument": "Violins2 Fast_v2x"
+      },
+      "modulators": [
+        {
+          "src_oper": 1410,
+          "dest_oper": 48,
+          "amount": 1050,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "104-127",
+        "initialFilterFc": -182,
+        "attackVolEnv": -2786,
+        "instrument": "Violins2 High"
+      },
+      "modulators": [
+        {
+          "src_oper": 1410,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 386,
+          "dest_oper": 8,
+          "amount": -500,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "velRange": "0-86",
+        "releaseVolEnv": 0,
+        "initialAttenuation": 360,
+        "instrument": "Violins2 Fast_Att1"
+      },
+      "modulators": [
+        {
+          "src_oper": 1410,
+          "dest_oper": 48,
+          "amount": 900,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "velRange": "87-127",
+        "releaseVolEnv": 0,
+        "initialAttenuation": 280,
+        "instrument": "Violins2 Fast_Att2"
+      },
+      "modulators": [
+        {
+          "src_oper": 1410,
+          "dest_oper": 48,
+          "amount": 1200,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    }
+  ]
+}

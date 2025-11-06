@@ -1,0 +1,58 @@
+{
+  "name": "Steel Drum",
+  "zones": [
+    {
+      "generators": {
+        "chorusEffectsSend": 100,
+        "releaseVolEnv": 3986
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-66",
+        "sample": "Steel Drum F#5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "67-72",
+        "sample": "Steel Drum C6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "73-78",
+        "sample": "Steel Drum F#6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "79-127",
+        "sample": "Steel Drum C7"
+      }
+    }
+  ]
+}

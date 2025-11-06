@@ -1,0 +1,116 @@
+{
+  "name": "Flute",
+  "zones": [
+    {
+      "generators": {
+        "initialFilterFc": 11921,
+        "modLfoToVolume": 8,
+        "delayModLFO": -2786,
+        "freqModLFO": -3351,
+        "decayVolEnv": 1200,
+        "releaseVolEnv": -1200,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-62",
+        "startAddrsOffset": 4500,
+        "startloopAddrsOffset": 0,
+        "endloopAddrsOffset": 0,
+        "startAddrsCoarseOffset": 0,
+        "attackVolEnv": -7973,
+        "startloopAddrsCoarseOffset": 0,
+        "endloopAddrsCoarseOffset": 0,
+        "sample": "Flute C#4"
+      },
+      "modulators": [
+        {
+          "src_oper": 3,
+          "dest_oper": 4,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 3,
+          "dest_oper": 0,
+          "amount": -8000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "63-65",
+        "sample": "Flute E4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "66-68",
+        "sample": "Flute G4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "69-71",
+        "sample": "Flute B4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "72-75",
+        "sample": "Flute D5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "76-78",
+        "sample": "Flute F#5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "79-81",
+        "sample": "Flute G#5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "82-84",
+        "sample": "Flute C6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "85-127",
+        "sample": "Flute F#6"
+      }
+    }
+  ]
+}

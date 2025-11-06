@@ -1,0 +1,39 @@
+{
+  "name": "Church Organ 2",
+  "bank": 8,
+  "preset_number": 19,
+  "library": 16974083,
+  "genre": 16974083,
+  "morphology": 16974083,
+  "zones": [
+    {
+      "generators": {},
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "pan": -105,
+        "initialAttenuation": 50,
+        "coarseTune": -12,
+        "fineTune": 1,
+        "instrument": "Church Organ"
+      }
+    },
+    {
+      "generators": {
+        "pan": 105,
+        "initialAttenuation": 30,
+        "fineTune": -1,
+        "instrument": "Church Organ"
+      }
+    }
+  ]
+}

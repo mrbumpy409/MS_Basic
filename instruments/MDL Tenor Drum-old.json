@@ -1,0 +1,100 @@
+{
+  "name": "MDL Tenor Drum-old",
+  "zones": [
+    {
+      "generators": {
+        "releaseVolEnv": 6773,
+        "scaleTuning": 0
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -6000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "96-96",
+        "initialAttenuation": 30,
+        "sample": "MTnr-1 hit 4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "99-99",
+        "initialAttenuation": 60,
+        "sample": "MTnr-1 mute 3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "72-72",
+        "initialAttenuation": 30,
+        "sample": "MTnr-2 hit 1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "75-75",
+        "initialAttenuation": 60,
+        "sample": "MTnr-2 mute 3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "48-48",
+        "sample": "MTnr-3 hit 4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "51-51",
+        "sample": "MTnr-3 mute 1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "24-24",
+        "sample": "MTnr-4 hit 3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "27-27",
+        "sample": "MTnr-4 mute 1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "125-125",
+        "initialAttenuation": 100,
+        "sample": "MTnr-sp1 hit 1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "120-120",
+        "initialAttenuation": 60,
+        "sample": "MTnr-sp2 hit 3"
+      }
+    }
+  ]
+}

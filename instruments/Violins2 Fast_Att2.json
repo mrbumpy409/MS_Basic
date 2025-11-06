@@ -1,0 +1,401 @@
+{
+  "name": "Violins2 Fast_Att2",
+  "zones": [
+    {
+      "generators": {
+        "pan": -500,
+        "attackVolEnv": -5573,
+        "decayVolEnv": 1200,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": 1200,
+        "initialAttenuation": 50
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 34,
+          "amount": 1200,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -3800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-55",
+        "pan": 500,
+        "releaseVolEnv": 2400,
+        "sample": "VlnsAtk_G2_v2_r2",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "0-55",
+        "releaseVolEnv": 2400,
+        "sample": "VlnsAtk_G2_v2_r2",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "56-57",
+        "startAddrsOffset": 1300,
+        "startAddrsCoarseOffset": 0,
+        "pan": 500,
+        "sample": "VlnsAtk_A2_v2_r2",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "56-57",
+        "startAddrsOffset": 1300,
+        "startAddrsCoarseOffset": 0,
+        "sample": "VlnsAtk_A2_v2_r2",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "58-60",
+        "startAddrsOffset": 500,
+        "startAddrsCoarseOffset": 0,
+        "pan": 500,
+        "sample": "VlnsAtk_B2_v2_r2",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "58-60",
+        "startAddrsOffset": 500,
+        "startAddrsCoarseOffset": 0,
+        "sample": "VlnsAtk_B2_v2_r2",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-63",
+        "startAddrsOffset": 700,
+        "startAddrsCoarseOffset": 0,
+        "pan": 500,
+        "sample": "VlnsAtk_D3_v2_r2",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-63",
+        "startAddrsOffset": 700,
+        "startAddrsCoarseOffset": 0,
+        "sample": "VlnsAtk_D3_v2_r2",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "68-70",
+        "startAddrsOffset": 500,
+        "startAddrsCoarseOffset": 0,
+        "pan": 500,
+        "initialAttenuation": 40,
+        "sample": "VlnsAtk_A3_v2_r2",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "68-70",
+        "startAddrsOffset": 500,
+        "startAddrsCoarseOffset": 0,
+        "initialAttenuation": 40,
+        "sample": "VlnsAtk_A3_v2_r2",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "71-73",
+        "startAddrsOffset": 1300,
+        "startAddrsCoarseOffset": 0,
+        "pan": 500,
+        "initialAttenuation": 40,
+        "sample": "VlnsAtk_C4_v2_r2",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "71-73",
+        "startAddrsOffset": 1300,
+        "startAddrsCoarseOffset": 0,
+        "initialAttenuation": 40,
+        "sample": "VlnsAtk_C4_v2_r2",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "74-77",
+        "startAddrsOffset": 1700,
+        "startAddrsCoarseOffset": 0,
+        "pan": 500,
+        "initialAttenuation": 50,
+        "sample": "VlnsAtk_E4_v2_r2",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "74-77",
+        "startAddrsOffset": 1700,
+        "startAddrsCoarseOffset": 0,
+        "sample": "VlnsAtk_E4_v2_r2",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "78-80",
+        "pan": 500,
+        "initialAttenuation": 20,
+        "sample": "VlnsAtk_G4_v2_r2",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "78-80",
+        "initialAttenuation": 20,
+        "sample": "VlnsAtk_G4_v2_r2",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "81-84",
+        "startAddrsOffset": 700,
+        "startAddrsCoarseOffset": 0,
+        "pan": 500,
+        "sample": "VlnsAtk_B4_v2_r2",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "81-84",
+        "startAddrsOffset": 700,
+        "startAddrsCoarseOffset": 0,
+        "sample": "VlnsAtk_B4_v2_r2",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "85-88",
+        "pan": 500,
+        "initialAttenuation": 40,
+        "sample": "VlnsAtk_D5_v2_r2",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "85-88",
+        "initialAttenuation": 40,
+        "sample": "VlnsAtk_D5_v2_r2",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "89-90",
+        "initialFilterFc": 12473,
+        "pan": 500,
+        "initialAttenuation": 40,
+        "sample": "VlnsAtk_D5_v2_r2",
+        "sample_channel": "left"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -2800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "89-90",
+        "initialFilterFc": 12473,
+        "initialAttenuation": 40,
+        "sample": "VlnsAtk_D5_v2_r2",
+        "sample_channel": "right"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -2800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "64-67",
+        "startAddrsOffset": 700,
+        "startAddrsCoarseOffset": 0,
+        "pan": 500,
+        "sample": "VlnsAtk_F#3_v1_r2",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "64-67",
+        "startAddrsOffset": 700,
+        "startAddrsCoarseOffset": 0,
+        "sample": "VlnsAtk_F#3_v1_r2",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "91-96",
+        "initialFilterFc": 12308,
+        "pan": 500,
+        "initialAttenuation": 40,
+        "sample": "VlnsAtk_D5_v2_r2e",
+        "sample_channel": "left"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -2600,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "91-96",
+        "initialFilterFc": 12308,
+        "initialAttenuation": 40,
+        "sample": "VlnsAtk_D5_v2_r2e",
+        "sample_channel": "right"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -2600,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "97-103",
+        "initialFilterFc": 12125,
+        "pan": 500,
+        "initialAttenuation": 40,
+        "sample": "VlnsAtk_D5_v2_r2f",
+        "sample_channel": "left"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -2300,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "97-103",
+        "initialFilterFc": 12125,
+        "initialAttenuation": 40,
+        "sample": "VlnsAtk_D5_v2_r2f",
+        "sample_channel": "right"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -2300,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "104-127",
+        "initialFilterFc": 12026,
+        "pan": 500,
+        "initialAttenuation": 90,
+        "sample": "VlnsAtk_D5_v2_r2f",
+        "sample_channel": "left"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -2000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "104-127",
+        "initialFilterFc": 12026,
+        "initialAttenuation": 90,
+        "sample": "VlnsAtk_D5_v2_r2f",
+        "sample_channel": "right"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -2000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    }
+  ]
+}

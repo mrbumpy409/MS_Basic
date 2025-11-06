@@ -1,0 +1,812 @@
+{
+  "name": "Detuned FM EP",
+  "bank": 8,
+  "preset_number": 5,
+  "library": 786444,
+  "genre": 786444,
+  "morphology": 786444,
+  "zones": [
+    {
+      "generators": {
+        "initialFilterFc": 6386,
+        "chorusEffectsSend": 150,
+        "reverbEffectsSend": 70,
+        "pan": -250,
+        "delayModLFO": -7973,
+        "delayVibLFO": -7973,
+        "delayModEnv": -7973,
+        "attackModEnv": -7973,
+        "holdModEnv": -7973,
+        "decayModEnv": 0,
+        "sustainModEnv": 800,
+        "releaseModEnv": -1200,
+        "delayVolEnv": -7973,
+        "attackVolEnv": -7973,
+        "holdVolEnv": 0,
+        "decayVolEnv": 0,
+        "sustainVolEnv": 960,
+        "releaseVolEnv": -1200,
+        "fineTune": -5
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "velRange": "121-127",
+        "chorusEffectsSend": 420,
+        "pan": 0,
+        "initialAttenuation": 30,
+        "fineTune": 7,
+        "instrument": "DX7_2"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "114-120",
+        "chorusEffectsSend": 420,
+        "pan": 0,
+        "initialAttenuation": 80,
+        "fineTune": 7,
+        "instrument": "DX7_2"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "107-113",
+        "chorusEffectsSend": 420,
+        "pan": 0,
+        "initialAttenuation": 120,
+        "fineTune": 7,
+        "instrument": "DX7_2"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "99-106",
+        "chorusEffectsSend": 420,
+        "pan": 0,
+        "initialAttenuation": 170,
+        "fineTune": 7,
+        "instrument": "DX7_2"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "92-98",
+        "chorusEffectsSend": 420,
+        "pan": 0,
+        "initialAttenuation": 210,
+        "fineTune": 7,
+        "instrument": "DX7_2"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "83-91",
+        "chorusEffectsSend": 420,
+        "pan": 0,
+        "initialAttenuation": 260,
+        "fineTune": 7,
+        "instrument": "DX7_2"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "71-82",
+        "chorusEffectsSend": 420,
+        "pan": 0,
+        "initialAttenuation": 300,
+        "fineTune": 7,
+        "instrument": "DX7_2"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "59-70",
+        "chorusEffectsSend": 420,
+        "pan": 0,
+        "initialAttenuation": 350,
+        "fineTune": 7,
+        "instrument": "DX7_2"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "46-58",
+        "chorusEffectsSend": 420,
+        "pan": 0,
+        "initialAttenuation": 390,
+        "fineTune": 7,
+        "instrument": "DX7_2"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "0-45",
+        "chorusEffectsSend": 420,
+        "pan": 0,
+        "initialAttenuation": 440,
+        "fineTune": 7,
+        "instrument": "DX7_2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "54-74",
+        "velRange": "117-127",
+        "initialFilterFc": 454,
+        "modEnvToFilterFc": 3400,
+        "decayModEnv": 702,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 5186,
+        "keynumToVolEnvHold": 0,
+        "keynumToVolEnvDecay": 0,
+        "initialAttenuation": 60,
+        "coarseTune": 0,
+        "instrument": "DX7_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "54-74",
+        "velRange": "106-116",
+        "initialFilterFc": 316,
+        "modEnvToFilterFc": 3100,
+        "decayModEnv": 702,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 5186,
+        "keynumToVolEnvHold": 0,
+        "keynumToVolEnvDecay": 0,
+        "initialAttenuation": 40,
+        "coarseTune": 0,
+        "instrument": "DX7_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "54-74",
+        "velRange": "93-105",
+        "initialFilterFc": 165,
+        "modEnvToFilterFc": 2800,
+        "decayModEnv": 702,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 5186,
+        "keynumToVolEnvHold": 0,
+        "keynumToVolEnvDecay": 0,
+        "initialAttenuation": 20,
+        "coarseTune": 0,
+        "instrument": "DX7_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "54-74",
+        "velRange": "79-92",
+        "initialFilterFc": 0,
+        "modEnvToFilterFc": 2500,
+        "decayModEnv": 702,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 5186,
+        "keynumToVolEnvHold": 0,
+        "keynumToVolEnvDecay": 0,
+        "initialAttenuation": 0,
+        "coarseTune": 0,
+        "instrument": "DX7_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "54-74",
+        "velRange": "67-78",
+        "initialFilterFc": -182,
+        "modEnvToFilterFc": 2200,
+        "decayModEnv": 702,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 5186,
+        "keynumToVolEnvHold": 0,
+        "keynumToVolEnvDecay": 0,
+        "initialAttenuation": -20,
+        "coarseTune": 0,
+        "instrument": "DX7_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "54-74",
+        "velRange": "38-66",
+        "initialFilterFc": -386,
+        "modEnvToFilterFc": 1900,
+        "decayModEnv": 702,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 5186,
+        "keynumToVolEnvHold": 0,
+        "keynumToVolEnvDecay": 0,
+        "initialAttenuation": -40,
+        "coarseTune": 0,
+        "instrument": "DX7_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "54-74",
+        "velRange": "0-37",
+        "initialFilterFc": -617,
+        "modEnvToFilterFc": 1600,
+        "decayModEnv": 702,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 5186,
+        "keynumToVolEnvHold": 0,
+        "keynumToVolEnvDecay": 0,
+        "initialAttenuation": -60,
+        "coarseTune": 0,
+        "instrument": "DX7_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "75-127",
+        "velRange": "106-127",
+        "initialFilterFc": 165,
+        "initialFilterQ": 20,
+        "modEnvToFilterFc": 2800,
+        "decayModEnv": 702,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 5186,
+        "keynumToVolEnvHold": 0,
+        "keynumToVolEnvDecay": 0,
+        "initialAttenuation": 20,
+        "coarseTune": 0,
+        "instrument": "DX7_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "75-127",
+        "velRange": "85-105",
+        "initialFilterFc": 0,
+        "initialFilterQ": 20,
+        "modEnvToFilterFc": 2500,
+        "decayModEnv": 702,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 5186,
+        "keynumToVolEnvHold": 0,
+        "keynumToVolEnvDecay": 0,
+        "initialAttenuation": 0,
+        "coarseTune": 0,
+        "instrument": "DX7_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "75-127",
+        "velRange": "61-84",
+        "initialFilterFc": -182,
+        "initialFilterQ": 20,
+        "modEnvToFilterFc": 2200,
+        "decayModEnv": 702,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 5186,
+        "keynumToVolEnvHold": 0,
+        "keynumToVolEnvDecay": 0,
+        "initialAttenuation": -20,
+        "coarseTune": 0,
+        "instrument": "DX7_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "75-127",
+        "velRange": "34-60",
+        "initialFilterFc": -386,
+        "initialFilterQ": 20,
+        "modEnvToFilterFc": 1900,
+        "decayModEnv": 702,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 5186,
+        "keynumToVolEnvHold": 0,
+        "keynumToVolEnvDecay": 0,
+        "initialAttenuation": -40,
+        "coarseTune": 0,
+        "instrument": "DX7_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "75-127",
+        "velRange": "0-33",
+        "initialFilterFc": -617,
+        "initialFilterQ": 20,
+        "modEnvToFilterFc": 1600,
+        "decayModEnv": 702,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 5186,
+        "keynumToVolEnvHold": 0,
+        "keynumToVolEnvDecay": 0,
+        "initialAttenuation": -60,
+        "coarseTune": 0,
+        "instrument": "DX7_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "0-53",
+        "velRange": "117-127",
+        "initialFilterFc": 454,
+        "initialFilterQ": -20,
+        "modEnvToFilterFc": 3400,
+        "decayModEnv": 702,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 5186,
+        "keynumToVolEnvHold": 0,
+        "keynumToVolEnvDecay": 0,
+        "initialAttenuation": 60,
+        "coarseTune": 0,
+        "instrument": "DX7_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "0-53",
+        "velRange": "106-116",
+        "initialFilterFc": 316,
+        "initialFilterQ": -20,
+        "modEnvToFilterFc": 3100,
+        "decayModEnv": 702,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 5186,
+        "keynumToVolEnvHold": 0,
+        "keynumToVolEnvDecay": 0,
+        "initialAttenuation": 40,
+        "coarseTune": 0,
+        "instrument": "DX7_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "0-53",
+        "velRange": "93-105",
+        "initialFilterFc": 165,
+        "initialFilterQ": -20,
+        "modEnvToFilterFc": 2800,
+        "decayModEnv": 702,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 5186,
+        "keynumToVolEnvHold": 0,
+        "keynumToVolEnvDecay": 0,
+        "initialAttenuation": 20,
+        "coarseTune": 0,
+        "instrument": "DX7_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "0-53",
+        "velRange": "79-92",
+        "initialFilterFc": 0,
+        "initialFilterQ": -20,
+        "modEnvToFilterFc": 2500,
+        "decayModEnv": 702,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 5186,
+        "keynumToVolEnvHold": 0,
+        "keynumToVolEnvDecay": 0,
+        "initialAttenuation": 0,
+        "coarseTune": 0,
+        "instrument": "DX7_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "0-53",
+        "velRange": "67-78",
+        "initialFilterFc": -182,
+        "initialFilterQ": -20,
+        "modEnvToFilterFc": 2200,
+        "decayModEnv": 702,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 5186,
+        "keynumToVolEnvHold": 0,
+        "keynumToVolEnvDecay": 0,
+        "initialAttenuation": -20,
+        "coarseTune": 0,
+        "instrument": "DX7_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "0-53",
+        "velRange": "38-66",
+        "initialFilterFc": -386,
+        "initialFilterQ": -20,
+        "modEnvToFilterFc": 1900,
+        "decayModEnv": 702,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 5186,
+        "keynumToVolEnvHold": 0,
+        "keynumToVolEnvDecay": 0,
+        "initialAttenuation": -40,
+        "coarseTune": 0,
+        "instrument": "DX7_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "0-53",
+        "velRange": "0-37",
+        "initialFilterFc": -617,
+        "initialFilterQ": -20,
+        "modEnvToFilterFc": 1600,
+        "decayModEnv": 702,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 5186,
+        "keynumToVolEnvHold": 0,
+        "keynumToVolEnvDecay": 0,
+        "initialAttenuation": -60,
+        "coarseTune": 0,
+        "instrument": "DX7_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "54-74",
+        "velRange": "117-127",
+        "initialFilterFc": 454,
+        "modEnvToFilterFc": 3400,
+        "pan": 250,
+        "decayModEnv": 702,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 5186,
+        "keynumToVolEnvHold": 0,
+        "keynumToVolEnvDecay": 0,
+        "initialAttenuation": 60,
+        "coarseTune": 0,
+        "fineTune": 5,
+        "instrument": "DX7_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "54-74",
+        "velRange": "106-116",
+        "initialFilterFc": 316,
+        "modEnvToFilterFc": 3100,
+        "pan": 250,
+        "decayModEnv": 702,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 5186,
+        "keynumToVolEnvHold": 0,
+        "keynumToVolEnvDecay": 0,
+        "initialAttenuation": 40,
+        "coarseTune": 0,
+        "fineTune": 5,
+        "instrument": "DX7_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "54-74",
+        "velRange": "93-105",
+        "initialFilterFc": 165,
+        "modEnvToFilterFc": 2800,
+        "pan": 250,
+        "decayModEnv": 702,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 5186,
+        "keynumToVolEnvHold": 0,
+        "keynumToVolEnvDecay": 0,
+        "initialAttenuation": 20,
+        "coarseTune": 0,
+        "fineTune": 5,
+        "instrument": "DX7_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "54-74",
+        "velRange": "79-92",
+        "initialFilterFc": 0,
+        "modEnvToFilterFc": 2500,
+        "pan": 250,
+        "decayModEnv": 702,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 5186,
+        "keynumToVolEnvHold": 0,
+        "keynumToVolEnvDecay": 0,
+        "initialAttenuation": 0,
+        "coarseTune": 0,
+        "fineTune": 5,
+        "instrument": "DX7_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "54-74",
+        "velRange": "67-78",
+        "initialFilterFc": -182,
+        "modEnvToFilterFc": 2200,
+        "pan": 250,
+        "decayModEnv": 702,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 5186,
+        "keynumToVolEnvHold": 0,
+        "keynumToVolEnvDecay": 0,
+        "initialAttenuation": -20,
+        "coarseTune": 0,
+        "fineTune": 5,
+        "instrument": "DX7_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "54-74",
+        "velRange": "38-66",
+        "initialFilterFc": -386,
+        "modEnvToFilterFc": 1900,
+        "pan": 250,
+        "decayModEnv": 702,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 5186,
+        "keynumToVolEnvHold": 0,
+        "keynumToVolEnvDecay": 0,
+        "initialAttenuation": -40,
+        "coarseTune": 0,
+        "fineTune": 5,
+        "instrument": "DX7_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "54-74",
+        "velRange": "0-37",
+        "initialFilterFc": -617,
+        "modEnvToFilterFc": 1600,
+        "pan": 250,
+        "decayModEnv": 702,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 5186,
+        "keynumToVolEnvHold": 0,
+        "keynumToVolEnvDecay": 0,
+        "initialAttenuation": -60,
+        "coarseTune": 0,
+        "fineTune": 5,
+        "instrument": "DX7_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "75-127",
+        "velRange": "106-127",
+        "initialFilterFc": 165,
+        "initialFilterQ": 20,
+        "modEnvToFilterFc": 2800,
+        "pan": 250,
+        "decayModEnv": 702,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 5186,
+        "keynumToVolEnvHold": 0,
+        "keynumToVolEnvDecay": 0,
+        "initialAttenuation": 20,
+        "coarseTune": 0,
+        "fineTune": 5,
+        "instrument": "DX7_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "75-127",
+        "velRange": "85-105",
+        "initialFilterFc": 0,
+        "initialFilterQ": 20,
+        "modEnvToFilterFc": 2500,
+        "pan": 250,
+        "decayModEnv": 702,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 5186,
+        "keynumToVolEnvHold": 0,
+        "keynumToVolEnvDecay": 0,
+        "initialAttenuation": 0,
+        "coarseTune": 0,
+        "fineTune": 5,
+        "instrument": "DX7_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "75-127",
+        "velRange": "61-84",
+        "initialFilterFc": -182,
+        "initialFilterQ": 20,
+        "modEnvToFilterFc": 2200,
+        "pan": 250,
+        "decayModEnv": 702,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 5186,
+        "keynumToVolEnvHold": 0,
+        "keynumToVolEnvDecay": 0,
+        "initialAttenuation": -20,
+        "coarseTune": 0,
+        "fineTune": 5,
+        "instrument": "DX7_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "75-127",
+        "velRange": "34-60",
+        "initialFilterFc": -386,
+        "initialFilterQ": 20,
+        "modEnvToFilterFc": 1900,
+        "pan": 250,
+        "decayModEnv": 702,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 5186,
+        "keynumToVolEnvHold": 0,
+        "keynumToVolEnvDecay": 0,
+        "initialAttenuation": -40,
+        "coarseTune": 0,
+        "fineTune": 5,
+        "instrument": "DX7_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "75-127",
+        "velRange": "0-33",
+        "initialFilterFc": -617,
+        "initialFilterQ": 20,
+        "modEnvToFilterFc": 1600,
+        "pan": 250,
+        "decayModEnv": 702,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 5186,
+        "keynumToVolEnvHold": 0,
+        "keynumToVolEnvDecay": 0,
+        "initialAttenuation": -60,
+        "coarseTune": 0,
+        "fineTune": 5,
+        "instrument": "DX7_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "0-53",
+        "velRange": "117-127",
+        "initialFilterFc": 454,
+        "initialFilterQ": -20,
+        "modEnvToFilterFc": 3400,
+        "pan": 250,
+        "decayModEnv": 702,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 5186,
+        "keynumToVolEnvHold": 0,
+        "keynumToVolEnvDecay": 0,
+        "initialAttenuation": 60,
+        "coarseTune": 0,
+        "fineTune": 5,
+        "instrument": "DX7_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "0-53",
+        "velRange": "106-116",
+        "initialFilterFc": 316,
+        "initialFilterQ": -20,
+        "modEnvToFilterFc": 3100,
+        "pan": 250,
+        "decayModEnv": 702,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 5186,
+        "keynumToVolEnvHold": 0,
+        "keynumToVolEnvDecay": 0,
+        "initialAttenuation": 40,
+        "coarseTune": 0,
+        "fineTune": 5,
+        "instrument": "DX7_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "0-53",
+        "velRange": "93-105",
+        "initialFilterFc": 165,
+        "initialFilterQ": -20,
+        "modEnvToFilterFc": 2800,
+        "pan": 250,
+        "decayModEnv": 702,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 5186,
+        "keynumToVolEnvHold": 0,
+        "keynumToVolEnvDecay": 0,
+        "initialAttenuation": 20,
+        "coarseTune": 0,
+        "fineTune": 5,
+        "instrument": "DX7_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "0-53",
+        "velRange": "79-92",
+        "initialFilterFc": 0,
+        "initialFilterQ": -20,
+        "modEnvToFilterFc": 2500,
+        "pan": 250,
+        "decayModEnv": 702,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 5186,
+        "keynumToVolEnvHold": 0,
+        "keynumToVolEnvDecay": 0,
+        "initialAttenuation": 0,
+        "coarseTune": 0,
+        "fineTune": 5,
+        "instrument": "DX7_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "0-53",
+        "velRange": "67-78",
+        "initialFilterFc": -182,
+        "initialFilterQ": -20,
+        "modEnvToFilterFc": 2200,
+        "pan": 250,
+        "decayModEnv": 702,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 5186,
+        "keynumToVolEnvHold": 0,
+        "keynumToVolEnvDecay": 0,
+        "initialAttenuation": -20,
+        "coarseTune": 0,
+        "fineTune": 5,
+        "instrument": "DX7_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "0-53",
+        "velRange": "38-66",
+        "initialFilterFc": -386,
+        "initialFilterQ": -20,
+        "modEnvToFilterFc": 1900,
+        "pan": 250,
+        "decayModEnv": 702,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 5186,
+        "keynumToVolEnvHold": 0,
+        "keynumToVolEnvDecay": 0,
+        "initialAttenuation": -40,
+        "coarseTune": 0,
+        "fineTune": 5,
+        "instrument": "DX7_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "0-53",
+        "velRange": "0-37",
+        "initialFilterFc": -617,
+        "initialFilterQ": -20,
+        "modEnvToFilterFc": 1600,
+        "pan": 250,
+        "decayModEnv": 702,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 5186,
+        "keynumToVolEnvHold": 0,
+        "keynumToVolEnvDecay": 0,
+        "initialAttenuation": -60,
+        "coarseTune": 0,
+        "fineTune": 5,
+        "instrument": "DX7_1"
+      }
+    }
+  ]
+}

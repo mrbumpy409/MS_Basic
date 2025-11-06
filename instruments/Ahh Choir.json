@@ -1,0 +1,242 @@
+{
+  "name": "Ahh Choir",
+  "zones": [
+    {
+      "generators": {
+        "pan": -500,
+        "attackVolEnv": -7973,
+        "releaseVolEnv": 1200,
+        "initialAttenuation": 70,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-39",
+        "initialAttenuation": 100,
+        "sample": "Ahh Choir D#3-L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "0-39",
+        "pan": 500,
+        "initialAttenuation": 100,
+        "sample": "Ahh Choir D#3-R"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "40-42",
+        "sample": "Ahh Choir F#3-L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "40-42",
+        "pan": 500,
+        "sample": "Ahh Choir F#3-R"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "43-45",
+        "sample": "Ahh Choir G#3-L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "43-45",
+        "pan": 500,
+        "sample": "Ahh Choir G#3-R"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "46-48",
+        "sample": "Ahh Choir C4-L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "46-48",
+        "pan": 500,
+        "sample": "Ahh Choir C4-R"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "49-51",
+        "initialAttenuation": 130,
+        "sample": "Ahh Choir D#4-L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "49-51",
+        "pan": 500,
+        "initialAttenuation": 130,
+        "sample": "Ahh Choir D#4-R"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "52-54",
+        "initialAttenuation": 130,
+        "sample": "Ahh Choir F#4-L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "52-54",
+        "pan": 500,
+        "initialAttenuation": 130,
+        "sample": "Ahh Choir F#4-R"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "55-57",
+        "sample": "Ahh Choir A4-L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "55-57",
+        "pan": 500,
+        "sample": "Ahh Choir A4-R"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "58-60",
+        "sample": "Ahh Choir C5-L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "58-60",
+        "pan": 500,
+        "sample": "Ahh Choir C5-R"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-63",
+        "initialAttenuation": 0,
+        "sample": "Ahh Choir D#5-L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-63",
+        "pan": 500,
+        "initialAttenuation": 0,
+        "sample": "Ahh Choir D#5-R"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "64-66",
+        "initialAttenuation": 150,
+        "sample": "Ahh Choir F#5-L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "64-66",
+        "pan": 500,
+        "initialAttenuation": 150,
+        "sample": "Ahh Choir F#5-R"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "67-69",
+        "sample": "Ahh Choir A5-L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "67-69",
+        "pan": 500,
+        "sample": "Ahh Choir A5-R"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "70-72",
+        "sample": "Ahh Choir C6-L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "70-72",
+        "pan": 500,
+        "sample": "Ahh Choir C6-R"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "73-75",
+        "sample": "Ahh Choir D#6-L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "73-75",
+        "pan": 500,
+        "sample": "Ahh Choir D#6-R"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "76-78",
+        "sample": "Ahh Choir F#6-L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "76-78",
+        "pan": 500,
+        "sample": "Ahh Choir F#6-R"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "79-96",
+        "sample": "Ahh Choir A6-L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "79-96",
+        "pan": 500,
+        "sample": "Ahh Choir A6-R"
+      }
+    }
+  ]
+}

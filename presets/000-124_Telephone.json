@@ -1,0 +1,19 @@
+{
+  "name": "Telephone",
+  "bank": 0,
+  "preset_number": 124,
+  "library": 52691748,
+  "genre": 52691748,
+  "morphology": 52691748,
+  "zones": [
+    {
+      "generators": {}
+    },
+    {
+      "generators": {
+        "reverbEffectsSend": 70,
+        "instrument": "Telephone"
+      }
+    }
+  ]
+}

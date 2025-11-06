@@ -1,0 +1,83 @@
+{
+  "name": "Shenai",
+  "zones": [
+    {
+      "generators": {
+        "modLfoToPitch": 5,
+        "initialFilterFc": 8775,
+        "modEnvToFilterFc": 1957,
+        "modLfoToVolume": 4,
+        "delayModLFO": -1586,
+        "freqModLFO": -718,
+        "freqVibLFO": -718,
+        "attackModEnv": -8857,
+        "decayModEnv": -1586,
+        "sustainModEnv": 610,
+        "releaseModEnv": 0,
+        "decayVolEnv": 888,
+        "sustainVolEnv": 30,
+        "releaseVolEnv": -2449,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-59",
+        "sample": "Shenai F#4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "60-64",
+        "sample": "Shenai C5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "65-71",
+        "sample": "Shenai F#5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "72-76",
+        "sample": "Shenai C6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "77-81",
+        "sample": "Shenai F#6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "82-127",
+        "sample": "Shenai C7"
+      }
+    }
+  ]
+}

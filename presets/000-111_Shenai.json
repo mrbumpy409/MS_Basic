@@ -1,0 +1,28 @@
+{
+  "name": "Shenai",
+  "bank": 0,
+  "preset_number": 111,
+  "library": 18088212,
+  "genre": 18088212,
+  "morphology": 18088212,
+  "zones": [
+    {
+      "generators": {},
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "reverbEffectsSend": 100,
+        "instrument": "Shenai"
+      }
+    }
+  ]
+}

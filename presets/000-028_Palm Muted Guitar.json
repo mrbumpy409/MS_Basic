@@ -1,0 +1,78 @@
+{
+  "name": "Palm Muted Guitar",
+  "bank": 0,
+  "preset_number": 28,
+  "library": 49087213,
+  "genre": 49087213,
+  "morphology": 49087213,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 100
+      }
+    },
+    {
+      "generators": {
+        "velRange": "121-127",
+        "releaseVolEnv": 316,
+        "instrument": "Palm Muted Guitar"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "113-120",
+        "releaseVolEnv": 165,
+        "instrument": "Palm Muted Guitar"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "105-112",
+        "releaseVolEnv": 0,
+        "instrument": "Palm Muted Guitar"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "97-104",
+        "releaseVolEnv": -182,
+        "instrument": "Palm Muted Guitar"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "89-96",
+        "releaseVolEnv": -386,
+        "instrument": "Palm Muted Guitar"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "81-88",
+        "releaseVolEnv": -617,
+        "instrument": "Palm Muted Guitar"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "73-80",
+        "releaseVolEnv": -884,
+        "instrument": "Palm Muted Guitar"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "65-72",
+        "releaseVolEnv": -1200,
+        "instrument": "Palm Muted Guitar"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "0-64",
+        "releaseVolEnv": -1586,
+        "instrument": "Palm Muted Guitar"
+      }
+    }
+  ]
+}

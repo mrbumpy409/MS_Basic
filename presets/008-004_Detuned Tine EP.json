@@ -1,0 +1,40 @@
+{
+  "name": "Detuned Tine EP",
+  "bank": 8,
+  "preset_number": 4,
+  "library": 17891601,
+  "genre": 17891601,
+  "morphology": 17891601,
+  "zones": [
+    {
+      "generators": {
+        "chorusEffectsSend": 170,
+        "reverbEffectsSend": 100,
+        "initialAttenuation": 270
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -4800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "pan": -250,
+        "fineTune": -4,
+        "instrument": "Tine EP"
+      }
+    },
+    {
+      "generators": {
+        "pan": 250,
+        "fineTune": 4,
+        "instrument": "Tine EP"
+      }
+    }
+  ]
+}

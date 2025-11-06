@@ -1,0 +1,35 @@
+{
+  "name": "Orchestra Kit",
+  "bank": 128,
+  "preset_number": 48,
+  "library": 39518811,
+  "genre": 39518811,
+  "morphology": 39518811,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 600
+      }
+    },
+    {
+      "generators": {
+        "instrument": "OrchPerc27-40"
+      }
+    },
+    {
+      "generators": {
+        "instrument": "OrchPerc41-53"
+      }
+    },
+    {
+      "generators": {
+        "instrument": "OrchPerc54-72"
+      }
+    },
+    {
+      "generators": {
+        "instrument": "OrchPerc73-84"
+      }
+    }
+  ]
+}

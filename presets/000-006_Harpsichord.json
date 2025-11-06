@@ -1,0 +1,79 @@
+{
+  "name": "Harpsichord",
+  "bank": 0,
+  "preset_number": 6,
+  "library": 25559430,
+  "genre": 25559430,
+  "morphology": 25559430,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 100,
+        "initialAttenuation": 170
+      }
+    },
+    {
+      "generators": {
+        "velRange": "121-127",
+        "releaseVolEnv": 316,
+        "instrument": "Harpsichord"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "113-120",
+        "releaseVolEnv": 165,
+        "instrument": "Harpsichord"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "105-112",
+        "releaseVolEnv": 0,
+        "instrument": "Harpsichord"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "97-104",
+        "releaseVolEnv": -182,
+        "instrument": "Harpsichord"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "89-96",
+        "releaseVolEnv": -386,
+        "instrument": "Harpsichord"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "81-88",
+        "releaseVolEnv": -617,
+        "instrument": "Harpsichord"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "73-80",
+        "releaseVolEnv": -884,
+        "instrument": "Harpsichord"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "65-72",
+        "releaseVolEnv": -1200,
+        "instrument": "Harpsichord"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "0-64",
+        "releaseVolEnv": -1586,
+        "instrument": "Harpsichord"
+      }
+    }
+  ]
+}

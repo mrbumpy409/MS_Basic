@@ -1,0 +1,83 @@
+{
+  "name": "Atmosphere Expr.",
+  "bank": 17,
+  "preset_number": 99,
+  "library": 65209315,
+  "genre": 65209315,
+  "morphology": 65209315,
+  "zones": [
+    {
+      "generators": {
+        "chorusEffectsSend": 35,
+        "reverbEffectsSend": 35,
+        "freqVibLFO": -884,
+        "decayModEnv": -386,
+        "initialAttenuation": 100
+      },
+      "modulators": [
+        {
+          "src_oper": 1410,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 386,
+          "dest_oper": 8,
+          "amount": -3600,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "initialFilterFc": 316,
+        "initialFilterQ": 73,
+        "modEnvToFilterFc": 2600,
+        "chorusEffectsSend": 70,
+        "reverbEffectsSend": 210,
+        "delayModEnv": -7973,
+        "attackModEnv": 1200,
+        "holdModEnv": -7973,
+        "decayModEnv": 2400,
+        "sustainModEnv": 500,
+        "releaseModEnv": 6773,
+        "delayVolEnv": -7973,
+        "holdVolEnv": -7973,
+        "releaseVolEnv": 2014,
+        "initialAttenuation": 120,
+        "fineTune": 2,
+        "instrument": "0 Saw Stack-lite"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "0-108",
+        "vibLfoToPitch": 21,
+        "initialFilterFc": -7973,
+        "initialFilterQ": 70,
+        "modEnvToFilterFc": 7200,
+        "chorusEffectsSend": 280,
+        "reverbEffectsSend": 210,
+        "freqModLFO": -1004,
+        "delayVibLFO": -1200,
+        "freqVibLFO": -884,
+        "delayModEnv": -7973,
+        "attackModEnv": -7973,
+        "holdModEnv": -7973,
+        "decayModEnv": 6246,
+        "sustainModEnv": 504,
+        "releaseModEnv": 5703,
+        "delayVolEnv": -7973,
+        "attackVolEnv": -884,
+        "holdVolEnv": -1200,
+        "sustainVolEnv": -900,
+        "releaseVolEnv": 3986,
+        "initialAttenuation": 70,
+        "instrument": "Atmosphere"
+      }
+    }
+  ]
+}

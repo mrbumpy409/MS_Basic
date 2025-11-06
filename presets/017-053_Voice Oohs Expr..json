@@ -1,0 +1,31 @@
+{
+  "name": "Voice Oohs Expr.",
+  "bank": 17,
+  "preset_number": 53,
+  "library": 58786689,
+  "genre": 58786689,
+  "morphology": 58786689,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 150,
+        "releaseVolEnv": -281,
+        "initialAttenuation": 50
+      },
+      "modulators": [
+        {
+          "src_oper": 1410,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "instrument": "Ohh Voices"
+      }
+    }
+  ]
+}

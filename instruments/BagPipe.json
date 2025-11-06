@@ -1,0 +1,70 @@
+{
+  "name": "BagPipe",
+  "zones": [
+    {
+      "generators": {
+        "releaseVolEnv": -1200,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-57",
+        "sample": "Bagpipe A4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "66-72",
+        "sample": "Bagpipe C6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "73-75",
+        "sample": "Bagpipe D#6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "80-127",
+        "sample": "Bagpipe D7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "58-65",
+        "sample": "Bagpipe F5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "76-79",
+        "sample": "Bagpipe G6"
+      }
+    }
+  ]
+}

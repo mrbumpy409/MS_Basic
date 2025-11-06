@@ -1,0 +1,78 @@
+{
+  "name": "Banjo",
+  "zones": [
+    {
+      "generators": {
+        "holdVolEnv": -8857,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": 3986,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-52",
+        "decayVolEnv": 5186,
+        "sample": "Banjo 1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "53-58",
+        "decayVolEnv": 4905,
+        "sample": "Banjo 2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "59-62",
+        "decayVolEnv": 4569,
+        "sample": "Banjo 3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "63-69",
+        "decayVolEnv": 4151,
+        "sample": "Banjo 4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "70-73",
+        "decayVolEnv": 3600,
+        "sample": "Banjo 5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "74-127",
+        "decayVolEnv": 3102,
+        "sample": "Banjo 6"
+      }
+    }
+  ]
+}

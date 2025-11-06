@@ -1,0 +1,37 @@
+{
+  "name": "Oboe Expr.",
+  "bank": 17,
+  "preset_number": 68,
+  "library": 60621725,
+  "genre": 60621725,
+  "morphology": 60621725,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 150,
+        "initialAttenuation": 80
+      },
+      "modulators": [
+        {
+          "src_oper": 386,
+          "dest_oper": 8,
+          "amount": -2400,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1410,
+          "dest_oper": 48,
+          "amount": 700,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "instrument": "Oboe"
+      }
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "name": "Electric Grand",
+  "bank": 0,
+  "preset_number": 2,
+  "library": 45744826,
+  "genre": 45744826,
+  "morphology": 45744826,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 100,
+        "initialAttenuation": 150
+      }
+    },
+    {
+      "generators": {
+        "velRange": "122-127",
+        "initialFilterFc": -2084,
+        "instrument": "Electric Piano"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "116-121",
+        "initialFilterFc": -2204,
+        "decayVolEnv": -182,
+        "instrument": "Electric Piano"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "110-115",
+        "initialFilterFc": -2204,
+        "decayVolEnv": -386,
+        "instrument": "Electric Piano"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "104-109",
+        "initialFilterFc": -2267,
+        "decayVolEnv": -617,
+        "instrument": "Electric Piano"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "98-103",
+        "initialFilterFc": -2332,
+        "decayVolEnv": -884,
+        "instrument": "Electric Piano"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "92-97",
+        "initialFilterFc": -2400,
+        "decayVolEnv": -1200,
+        "instrument": "Electric Piano"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "86-91",
+        "initialFilterFc": -2471,
+        "decayVolEnv": -1586,
+        "instrument": "Electric Piano"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "80-85",
+        "initialFilterFc": -2544,
+        "decayVolEnv": -2084,
+        "instrument": "Electric Piano"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "68-79",
+        "initialFilterFc": -2621,
+        "decayVolEnv": -2786,
+        "instrument": "Electric Piano"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "0-67",
+        "initialFilterFc": -2702,
+        "decayVolEnv": -3986,
+        "instrument": "Electric Piano"
+      }
+    }
+  ]
+}

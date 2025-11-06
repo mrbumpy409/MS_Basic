@@ -1,0 +1,112 @@
+{
+  "name": "Basses Fast Expr.",
+  "bank": 51,
+  "preset_number": 48,
+  "library": 88933709,
+  "genre": 88933709,
+  "morphology": 88933709,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 100,
+        "releaseVolEnv": 454
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "0-78",
+        "initialAttenuation": 230,
+        "fineTune": 2,
+        "instrument": "Basses Fast_v1"
+      },
+      "modulators": [
+        {
+          "src_oper": 1410,
+          "dest_oper": 48,
+          "amount": 470,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-78",
+        "attackVolEnv": 386,
+        "releaseVolEnv": -281,
+        "initialAttenuation": 150,
+        "fineTune": -2,
+        "instrument": "Basses Fast_v2x"
+      },
+      "modulators": [
+        {
+          "src_oper": 1410,
+          "dest_oper": 48,
+          "amount": 1050,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "79-127",
+        "initialFilterFc": -182,
+        "initialAttenuation": 380,
+        "instrument": "Basses High"
+      },
+      "modulators": [
+        {
+          "src_oper": 1410,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 386,
+          "dest_oper": 8,
+          "amount": -500,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-78",
+        "velRange": "0-86",
+        "releaseVolEnv": 0,
+        "initialAttenuation": 510,
+        "instrument": "Basses Fast_Att1"
+      },
+      "modulators": [
+        {
+          "src_oper": 1410,
+          "dest_oper": 48,
+          "amount": 900,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-78",
+        "velRange": "87-127",
+        "releaseVolEnv": 0,
+        "initialAttenuation": 390,
+        "instrument": "Basses Fast_Att2"
+      },
+      "modulators": [
+        {
+          "src_oper": 1410,
+          "dest_oper": 48,
+          "amount": 1200,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    }
+  ]
+}

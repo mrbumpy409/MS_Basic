@@ -1,0 +1,23 @@
+{
+  "name": "OldMarchingTenor",
+  "bank": 128,
+  "preset_number": 95,
+  "library": 54068025,
+  "genre": 54068025,
+  "morphology": 54068025,
+  "zones": [
+    {
+      "generators": {}
+    },
+    {
+      "generators": {
+        "instrument": "MDL Tenor Drum-old"
+      }
+    },
+    {
+      "generators": {
+        "instrument": "MDL Tenor Xtra-old"
+      }
+    }
+  ]
+}

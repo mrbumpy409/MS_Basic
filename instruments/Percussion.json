@@ -1,0 +1,455 @@
+{
+  "name": "Percussion",
+  "zones": [
+    {
+      "generators": {},
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "67-67",
+        "decayVolEnv": 3986,
+        "releaseVolEnv": 2400,
+        "initialAttenuation": 120,
+        "overridingRootKey": 67,
+        "sample": "High Agogo"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "68-68",
+        "decayVolEnv": 3986,
+        "releaseVolEnv": 2400,
+        "initialAttenuation": 150,
+        "overridingRootKey": 68,
+        "sample": "Low Agogo"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "69-69",
+        "freqModLFO": -807,
+        "freqVibLFO": -807,
+        "releaseVolEnv": 2400,
+        "overridingRootKey": 69,
+        "sample": "Cabasa"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "70-70",
+        "freqModLFO": -807,
+        "freqVibLFO": -807,
+        "releaseVolEnv": 2900,
+        "overridingRootKey": 70,
+        "sample": "Maracas"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "71-71",
+        "releaseVolEnv": -3986,
+        "initialAttenuation": 100,
+        "overridingRootKey": 71,
+        "sample": "Short Whistle"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "72-72",
+        "releaseVolEnv": -3986,
+        "initialAttenuation": 100,
+        "overridingRootKey": 72,
+        "sample": "Long Whistle"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "73-73",
+        "releaseModEnv": 2900,
+        "releaseVolEnv": 2900,
+        "initialAttenuation": 100,
+        "exclusiveClass": 5,
+        "overridingRootKey": 73,
+        "sample": "Guiro Down"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "74-74",
+        "freqModLFO": -807,
+        "freqVibLFO": -807,
+        "releaseModEnv": 2900,
+        "releaseVolEnv": 2900,
+        "initialAttenuation": 20,
+        "exclusiveClass": 5,
+        "overridingRootKey": 74,
+        "sample": "Guiro Up"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "75-75",
+        "freqModLFO": -807,
+        "freqVibLFO": -807,
+        "releaseModEnv": 2900,
+        "releaseVolEnv": 2900,
+        "overridingRootKey": 75,
+        "sample": "Clave"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "76-76",
+        "releaseModEnv": 2900,
+        "releaseVolEnv": 2900,
+        "overridingRootKey": 76,
+        "sample": "High Woodblock"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "77-77",
+        "releaseModEnv": 2900,
+        "releaseVolEnv": 2900,
+        "overridingRootKey": 77,
+        "sample": "Low Woodblock"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "78-78",
+        "freqModLFO": -807,
+        "freqVibLFO": -807,
+        "releaseVolEnv": 2900,
+        "initialAttenuation": 50,
+        "exclusiveClass": 4,
+        "overridingRootKey": 78,
+        "sample": "Quica Hi"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "79-79",
+        "freqModLFO": -807,
+        "freqVibLFO": -807,
+        "releaseModEnv": 2900,
+        "releaseVolEnv": 2900,
+        "initialAttenuation": 50,
+        "exclusiveClass": 4,
+        "overridingRootKey": 79,
+        "sample": "Quica Low"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "80-80",
+        "delayModLFO": -1904,
+        "freqModLFO": -1153,
+        "delayVibLFO": -1904,
+        "freqVibLFO": -1153,
+        "decayVolEnv": -593,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": -1200,
+        "exclusiveClass": 5,
+        "overridingRootKey": 80,
+        "sample": "Triangle"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "81-81",
+        "decayVolEnv": 3986,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": 2786,
+        "sampleModes": 1,
+        "exclusiveClass": 5,
+        "overridingRootKey": 81,
+        "sample": "Triangle"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "82-82",
+        "freqModLFO": -807,
+        "freqVibLFO": -807,
+        "releaseModEnv": 68,
+        "releaseVolEnv": 68,
+        "initialAttenuation": 15,
+        "overridingRootKey": 82,
+        "sample": "Small Shaker"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "83-83",
+        "initialFilterFc": 13508,
+        "freqModLFO": -807,
+        "freqVibLFO": -807,
+        "releaseModEnv": 101,
+        "holdVolEnv": -3429,
+        "releaseVolEnv": 454,
+        "overridingRootKey": 83,
+        "sample": "Sleigh Bells"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "84-84",
+        "decayVolEnv": 7088,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": 6773,
+        "sampleModes": 1,
+        "overridingRootKey": 84,
+        "sample": "Bell Tree"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "85-85",
+        "freqModLFO": -807,
+        "freqVibLFO": -807,
+        "releaseModEnv": 2900,
+        "releaseVolEnv": 3986,
+        "overridingRootKey": 85,
+        "sample": "Castanet"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "86-86",
+        "freqModLFO": -807,
+        "freqVibLFO": -807,
+        "releaseModEnv": 2900,
+        "releaseVolEnv": 5186,
+        "initialAttenuation": 50,
+        "exclusiveClass": 6,
+        "overridingRootKey": 86,
+        "sample": "Short Taiko Hit"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "87-87",
+        "initialFilterFc": 11149,
+        "releaseVolEnv": 5186,
+        "initialAttenuation": 50,
+        "exclusiveClass": 6,
+        "overridingRootKey": 87,
+        "sample": "Long Taiko Hit"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "87-87",
+        "releaseVolEnv": 5186,
+        "initialAttenuation": 50,
+        "exclusiveClass": 6,
+        "overridingRootKey": 87,
+        "sample": "Long Taiko Hit"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    }
+  ]
+}

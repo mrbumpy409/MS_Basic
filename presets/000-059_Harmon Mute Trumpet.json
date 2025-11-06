@@ -1,0 +1,52 @@
+{
+  "name": "Harmon Mute Trumpet",
+  "bank": 0,
+  "preset_number": 59,
+  "library": 54657858,
+  "genre": 54657858,
+  "morphology": 54657858,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 150,
+        "initialAttenuation": 80
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 700,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 11,
+          "amount": -2000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -2480,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 9,
+          "amount": 8,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "delayModLFO": 3986,
+        "instrument": "Muted Trumpet"
+      }
+    }
+  ]
+}

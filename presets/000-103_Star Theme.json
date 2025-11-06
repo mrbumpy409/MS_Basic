@@ -1,0 +1,86 @@
+{
+  "name": "Star Theme",
+  "bank": 0,
+  "preset_number": 103,
+  "library": 5636182,
+  "genre": 5636182,
+  "morphology": 5636182,
+  "zones": [
+    {
+      "generators": {
+        "chorusEffectsSend": 70,
+        "reverbEffectsSend": 70,
+        "attackVolEnv": 4312,
+        "initialAttenuation": 150
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -3600,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "initialFilterFc": 1902,
+        "initialFilterQ": 70,
+        "modEnvToFilterFc": 3855,
+        "chorusEffectsSend": 210,
+        "reverbEffectsSend": 210,
+        "delayModEnv": -7973,
+        "attackModEnv": -7973,
+        "holdModEnv": -7973,
+        "decayModEnv": 0,
+        "sustainModEnv": 875,
+        "releaseModEnv": 6773,
+        "delayVolEnv": -7973,
+        "attackVolEnv": -1200,
+        "holdVolEnv": -7973,
+        "releaseVolEnv": 2400,
+        "initialAttenuation": 50,
+        "instrument": "0 Saw Stack-lite"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "0-125",
+        "vibLfoToPitch": 20,
+        "initialFilterFc": -7973,
+        "modEnvToFilterFc": 7200,
+        "chorusEffectsSend": 210,
+        "reverbEffectsSend": 210,
+        "delayVibLFO": 0,
+        "freqVibLFO": -884,
+        "attackModEnv": 0,
+        "decayModEnv": 3558,
+        "sustainModEnv": 418,
+        "releaseModEnv": 7973,
+        "holdVolEnv": -7973,
+        "decayVolEnv": -617,
+        "sustainVolEnv": -830,
+        "releaseVolEnv": 2400,
+        "initialAttenuation": 260,
+        "instrument": "Star Theme"
+      },
+      "modulators": [
+        {
+          "src_oper": 515,
+          "dest_oper": 8,
+          "amount": 500,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    }
+  ]
+}

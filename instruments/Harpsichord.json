@@ -1,0 +1,115 @@
+{
+  "name": "Harpsichord",
+  "zones": [
+    {
+      "generators": {
+        "initialFilterFc": 12086,
+        "decayVolEnv": 5573,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": -1382,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-39",
+        "decayVolEnv": 5428,
+        "sustainVolEnv": 660,
+        "sample": "Harpsichord D3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "40-44",
+        "decayVolEnv": 5271,
+        "sample": "Harpsichord G3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "45-48",
+        "decayVolEnv": 5271,
+        "sample": "Harpsichord C4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "49-54",
+        "decayVolEnv": 4569,
+        "sample": "Harpsichord F4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "55-61",
+        "decayVolEnv": 5186,
+        "sample": "Harpsichord C5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "62-65",
+        "decayVolEnv": 4228,
+        "sample": "Harpsichord F5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "66-71",
+        "decayVolEnv": 3986,
+        "sample": "Harpsichord B5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "72-77",
+        "decayVolEnv": 3705,
+        "sample": "Harpsichord F6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "78-86",
+        "decayVolEnv": 3369,
+        "sample": "Harpsichord D7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "87-95",
+        "decayVolEnv": 3441,
+        "sample": "Harpsichord B7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "96-127",
+        "decayVolEnv": 3102,
+        "sample": "Harpsichord C8"
+      }
+    }
+  ]
+}

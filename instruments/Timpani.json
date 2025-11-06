@@ -1,0 +1,61 @@
+{
+  "name": "Timpani",
+  "zones": [
+    {
+      "generators": {
+        "initialFilterFc": 11921,
+        "modEnvToFilterFc": -1000,
+        "reverbEffectsSend": 200,
+        "releaseModEnv": 7973,
+        "attackVolEnv": -8359
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-36",
+        "decayVolEnv": 4985,
+        "releaseVolEnv": 5186,
+        "sample": "Timpani 1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "37-42",
+        "decayVolEnv": 3874,
+        "releaseVolEnv": 4700,
+        "sample": "Timpani 2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "43-127",
+        "decayVolEnv": 4386,
+        "releaseVolEnv": 4606,
+        "sample": "Timpani 3"
+      }
+    }
+  ]
+}

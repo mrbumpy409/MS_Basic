@@ -1,0 +1,37 @@
+{
+  "name": "Bassoon",
+  "bank": 0,
+  "preset_number": 70,
+  "library": 18481434,
+  "genre": 18481434,
+  "morphology": 18481434,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 150,
+        "initialAttenuation": 100
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -2400,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 700,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "instrument": "Bassoon"
+      }
+    }
+  ]
+}

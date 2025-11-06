@@ -1,0 +1,19 @@
+{
+  "name": "Concert Bass Drum",
+  "bank": 8,
+  "preset_number": 116,
+  "library": 15401195,
+  "genre": 15401195,
+  "morphology": 15401195,
+  "zones": [
+    {
+      "generators": {}
+    },
+    {
+      "generators": {
+        "reverbEffectsSend": 100,
+        "instrument": "Concert Bass Drum/G"
+      }
+    }
+  ]
+}

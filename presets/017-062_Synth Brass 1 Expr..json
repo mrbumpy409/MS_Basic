@@ -1,0 +1,76 @@
+{
+  "name": "Synth Brass 1 Expr.",
+  "bank": 17,
+  "preset_number": 62,
+  "library": 91096422,
+  "genre": 91096422,
+  "morphology": 91096422,
+  "zones": [
+    {
+      "generators": {
+        "initialFilterFc": 1586,
+        "initialFilterQ": 40,
+        "modEnvToFilterFc": 2250,
+        "chorusEffectsSend": 150,
+        "reverbEffectsSend": 70,
+        "delayModLFO": -7973,
+        "delayVibLFO": -7973,
+        "freqVibLFO": -182,
+        "delayModEnv": -7973,
+        "attackModEnv": -2399,
+        "holdModEnv": -7973,
+        "decayModEnv": 0,
+        "sustainModEnv": 762,
+        "releaseModEnv": -498,
+        "delayVolEnv": -7973,
+        "attackVolEnv": -4373,
+        "holdVolEnv": 4979,
+        "decayVolEnv": 6710,
+        "releaseVolEnv": 702,
+        "initialAttenuation": 330
+      },
+      "modulators": [
+        {
+          "src_oper": 130,
+          "dest_oper": 11,
+          "amount": 4750,
+          "amt_src_oper": 3,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 515,
+          "dest_oper": 8,
+          "amount": 551,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1410,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "pan": -249,
+        "fineTune": -7,
+        "instrument": "0 Saw Decline"
+      }
+    },
+    {
+      "generators": {
+        "instrument": "0 Saw Decline-off1"
+      }
+    },
+    {
+      "generators": {
+        "pan": 250,
+        "fineTune": 7,
+        "instrument": "0 Saw Decline-off2"
+      }
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "name": "MDL Cymbal 2",
+  "zones": [
+    {
+      "generators": {
+        "releaseVolEnv": 5186,
+        "initialAttenuation": 120,
+        "coarseTune": -3,
+        "fineTune": 17,
+        "scaleTuning": 0
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "70-70",
+        "velRange": "100-127",
+        "initialAttenuation": 0,
+        "coarseTune": -2,
+        "fineTune": 47,
+        "sample": "MCym1 crash ff3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "70-70",
+        "velRange": "75-99",
+        "initialAttenuation": 0,
+        "coarseTune": -2,
+        "fineTune": 47,
+        "sample": "MCym1 crash mf2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "70-70",
+        "velRange": "50-74",
+        "initialAttenuation": 0,
+        "coarseTune": -2,
+        "fineTune": 47,
+        "sample": "MCym1 crash mp1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "70-70",
+        "velRange": "0-49",
+        "initialAttenuation": 70,
+        "coarseTune": -2,
+        "fineTune": 47,
+        "sample": "MCym1 crash pp2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "73-73",
+        "decayVolEnv": 5014,
+        "sustainVolEnv": 1,
+        "releaseVolEnv": 5014,
+        "sample": "58_74_HALFCRASH1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "75-75",
+        "sample": "58_76_HIHAT1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "78-78",
+        "decayVolEnv": 5014,
+        "sustainVolEnv": 1,
+        "releaseVolEnv": 5014,
+        "sample": "58_77_SIZZLE1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "80-80",
+        "decayVolEnv": 1908,
+        "sustainVolEnv": 1,
+        "releaseVolEnv": 1908,
+        "sample": "58_79_CRASHCHOKE1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "82-82",
+        "decayVolEnv": 5014,
+        "sustainVolEnv": 1,
+        "releaseVolEnv": 5014,
+        "sample": "58_81_TAP1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "85-85",
+        "decayVolEnv": 1908,
+        "sustainVolEnv": 1,
+        "releaseVolEnv": 1908,
+        "sample": "58_83_TAPCHOKE1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "87-87",
+        "decayVolEnv": 5014,
+        "sustainVolEnv": 1,
+        "releaseVolEnv": 5014,
+        "sample": "58_84_BELLTAP1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "90-90",
+        "decayVolEnv": 1908,
+        "sustainVolEnv": 1,
+        "releaseVolEnv": 1908,
+        "sample": "58_86_BELLCHOKE1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "92-92",
+        "sample": "58_88_MUTEDTAP1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "94-94",
+        "decayVolEnv": 1908,
+        "sustainVolEnv": 1,
+        "releaseVolEnv": 1908,
+        "sample": "58_89_SMASH1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "97-97",
+        "decayVolEnv": 5014,
+        "sustainVolEnv": 1,
+        "releaseVolEnv": 5014,
+        "sample": "58_91_ZING1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "99-99",
+        "decayVolEnv": 1908,
+        "sustainVolEnv": 1,
+        "releaseVolEnv": 1908,
+        "sampleModes": 1,
+        "sample": "58_93_ROLL1"
+      }
+    }
+  ]
+}

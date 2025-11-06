@@ -1,0 +1,112 @@
+{
+  "name": "Cello Expr.",
+  "bank": 17,
+  "preset_number": 42,
+  "library": 57475949,
+  "genre": 57475949,
+  "morphology": 57475949,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 150,
+        "initialAttenuation": 50
+      },
+      "modulators": [
+        {
+          "src_oper": 1410,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "velRange": "0-79",
+        "instrument": "Cello_P"
+      },
+      "modulators": [
+        {
+          "src_oper": 386,
+          "dest_oper": 8,
+          "amount": -2400,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "velRange": "80-102",
+        "instrument": "Cello_M"
+      },
+      "modulators": [
+        {
+          "src_oper": 386,
+          "dest_oper": 8,
+          "amount": -2400,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "velRange": "103-127",
+        "instrument": "Cello_F"
+      },
+      "modulators": [
+        {
+          "src_oper": 386,
+          "dest_oper": 8,
+          "amount": -2400,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "velRange": "116-127",
+        "initialAttenuation": 290,
+        "instrument": "Clo Attack"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "107-115",
+        "initialAttenuation": 340,
+        "instrument": "Clo Attack"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "97-106",
+        "initialAttenuation": 410,
+        "instrument": "Clo Attack"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "88-96",
+        "initialAttenuation": 470,
+        "instrument": "Clo Attack"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "78-87",
+        "initialAttenuation": 570,
+        "instrument": "Clo Attack"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "69-77",
+        "initialAttenuation": 690,
+        "instrument": "Clo Attack"
+      }
+    }
+  ]
+}

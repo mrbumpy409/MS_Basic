@@ -1,0 +1,63 @@
+{
+  "name": "Room 4",
+  "bank": 128,
+  "preset_number": 12,
+  "library": 29229502,
+  "genre": 29229502,
+  "morphology": 29229502,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 200
+      }
+    },
+    {
+      "generators": {
+        "initialAttenuation": -100,
+        "instrument": "Misc. Percussion"
+      }
+    },
+    {
+      "generators": {
+        "initialAttenuation": -100,
+        "instrument": "Std Snare 2"
+      }
+    },
+    {
+      "generators": {
+        "initialAttenuation": -100,
+        "instrument": "Percussion"
+      }
+    },
+    {
+      "generators": {
+        "initialAttenuation": -100,
+        "instrument": "Std Tom"
+      }
+    },
+    {
+      "generators": {
+        "initialAttenuation": -100,
+        "instrument": "Crashes & Rides"
+      }
+    },
+    {
+      "generators": {
+        "initialAttenuation": -100,
+        "instrument": "Hand Perc"
+      }
+    },
+    {
+      "generators": {
+        "initialAttenuation": -100,
+        "instrument": "Std Kick 5"
+      }
+    },
+    {
+      "generators": {
+        "initialAttenuation": 0,
+        "instrument": "Hi Hats Treb"
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Picked Bass",
+  "bank": 0,
+  "preset_number": 34,
+  "library": 37880386,
+  "genre": 37880386,
+  "morphology": 37880386,
+  "zones": [
+    {
+      "generators": {}
+    },
+    {
+      "generators": {
+        "reverbEffectsSend": 20,
+        "instrument": "Picked Bass"
+      }
+    }
+  ]
+}

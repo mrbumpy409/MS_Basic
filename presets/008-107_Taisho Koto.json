@@ -1,0 +1,33 @@
+{
+  "name": "Taisho Koto",
+  "bank": 8,
+  "preset_number": 107,
+  "library": 15663343,
+  "genre": 15663343,
+  "morphology": 15663343,
+  "zones": [
+    {
+      "generators": {}
+    },
+    {
+      "generators": {
+        "initialFilterQ": 67,
+        "decayModEnv": -900,
+        "decayVolEnv": -746,
+        "releaseVolEnv": -2786,
+        "initialAttenuation": 130,
+        "fineTune": 3,
+        "instrument": "Steel/GS"
+      }
+    },
+    {
+      "generators": {
+        "pan": 65,
+        "releaseVolEnv": -800,
+        "initialAttenuation": 50,
+        "fineTune": -3,
+        "instrument": "Koto"
+      }
+    }
+  ]
+}

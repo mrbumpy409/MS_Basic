@@ -1,0 +1,20 @@
+{
+  "name": "Woodblock",
+  "bank": 0,
+  "preset_number": 115,
+  "library": 43778716,
+  "genre": 43778716,
+  "morphology": 43778716,
+  "zones": [
+    {
+      "generators": {}
+    },
+    {
+      "generators": {
+        "reverbEffectsSend": 100,
+        "initialAttenuation": 100,
+        "instrument": "Woodblock"
+      }
+    }
+  ]
+}

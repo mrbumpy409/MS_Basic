@@ -1,0 +1,92 @@
+{
+  "name": "Celesta",
+  "zones": [
+    {
+      "generators": {
+        "holdVolEnv": -3986,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": 2169,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "60-65",
+        "decayVolEnv": 2951,
+        "sample": "Celesta C4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "72-77",
+        "decayVolEnv": 2642,
+        "sample": "Celesta C5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "84-89",
+        "decayVolEnv": 2169,
+        "sample": "Celesta C6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "96-108",
+        "decayVolEnv": 1586,
+        "sample": "Celesta C7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "0-59",
+        "decayVolEnv": 3102,
+        "sample": "Celesta F#3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "66-71",
+        "decayVolEnv": 2786,
+        "sample": "Celesta F#4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "78-83",
+        "decayVolEnv": 2400,
+        "sample": "Celesta F#5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "90-95",
+        "decayVolEnv": 1902,
+        "sample": "Celesta F#6"
+      }
+    }
+  ]
+}

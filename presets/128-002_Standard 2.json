@@ -1,0 +1,65 @@
+{
+  "name": "Standard 2",
+  "bank": 128,
+  "preset_number": 2,
+  "library": 35127832,
+  "genre": 35127832,
+  "morphology": 35127832,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 100
+      }
+    },
+    {
+      "generators": {
+        "initialAttenuation": -200,
+        "instrument": "Misc. Percussion"
+      }
+    },
+    {
+      "generators": {
+        "initialAttenuation": -200,
+        "instrument": "Std Snare 2"
+      }
+    },
+    {
+      "generators": {
+        "initialAttenuation": -200,
+        "instrument": "Percussion"
+      }
+    },
+    {
+      "generators": {
+        "reverbEffectsSend": 50,
+        "initialAttenuation": -200,
+        "instrument": "Std Tom"
+      }
+    },
+    {
+      "generators": {
+        "initialAttenuation": -200,
+        "instrument": "Crashes & Rides"
+      }
+    },
+    {
+      "generators": {
+        "initialAttenuation": -200,
+        "instrument": "Hand Perc"
+      }
+    },
+    {
+      "generators": {
+        "reverbEffectsSend": 20,
+        "initialAttenuation": -150,
+        "instrument": "Std Kick 3"
+      }
+    },
+    {
+      "generators": {
+        "initialAttenuation": -70,
+        "instrument": "Hi Hats Treb"
+      }
+    }
+  ]
+}

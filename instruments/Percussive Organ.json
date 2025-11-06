@@ -1,0 +1,154 @@
+{
+  "name": "Percussive Organ",
+  "zones": [
+    {
+      "generators": {
+        "releaseVolEnv": -2084,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "44-45",
+        "sample": "B3 A3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "46-48",
+        "sample": "B3 C4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "49-49",
+        "sample": "B3 C#4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "50-50",
+        "sample": "B3 D4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "51-52",
+        "sample": "B3 E4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "53-54",
+        "sample": "B3 F#4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "55-56",
+        "sample": "B3 G#4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "57-59",
+        "sample": "B3 B4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "60-62",
+        "sample": "B3 D5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "63-65",
+        "sample": "B3 F5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "66-69",
+        "sample": "B3 G#5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "70-72",
+        "sample": "B3 C6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "73-76",
+        "sample": "B3 D#6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "77-80",
+        "sample": "B3 G#6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "81-84",
+        "sample": "B3 C7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "85-87",
+        "sample": "B3 D#7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "88-89",
+        "sample": "B3 F7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "90-108",
+        "sample": "B3 G7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "40-43",
+        "sample": "B3 G3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "0-39",
+        "sample": "B3 D#3"
+      }
+    }
+  ]
+}

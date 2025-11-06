@@ -1,0 +1,72 @@
+{
+  "name": "Ocarina",
+  "zones": [
+    {
+      "generators": {
+        "releaseVolEnv": -2084,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 34,
+          "amount": 10758,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 3,
+          "dest_oper": 8,
+          "amount": 500,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-52",
+        "sample": "OcarE1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "53-67",
+        "sample": "OcarD2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "68-92",
+        "sample": "OcarE3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "93-108",
+        "sample": "OcarA4"
+      }
+    }
+  ]
+}

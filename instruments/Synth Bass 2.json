@@ -1,0 +1,90 @@
+{
+  "name": "Synth Bass 2",
+  "zones": [
+    {
+      "generators": {
+        "freqModLFO": -721,
+        "freqVibLFO": -721,
+        "decayModEnv": 1902,
+        "sustainModEnv": 1000,
+        "releaseModEnv": -2084,
+        "holdVolEnv": -2621,
+        "decayVolEnv": 1902,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": -2786,
+        "keynumToVolEnvHold": 84,
+        "keynumToVolEnvDecay": 84,
+        "fineTune": 18,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-31",
+        "sample": "Synth Bass 2-F1"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "32-37",
+        "sample": "Synth Bass 2-B1"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "38-74",
+        "sample": "Synth Bass 2-F2"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    }
+  ]
+}

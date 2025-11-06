@@ -1,0 +1,124 @@
+{
+  "name": "Sax-Soprano",
+  "zones": [
+    {
+      "generators": {
+        "initialFilterFc": 12308,
+        "modEnvToFilterFc": -2298,
+        "delayModEnv": 2723,
+        "attackModEnv": 3208,
+        "decayVolEnv": 2400,
+        "sustainVolEnv": 20,
+        "releaseVolEnv": -2084,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-57",
+        "sample": "Sax-Soprano A4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "58-59",
+        "sample": "Sax-Soprano A#4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "60-61",
+        "sample": "Sax-Soprano C5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "62-63",
+        "sample": "Sax-Soprano D#5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "64-65",
+        "sample": "Sax-Soprano E5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "66-67",
+        "sample": "Sax-Soprano F#5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "68-69",
+        "sample": "Sax-Soprano A5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "70-71",
+        "sample": "Sax-Soprano A#5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "72-73",
+        "sample": "Sax-Soprano C6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "74-76",
+        "sample": "Sax-Soprano D#6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "77-78",
+        "sample": "Sax-Soprano F#6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "79-80",
+        "sample": "Sax-Soprano G6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "81-83",
+        "sample": "Sax-Soprano A#6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "84-127",
+        "sample": "Sax-Soprano C#7"
+      }
+    }
+  ]
+}

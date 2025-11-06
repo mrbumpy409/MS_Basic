@@ -1,0 +1,39 @@
+{
+  "name": "Sine Wave",
+  "bank": 8,
+  "preset_number": 80,
+  "library": 3997757,
+  "genre": 3997757,
+  "morphology": 3997757,
+  "zones": [
+    {
+      "generators": {},
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "chorusEffectsSend": 35,
+        "delayModEnv": -7973,
+        "attackModEnv": -7973,
+        "holdModEnv": -7973,
+        "decayModEnv": -7973,
+        "releaseModEnv": -7973,
+        "delayVolEnv": -7973,
+        "attackVolEnv": -7973,
+        "holdVolEnv": -7973,
+        "decayVolEnv": -7973,
+        "releaseVolEnv": -2084,
+        "initialAttenuation": 170,
+        "instrument": "Sine Wave"
+      }
+    }
+  ]
+}

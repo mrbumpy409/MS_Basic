@@ -1,0 +1,19 @@
+{
+  "name": "Helicopter",
+  "bank": 0,
+  "preset_number": 125,
+  "library": 14549214,
+  "genre": 14549214,
+  "morphology": 14549214,
+  "zones": [
+    {
+      "generators": {}
+    },
+    {
+      "generators": {
+        "initialAttenuation": 50,
+        "instrument": "Helicopter"
+      }
+    }
+  ]
+}

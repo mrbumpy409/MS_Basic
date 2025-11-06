@@ -1,0 +1,64 @@
+{
+  "name": "Koto",
+  "zones": [
+    {
+      "generators": {
+        "chorusEffectsSend": 70,
+        "freqModLFO": -718,
+        "freqVibLFO": -718,
+        "decayModEnv": 0,
+        "releaseModEnv": 0,
+        "holdVolEnv": -2149,
+        "sustainVolEnv": 1000,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-60",
+        "decayVolEnv": 2887,
+        "releaseVolEnv": 1720,
+        "sample": "Koto C5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-66",
+        "decayVolEnv": 3037,
+        "releaseVolEnv": 1516,
+        "sample": "Koto F#5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "67-127",
+        "decayVolEnv": 3102,
+        "releaseVolEnv": 919,
+        "sample": "Koto F#6"
+      }
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "name": "Std Snare 1",
+  "zones": [
+    {
+      "generators": {
+        "releaseModEnv": 7973,
+        "sustainVolEnv": 1000
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "38-38",
+        "velRange": "0-80",
+        "initialFilterFc": 11690,
+        "attackVolEnv": -8590,
+        "decayVolEnv": 1902,
+        "releaseVolEnv": 1902,
+        "overridingRootKey": 38,
+        "sample": "Std Snr 1"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "38-38",
+        "velRange": "81-88",
+        "initialFilterFc": 11810,
+        "attackVolEnv": -8857,
+        "decayVolEnv": 2786,
+        "releaseVolEnv": 2786,
+        "overridingRootKey": 38,
+        "sample": "Std Snr 1"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "38-38",
+        "velRange": "89-96",
+        "initialFilterFc": 11921,
+        "attackVolEnv": -9173,
+        "decayVolEnv": 3369,
+        "releaseVolEnv": 3369,
+        "overridingRootKey": 38,
+        "sample": "Std Snr 1"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "38-38",
+        "velRange": "97-104",
+        "initialFilterFc": 12026,
+        "attackVolEnv": -9559,
+        "decayVolEnv": 3804,
+        "releaseVolEnv": 3804,
+        "overridingRootKey": 38,
+        "sample": "Std Snr 1"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "38-38",
+        "velRange": "105-112",
+        "initialFilterFc": 12125,
+        "attackVolEnv": -10057,
+        "decayVolEnv": 4151,
+        "releaseVolEnv": 4151,
+        "overridingRootKey": 38,
+        "sample": "Std Snr 1"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "38-38",
+        "velRange": "113-120",
+        "initialFilterFc": 12219,
+        "attackVolEnv": -10759,
+        "decayVolEnv": 4441,
+        "releaseVolEnv": 4441,
+        "overridingRootKey": 38,
+        "sample": "Std Snr 1"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "38-38",
+        "velRange": "121-127",
+        "initialFilterFc": 12308,
+        "decayVolEnv": 4688,
+        "releaseVolEnv": 4688,
+        "overridingRootKey": 38,
+        "sample": "Std Snr 1"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "40-40",
+        "velRange": "0-80",
+        "initialFilterFc": 11690,
+        "attackVolEnv": -8590,
+        "decayVolEnv": 1902,
+        "releaseVolEnv": 1902,
+        "overridingRootKey": 40,
+        "sample": "Std Snr 2"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "40-40",
+        "velRange": "81-88",
+        "initialFilterFc": 11810,
+        "attackVolEnv": -8857,
+        "decayVolEnv": 2786,
+        "releaseVolEnv": 2786,
+        "overridingRootKey": 40,
+        "sample": "Std Snr 2"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "40-40",
+        "velRange": "89-96",
+        "initialFilterFc": 11921,
+        "attackVolEnv": -9173,
+        "decayVolEnv": 3369,
+        "releaseVolEnv": 3369,
+        "overridingRootKey": 40,
+        "sample": "Std Snr 2"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "40-40",
+        "velRange": "97-104",
+        "initialFilterFc": 12026,
+        "attackVolEnv": -9559,
+        "decayVolEnv": 3804,
+        "releaseVolEnv": 3804,
+        "overridingRootKey": 40,
+        "sample": "Std Snr 2"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "40-40",
+        "velRange": "105-112",
+        "initialFilterFc": 12125,
+        "attackVolEnv": -10057,
+        "decayVolEnv": 4151,
+        "releaseVolEnv": 4151,
+        "overridingRootKey": 40,
+        "sample": "Std Snr 2"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "40-40",
+        "velRange": "113-120",
+        "initialFilterFc": 12219,
+        "attackVolEnv": -10759,
+        "decayVolEnv": 4441,
+        "releaseVolEnv": 4441,
+        "overridingRootKey": 40,
+        "sample": "Std Snr 2"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "40-40",
+        "velRange": "121-127",
+        "initialFilterFc": 12308,
+        "decayVolEnv": 4688,
+        "releaseVolEnv": 4688,
+        "overridingRootKey": 40,
+        "sample": "Std Snr 2"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "name": "Temple Blocks",
+  "zones": [
+    {
+      "generators": {
+        "releaseVolEnv": 2786,
+        "initialAttenuation": 50
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 900,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "58-58",
+        "velRange": "101-127",
+        "initialAttenuation": 0,
+        "sample": "Temple Block 1-f"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "58-58",
+        "velRange": "67-100",
+        "sample": "Temple Block 1-mf"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "58-58",
+        "velRange": "36-66",
+        "sample": "Temple Block 1-mp"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "58-58",
+        "velRange": "0-35",
+        "sample": "Temple Block 1-p"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "59-59",
+        "velRange": "101-127",
+        "initialAttenuation": 0,
+        "sample": "Temple Block 2-f"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "59-59",
+        "velRange": "67-100",
+        "sample": "Temple Block 2-mf"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "59-59",
+        "velRange": "36-66",
+        "sample": "Temple Block 2-mp"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "59-59",
+        "velRange": "0-35",
+        "sample": "Temple Block 2-p"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "60-60",
+        "velRange": "101-127",
+        "initialAttenuation": 0,
+        "sample": "Temple Block 3-f"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "60-60",
+        "velRange": "67-100",
+        "sample": "Temple Block 3-mf"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "60-60",
+        "velRange": "36-66",
+        "sample": "Temple Block 3-mp"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "60-60",
+        "velRange": "0-35",
+        "sample": "Temple Block 3-p"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-61",
+        "velRange": "101-127",
+        "initialAttenuation": 0,
+        "sample": "Temple Block 4-f"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-61",
+        "velRange": "67-100",
+        "sample": "Temple Block 4-mf"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-61",
+        "velRange": "36-66",
+        "sample": "Temple Block 4-mp"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-61",
+        "velRange": "0-35",
+        "sample": "Temple Block 4-p"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "62-62",
+        "velRange": "101-127",
+        "initialAttenuation": 0,
+        "sample": "Temple Block 5-f"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "62-62",
+        "velRange": "67-100",
+        "sample": "Temple Block 5-mf"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "62-62",
+        "velRange": "36-66",
+        "sample": "Temple Block 5-mp"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "62-62",
+        "velRange": "0-35",
+        "sample": "Temple Block 5-p"
+      }
+    }
+  ]
+}

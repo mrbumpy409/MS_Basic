@@ -1,0 +1,72 @@
+{
+  "name": "Synth Bass 2",
+  "bank": 0,
+  "preset_number": 39,
+  "library": 10944679,
+  "genre": 10944679,
+  "morphology": 10944679,
+  "zones": [
+    {
+      "generators": {
+        "chorusEffectsSend": 50,
+        "reverbEffectsSend": 30,
+        "initialAttenuation": 50
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "0-74",
+        "releaseVolEnv": 1902,
+        "instrument": "Synth Bass 2"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -8000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "75-127",
+        "initialFilterFc": 969,
+        "initialFilterQ": 48,
+        "pan": 150,
+        "delayModEnv": -7973,
+        "attackModEnv": -7973,
+        "holdModEnv": -7973,
+        "decayModEnv": -3284,
+        "sustainModEnv": 830,
+        "releaseModEnv": -2786,
+        "delayVolEnv": -7973,
+        "attackVolEnv": -7973,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 619,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": -1200,
+        "initialAttenuation": 250,
+        "fineTune": 3,
+        "instrument": "0 Saw Incline"
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 2,
+          "dest_oper": 11,
+          "amount": 5388,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Ice Rain_1",
+  "zones": [
+    {
+      "generators": {
+        "modEnvToPitch": 600,
+        "initialFilterFc": 11690,
+        "decayModEnv": 2400,
+        "sustainModEnv": 1000,
+        "releaseModEnv": 5237,
+        "decayVolEnv": 3369,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": 0,
+        "coarseTune": -2,
+        "scaleTuning": 25
+      },
+      "modulators": [
+        {
+          "src_oper": 2,
+          "dest_oper": 7,
+          "amount": 600,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "startloopAddrsOffset": -2,
+        "endloopAddrsOffset": -23765,
+        "sampleModes": 1,
+        "sample": "Xylophone C8"
+      }
+    }
+  ]
+}

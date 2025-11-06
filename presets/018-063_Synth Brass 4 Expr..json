@@ -1,0 +1,94 @@
+{
+  "name": "Synth Brass 4 Expr.",
+  "bank": 18,
+  "preset_number": 63,
+  "library": 67437573,
+  "genre": 67437573,
+  "morphology": 67437573,
+  "zones": [
+    {
+      "generators": {
+        "initialFilterFc": 2604,
+        "initialFilterQ": 70,
+        "chorusEffectsSend": 150,
+        "reverbEffectsSend": 50,
+        "delayModLFO": -7973,
+        "delayVibLFO": -7973,
+        "freqVibLFO": -182,
+        "delayModEnv": -7973,
+        "attackModEnv": 2400,
+        "holdModEnv": -7973,
+        "decayModEnv": 3102,
+        "sustainModEnv": 1000,
+        "releaseModEnv": -1200,
+        "delayVolEnv": -7973,
+        "attackVolEnv": 0,
+        "holdVolEnv": 4979,
+        "decayVolEnv": 6710,
+        "sustainVolEnv": 64,
+        "releaseVolEnv": 1200,
+        "initialAttenuation": 330
+      },
+      "modulators": [
+        {
+          "src_oper": 130,
+          "dest_oper": 11,
+          "amount": 7000,
+          "amt_src_oper": 3,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 515,
+          "dest_oper": 8,
+          "amount": 551,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1410,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "pan": -249,
+        "fineTune": -6,
+        "instrument": "0 Saw Decline"
+      },
+      "modulators": [
+        {
+          "src_oper": 130,
+          "dest_oper": 7,
+          "amount": -4,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "instrument": "0 Saw Decline-off1"
+      }
+    },
+    {
+      "generators": {
+        "pan": 250,
+        "fineTune": 6,
+        "instrument": "0 Saw Decline-off2"
+      },
+      "modulators": [
+        {
+          "src_oper": 130,
+          "dest_oper": 7,
+          "amount": 4,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    }
+  ]
+}

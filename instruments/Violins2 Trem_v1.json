@@ -1,0 +1,282 @@
+{
+  "name": "Violins2 Trem_v1",
+  "zones": [
+    {
+      "generators": {
+        "startAddrsOffset": 27232,
+        "startAddrsCoarseOffset": 1,
+        "pan": -500,
+        "attackVolEnv": -5186,
+        "releaseVolEnv": 0,
+        "initialAttenuation": 50,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 34,
+          "amount": 3985,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-55",
+        "pan": 500,
+        "sample": "VlnsTrm_G2_v1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "0-55",
+        "sample": "VlnsTrm_G2_v1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "56-57",
+        "pan": 500,
+        "sample": "VlnsTrm_A2_v1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "56-57",
+        "sample": "VlnsTrm_A2_v1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "58-60",
+        "pan": 500,
+        "sample": "VlnsTrm_B2_v1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "58-60",
+        "sample": "VlnsTrm_B2_v1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-63",
+        "pan": 500,
+        "initialAttenuation": 80,
+        "sample": "VlnsTrm_D3_v1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-63",
+        "initialAttenuation": 80,
+        "sample": "VlnsTrm_D3_v1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "64-67",
+        "pan": 500,
+        "initialAttenuation": 80,
+        "sample": "VlnsTrm_F#3_v1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "64-67",
+        "initialAttenuation": 80,
+        "sample": "VlnsTrm_F#3_v1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "68-70",
+        "startAddrsOffset": 11464,
+        "startAddrsCoarseOffset": 2,
+        "pan": 500,
+        "sample": "VlnsTrm_A3_v1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "68-70",
+        "startAddrsOffset": 11464,
+        "startAddrsCoarseOffset": 2,
+        "sample": "VlnsTrm_A3_v1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "71-73",
+        "pan": 500,
+        "initialAttenuation": 100,
+        "sample": "VlnsTrm_C4_v1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "71-73",
+        "initialAttenuation": 100,
+        "sample": "VlnsTrm_C4_v1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "74-77",
+        "startAddrsOffset": 11464,
+        "startAddrsCoarseOffset": 2,
+        "pan": 500,
+        "sample": "VlnsTrm_E4_v1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "74-77",
+        "startAddrsOffset": 11464,
+        "startAddrsCoarseOffset": 2,
+        "sample": "VlnsTrm_E4_v1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "78-80",
+        "pan": 500,
+        "sample": "VlnsTrm_G4_v1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "78-80",
+        "sample": "VlnsTrm_G4_v1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "81-84",
+        "pan": 500,
+        "sample": "VlnsTrm_B4_v1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "81-84",
+        "sample": "VlnsTrm_B4_v1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "85-88",
+        "pan": 500,
+        "sample": "VlnsTrm_D5_v1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "85-88",
+        "sample": "VlnsTrm_D5_v1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "89-90",
+        "initialFilterFc": 12308,
+        "pan": 500,
+        "fineTune": 4,
+        "sample": "VlnsTrm_D5_v1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "89-90",
+        "initialFilterFc": 12308,
+        "fineTune": 4,
+        "sample": "VlnsTrm_D5_v1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "91-96",
+        "initialFilterFc": 12125,
+        "pan": 500,
+        "fineTune": 8,
+        "sample": "VlnsTrm_D5_v1e",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "91-96",
+        "initialFilterFc": 12125,
+        "fineTune": 8,
+        "sample": "VlnsTrm_D5_v1e",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "97-127",
+        "initialFilterFc": 11810,
+        "pan": 500,
+        "fineTune": 12,
+        "sample": "VlnsTrm_D5_v1f",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "97-127",
+        "initialFilterFc": 11810,
+        "fineTune": 12,
+        "sample": "VlnsTrm_D5_v1f",
+        "sample_channel": "right"
+      }
+    }
+  ]
+}

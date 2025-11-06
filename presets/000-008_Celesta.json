@@ -1,0 +1,79 @@
+{
+  "name": "Celesta",
+  "bank": 0,
+  "preset_number": 8,
+  "library": 48300769,
+  "genre": 48300769,
+  "morphology": 48300769,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 100,
+        "initialAttenuation": 140
+      }
+    },
+    {
+      "generators": {
+        "velRange": "121-127",
+        "releaseVolEnv": 316,
+        "instrument": "Celesta"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "113-120",
+        "releaseVolEnv": 165,
+        "instrument": "Celesta"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "105-112",
+        "releaseVolEnv": 0,
+        "instrument": "Celesta"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "97-104",
+        "releaseVolEnv": -182,
+        "instrument": "Celesta"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "89-96",
+        "releaseVolEnv": -386,
+        "instrument": "Celesta"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "81-88",
+        "releaseVolEnv": -617,
+        "instrument": "Celesta"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "73-80",
+        "releaseVolEnv": -884,
+        "instrument": "Celesta"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "65-72",
+        "releaseVolEnv": -1200,
+        "instrument": "Celesta"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "0-64",
+        "releaseVolEnv": -1586,
+        "instrument": "Celesta"
+      }
+    }
+  ]
+}

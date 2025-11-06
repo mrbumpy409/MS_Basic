@@ -1,0 +1,47 @@
+{
+  "name": "Violins Tremolo",
+  "bank": 20,
+  "preset_number": 44,
+  "library": 79824066,
+  "genre": 79824066,
+  "morphology": 79824066,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 100,
+        "releaseVolEnv": 316
+      }
+    },
+    {
+      "generators": {
+        "initialAttenuation": 130,
+        "instrument": "Violins Trem_v1"
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 470,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "releaseVolEnv": 0,
+        "initialAttenuation": 80,
+        "instrument": "Violins Trem_v2"
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 1050,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Drawbar Organ",
+  "bank": 0,
+  "preset_number": 16,
+  "library": 43516568,
+  "genre": 43516568,
+  "morphology": 43516568,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 100
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "instrument": "DrawbarOrgan"
+      }
+    }
+  ]
+}

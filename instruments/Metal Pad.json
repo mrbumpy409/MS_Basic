@@ -1,0 +1,103 @@
+{
+  "name": "Metal Pad",
+  "zones": [
+    {
+      "generators": {
+        "initialFilterFc": 7437,
+        "delayVibLFO": 0,
+        "decayModEnv": 0,
+        "sustainModEnv": 1000,
+        "releaseModEnv": 0,
+        "attackVolEnv": -8359,
+        "holdVolEnv": -1586,
+        "decayVolEnv": 5186,
+        "sustainVolEnv": 960,
+        "releaseVolEnv": -2084,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-43",
+        "sample": "Steel E3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "44-48",
+        "sample": "Steel A3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "49-53",
+        "sample": "Steel D4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "54-58",
+        "sample": "Steel G4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "59-62",
+        "sample": "Steel B4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "63-67",
+        "sample": "Steel E5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "68-70",
+        "sample": "Steel A5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "71-75",
+        "sample": "Steel B6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "76-83",
+        "sample": "Steel E6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "84-127",
+        "sample": "Extension"
+      }
+    }
+  ]
+}

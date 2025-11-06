@@ -1,0 +1,35 @@
+{
+  "name": "Ocarina Expr.",
+  "bank": 17,
+  "preset_number": 79,
+  "library": 62063539,
+  "genre": 62063539,
+  "morphology": 62063539,
+  "zones": [
+    {
+      "generators": {},
+      "modulators": [
+        {
+          "src_oper": 1410,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 386,
+          "dest_oper": 8,
+          "amount": -4800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "reverbEffectsSend": 100,
+        "instrument": "Ocarina"
+      }
+    }
+  ]
+}

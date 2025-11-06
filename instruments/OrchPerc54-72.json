@@ -1,0 +1,164 @@
+{
+  "name": "OrchPerc54-72",
+  "zones": [
+    {
+      "generators": {
+        "releaseVolEnv": 6773,
+        "scaleTuning": 0
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "54-54",
+        "releaseVolEnv": 1309,
+        "sample": "Tambourine"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "55-55",
+        "releaseVolEnv": 4213,
+        "sample": "Splash"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "56-56",
+        "sample": "Cow Bell"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "57-57",
+        "startAddrsOffset": 0,
+        "endAddrsOffset": 0,
+        "startAddrsCoarseOffset": 0,
+        "endAddrsCoarseOffset": 0,
+        "releaseVolEnv": 5014,
+        "coarseTune": 1,
+        "fineTune": 50,
+        "sample": "Orchcrash"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "58-58",
+        "releaseVolEnv": 5014,
+        "sample": "Vibra Slap"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "59-59",
+        "releaseVolEnv": 5014,
+        "sample": "Orchcrash"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "60-60",
+        "sample": "Bongo Rim"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-61",
+        "sample": "Low Bongo"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "62-62",
+        "sample": "Closed Slap"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "63-63",
+        "sample": "High Conga"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "64-64",
+        "sample": "Low Tumba"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "65-65",
+        "releaseVolEnv": 4213,
+        "sample": "High Timbale"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "66-66",
+        "releaseVolEnv": 4213,
+        "sample": "Low Timbale"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "67-67",
+        "releaseVolEnv": 4213,
+        "sample": "High Agogo"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "68-68",
+        "releaseVolEnv": 4213,
+        "sample": "Low Agogo"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "69-69",
+        "sample": "Cabasa"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "70-70",
+        "sample": "Maracas"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "71-71",
+        "releaseVolEnv": 5014,
+        "sample": "Long Whistle"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "72-72",
+        "sample": "Short Whistle"
+      }
+    }
+  ]
+}

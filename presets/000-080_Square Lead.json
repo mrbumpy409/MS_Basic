@@ -1,0 +1,70 @@
+{
+  "name": "Square Lead",
+  "bank": 0,
+  "preset_number": 80,
+  "library": 10092698,
+  "genre": 10092698,
+  "morphology": 10092698,
+  "zones": [
+    {
+      "generators": {
+        "initialFilterFc": 1902,
+        "initialFilterQ": 80,
+        "modEnvToFilterFc": 1500,
+        "chorusEffectsSend": 140,
+        "freqModLFO": -884,
+        "delayModEnv": -7973,
+        "attackModEnv": -7973,
+        "holdModEnv": -7973,
+        "decayModEnv": 1200,
+        "sustainModEnv": 1000,
+        "releaseModEnv": -2084,
+        "delayVolEnv": -7973,
+        "attackVolEnv": -7973,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 4302,
+        "sustainVolEnv": 50,
+        "releaseVolEnv": -2084,
+        "initialAttenuation": 220
+      },
+      "modulators": [
+        {
+          "src_oper": 2,
+          "dest_oper": 8,
+          "amount": 600,
+          "amt_src_oper": 515,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 2,
+          "dest_oper": 11,
+          "amount": 3000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "modEnvToPitch": 3,
+        "pan": -99,
+        "fineTune": 1,
+        "instrument": "0 Square"
+      }
+    },
+    {
+      "generators": {
+        "pan": 100,
+        "fineTune": -1,
+        "instrument": "0 Square"
+      }
+    }
+  ]
+}

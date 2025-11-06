@@ -1,0 +1,110 @@
+{
+  "name": "Brightness",
+  "bank": 0,
+  "preset_number": 100,
+  "library": 5832793,
+  "genre": 5832793,
+  "morphology": 5832793,
+  "zones": [
+    {
+      "generators": {
+        "chorusEffectsSend": 140,
+        "reverbEffectsSend": 140
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "initialFilterFc": -5186,
+        "modEnvToFilterFc": 4000,
+        "chorusEffectsSend": 300,
+        "reverbEffectsSend": 140,
+        "pan": -200,
+        "freqModLFO": -884,
+        "delayVibLFO": -7973,
+        "freqVibLFO": -617,
+        "delayModEnv": -7973,
+        "attackModEnv": -7973,
+        "holdModEnv": -7973,
+        "decayModEnv": 3600,
+        "sustainModEnv": 1000,
+        "releaseModEnv": 3600,
+        "delayVolEnv": -7973,
+        "attackVolEnv": -4373,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 4688,
+        "sustainVolEnv": 960,
+        "releaseVolEnv": 2400,
+        "initialAttenuation": 130,
+        "instrument": "Brightness_2"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -3600,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-113",
+        "initialFilterFc": 6192,
+        "modEnvToFilterFc": 2400,
+        "chorusEffectsSend": 210,
+        "reverbEffectsSend": 140,
+        "pan": 200,
+        "delayModLFO": -7973,
+        "freqVibLFO": -884,
+        "delayModEnv": -7973,
+        "attackModEnv": -7973,
+        "holdModEnv": -7973,
+        "decayModEnv": -6071,
+        "sustainModEnv": 1000,
+        "releaseModEnv": -6071,
+        "delayVolEnv": -7973,
+        "attackVolEnv": -4373,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 3986,
+        "sustainVolEnv": 960,
+        "releaseVolEnv": 2400,
+        "initialAttenuation": 100,
+        "fineTune": 5,
+        "instrument": "0 Saw Stack-lite"
+      },
+      "modulators": [
+        {
+          "src_oper": 515,
+          "dest_oper": 8,
+          "amount": 1000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 2306,
+          "dest_oper": 8,
+          "amount": -3306,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "releaseVolEnv": 2400,
+        "initialAttenuation": 150,
+        "instrument": "Brightness_1"
+      }
+    }
+  ]
+}

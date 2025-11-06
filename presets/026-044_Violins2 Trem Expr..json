@@ -1,0 +1,47 @@
+{
+  "name": "Violins2 Trem Expr.",
+  "bank": 26,
+  "preset_number": 44,
+  "library": 82773231,
+  "genre": 82773231,
+  "morphology": 82773231,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 100,
+        "releaseVolEnv": 316
+      }
+    },
+    {
+      "generators": {
+        "initialAttenuation": 150,
+        "instrument": "Violins2 Trem_v1"
+      },
+      "modulators": [
+        {
+          "src_oper": 1410,
+          "dest_oper": 48,
+          "amount": 470,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "releaseVolEnv": 0,
+        "initialAttenuation": 100,
+        "instrument": "Violins2 Trem_v2x"
+      },
+      "modulators": [
+        {
+          "src_oper": 1410,
+          "dest_oper": 48,
+          "amount": 1050,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    }
+  ]
+}

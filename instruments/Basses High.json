@@ -1,0 +1,67 @@
+{
+  "name": "Basses High",
+  "zones": [
+    {
+      "generators": {
+        "startAddrsOffset": 9000,
+        "initialFilterFc": 11273,
+        "attackVolEnv": -5186,
+        "releaseVolEnv": 0,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 2,
+          "dest_oper": 34,
+          "amount": 1901,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 0,
+          "amount": -30000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "70-127",
+        "pan": -500,
+        "sample": "Basses_G#2_v1b",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "70-127",
+        "pan": 500,
+        "sample": "Basses_G#2_v1b",
+        "sample_channel": "right"
+      }
+    }
+  ]
+}

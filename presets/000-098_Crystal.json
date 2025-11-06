@@ -1,0 +1,65 @@
+{
+  "name": "Crystal",
+  "bank": 0,
+  "preset_number": 98,
+  "library": 6291552,
+  "genre": 6291552,
+  "morphology": 6291552,
+  "zones": [
+    {
+      "generators": {
+        "chorusEffectsSend": 240,
+        "reverbEffectsSend": 250,
+        "freqVibLFO": -884,
+        "attackVolEnv": -163
+      }
+    },
+    {
+      "generators": {
+        "initialFilterQ": 180,
+        "modEnvToFilterFc": 7200,
+        "reverbEffectsSend": 500,
+        "delayModEnv": -7973,
+        "attackModEnv": -7973,
+        "holdModEnv": -7973,
+        "decayModEnv": -7973,
+        "releaseModEnv": -7973,
+        "delayVolEnv": -7973,
+        "attackVolEnv": -7973,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 7475,
+        "sustainVolEnv": 960,
+        "releaseVolEnv": 5888,
+        "initialAttenuation": 100,
+        "coarseTune": -7,
+        "fineTune": -15,
+        "instrument": "Crystal_2"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -3600,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "chorusEffectsSend": 500,
+        "initialAttenuation": 200,
+        "instrument": "Crystal_1"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -3600,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    }
+  ]
+}

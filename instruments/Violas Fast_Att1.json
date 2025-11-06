@@ -1,0 +1,287 @@
+{
+  "name": "Violas Fast_Att1",
+  "zones": [
+    {
+      "generators": {
+        "pan": -500,
+        "attackVolEnv": -5573,
+        "decayVolEnv": 1200,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": 1200,
+        "initialAttenuation": 50
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 34,
+          "amount": 1200,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-49",
+        "releaseVolEnv": 2400,
+        "sample": "ViolAtk_C2_v1_r1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "0-49",
+        "pan": 500,
+        "releaseVolEnv": 2400,
+        "sample": "ViolAtk_C2_v1_r1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "50-53",
+        "initialAttenuation": 80,
+        "sample": "ViolAtk_E2_v1_r1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "50-53",
+        "pan": 500,
+        "initialAttenuation": 80,
+        "sample": "ViolAtk_E2_v1_r1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "54-56",
+        "startAddrsOffset": 500,
+        "startAddrsCoarseOffset": 0,
+        "sample": "ViolAtk_G2_v1_r1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "54-56",
+        "startAddrsOffset": 500,
+        "startAddrsCoarseOffset": 0,
+        "pan": 500,
+        "sample": "ViolAtk_G2_v1_r1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "57-60",
+        "sample": "ViolAtk_B2_v1_r1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "57-60",
+        "pan": 500,
+        "sample": "ViolAtk_B2_v1_r1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-63",
+        "initialAttenuation": 30,
+        "sample": "ViolAtk_D3_v1_r1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-63",
+        "pan": 500,
+        "initialAttenuation": 30,
+        "sample": "ViolAtk_D3_v1_r1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "64-66",
+        "sample": "ViolAtk_F3_v1_r1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "64-66",
+        "pan": 500,
+        "sample": "ViolAtk_F3_v1_r1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "67-70",
+        "initialAttenuation": 20,
+        "sample": "ViolAtk_A3_v1_r1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "67-70",
+        "pan": 500,
+        "initialAttenuation": 20,
+        "sample": "ViolAtk_A3_v1_r1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "71-73",
+        "initialAttenuation": 80,
+        "sample": "ViolAtk_C4_v1_r1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "71-73",
+        "pan": 500,
+        "initialAttenuation": 80,
+        "sample": "ViolAtk_C4_v1_r1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "74-77",
+        "startAddrsOffset": 400,
+        "startAddrsCoarseOffset": 0,
+        "initialAttenuation": 80,
+        "sample": "ViolAtk_E4_v1_r1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "74-77",
+        "startAddrsOffset": 400,
+        "startAddrsCoarseOffset": 0,
+        "pan": 500,
+        "initialAttenuation": 80,
+        "sample": "ViolAtk_E4_v1_r1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "78-81",
+        "sample": "ViolAtk_G4_v1_r1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "78-81",
+        "pan": 500,
+        "sample": "ViolAtk_G4_v1_r1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "82-84",
+        "initialAttenuation": 70,
+        "sample": "ViolAtk_B4_v1_r2",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "82-84",
+        "pan": 500,
+        "initialAttenuation": 70,
+        "sample": "ViolAtk_B4_v1_r2",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "85-90",
+        "initialAttenuation": 120,
+        "sample": "ViolAtk_D5_v1_r1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "85-90",
+        "pan": 500,
+        "initialAttenuation": 120,
+        "sample": "ViolAtk_D5_v1_r1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "91-96",
+        "initialFilterFc": 12125,
+        "initialAttenuation": 120,
+        "sample": "ViolAtk_D5_v1_r1e",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "91-96",
+        "initialFilterFc": 12125,
+        "pan": 500,
+        "initialAttenuation": 120,
+        "sample": "ViolAtk_D5_v1_r1e",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "97-127",
+        "initialFilterFc": 11810,
+        "initialAttenuation": 120,
+        "sample": "ViolAtk_D5_v1_r1f",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "97-127",
+        "initialFilterFc": 11810,
+        "pan": 500,
+        "initialAttenuation": 120,
+        "sample": "ViolAtk_D5_v1_r1f",
+        "sample_channel": "right"
+      }
+    }
+  ]
+}

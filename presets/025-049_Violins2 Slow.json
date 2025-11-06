@@ -1,0 +1,72 @@
+{
+  "name": "Violins2 Slow",
+  "bank": 25,
+  "preset_number": 49,
+  "library": 82511083,
+  "genre": 82511083,
+  "morphology": 82511083,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 100,
+        "releaseVolEnv": 583,
+        "initialAttenuation": 50
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "0-103",
+        "initialAttenuation": 150,
+        "instrument": "Violins2 Slow_v1"
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 470,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-103",
+        "releaseVolEnv": 165,
+        "instrument": "Violins2 Slow_v2"
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 1050,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "104-127",
+        "initialFilterFc": -182,
+        "instrument": "Violins2 High"
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -500,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    }
+  ]
+}

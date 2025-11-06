@@ -1,0 +1,74 @@
+{
+  "name": "5th Saw Wave Expr.",
+  "bank": 17,
+  "preset_number": 86,
+  "library": 63046594,
+  "genre": 63046594,
+  "morphology": 63046594,
+  "zones": [
+    {
+      "generators": {
+        "initialFilterFc": 3102,
+        "initialFilterQ": 61,
+        "modEnvToFilterFc": 1000,
+        "chorusEffectsSend": 70,
+        "reverbEffectsSend": 50,
+        "delayModLFO": -7973,
+        "delayVibLFO": -7973,
+        "delayModEnv": -7973,
+        "attackModEnv": -7973,
+        "holdModEnv": -7973,
+        "decayModEnv": -1200,
+        "sustainModEnv": 1000,
+        "releaseModEnv": -1200,
+        "delayVolEnv": -7973,
+        "attackVolEnv": -7973,
+        "holdVolEnv": -7973,
+        "decayVolEnv": -1200,
+        "releaseVolEnv": 0,
+        "initialAttenuation": 270
+      },
+      "modulators": [
+        {
+          "src_oper": 130,
+          "dest_oper": 11,
+          "amount": 6500,
+          "amt_src_oper": 3,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1410,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "pan": -50,
+        "attackVolEnv": -4373,
+        "coarseTune": -5,
+        "fineTune": -8,
+        "instrument": "0 Saw Decline"
+      }
+    },
+    {
+      "generators": {
+        "modLfoToPitch": 3,
+        "pan": 50,
+        "freqModLFO": -3986,
+        "coarseTune": -5,
+        "fineTune": 8,
+        "instrument": "0 Saw Decline-off1"
+      }
+    },
+    {
+      "generators": {
+        "initialAttenuation": 70,
+        "instrument": "0 Saw Stack-lt-off1"
+      }
+    }
+  ]
+}

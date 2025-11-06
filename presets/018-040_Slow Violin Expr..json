@@ -1,0 +1,39 @@
+{
+  "name": "Slow Violin Expr.",
+  "bank": 18,
+  "preset_number": 40,
+  "library": 66847740,
+  "genre": 66847740,
+  "morphology": 66847740,
+  "zones": [
+    {
+      "generators": {},
+      "modulators": [
+        {
+          "src_oper": 386,
+          "dest_oper": 8,
+          "amount": -2400,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1410,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "modLfoToFilterFc": 55,
+        "reverbEffectsSend": 100,
+        "freqModLFO": -100,
+        "attackVolEnv": 1317,
+        "initialAttenuation": 90,
+        "instrument": "Slow Violin/GS"
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Brightness_1",
+  "zones": [
+    {
+      "generators": {
+        "startAddrsCoarseOffset": 0,
+        "modEnvToPitch": -200,
+        "initialFilterQ": 250,
+        "modLfoToVolume": 10,
+        "decayModEnv": -6071,
+        "sustainModEnv": 1000,
+        "attackVolEnv": -10057,
+        "decayVolEnv": 4800,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": -884,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-84",
+        "startAddrsOffset": 3000,
+        "sample": "Bottle Chiff-hpf C7_1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "85-96",
+        "startAddrsOffset": 1500,
+        "sample": "Bottle Chiff-hpf C7"
+      }
+    }
+  ]
+}

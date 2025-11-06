@@ -1,0 +1,88 @@
+{
+  "name": "Marimba",
+  "bank": 0,
+  "preset_number": 12,
+  "library": 47645399,
+  "genre": 47645399,
+  "morphology": 47645399,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 100,
+        "initialAttenuation": 126
+      }
+    },
+    {
+      "generators": {
+        "velRange": "121-127",
+        "decayVolEnv": 316,
+        "releaseVolEnv": 316,
+        "instrument": "Marimba"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "113-120",
+        "decayVolEnv": 165,
+        "releaseVolEnv": 165,
+        "instrument": "Marimba"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "105-112",
+        "decayVolEnv": 0,
+        "releaseVolEnv": 0,
+        "instrument": "Marimba"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "97-104",
+        "decayVolEnv": -89,
+        "releaseVolEnv": -89,
+        "instrument": "Marimba"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "89-96",
+        "decayVolEnv": -182,
+        "releaseVolEnv": -182,
+        "instrument": "Marimba"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "81-88",
+        "decayVolEnv": -281,
+        "releaseVolEnv": -281,
+        "instrument": "Marimba"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "73-80",
+        "decayVolEnv": -386,
+        "releaseVolEnv": -386,
+        "instrument": "Marimba"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "65-72",
+        "decayVolEnv": -498,
+        "releaseVolEnv": -498,
+        "instrument": "Marimba"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "0-64",
+        "decayVolEnv": -617,
+        "releaseVolEnv": -617,
+        "instrument": "Marimba"
+      }
+    }
+  ]
+}

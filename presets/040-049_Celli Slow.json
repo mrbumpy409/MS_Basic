@@ -1,0 +1,74 @@
+{
+  "name": "Celli Slow",
+  "bank": 40,
+  "preset_number": 49,
+  "library": 86443303,
+  "genre": 86443303,
+  "morphology": 86443303,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 100,
+        "releaseVolEnv": 702
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "0-95",
+        "initialAttenuation": 180,
+        "instrument": "Celli Slow_v1"
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 570,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-95",
+        "releaseVolEnv": 316,
+        "initialAttenuation": 130,
+        "instrument": "Celli Slow_v2"
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 950,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "96-127",
+        "initialFilterFc": -182,
+        "attackVolEnv": 1200,
+        "initialAttenuation": 110,
+        "instrument": "Celli High"
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 600,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -500,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    }
+  ]
+}

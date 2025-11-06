@@ -1,0 +1,142 @@
+{
+  "name": "Tine EP",
+  "zones": [
+    {
+      "generators": {
+        "initialFilterFc": 13121,
+        "freqModLFO": -15597,
+        "freqVibLFO": -15597,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": -2786,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-27",
+        "holdVolEnv": 2786,
+        "decayVolEnv": 5573,
+        "sample": "Rhodes C2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "28-33",
+        "holdVolEnv": 2716,
+        "decayVolEnv": 5351,
+        "sample": "Rhodes G2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "34-39",
+        "holdVolEnv": 2698,
+        "decayVolEnv": 5312,
+        "sample": "Rhodes C3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "40-45",
+        "holdVolEnv": 2679,
+        "decayVolEnv": 5271,
+        "sample": "Rhodes E3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "46-51",
+        "holdVolEnv": 2661,
+        "decayVolEnv": 5142,
+        "sample": "Rhodes C4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "52-57",
+        "holdVolEnv": 1200,
+        "decayVolEnv": 4688,
+        "sample": "Rhodes G4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "58-63",
+        "holdVolEnv": 702,
+        "decayVolEnv": 4569,
+        "sample": "Rhodes C5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "64-69",
+        "holdVolEnv": -1200,
+        "decayVolEnv": 4467,
+        "sample": "Rhodes G5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "70-75",
+        "holdVolEnv": -1200,
+        "decayVolEnv": 4302,
+        "sample": "Rhodes C6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "76-81",
+        "holdVolEnv": -2090,
+        "decayVolEnv": 4103,
+        "sample": "Rhodes G6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "82-87",
+        "holdVolEnv": -3319,
+        "decayVolEnv": 4021,
+        "sample": "Rhodes C7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "88-93",
+        "holdVolEnv": -3685,
+        "decayVolEnv": 3986,
+        "sample": "Rhodes G7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "94-108",
+        "holdVolEnv": -4373,
+        "decayVolEnv": 3898,
+        "sample": "Rhodes C8"
+      }
+    }
+  ]
+}

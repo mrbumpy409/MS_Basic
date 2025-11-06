@@ -1,0 +1,64 @@
+{
+  "name": "Violas Pizzicato",
+  "bank": 30,
+  "preset_number": 45,
+  "library": 83821823,
+  "genre": 83821823,
+  "morphology": 83821823,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 100
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "0-84",
+        "initialAttenuation": 400,
+        "instrument": "Violas Pizz_v1"
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 470,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-84",
+        "initialAttenuation": 200,
+        "instrument": "Violas Pizz_v2"
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 1050,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "85-127",
+        "initialAttenuation": 210,
+        "fineTune": 10,
+        "instrument": "Violas Pizz_v1"
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 760,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    }
+  ]
+}

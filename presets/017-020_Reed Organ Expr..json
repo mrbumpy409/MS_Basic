@@ -1,0 +1,36 @@
+{
+  "name": "Reed Organ Expr.",
+  "bank": 17,
+  "preset_number": 20,
+  "library": 56623968,
+  "genre": 56623968,
+  "morphology": 56623968,
+  "zones": [
+    {
+      "generators": {},
+      "modulators": [
+        {
+          "src_oper": 386,
+          "dest_oper": 8,
+          "amount": -3600,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1410,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "reverbEffectsSend": 100,
+        "initialAttenuation": 110,
+        "instrument": "Reed Organ"
+      }
+    }
+  ]
+}

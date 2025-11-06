@@ -1,0 +1,122 @@
+{
+  "name": "Electric Piano",
+  "zones": [
+    {
+      "generators": {
+        "chorusEffectsSend": 50,
+        "holdVolEnv": 631,
+        "decayVolEnv": 5641,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": 386,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-31",
+        "decayVolEnv": 5641,
+        "sample": "Electric Piano G2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "32-36",
+        "decayVolEnv": 5502,
+        "sample": "Electric Piano C3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "37-43",
+        "decayVolEnv": 5351,
+        "sample": "Electric Piano G3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "44-48",
+        "decayVolEnv": 5186,
+        "sample": "Electric Piano C4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "49-55",
+        "decayVolEnv": 5004,
+        "sample": "Electric Piano G4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "56-60",
+        "decayVolEnv": 4800,
+        "sample": "Electric Piano C5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-67",
+        "decayVolEnv": 4569,
+        "sample": "Electric Piano G5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "68-72",
+        "decayVolEnv": 4302,
+        "sample": "Electric Piano C6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "73-79",
+        "decayVolEnv": 3986,
+        "sample": "Electric Piano G6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "80-84",
+        "decayVolEnv": 3600,
+        "sample": "Electric Piano C7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "85-91",
+        "decayVolEnv": 3102,
+        "sample": "Electric Piano G7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "92-108",
+        "decayVolEnv": 2400,
+        "sample": "Electric Piano C8"
+      }
+    }
+  ]
+}

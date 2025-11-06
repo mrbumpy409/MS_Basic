@@ -1,0 +1,76 @@
+{
+  "name": "Bass & Lead",
+  "bank": 0,
+  "preset_number": 87,
+  "library": 9568402,
+  "genre": 9568402,
+  "morphology": 9568402,
+  "zones": [
+    {
+      "generators": {
+        "initialFilterFc": 1200,
+        "initialFilterQ": 70,
+        "modEnvToFilterFc": 200,
+        "chorusEffectsSend": 200,
+        "delayModLFO": -7973,
+        "delayVibLFO": -7973,
+        "delayModEnv": -7973,
+        "attackModEnv": -7973,
+        "holdModEnv": -7973,
+        "decayModEnv": 0,
+        "sustainModEnv": 800,
+        "releaseModEnv": -1200,
+        "delayVolEnv": -7973,
+        "attackVolEnv": -7973,
+        "holdVolEnv": -7973,
+        "decayVolEnv": -1200,
+        "releaseVolEnv": -3284,
+        "initialAttenuation": 200
+      },
+      "modulators": [
+        {
+          "src_oper": 3,
+          "dest_oper": 8,
+          "amount": 2000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 2,
+          "dest_oper": 11,
+          "amount": 5000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "initialFilterQ": 116,
+        "fineTune": -3,
+        "instrument": "0 Pulse Width 38%"
+      }
+    },
+    {
+      "generators": {
+        "initialFilterQ": 102,
+        "freqModLFO": -3986,
+        "fineTune": 3,
+        "instrument": "0 Pulse Width 75%"
+      }
+    },
+    {
+      "generators": {
+        "initialFilterQ": 157,
+        "instrument": "0 Saw Incline"
+      }
+    }
+  ]
+}

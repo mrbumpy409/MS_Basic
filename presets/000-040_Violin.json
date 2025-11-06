@@ -1,0 +1,45 @@
+{
+  "name": "Violin",
+  "bank": 0,
+  "preset_number": 40,
+  "library": 18874656,
+  "genre": 18874656,
+  "morphology": 18874656,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 150,
+        "releaseVolEnv": 702,
+        "initialAttenuation": 90
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -2400,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 34,
+          "amount": 10758,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "instrument": "Violin"
+      }
+    }
+  ]
+}

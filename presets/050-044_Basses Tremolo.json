@@ -1,0 +1,47 @@
+{
+  "name": "Basses Tremolo",
+  "bank": 50,
+  "preset_number": 44,
+  "library": 87622969,
+  "genre": 87622969,
+  "morphology": 87622969,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 100,
+        "releaseVolEnv": 316
+      }
+    },
+    {
+      "generators": {
+        "initialAttenuation": 230,
+        "instrument": "Basses Trem_v1"
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 470,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "releaseVolEnv": 0,
+        "initialAttenuation": 180,
+        "instrument": "Basses Trem_v2"
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 1050,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    }
+  ]
+}

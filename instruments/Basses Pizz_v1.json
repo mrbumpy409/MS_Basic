@@ -1,0 +1,250 @@
+{
+  "name": "Basses Pizz_v1",
+  "zones": [
+    {
+      "generators": {
+        "initialFilterFc": 9521,
+        "pan": -500,
+        "decayModEnv": -958,
+        "sustainModEnv": 1000,
+        "releaseModEnv": -958,
+        "releaseVolEnv": 2786,
+        "initialAttenuation": 50
+      },
+      "modulators": [
+        {
+          "src_oper": 2050,
+          "dest_oper": 11,
+          "amount": 7846,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 515,
+          "dest_oper": 8,
+          "amount": 1929,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-28",
+        "initialAttenuation": 95,
+        "sample": "BassPzz_E0_v1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "0-28",
+        "pan": 500,
+        "initialAttenuation": 95,
+        "sample": "BassPzz_E0_v1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "29-32",
+        "initialAttenuation": 45,
+        "sample": "BassPzz_F#0_v1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "29-32",
+        "pan": 500,
+        "initialAttenuation": 45,
+        "sample": "BassPzz_F#0_v1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "33-36",
+        "initialAttenuation": 10,
+        "sample": "BassPzz_A#0_v1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "33-36",
+        "pan": 500,
+        "initialAttenuation": 10,
+        "sample": "BassPzz_A#0_v1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "37-40",
+        "initialAttenuation": 20,
+        "sample": "BassPzz_D1_v1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "37-40",
+        "pan": 500,
+        "initialAttenuation": 20,
+        "sample": "BassPzz_D1_v1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "41-44",
+        "initialAttenuation": 35,
+        "sample": "BassPzz_F#1_v1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "41-44",
+        "pan": 500,
+        "initialAttenuation": 35,
+        "sample": "BassPzz_F#1_v1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "45-46",
+        "initialAttenuation": 30,
+        "sample": "BassPzz_A1_v1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "45-46",
+        "pan": 500,
+        "initialAttenuation": 30,
+        "sample": "BassPzz_A1_v1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "47-50",
+        "initialAttenuation": 70,
+        "sample": "BassPzz_C#2_v1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "47-50",
+        "pan": 500,
+        "initialAttenuation": 70,
+        "sample": "BassPzz_C#2_v1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "51-53",
+        "initialAttenuation": 90,
+        "sample": "BassPzz_E2_v1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "51-53",
+        "pan": 500,
+        "initialAttenuation": 90,
+        "sample": "BassPzz_E2_v1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "54-60",
+        "initialAttenuation": 125,
+        "sample": "BassPzz_G#2_v1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "54-60",
+        "pan": 500,
+        "initialAttenuation": 125,
+        "sample": "BassPzz_G#2_v1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-69",
+        "decayVolEnv": 2786,
+        "sustainVolEnv": 1000,
+        "initialAttenuation": 170,
+        "sample": "BassPzz_G#2_v1a",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-69",
+        "pan": 500,
+        "decayVolEnv": 2786,
+        "sustainVolEnv": 1000,
+        "initialAttenuation": 170,
+        "sample": "BassPzz_G#2_v1a",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "70-127",
+        "decayVolEnv": 2400,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": 2400,
+        "initialAttenuation": 250,
+        "sample": "BassPzz_G#2_v1b",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "70-127",
+        "pan": 500,
+        "decayVolEnv": 2400,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": 2400,
+        "initialAttenuation": 250,
+        "sample": "BassPzz_G#2_v1b",
+        "sample_channel": "right"
+      }
+    }
+  ]
+}

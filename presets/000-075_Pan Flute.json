@@ -1,0 +1,37 @@
+{
+  "name": "Pan Flute",
+  "bank": 0,
+  "preset_number": 75,
+  "library": 55706450,
+  "genre": 55706450,
+  "morphology": 55706450,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 150,
+        "initialAttenuation": 90
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -2400,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "instrument": "Pan Flute"
+      }
+    }
+  ]
+}

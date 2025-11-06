@@ -1,0 +1,75 @@
+{
+  "name": "Sweep Pad Expr.",
+  "bank": 17,
+  "preset_number": 95,
+  "library": 64816093,
+  "genre": 64816093,
+  "morphology": 64816093,
+  "zones": [
+    {
+      "generators": {
+        "chorusEffectsSend": 70,
+        "reverbEffectsSend": 70,
+        "delayModEnv": -7973,
+        "attackModEnv": -7973,
+        "holdModEnv": -7973,
+        "decayModEnv": -7973,
+        "releaseModEnv": -7973,
+        "delayVolEnv": -7973,
+        "attackVolEnv": -7973,
+        "holdVolEnv": -7973,
+        "decayVolEnv": -7973,
+        "releaseVolEnv": -7973,
+        "initialAttenuation": 180
+      },
+      "modulators": [
+        {
+          "src_oper": 1410,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 386,
+          "dest_oper": 8,
+          "amount": -3600,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-108",
+        "initialFilterFc": -746,
+        "modLfoToFilterFc": -1000,
+        "modEnvToFilterFc": 7000,
+        "pan": 300,
+        "delayModLFO": 2119,
+        "freqModLFO": -6773,
+        "freqVibLFO": -884,
+        "delayModEnv": 0,
+        "attackModEnv": 4688,
+        "releaseModEnv": 2797,
+        "attackVolEnv": 0,
+        "releaseVolEnv": 3356,
+        "instrument": "0 Saw Stack-lite"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "0-108",
+        "modEnvToFilterFc": 5250,
+        "pan": -300,
+        "freqModLFO": -884,
+        "freqVibLFO": -884,
+        "attackModEnv": 5186,
+        "releaseModEnv": 2698,
+        "attackVolEnv": 3986,
+        "releaseVolEnv": 3441,
+        "instrument": "0 Saw Stack-lt-off1"
+      }
+    }
+  ]
+}

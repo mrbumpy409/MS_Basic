@@ -1,0 +1,23 @@
+{
+  "name": "Marching Tenor",
+  "bank": 128,
+  "preset_number": 96,
+  "library": 53871414,
+  "genre": 53871414,
+  "morphology": 53871414,
+  "zones": [
+    {
+      "generators": {}
+    },
+    {
+      "generators": {
+        "instrument": "MDL Tenor Drums"
+      }
+    },
+    {
+      "generators": {
+        "instrument": "MDL Tenor Xtra"
+      }
+    }
+  ]
+}

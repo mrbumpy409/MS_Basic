@@ -1,0 +1,70 @@
+{
+  "name": "Accordion",
+  "zones": [
+    {
+      "generators": {
+        "releaseVolEnv": -1586,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-60",
+        "sample": "Accordion C5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-66",
+        "sample": "Accordion F#5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "67-72",
+        "sample": "Accordion C6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "73-78",
+        "sample": "Accordion F#6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "79-84",
+        "sample": "Accordion C7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "85-108",
+        "sample": "Accordion F#7"
+      }
+    }
+  ]
+}

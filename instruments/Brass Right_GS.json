@@ -1,0 +1,101 @@
+{
+  "name": "Brass Right/GS",
+  "zones": [
+    {
+      "generators": {
+        "initialFilterFc": 11690,
+        "pan": 500,
+        "releaseVolEnv": -1200,
+        "initialAttenuation": 30,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-41",
+        "sample": "Brass Section F3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "42-48",
+        "sample": "Brass Section C4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "49-54",
+        "sample": "Brass Section F#4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "55-58",
+        "sample": "Brass Section A#4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "59-60",
+        "sample": "Brass Section C5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-65",
+        "sample": "Brass Section F5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "66-69",
+        "initialAttenuation": 50,
+        "sample": "Brass Section A5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "70-72",
+        "initialAttenuation": 50,
+        "sample": "Brass Section C6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "73-77",
+        "initialAttenuation": 50,
+        "sample": "Brass Section F6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "78-96",
+        "initialAttenuation": 50,
+        "sample": "Brass Section C7"
+      }
+    }
+  ]
+}

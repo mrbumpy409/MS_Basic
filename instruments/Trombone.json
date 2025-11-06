@@ -1,0 +1,133 @@
+{
+  "name": "Trombone",
+  "zones": [
+    {
+      "generators": {
+        "initialFilterFc": 9239,
+        "modEnvToFilterFc": 3600,
+        "attackModEnv": -5186,
+        "decayModEnv": 3600,
+        "sustainModEnv": 350,
+        "releaseModEnv": -2084,
+        "attackVolEnv": -7973,
+        "releaseVolEnv": -1586,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 26,
+          "amount": 5000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 34,
+          "amount": 4000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-43",
+        "sample": "Trombone G3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "44-46",
+        "sample": "Trombone Bb3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "47-48",
+        "sample": "Trombone C4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "49-51",
+        "sample": "Trombone Eb4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "52-54",
+        "sample": "Trombone F4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "55-58",
+        "sample": "Trombone Bb4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "59-60",
+        "sample": "Trombone C5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-63",
+        "sample": "Trombone Eb5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "64-65",
+        "sample": "Trombone F5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "66-67",
+        "sample": "Trombone G5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "68-70",
+        "sample": "Trombone Bb5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "71-72",
+        "sample": "Trombone C6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "73-96",
+        "sample": "Trombone Eb6"
+      }
+    }
+  ]
+}

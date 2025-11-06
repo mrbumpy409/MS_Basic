@@ -1,0 +1,113 @@
+{
+  "name": "Shamisen",
+  "zones": [
+    {
+      "generators": {
+        "chorusEffectsSend": 100,
+        "freqModLFO": -725,
+        "freqVibLFO": -725,
+        "attackModEnv": -8857,
+        "releaseModEnv": 165,
+        "holdVolEnv": -3284,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": 386,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-53",
+        "decayModEnv": 2951,
+        "sustainModEnv": 900,
+        "decayVolEnv": 3600,
+        "sample": "Shamisen C4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "54-59",
+        "decayModEnv": 2854,
+        "sustainModEnv": 800,
+        "decayVolEnv": 3465,
+        "sample": "Shamisen F#4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "60-65",
+        "decayModEnv": 2698,
+        "sustainModEnv": 700,
+        "decayVolEnv": 3319,
+        "sample": "Shamisen C5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "66-71",
+        "decayModEnv": 2443,
+        "sustainModEnv": 600,
+        "decayVolEnv": 3131,
+        "sample": "Shamisen F#5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "72-77",
+        "decayModEnv": 2169,
+        "sustainModEnv": 500,
+        "decayVolEnv": 2920,
+        "sample": "Shamisen C6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "78-83",
+        "decayModEnv": 1783,
+        "sustainModEnv": 400,
+        "decayVolEnv": 2679,
+        "sample": "Shamisen F#6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "84-89",
+        "decayModEnv": 1284,
+        "sustainModEnv": 300,
+        "decayVolEnv": 2400,
+        "sample": "Shamisen C7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "90-127",
+        "decayModEnv": 702,
+        "sustainModEnv": 200,
+        "decayVolEnv": 2119,
+        "sample": "Shamisen F#7"
+      }
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "name": "0 Saw Stack-lt-off1",
+  "zones": [
+    {
+      "generators": {
+        "startAddrsOffset": 12000,
+        "startAddrsCoarseOffset": 0,
+        "initialFilterFc": 5535,
+        "delayModLFO": -3986,
+        "freqModLFO": -851,
+        "delayVibLFO": -3986,
+        "freqVibLFO": -851,
+        "delayModEnv": -4075,
+        "attackModEnv": -3986,
+        "holdModEnv": -3986,
+        "decayModEnv": 0,
+        "releaseModEnv": 0,
+        "delayVolEnv": -4075,
+        "attackVolEnv": -3986,
+        "holdVolEnv": -3986,
+        "decayVolEnv": 0,
+        "releaseVolEnv": 0,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-43",
+        "sample": "sawstack2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "44-55",
+        "sample": "sawstack3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "56-67",
+        "sample": "sawstack4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "68-79",
+        "sample": "sawstack5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "80-91",
+        "sample": "sawstack6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "92-103",
+        "sample": "sawstack7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "104-127",
+        "startAddrsOffset": 6000,
+        "sample": "sawstack8"
+      }
+    }
+  ]
+}

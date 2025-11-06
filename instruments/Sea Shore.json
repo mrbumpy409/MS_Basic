@@ -1,0 +1,99 @@
+{
+  "name": "Sea Shore",
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 55,
+        "sustainModEnv": 1000,
+        "releaseVolEnv": 2786,
+        "initialAttenuation": 25,
+        "sampleModes": 1,
+        "scaleTuning": 50
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "attackModEnv": -8800,
+        "attackVolEnv": 2653,
+        "holdVolEnv": 1008,
+        "decayVolEnv": 2460,
+        "coarseTune": -12,
+        "scaleTuning": 20,
+        "overridingRootKey": 68,
+        "sample": "Sea Shore"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "pan": 500,
+        "attackVolEnv": -2090,
+        "decayVolEnv": 3453,
+        "initialAttenuation": 150,
+        "coarseTune": -13,
+        "scaleTuning": 50,
+        "sample": "Sea Shore"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "pan": -500,
+        "attackVolEnv": -2090,
+        "decayVolEnv": 3453,
+        "initialAttenuation": 150,
+        "coarseTune": -13,
+        "scaleTuning": 20,
+        "sample": "Sea Shore"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Standard 7",
+  "bank": 128,
+  "preset_number": 7,
+  "library": 32178667,
+  "genre": 32178667,
+  "morphology": 32178667,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 100,
+        "initialAttenuation": -200
+      }
+    },
+    {
+      "generators": {
+        "instrument": "Misc. Percussion"
+      }
+    },
+    {
+      "generators": {
+        "instrument": "Std Snare 3"
+      }
+    },
+    {
+      "generators": {
+        "instrument": "Percussion"
+      }
+    },
+    {
+      "generators": {
+        "reverbEffectsSend": 50,
+        "instrument": "Std Tom"
+      }
+    },
+    {
+      "generators": {
+        "instrument": "Crashes & Rides"
+      }
+    },
+    {
+      "generators": {
+        "instrument": "Hand Perc"
+      }
+    },
+    {
+      "generators": {
+        "reverbEffectsSend": 20,
+        "instrument": "Std Kick 1"
+      }
+    },
+    {
+      "generators": {
+        "initialAttenuation": -120,
+        "instrument": "Hi Hats"
+      }
+    }
+  ]
+}

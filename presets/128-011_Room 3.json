@@ -1,0 +1,63 @@
+{
+  "name": "Room 3",
+  "bank": 128,
+  "preset_number": 11,
+  "library": 29819335,
+  "genre": 29819335,
+  "morphology": 29819335,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 200
+      }
+    },
+    {
+      "generators": {
+        "initialAttenuation": -100,
+        "instrument": "Misc. Percussion"
+      }
+    },
+    {
+      "generators": {
+        "initialAttenuation": -100,
+        "instrument": "Power/Room Snares 1"
+      }
+    },
+    {
+      "generators": {
+        "initialAttenuation": -100,
+        "instrument": "Percussion"
+      }
+    },
+    {
+      "generators": {
+        "initialAttenuation": -100,
+        "instrument": "Std Tom"
+      }
+    },
+    {
+      "generators": {
+        "initialAttenuation": -100,
+        "instrument": "Crashes & Rides"
+      }
+    },
+    {
+      "generators": {
+        "initialAttenuation": -100,
+        "instrument": "Hand Perc"
+      }
+    },
+    {
+      "generators": {
+        "initialAttenuation": -100,
+        "instrument": "Room Kick"
+      }
+    },
+    {
+      "generators": {
+        "initialAttenuation": -60,
+        "instrument": "Hi Hats Treb"
+      }
+    }
+  ]
+}

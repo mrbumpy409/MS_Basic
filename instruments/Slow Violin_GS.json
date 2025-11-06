@@ -1,0 +1,119 @@
+{
+  "name": "Slow Violin/GS",
+  "zones": [
+    {
+      "generators": {
+        "attackVolEnv": -2786,
+        "releaseVolEnv": -1586,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-58",
+        "sample": "Violin G#4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "59-61",
+        "sample": "Violin B4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "62-64",
+        "sample": "Violin D5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "65-67",
+        "sample": "Violin F5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "68-71",
+        "sample": "Violin G#5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "72-74",
+        "sample": "Violin D6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "75-77",
+        "sample": "Violin F6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "78-80",
+        "sample": "Violin G#6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "81-83",
+        "sample": "Violin B6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "84-86",
+        "sample": "Violin D7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "87-89",
+        "sample": "Violin F7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "90-93",
+        "sample": "Violin G#7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "94-96",
+        "sample": "Violin B7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "97-108",
+        "sample": "Violin D8"
+      }
+    }
+  ]
+}

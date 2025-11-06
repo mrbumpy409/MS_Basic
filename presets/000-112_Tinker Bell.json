@@ -1,0 +1,19 @@
+{
+  "name": "Tinker Bell",
+  "bank": 0,
+  "preset_number": 112,
+  "library": 14418140,
+  "genre": 14418140,
+  "morphology": 14418140,
+  "zones": [
+    {
+      "generators": {}
+    },
+    {
+      "generators": {
+        "reverbEffectsSend": 50,
+        "instrument": "Tinker Bell"
+      }
+    }
+  ]
+}

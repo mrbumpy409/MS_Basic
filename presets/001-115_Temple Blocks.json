@@ -1,0 +1,20 @@
+{
+  "name": "Temple Blocks",
+  "bank": 1,
+  "preset_number": 115,
+  "library": 53216044,
+  "genre": 53216044,
+  "morphology": 53216044,
+  "zones": [
+    {
+      "generators": {
+        "initialAttenuation": 50
+      }
+    },
+    {
+      "generators": {
+        "instrument": "Temple Blocks"
+      }
+    }
+  ]
+}

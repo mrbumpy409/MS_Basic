@@ -1,0 +1,49 @@
+{
+  "name": "Ice Rain_2",
+  "zones": [
+    {
+      "generators": {},
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "vibLfoToPitch": 50,
+        "initialFilterFc": 9023,
+        "modEnvToFilterFc": 3600,
+        "freqVibLFO": -1069,
+        "decayModEnv": 1251,
+        "sustainModEnv": 1000,
+        "releaseModEnv": 1251,
+        "attackVolEnv": -8359,
+        "decayVolEnv": 2945,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": 0,
+        "sampleModes": 1,
+        "overridingRootKey": 95,
+        "sample": "Windchimes"
+      }
+    }
+  ]
+}

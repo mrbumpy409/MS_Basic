@@ -1,0 +1,83 @@
+{
+  "name": "Synth Voice",
+  "zones": [
+    {
+      "generators": {
+        "decayVolEnv": 0,
+        "releaseVolEnv": 1902,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-53",
+        "sample": "SynthVz C4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "54-59",
+        "sample": "SynthVz F#4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "60-65",
+        "sample": "SynthVz C5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "66-71",
+        "sample": "SynthVz F#5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "72-77",
+        "sample": "SynthVz C6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "78-83",
+        "sample": "SynthVz F#6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "84-89",
+        "sample": "SynthVz C7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "90-127",
+        "sample": "SynthVz F#7"
+      }
+    }
+  ]
+}

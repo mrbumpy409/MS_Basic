@@ -1,0 +1,20 @@
+{
+  "name": "Koto",
+  "bank": 0,
+  "preset_number": 107,
+  "library": 19726637,
+  "genre": 19726637,
+  "morphology": 19726637,
+  "zones": [
+    {
+      "generators": {}
+    },
+    {
+      "generators": {
+        "chorusEffectsSend": 20,
+        "reverbEffectsSend": 100,
+        "instrument": "Koto"
+      }
+    }
+  ]
+}

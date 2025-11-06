@@ -1,0 +1,30 @@
+{
+  "name": "Goblin",
+  "bank": 0,
+  "preset_number": 101,
+  "library": 50332416,
+  "genre": 50332416,
+  "morphology": 50332416,
+  "zones": [
+    {
+      "generators": {},
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "chorusEffectsSend": 100,
+        "reverbEffectsSend": 140,
+        "initialAttenuation": -100,
+        "instrument": "Goblin"
+      }
+    }
+  ]
+}

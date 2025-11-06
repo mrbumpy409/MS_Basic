@@ -1,0 +1,28 @@
+{
+  "name": "Fingered Bass",
+  "bank": 0,
+  "preset_number": 33,
+  "library": 38011460,
+  "genre": 38011460,
+  "morphology": 38011460,
+  "zones": [
+    {
+      "generators": {}
+    },
+    {
+      "generators": {
+        "reverbEffectsSend": 20,
+        "instrument": "Fingered Bass"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -4800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    }
+  ]
+}

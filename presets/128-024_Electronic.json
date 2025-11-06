@@ -1,0 +1,59 @@
+{
+  "name": "Electronic",
+  "bank": 128,
+  "preset_number": 24,
+  "library": 41026162,
+  "genre": 41026162,
+  "morphology": 41026162,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 150,
+        "initialAttenuation": -100
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "0-59",
+        "instrument": "Misc. Percussion"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "35-40",
+        "instrument": "Electronic Snares"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "60-127",
+        "initialAttenuation": 100,
+        "instrument": "Percussion"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "41-50",
+        "reverbEffectsSend": 100,
+        "initialAttenuation": 50,
+        "instrument": "Electric Toms"
+      }
+    },
+    {
+      "generators": {
+        "instrument": "Crashes & Rides"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "60-66",
+        "instrument": "Hand Perc"
+      }
+    },
+    {
+      "generators": {
+        "instrument": "Hi Hats"
+      }
+    }
+  ]
+}

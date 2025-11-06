@@ -1,0 +1,136 @@
+{
+  "name": "Sax-Alto",
+  "zones": [
+    {
+      "generators": {
+        "initialFilterFc": 12308,
+        "modEnvToFilterFc": -1957,
+        "delayModEnv": 2046,
+        "attackModEnv": 3208,
+        "decayVolEnv": 2400,
+        "sustainVolEnv": 20,
+        "releaseVolEnv": -2084,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-51",
+        "sample": "Sax-Alto D4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "52-53",
+        "sample": "Sax-Alto E4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "54-55",
+        "sample": "Sax-Alto F#4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "56-57",
+        "sample": "Sax-Alto G#4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "58-59",
+        "sample": "Sax-Alto A#4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "60-61",
+        "sample": "Sax-Alto C5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "62-63",
+        "sample": "Sax-Alto D5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "64-65",
+        "sample": "Sax-Alto E5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "66-67",
+        "sample": "Sax-Alto G5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "68-69",
+        "sample": "Sax-Alto G#5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "70-71",
+        "sample": "Sax-Alto A#5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "72-73",
+        "sample": "Sax-Alto C6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "74-75",
+        "sample": "Sax-Alto D6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "76-77",
+        "sample": "Sax-Alto E6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "78-79",
+        "sample": "Sax-Alto F#6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "80-87",
+        "sample": "Sax-Alto G#6"
+      }
+    }
+  ]
+}

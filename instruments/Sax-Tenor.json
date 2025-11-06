@@ -1,0 +1,130 @@
+{
+  "name": "Sax-Tenor",
+  "zones": [
+    {
+      "generators": {
+        "initialFilterFc": 12308,
+        "modEnvToFilterFc": -1957,
+        "delayModEnv": 2723,
+        "attackModEnv": 3208,
+        "decayVolEnv": 2400,
+        "sustainVolEnv": 20,
+        "releaseVolEnv": -2084,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-47",
+        "sample": "Sax-Tenor B3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "48-49",
+        "sample": "Sax-Tenor C#4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "50-51",
+        "sample": "Sax-Tenor D#4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "52-53",
+        "sample": "Sax-Tenor E4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "54-55",
+        "sample": "Sax-Tenor G4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "56-57",
+        "sample": "Sax-Tenor G#4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "58-59",
+        "sample": "Sax-Tenor A#4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "60-61",
+        "sample": "Sax-Tenor C5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "62-63",
+        "sample": "Sax-Tenor D#5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "64-65",
+        "sample": "Sax-Tenor F5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "66-67",
+        "sample": "Sax-Tenor F#5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "68-69",
+        "sample": "Sax-Tenor A5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "70-71",
+        "sample": "Sax-Tenor B5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "72-73",
+        "sample": "Sax-Tenor C#6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "74-127",
+        "sample": "Sax-Tenor D#6"
+      }
+    }
+  ]
+}

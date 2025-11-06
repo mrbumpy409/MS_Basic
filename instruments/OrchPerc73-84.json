@@ -1,0 +1,140 @@
+{
+  "name": "OrchPerc73-84",
+  "zones": [
+    {
+      "generators": {
+        "releaseVolEnv": 6773,
+        "scaleTuning": 0
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "73-73",
+        "sample": "Guiro Down"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "74-74",
+        "releaseVolEnv": 5014,
+        "sample": "Guiro Up"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "75-75",
+        "sample": "Clave"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "76-76",
+        "sample": "High Woodblock"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "77-77",
+        "sample": "Low Woodblock"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "78-78",
+        "releaseVolEnv": 5014,
+        "sample": "Quica Hi"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "79-79",
+        "releaseVolEnv": 5014,
+        "sample": "Quica Low"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "80-80",
+        "decayVolEnv": -593,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": -1200,
+        "sampleModes": 1,
+        "exclusiveClass": 5,
+        "sample": "Triangle"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "81-81",
+        "decayVolEnv": 3986,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": 2786,
+        "sampleModes": 1,
+        "exclusiveClass": 5,
+        "sample": "Triangle"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "82-82",
+        "sample": "Small Shaker"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "83-83",
+        "releaseVolEnv": 5014,
+        "sample": "Sleigh Bells"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "84-84",
+        "releaseVolEnv": 5014,
+        "sample": "Bell Tree"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "85-85",
+        "sample": "Castanet"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "86-86",
+        "sample": "Short Taiko Hit"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "87-87",
+        "releaseVolEnv": 5014,
+        "sample": "Long Taiko Hit"
+      }
+    }
+  ]
+}

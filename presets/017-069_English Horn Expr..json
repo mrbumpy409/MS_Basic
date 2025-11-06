@@ -1,0 +1,36 @@
+{
+  "name": "English Horn Expr.",
+  "bank": 17,
+  "preset_number": 69,
+  "library": 60752799,
+  "genre": 60752799,
+  "morphology": 60752799,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 150
+      },
+      "modulators": [
+        {
+          "src_oper": 386,
+          "dest_oper": 8,
+          "amount": -1000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1410,
+          "dest_oper": 48,
+          "amount": 700,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "instrument": "English Horn"
+      }
+    }
+  ]
+}

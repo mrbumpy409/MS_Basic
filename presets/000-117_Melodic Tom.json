@@ -1,0 +1,21 @@
+{
+  "name": "Melodic Tom",
+  "bank": 0,
+  "preset_number": 117,
+  "library": 50463490,
+  "genre": 50463490,
+  "morphology": 50463490,
+  "zones": [
+    {
+      "generators": {}
+    },
+    {
+      "generators": {
+        "reverbEffectsSend": 100,
+        "initialAttenuation": 70,
+        "coarseTune": 2,
+        "instrument": "Melodic Tom"
+      }
+    }
+  ]
+}

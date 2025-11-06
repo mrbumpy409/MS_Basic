@@ -1,0 +1,100 @@
+{
+  "name": "Guitar Harmonics",
+  "zones": [
+    {
+      "generators": {
+        "releaseVolEnv": -5186,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-28",
+        "sample": "Harmonics 7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "29-33",
+        "sample": "Harmonics 8"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "34-38",
+        "sample": "Harmonics 9"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "39-40",
+        "sample": "Harmonics 1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "41-43",
+        "sample": "Harmonics 10"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "44-45",
+        "sample": "Harmonics 2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "46-47",
+        "sample": "Harmonics 11"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "48-50",
+        "sample": "Harmonics 3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "51-55",
+        "sample": "Harmonics 4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "56-59",
+        "sample": "Harmonics 5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "60-85",
+        "sample": "Harmonics 6"
+      }
+    }
+  ]
+}

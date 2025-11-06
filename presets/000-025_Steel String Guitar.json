@@ -1,0 +1,38 @@
+{
+  "name": "Steel String Guitar",
+  "bank": 0,
+  "preset_number": 25,
+  "library": 38142534,
+  "genre": 38142534,
+  "morphology": 38142534,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 100,
+        "initialAttenuation": 150
+      },
+      "modulators": [
+        {
+          "src_oper": 515,
+          "dest_oper": 8,
+          "amount": 1000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -4200,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "releaseVolEnv": 702,
+        "instrument": "Steel String Guitar"
+      }
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "name": "Recorder",
+  "zones": [
+    {
+      "generators": {
+        "releaseVolEnv": -2084,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-72",
+        "startAddrsOffset": 0,
+        "endAddrsOffset": 0,
+        "startloopAddrsOffset": 0,
+        "endloopAddrsOffset": 0,
+        "startAddrsCoarseOffset": 0,
+        "endAddrsCoarseOffset": 0,
+        "startloopAddrsCoarseOffset": 0,
+        "initialAttenuation": 80,
+        "endloopAddrsCoarseOffset": 0,
+        "sample": "Recorder C6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "73-74",
+        "initialAttenuation": 80,
+        "sample": "Recorder D7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "75-76",
+        "initialAttenuation": 80,
+        "sample": "Recorder E7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "77-77",
+        "initialAttenuation": 80,
+        "sample": "Recorder F7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "78-79",
+        "initialAttenuation": 80,
+        "sample": "Recorder G7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "80-81",
+        "sample": "Recorder A7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "82-83",
+        "sample": "Recorder B7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "84-127",
+        "sample": "Recorder D8"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Orchestra Hit",
+  "bank": 0,
+  "preset_number": 55,
+  "library": 53084970,
+  "genre": 53084970,
+  "morphology": 53084970,
+  "zones": [
+    {
+      "generators": {
+        "chorusEffectsSend": 20,
+        "reverbEffectsSend": 150,
+        "releaseVolEnv": 3007,
+        "initialAttenuation": 50
+      }
+    },
+    {
+      "generators": {
+        "instrument": "Orchestra Hit"
+      }
+    }
+  ]
+}

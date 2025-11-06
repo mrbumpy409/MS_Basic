@@ -1,0 +1,45 @@
+{
+  "name": "Celli Pizzicato",
+  "bank": 40,
+  "preset_number": 45,
+  "library": 85853470,
+  "genre": 85853470,
+  "morphology": 85853470,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 100
+      }
+    },
+    {
+      "generators": {
+        "initialAttenuation": 350,
+        "instrument": "Celli Pizz_v1"
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 470,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "initialAttenuation": 150,
+        "instrument": "Celli Pizz_v2"
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 1050,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    }
+  ]
+}

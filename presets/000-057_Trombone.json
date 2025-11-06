@@ -1,0 +1,52 @@
+{
+  "name": "Trombone",
+  "bank": 0,
+  "preset_number": 57,
+  "library": 54526784,
+  "genre": 54526784,
+  "morphology": 54526784,
+  "zones": [
+    {
+      "generators": {
+        "initialFilterFc": 386,
+        "reverbEffectsSend": 150,
+        "delayModLFO": 3986
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 700,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 11,
+          "amount": -2000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -3480,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 9,
+          "amount": 8,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "instrument": "Trombone"
+      }
+    }
+  ]
+}

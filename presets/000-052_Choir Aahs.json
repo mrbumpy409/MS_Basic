@@ -1,0 +1,45 @@
+{
+  "name": "Choir Aahs",
+  "bank": 0,
+  "preset_number": 52,
+  "library": 45482678,
+  "genre": 45482678,
+  "morphology": 45482678,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 150,
+        "releaseVolEnv": -281
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -3000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 34,
+          "amount": 6772,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "initialAttenuation": 70,
+        "instrument": "Ahh Choir"
+      }
+    }
+  ]
+}

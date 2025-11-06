@@ -1,0 +1,52 @@
+{
+  "name": "Hmn. Mute Tpt. Expr.",
+  "bank": 17,
+  "preset_number": 59,
+  "library": 59442059,
+  "genre": 59442059,
+  "morphology": 59442059,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 150,
+        "initialAttenuation": 80
+      },
+      "modulators": [
+        {
+          "src_oper": 1410,
+          "dest_oper": 48,
+          "amount": 700,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 386,
+          "dest_oper": 11,
+          "amount": -2000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 386,
+          "dest_oper": 8,
+          "amount": -2480,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 386,
+          "dest_oper": 9,
+          "amount": 8,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "delayModLFO": 3986,
+        "instrument": "Muted Trumpet"
+      }
+    }
+  ]
+}

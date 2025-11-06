@@ -1,0 +1,294 @@
+{
+  "name": "Violas Slow_v1",
+  "zones": [
+    {
+      "generators": {
+        "startAddrsOffset": 17000,
+        "startAddrsCoarseOffset": 0,
+        "pan": -500,
+        "attackVolEnv": -5186,
+        "releaseVolEnv": 0,
+        "initialAttenuation": 50,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 2,
+          "dest_oper": 34,
+          "amount": 1901,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 0,
+          "amount": -30000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-48",
+        "sample": "Violas_C2_v1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "0-48",
+        "pan": 500,
+        "sample": "Violas_C2_v1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "49-50",
+        "sample": "Violas_D2_v1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "49-50",
+        "pan": 500,
+        "sample": "Violas_D2_v1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "51-53",
+        "sample": "Violas_E2_v1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "51-53",
+        "pan": 500,
+        "sample": "Violas_E2_v1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "54-56",
+        "sample": "Violas_G2_v1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "54-56",
+        "pan": 500,
+        "sample": "Violas_G2_v1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "57-60",
+        "sample": "Violas_B2_v1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "57-60",
+        "pan": 500,
+        "sample": "Violas_B2_v1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-63",
+        "sample": "Violas_D3_v1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-63",
+        "pan": 500,
+        "sample": "Violas_D3_v1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "64-66",
+        "sample": "Violas_F3_v1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "64-66",
+        "pan": 500,
+        "sample": "Violas_F3_v1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "67-70",
+        "initialAttenuation": 150,
+        "sample": "Violas_A3_v1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "67-70",
+        "pan": 500,
+        "initialAttenuation": 150,
+        "sample": "Violas_A3_v1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "71-73",
+        "sample": "Violas_C4_v1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "71-73",
+        "pan": 500,
+        "sample": "Violas_C4_v1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "74-77",
+        "sample": "Violas_E4_v1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "74-77",
+        "pan": 500,
+        "sample": "Violas_E4_v1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "78-80",
+        "initialAttenuation": 70,
+        "sample": "Violas_G4_v1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "78-80",
+        "pan": 500,
+        "initialAttenuation": 70,
+        "sample": "Violas_G4_v1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "81-84",
+        "initialAttenuation": 90,
+        "sample": "Violas_B4_v1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "81-84",
+        "pan": 500,
+        "initialAttenuation": 90,
+        "sample": "Violas_B4_v1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "85-90",
+        "initialAttenuation": 140,
+        "sample": "Violas_D5_v1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "85-90",
+        "pan": 500,
+        "initialAttenuation": 140,
+        "sample": "Violas_D5_v1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "91-96",
+        "initialFilterFc": 12125,
+        "initialAttenuation": 140,
+        "sample": "Violas_D5_v1e",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "91-96",
+        "initialFilterFc": 12125,
+        "pan": 500,
+        "initialAttenuation": 140,
+        "sample": "Violas_D5_v1e",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "97-103",
+        "initialFilterFc": 11810,
+        "initialAttenuation": 140,
+        "sample": "Violas_D5_v1f",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "97-103",
+        "initialFilterFc": 11810,
+        "pan": 500,
+        "initialAttenuation": 140,
+        "sample": "Violas_D5_v1f",
+        "sample_channel": "right"
+      }
+    }
+  ]
+}

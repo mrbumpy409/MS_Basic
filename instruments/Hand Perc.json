@@ -1,0 +1,157 @@
+{
+  "name": "Hand Perc",
+  "zones": [
+    {
+      "generators": {
+        "releaseModEnv": 7973,
+        "decayVolEnv": 3986,
+        "releaseVolEnv": 2400,
+        "initialAttenuation": 100
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "60-60",
+        "sample": "Bongo Rim"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "61-61",
+        "overridingRootKey": 61,
+        "sample": "Low Bongo"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "62-62",
+        "delayModEnv": -3986,
+        "overridingRootKey": 62,
+        "sample": "Closed Slap"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "63-63",
+        "delayModEnv": -3986,
+        "overridingRootKey": 63,
+        "sample": "High Conga"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "64-64",
+        "delayModEnv": -3986,
+        "overridingRootKey": 64,
+        "sample": "Low Tumba"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "65-65",
+        "releaseVolEnv": 3986,
+        "initialAttenuation": 50,
+        "overridingRootKey": 65,
+        "sample": "High Timbale"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "66-66",
+        "modEnvToFilterFc": -6000,
+        "delayModEnv": -3986,
+        "attackModEnv": 3898,
+        "releaseVolEnv": 3986,
+        "initialAttenuation": 80,
+        "overridingRootKey": 66,
+        "sample": "Low Timbale"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "name": "Picked Bass",
+  "zones": [
+    {
+      "generators": {
+        "releaseModEnv": -1586,
+        "holdVolEnv": 1902,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": -2786,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-28",
+        "holdVolEnv": 2400,
+        "decayVolEnv": 6386,
+        "sample": "Picked Bass E0"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "29-30",
+        "decayVolEnv": 6298,
+        "sample": "Picked Bass E2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "31-32",
+        "decayVolEnv": 6204,
+        "sample": "Picked Bass E4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "33-34",
+        "decayVolEnv": 6105,
+        "sample": "Picked Bass A1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "35-37",
+        "decayVolEnv": 6000,
+        "sample": "Picked Bass A3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "38-39",
+        "decayVolEnv": 5888,
+        "sample": "Picked Bass D1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "40-42",
+        "decayVolEnv": 5769,
+        "sample": "Picked Bass D3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "43-47",
+        "decayVolEnv": 5641,
+        "sample": "Picked Bass GO"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "48-84",
+        "decayVolEnv": 5502,
+        "sample": "Picked Bass G5"
+      }
+    }
+  ]
+}

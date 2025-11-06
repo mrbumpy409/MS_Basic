@@ -1,0 +1,45 @@
+{
+  "name": "Violin Expr.",
+  "bank": 17,
+  "preset_number": 40,
+  "library": 57213801,
+  "genre": 57213801,
+  "morphology": 57213801,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 150,
+        "releaseVolEnv": 702,
+        "initialAttenuation": 90
+      },
+      "modulators": [
+        {
+          "src_oper": 386,
+          "dest_oper": 8,
+          "amount": -2400,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 34,
+          "amount": 10758,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1410,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "instrument": "Violin"
+      }
+    }
+  ]
+}

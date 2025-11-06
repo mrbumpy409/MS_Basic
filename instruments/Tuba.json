@@ -1,0 +1,85 @@
+{
+  "name": "Tuba",
+  "zones": [
+    {
+      "generators": {
+        "initialFilterFc": 11690,
+        "chorusEffectsSend": 20,
+        "releaseVolEnv": -1586,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-24",
+        "initialFilterFc": 6254,
+        "sample": "Tuba C3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "25-29",
+        "sample": "Tuba F3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "30-34",
+        "sample": "Tuba A#3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "35-39",
+        "sample": "Tuba D#4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "40-44",
+        "sample": "Tuba G#4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "45-49",
+        "sample": "Tuba C#5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "50-54",
+        "sample": "Tuba F#5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "55-72",
+        "sample": "Tuba B5"
+      }
+    }
+  ]
+}

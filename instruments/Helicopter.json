@@ -1,0 +1,54 @@
+{
+  "name": "Helicopter",
+  "zones": [
+    {
+      "generators": {
+        "releaseModEnv": 6373,
+        "attackVolEnv": 1200,
+        "holdVolEnv": 1516,
+        "decayVolEnv": 6185,
+        "sustainVolEnv": 929,
+        "releaseVolEnv": 1902,
+        "sampleModes": 1,
+        "scaleTuning": 5
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "pan": 500,
+        "fineTune": 39,
+        "sample": "Heli"
+      }
+    },
+    {
+      "generators": {
+        "pan": -500,
+        "fineTune": 30,
+        "sample": "Heli"
+      }
+    }
+  ]
+}

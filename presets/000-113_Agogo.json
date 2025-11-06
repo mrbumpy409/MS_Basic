@@ -1,0 +1,19 @@
+{
+  "name": "Agogo",
+  "bank": 0,
+  "preset_number": 113,
+  "library": 43647642,
+  "genre": 43647642,
+  "morphology": 43647642,
+  "zones": [
+    {
+      "generators": {}
+    },
+    {
+      "generators": {
+        "reverbEffectsSend": 100,
+        "instrument": "Agogo"
+      }
+    }
+  ]
+}

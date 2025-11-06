@@ -1,0 +1,37 @@
+{
+  "name": "Brass Section",
+  "bank": 0,
+  "preset_number": 61,
+  "library": 19005730,
+  "genre": 19005730,
+  "morphology": 19005730,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 300,
+        "initialAttenuation": -30
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -4800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "instrument": "Brass Section"
+      }
+    }
+  ]
+}

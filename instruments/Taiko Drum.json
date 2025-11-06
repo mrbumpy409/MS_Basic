@@ -1,0 +1,42 @@
+{
+  "name": "Taiko Drum",
+  "zones": [
+    {
+      "generators": {
+        "initialFilterFc": 11972
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "decayVolEnv": 5186,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": 3986,
+        "scaleTuning": 50,
+        "sample": "Taiko Drum"
+      }
+    }
+  ]
+}

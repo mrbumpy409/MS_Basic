@@ -1,0 +1,166 @@
+{
+  "name": "Clarinet",
+  "zones": [
+    {
+      "generators": {
+        "modLfoToPitch": 2,
+        "initialFilterFc": 10223,
+        "modEnvToFilterFc": 3600,
+        "modLfoToVolume": 1,
+        "delayModLFO": -1586,
+        "freqModLFO": -851,
+        "attackModEnv": -8590,
+        "decayModEnv": 4151,
+        "sustainModEnv": 350,
+        "releaseModEnv": -2084,
+        "attackVolEnv": -7973,
+        "releaseVolEnv": -2084,
+        "initialAttenuation": 30,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 26,
+          "amount": 12500,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 34,
+          "amount": 3000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-53",
+        "startAddrsOffset": 3000,
+        "startloopAddrsOffset": 0,
+        "endloopAddrsOffset": 0,
+        "startAddrsCoarseOffset": 0,
+        "startloopAddrsCoarseOffset": 0,
+        "endloopAddrsCoarseOffset": 0,
+        "sample": "Clarinet E4"
+      },
+      "modulators": [
+        {
+          "src_oper": 3,
+          "dest_oper": 4,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 3,
+          "dest_oper": 0,
+          "amount": -6000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "54-56",
+        "sample": "Clarinet G#4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "57-59",
+        "sample": "Clarinet B4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "60-62",
+        "sample": "Clarinet C#5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "63-65",
+        "sample": "Clarinet F5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "66-68",
+        "sample": "Clarinet G#5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "69-70",
+        "sample": "Clarinet A#5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "71-72",
+        "sample": "Clarinet C6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "73-74",
+        "sample": "Clarinet D6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "75-76",
+        "sample": "Clarinet E6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "77-78",
+        "sample": "Clarinet F#6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "79-80",
+        "sample": "Clarinet G#6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "81-82",
+        "sample": "Clarinet A#6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "83-127",
+        "sample": "Clarinet C7"
+      }
+    }
+  ]
+}

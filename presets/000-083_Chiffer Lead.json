@@ -1,0 +1,44 @@
+{
+  "name": "Chiffer Lead",
+  "bank": 0,
+  "preset_number": 83,
+  "library": 37749312,
+  "genre": 37749312,
+  "morphology": 37749312,
+  "zones": [
+    {
+      "generators": {
+        "chorusEffectsSend": 500,
+        "reverbEffectsSend": 150
+      },
+      "modulators": [
+        {
+          "src_oper": 259,
+          "dest_oper": 8,
+          "amount": -1000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -6000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "instrument": "Chiffer Lead"
+      }
+    }
+  ]
+}

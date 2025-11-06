@@ -1,0 +1,145 @@
+{
+  "name": "Contrabass",
+  "zones": [
+    {
+      "generators": {
+        "releaseVolEnv": -1586,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-29",
+        "sample": "Bass F2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "30-32",
+        "sample": "Bass G#2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "33-35",
+        "sample": "Bass B2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "36-38",
+        "sample": "Bass D3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "39-41",
+        "sample": "Bass F3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "42-44",
+        "sample": "Bass G#3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "45-48",
+        "initialAttenuation": 100,
+        "sample": "Bass B3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "49-51",
+        "initialAttenuation": 100,
+        "sample": "Bass D4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "52-54",
+        "sample": "Cello E4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "55-57",
+        "sample": "Cello G4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "58-60",
+        "sample": "Cello A#4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-63",
+        "sample": "Cello C#5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "64-66",
+        "sample": "Cello E5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "67-69",
+        "sample": "Cello G5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "70-72",
+        "initialAttenuation": 50,
+        "sample": "Cello A#5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "73-75",
+        "sample": "Cello C#6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "76-78",
+        "sample": "Cello E6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "79-81",
+        "sample": "Cello G6"
+      }
+    }
+  ]
+}

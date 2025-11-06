@@ -1,0 +1,136 @@
+{
+  "name": "Rock Organ",
+  "zones": [
+    {
+      "generators": {
+        "releaseVolEnv": -2084,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-44",
+        "sample": "Rock Organ G#3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "45-47",
+        "sample": "Rock Organ B3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "48-49",
+        "sample": "Rock Organ C#4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "50-52",
+        "sample": "Rock Organ E4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "53-55",
+        "sample": "Rock Organ F#4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "56-58",
+        "sample": "Rock Organ A4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "59-60",
+        "sample": "Rock Organ C5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-63",
+        "sample": "Rock Organ D#5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "64-66",
+        "sample": "Rock Organ F5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "67-70",
+        "sample": "Rock Organ A5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "71-73",
+        "sample": "Rock Organ C#6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "74-76",
+        "sample": "Rock Organ D#6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "77-79",
+        "sample": "Rock Organ G6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "80-82",
+        "sample": "Rock Organ A6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "83-86",
+        "sample": "Rock Organ C7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "87-89",
+        "sample": "Rock Organ F7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "90-108",
+        "sample": "Rock Organ G7"
+      }
+    }
+  ]
+}

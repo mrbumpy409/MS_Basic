@@ -1,0 +1,45 @@
+{
+  "name": "Brass 2 Expr.",
+  "bank": 18,
+  "preset_number": 61,
+  "library": 66978814,
+  "genre": 66978814,
+  "morphology": 66978814,
+  "zones": [
+    {
+      "generators": {},
+      "modulators": [
+        {
+          "src_oper": 1410,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 386,
+          "dest_oper": 8,
+          "amount": -1000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "pan": -1000,
+        "decayModEnv": 2032,
+        "fineTune": 4,
+        "instrument": "Brass Left/GS"
+      }
+    },
+    {
+      "generators": {
+        "pan": 1000,
+        "decayModEnv": 2032,
+        "fineTune": -4,
+        "instrument": "Brass Right/GS"
+      }
+    }
+  ]
+}

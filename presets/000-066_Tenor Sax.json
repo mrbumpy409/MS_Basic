@@ -1,0 +1,38 @@
+{
+  "name": "Tenor Sax",
+  "bank": 0,
+  "preset_number": 66,
+  "library": 55182154,
+  "genre": 55182154,
+  "morphology": 55182154,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 100,
+        "delayModLFO": 3986,
+        "initialAttenuation": 40
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -4300,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "instrument": "Sax-Tenor"
+      }
+    }
+  ]
+}

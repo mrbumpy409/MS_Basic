@@ -1,0 +1,118 @@
+{
+  "name": "Bassoon",
+  "zones": [
+    {
+      "generators": {
+        "releaseVolEnv": -1586,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-35",
+        "sample": "E's Bassoon B0"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "36-37",
+        "sample": "E's Bassoon C#1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "38-40",
+        "sample": "E's Bassoon E1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "41-43",
+        "sample": "E's Bassoon G1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "44-46",
+        "sample": "E's Bassoon A#1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "47-49",
+        "sample": "E's Bassoon C#2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "50-52",
+        "sample": "E's Bassoon E2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "53-55",
+        "sample": "E's Bassoon G2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "56-58",
+        "sample": "E's Bassoon A#2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "59-61",
+        "sample": "E's Bassoon C#3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "62-64",
+        "sample": "E's Bassoon E3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "65-67",
+        "sample": "E's Bassoon G3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "68-70",
+        "sample": "E's Bassoon A#3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "71-84",
+        "sample": "E's Bassoon C#4"
+      }
+    }
+  ]
+}

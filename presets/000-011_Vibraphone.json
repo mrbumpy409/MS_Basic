@@ -1,0 +1,79 @@
+{
+  "name": "Vibraphone",
+  "bank": 0,
+  "preset_number": 11,
+  "library": 44040864,
+  "genre": 44040864,
+  "morphology": 44040864,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 100,
+        "attackVolEnv": 3600,
+        "initialAttenuation": 50
+      }
+    },
+    {
+      "generators": {
+        "velRange": "121-127",
+        "instrument": "Vibraphone"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "113-120",
+        "initialFilterFc": -386,
+        "instrument": "Vibraphone"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "105-112",
+        "initialFilterFc": -617,
+        "instrument": "Vibraphone"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "97-104",
+        "initialFilterFc": -884,
+        "instrument": "Vibraphone"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "89-96",
+        "initialFilterFc": -1200,
+        "instrument": "Vibraphone"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "81-88",
+        "initialFilterFc": -1586,
+        "instrument": "Vibraphone"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "73-80",
+        "initialFilterFc": -2084,
+        "instrument": "Vibraphone"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "65-72",
+        "initialFilterFc": -2786,
+        "instrument": "Vibraphone"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "0-64",
+        "initialFilterFc": -3986,
+        "instrument": "Vibraphone"
+      }
+    }
+  ]
+}

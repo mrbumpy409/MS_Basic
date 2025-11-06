@@ -1,0 +1,19 @@
+{
+  "name": "Castanets",
+  "bank": 8,
+  "preset_number": 115,
+  "library": 15532269,
+  "genre": 15532269,
+  "morphology": 15532269,
+  "zones": [
+    {
+      "generators": {}
+    },
+    {
+      "generators": {
+        "reverbEffectsSend": 100,
+        "instrument": "Castanets/GS"
+      }
+    }
+  ]
+}

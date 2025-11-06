@@ -1,0 +1,52 @@
+{
+  "name": "French Horns",
+  "bank": 0,
+  "preset_number": 60,
+  "library": 54788932,
+  "genre": 54788932,
+  "morphology": 54788932,
+  "zones": [
+    {
+      "generators": {
+        "initialFilterFc": 1200,
+        "reverbEffectsSend": 200,
+        "initialAttenuation": 20
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 700,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 11,
+          "amount": -2000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -4500,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 9,
+          "amount": 8,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "instrument": "French Horns"
+      }
+    }
+  ]
+}

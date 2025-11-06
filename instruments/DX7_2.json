@@ -1,0 +1,102 @@
+{
+  "name": "DX7_2",
+  "zones": [
+    {
+      "generators": {
+        "initialFilterFc": 5535,
+        "delayModLFO": -3986,
+        "freqModLFO": -851,
+        "delayVibLFO": -3986,
+        "freqVibLFO": -851,
+        "holdModEnv": -3986,
+        "decayModEnv": 0,
+        "releaseModEnv": 0,
+        "holdVolEnv": -2084,
+        "decayVolEnv": 1902,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": 0,
+        "initialAttenuation": 280,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-43",
+        "initialFilterFc": 6237,
+        "pan": -150,
+        "initialAttenuation": 170,
+        "sample": "DX7 Strike 1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "44-55",
+        "initialFilterFc": 7121,
+        "pan": -90,
+        "sample": "DX7 Strike 2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "56-67",
+        "initialFilterFc": 7704,
+        "pan": -30,
+        "sample": "DX7 Strike 3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "68-79",
+        "initialFilterFc": 8321,
+        "pan": 30,
+        "holdVolEnv": -11959,
+        "sample": "DX7 Strike 4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "80-91",
+        "initialFilterFc": 8775,
+        "pan": 90,
+        "holdVolEnv": -11959,
+        "decayVolEnv": 1200,
+        "initialAttenuation": 230,
+        "sample": "DX7 Strike 5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "92-127",
+        "initialFilterFc": 9135,
+        "pan": 150,
+        "holdVolEnv": -11959,
+        "decayVolEnv": 0,
+        "initialAttenuation": 190,
+        "sample": "DX7 Strike 6"
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Verbsnares/GS",
+  "zones": [
+    {
+      "generators": {
+        "attackVolEnv": -4373,
+        "sustainVolEnv": 1000,
+        "scaleTuning": 20
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "initialFilterFc": 11690,
+        "releaseModEnv": 7973,
+        "decayVolEnv": 1902,
+        "releaseVolEnv": 1902,
+        "overridingRootKey": 38,
+        "sample": "Power Snare 1"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    }
+  ]
+}

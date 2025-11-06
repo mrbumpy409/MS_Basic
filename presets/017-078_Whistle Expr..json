@@ -1,0 +1,28 @@
+{
+  "name": "Whistle Expr.",
+  "bank": 17,
+  "preset_number": 78,
+  "library": 61932465,
+  "genre": 61932465,
+  "morphology": 61932465,
+  "zones": [
+    {
+      "generators": {},
+      "modulators": [
+        {
+          "src_oper": 1410,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "reverbEffectsSend": 80,
+        "instrument": "Whistle"
+      }
+    }
+  ]
+}

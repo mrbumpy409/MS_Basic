@@ -1,0 +1,18 @@
+{
+  "name": "Breath Noise",
+  "bank": 0,
+  "preset_number": 121,
+  "library": 52560674,
+  "genre": 52560674,
+  "morphology": 52560674,
+  "zones": [
+    {
+      "generators": {}
+    },
+    {
+      "generators": {
+        "instrument": "Breath Noise"
+      }
+    }
+  ]
+}

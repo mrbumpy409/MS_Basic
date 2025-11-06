@@ -1,0 +1,81 @@
+{
+  "name": "Oboe",
+  "zones": [
+    {
+      "generators": {
+        "initialFilterFc": 12125,
+        "delayModLFO": -386,
+        "freqModLFO": -583,
+        "releaseVolEnv": -1586,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-63",
+        "sample": "Oboe D#4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "64-65",
+        "initialAttenuation": 50,
+        "sample": "Oboe E4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "66-68",
+        "initialAttenuation": 50,
+        "sample": "Oboe G4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "69-71",
+        "sample": "Oboe A#4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "72-75",
+        "sample": "Oboe D5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "76-79",
+        "sample": "Oboe G5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "80-96",
+        "sample": "Oboe A#5"
+      }
+    }
+  ]
+}

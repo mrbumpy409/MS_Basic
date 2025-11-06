@@ -1,0 +1,76 @@
+{
+  "name": "Brush 1",
+  "bank": 128,
+  "preset_number": 41,
+  "library": 22282580,
+  "genre": 22282580,
+  "morphology": 22282580,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 50
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "41-59",
+        "initialAttenuation": -200,
+        "instrument": "Misc. Percussion"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "35-40",
+        "initialAttenuation": -200,
+        "instrument": "Brush Snares"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "60-127",
+        "initialAttenuation": -200,
+        "instrument": "Percussion"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "41-50",
+        "initialAttenuation": -200,
+        "instrument": "Std Tom"
+      }
+    },
+    {
+      "generators": {
+        "initialAttenuation": -200,
+        "instrument": "Crashes & Rides"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "60-66",
+        "initialAttenuation": -200,
+        "instrument": "Hand Perc"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "0-38",
+        "initialAttenuation": -200,
+        "instrument": "Misc. Percussion"
+      }
+    },
+    {
+      "generators": {
+        "reverbEffectsSend": 20,
+        "initialAttenuation": -150,
+        "instrument": "Std Kick 5"
+      }
+    },
+    {
+      "generators": {
+        "initialAttenuation": -60,
+        "instrument": "Hi Hats Treb"
+      }
+    }
+  ]
+}

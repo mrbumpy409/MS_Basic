@@ -1,0 +1,56 @@
+{
+  "name": "Nylon String Guitar",
+  "bank": 0,
+  "preset_number": 24,
+  "library": 38273608,
+  "genre": 38273608,
+  "morphology": 38273608,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 100,
+        "releaseVolEnv": -2084,
+        "initialAttenuation": 100
+      },
+      "modulators": [
+        {
+          "src_oper": 259,
+          "dest_oper": 8,
+          "amount": -1500,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-78",
+        "instrument": "Nylon Guitar"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -6000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "79-127",
+        "instrument": "Nylon Guitar"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -3000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Echo Drops",
+  "bank": 0,
+  "preset_number": 102,
+  "library": 47514325,
+  "genre": 47514325,
+  "morphology": 47514325,
+  "zones": [
+    {
+      "generators": {},
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "chorusEffectsSend": 248,
+        "reverbEffectsSend": 150,
+        "initialAttenuation": 100,
+        "instrument": "Echo Drops"
+      }
+    }
+  ]
+}

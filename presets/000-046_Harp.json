@@ -1,0 +1,31 @@
+{
+  "name": "Harp",
+  "bank": 0,
+  "preset_number": 46,
+  "library": 14942436,
+  "genre": 14942436,
+  "morphology": 14942436,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 30,
+        "releaseVolEnv": 316,
+        "initialAttenuation": 100
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -2400,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "instrument": "Orchestral Harp"
+      }
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "name": "Trumpet",
+  "zones": [
+    {
+      "generators": {
+        "modLfoToPitch": 10,
+        "initialFilterFc": 10223,
+        "modLfoToFilterFc": -200,
+        "modEnvToFilterFc": 3600,
+        "delayModLFO": 1783,
+        "freqModLFO": -1444,
+        "attackModEnv": -8590,
+        "decayModEnv": 3600,
+        "sustainModEnv": 350,
+        "releaseModEnv": -2084,
+        "attackVolEnv": -7973,
+        "releaseVolEnv": -2471,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 26,
+          "amount": 10000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 34,
+          "amount": 3000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-66",
+        "sample": "Trumpet E3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "67-71",
+        "sample": "Trumpet G3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "72-75",
+        "sample": "Trumpet C4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "76-83",
+        "sample": "Trumpet G4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "84-90",
+        "sample": "Trumpet E5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "91-108",
+        "sample": "Trumpet C6"
+      }
+    }
+  ]
+}

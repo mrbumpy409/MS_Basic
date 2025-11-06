@@ -1,0 +1,24 @@
+{
+  "name": "Music Box",
+  "bank": 0,
+  "preset_number": 10,
+  "library": 11337901,
+  "genre": 11337901,
+  "morphology": 11337901,
+  "zones": [
+    {
+      "generators": {}
+    },
+    {
+      "generators": {
+        "reverbEffectsSend": 100,
+        "freqModLFO": -884,
+        "freqVibLFO": -884,
+        "decayVolEnv": -1586,
+        "keynumToVolEnvDecay": 17,
+        "initialAttenuation": 50,
+        "instrument": "Music Box"
+      }
+    }
+  ]
+}

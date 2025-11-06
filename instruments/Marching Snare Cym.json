@@ -1,0 +1,96 @@
+{
+  "name": "Marching Snare Cym",
+  "zones": [
+    {
+      "generators": {
+        "initialAttenuation": 0
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "72-72",
+        "modEnvToFilterFc": 12000,
+        "releaseModEnv": 7973,
+        "holdVolEnv": 3556,
+        "decayVolEnv": 6590,
+        "releaseVolEnv": 5186,
+        "initialAttenuation": 150,
+        "overridingRootKey": 72,
+        "sample": "Ride1"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "74-74",
+        "holdVolEnv": 2786,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": 5830,
+        "initialAttenuation": 70,
+        "exclusiveClass": 1,
+        "overridingRootKey": 74,
+        "sample": "Hi-Hat Half-Open"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "76-76",
+        "holdVolEnv": -11959,
+        "decayVolEnv": 702,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": 702,
+        "initialAttenuation": 170,
+        "exclusiveClass": 1,
+        "overridingRootKey": 76,
+        "sample": "Hi-Hat Closed"
+      },
+      "modulators": [
+        {
+          "src_oper": 2,
+          "dest_oper": 38,
+          "amount": 3369,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 2,
+          "dest_oper": 36,
+          "amount": 3369,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    }
+  ]
+}

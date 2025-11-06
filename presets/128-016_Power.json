@@ -1,0 +1,61 @@
+{
+  "name": "Power",
+  "bank": 128,
+  "preset_number": 16,
+  "library": 41550458,
+  "genre": 41550458,
+  "morphology": 41550458,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 100,
+        "initialAttenuation": -100
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "0-59",
+        "instrument": "Misc. Percussion"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "38-40",
+        "instrument": "Power Snares"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "60-127",
+        "instrument": "Percussion"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "41-50",
+        "instrument": "Power Toms"
+      }
+    },
+    {
+      "generators": {
+        "instrument": "Crashes & Rides"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "60-66",
+        "instrument": "Hand Perc"
+      }
+    },
+    {
+      "generators": {
+        "instrument": "Power Kick"
+      }
+    },
+    {
+      "generators": {
+        "instrument": "Hi Hats"
+      }
+    }
+  ]
+}

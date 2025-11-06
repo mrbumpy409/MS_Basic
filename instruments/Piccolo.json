@@ -1,0 +1,84 @@
+{
+  "name": "Piccolo",
+  "zones": [
+    {
+      "generators": {
+        "initialFilterFc": 11921,
+        "releaseVolEnv": -1200,
+        "coarseTune": -12,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-76",
+        "sample": "Piccolo E6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "77-78",
+        "sample": "Piccolo F#6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "79-80",
+        "sample": "Piccolo G#6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "81-82",
+        "sample": "Piccolo A#6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "83-84",
+        "sample": "Piccolo C7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "85-88",
+        "sample": "Piccolo E7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "89-92",
+        "sample": "Piccolo G#7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "93-120",
+        "sample": "Piccolo C8"
+      }
+    }
+  ]
+}

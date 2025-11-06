@@ -1,0 +1,78 @@
+{
+  "name": "Celli High",
+  "zones": [
+    {
+      "generators": {
+        "startAddrsOffset": 3232,
+        "startAddrsCoarseOffset": 1,
+        "initialFilterFc": 11562,
+        "attackVolEnv": -5186,
+        "releaseVolEnv": 0,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 2,
+          "dest_oper": 34,
+          "amount": 1901,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 0,
+          "amount": -30000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "88-127",
+        "pan": -500,
+        "sample": "Celli_F4_v1f",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "88-127",
+        "pan": 500,
+        "initialAttenuation": 0,
+        "sample": "Celli_F4_v1f",
+        "sample_channel": "right"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 0,
+          "amount": -25000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    }
+  ]
+}

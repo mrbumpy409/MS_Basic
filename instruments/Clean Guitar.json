@@ -1,0 +1,208 @@
+{
+  "name": "Clean Guitar",
+  "zones": [
+    {
+      "generators": {
+        "initialFilterQ": 30,
+        "chorusEffectsSend": 250,
+        "attackModEnv": -3986,
+        "decayModEnv": -3986,
+        "releaseModEnv": -386,
+        "attackVolEnv": -8359,
+        "holdVolEnv": 2400,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": 1200,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-44",
+        "holdVolEnv": 2604,
+        "decayVolEnv": 5573,
+        "sample": "Clean F10"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "45-49",
+        "decayVolEnv": 5428,
+        "sample": "Clean F20"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "50-54",
+        "decayVolEnv": 5428,
+        "sample": "Clean F30"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "55-58",
+        "decayVolEnv": 5351,
+        "sample": "Clean F40"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "59-63",
+        "holdVolEnv": 1200,
+        "decayVolEnv": 5098,
+        "sample": "Clean F50"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "64-65",
+        "holdVolEnv": 454,
+        "decayVolEnv": 4800,
+        "sample": "Clean F60"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "66-69",
+        "holdVolEnv": 0,
+        "decayVolEnv": 4688,
+        "sample": "Clean F65"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "70-71",
+        "holdVolEnv": -386,
+        "decayVolEnv": 4302,
+        "sample": "Clean F67"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "72-76",
+        "holdVolEnv": -887,
+        "decayVolEnv": 3986,
+        "sample": "Clean F612"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "77-127",
+        "holdVolEnv": -1200,
+        "decayVolEnv": 3804,
+        "releaseVolEnv": 702,
+        "sample": "Clean F615"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "0-44",
+        "initialFilterFc": 7935,
+        "holdVolEnv": 2604,
+        "decayVolEnv": 5573,
+        "sample": "Clean F10"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "45-49",
+        "initialFilterFc": 7935,
+        "decayVolEnv": 5428,
+        "sample": "Clean F20"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "50-54",
+        "initialFilterFc": 7935,
+        "decayVolEnv": 5428,
+        "sample": "Clean F30"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "55-58",
+        "initialFilterFc": 7935,
+        "decayVolEnv": 5351,
+        "sample": "Clean F40"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "59-63",
+        "initialFilterFc": 7935,
+        "holdVolEnv": 1200,
+        "decayVolEnv": 5098,
+        "sample": "Clean F50"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "64-65",
+        "initialFilterFc": 7935,
+        "holdVolEnv": 454,
+        "decayVolEnv": 4800,
+        "sample": "Clean F60"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "66-69",
+        "initialFilterFc": 7935,
+        "holdVolEnv": 0,
+        "decayVolEnv": 4688,
+        "sample": "Clean F65"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "70-71",
+        "initialFilterFc": 7935,
+        "holdVolEnv": -386,
+        "decayVolEnv": 4302,
+        "sample": "Clean F67"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "72-76",
+        "initialFilterFc": 7935,
+        "holdVolEnv": -887,
+        "decayVolEnv": 3986,
+        "sample": "Clean F612"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "77-127",
+        "initialFilterFc": 7935,
+        "holdVolEnv": -1200,
+        "decayVolEnv": 3804,
+        "releaseVolEnv": 702,
+        "sample": "Clean F615"
+      }
+    }
+  ]
+}

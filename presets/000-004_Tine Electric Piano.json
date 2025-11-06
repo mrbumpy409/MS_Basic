@@ -1,0 +1,89 @@
+{
+  "name": "Tine Electric Piano",
+  "bank": 0,
+  "preset_number": 4,
+  "library": 36307498,
+  "genre": 36307498,
+  "morphology": 36307498,
+  "zones": [
+    {
+      "generators": {
+        "chorusEffectsSend": 70,
+        "reverbEffectsSend": 100,
+        "initialAttenuation": 140
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -4800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "velRange": "121-127",
+        "releaseVolEnv": 316,
+        "instrument": "Tine EP"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "113-120",
+        "releaseVolEnv": 165,
+        "instrument": "Tine EP"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "105-112",
+        "releaseVolEnv": 0,
+        "instrument": "Tine EP"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "97-104",
+        "releaseVolEnv": -182,
+        "instrument": "Tine EP"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "89-96",
+        "releaseVolEnv": -386,
+        "instrument": "Tine EP"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "81-88",
+        "releaseVolEnv": -617,
+        "instrument": "Tine EP"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "73-80",
+        "releaseVolEnv": -884,
+        "instrument": "Tine EP"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "65-72",
+        "releaseVolEnv": -1200,
+        "instrument": "Tine EP"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "0-64",
+        "releaseVolEnv": -1586,
+        "instrument": "Tine EP"
+      }
+    }
+  ]
+}

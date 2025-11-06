@@ -1,0 +1,25 @@
+{
+  "name": "Marching Cymbals",
+  "bank": 128,
+  "preset_number": 58,
+  "library": 53674803,
+  "genre": 53674803,
+  "morphology": 53674803,
+  "zones": [
+    {
+      "generators": {}
+    },
+    {
+      "generators": {
+        "pan": -50,
+        "instrument": "MDL Cymbal 1"
+      }
+    },
+    {
+      "generators": {
+        "pan": 50,
+        "instrument": "MDL Cymbal 2"
+      }
+    }
+  ]
+}

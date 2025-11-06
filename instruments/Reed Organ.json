@@ -1,0 +1,84 @@
+{
+  "name": "Reed Organ",
+  "zones": [
+    {
+      "generators": {
+        "decayVolEnv": 454,
+        "releaseVolEnv": -1586,
+        "initialAttenuation": 70,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-54",
+        "sample": "reed organ f#4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "55-60",
+        "sample": "reed organ c5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-66",
+        "sample": "reed organ f#5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "67-72",
+        "sample": "reed organ c6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "73-78",
+        "sample": "reed organ f#6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "79-84",
+        "sample": "reed organ c7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "85-90",
+        "sample": "reed organ f#7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "91-108",
+        "sample": "reed organ c8"
+      }
+    }
+  ]
+}

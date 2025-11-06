@@ -1,0 +1,30 @@
+{
+  "name": "Hawaiian Guitar",
+  "bank": 8,
+  "preset_number": 26,
+  "library": 16515324,
+  "genre": 16515324,
+  "morphology": 16515324,
+  "zones": [
+    {
+      "generators": {}
+    },
+    {
+      "generators": {
+        "modLfoToPitch": 11,
+        "initialFilterFc": -2786,
+        "modLfoToFilterFc": 2,
+        "modEnvToFilterFc": -450,
+        "delayModLFO": 11262,
+        "freqModLFO": -336,
+        "decayModEnv": -3550,
+        "sustainModEnv": -377,
+        "holdVolEnv": 800,
+        "decayVolEnv": 600,
+        "releaseVolEnv": -200,
+        "initialAttenuation": -214,
+        "instrument": "Jazz Guitar"
+      }
+    }
+  ]
+}

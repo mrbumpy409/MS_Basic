@@ -1,0 +1,149 @@
+{
+  "name": "Viola",
+  "zones": [
+    {
+      "generators": {
+        "releaseVolEnv": -2084,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 34,
+          "amount": 10758,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-50",
+        "sample": "Viola C#2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "51-53",
+        "sample": "Viola E2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "54-56",
+        "sample": "Viola G2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "57-59",
+        "sample": "Viola A#2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "60-62",
+        "sample": "Viola C#3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "63-65",
+        "attackVolEnv": -3821,
+        "initialAttenuation": 20,
+        "sample": "Viola E3"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 34,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1026,
+          "dest_oper": 34,
+          "amount": -1586,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "66-68",
+        "sample": "Viola G3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "69-71",
+        "sample": "Viola A#3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "72-74",
+        "sample": "Viola C#4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "75-77",
+        "sample": "Viola E4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "78-80",
+        "sample": "Viola G4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "81-83",
+        "sample": "Viola A#4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "84-86",
+        "sample": "Viola C#5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "87-89",
+        "sample": "Viola E5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "90-96",
+        "sample": "Viola G5"
+      }
+    }
+  ]
+}

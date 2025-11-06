@@ -1,0 +1,20 @@
+{
+  "name": "Shamisen",
+  "bank": 0,
+  "preset_number": 106,
+  "library": 19595563,
+  "genre": 19595563,
+  "morphology": 19595563,
+  "zones": [
+    {
+      "generators": {}
+    },
+    {
+      "generators": {
+        "reverbEffectsSend": 100,
+        "initialAttenuation": 130,
+        "instrument": "Shamisen"
+      }
+    }
+  ]
+}

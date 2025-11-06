@@ -1,0 +1,64 @@
+{
+  "name": "Jazz 1",
+  "bank": 128,
+  "preset_number": 33,
+  "library": 24707449,
+  "genre": 24707449,
+  "morphology": 24707449,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 100
+      }
+    },
+    {
+      "generators": {
+        "initialAttenuation": -100,
+        "instrument": "Misc. Percussion"
+      }
+    },
+    {
+      "generators": {
+        "initialAttenuation": -100,
+        "instrument": "Std Snare 2"
+      }
+    },
+    {
+      "generators": {
+        "initialAttenuation": -100,
+        "instrument": "Percussion"
+      }
+    },
+    {
+      "generators": {
+        "reverbEffectsSend": 50,
+        "initialAttenuation": -100,
+        "instrument": "Std Tom"
+      }
+    },
+    {
+      "generators": {
+        "initialAttenuation": -100,
+        "instrument": "Crashes & Rides"
+      }
+    },
+    {
+      "generators": {
+        "initialAttenuation": -100,
+        "instrument": "Hand Perc"
+      }
+    },
+    {
+      "generators": {
+        "initialAttenuation": -100,
+        "instrument": "Std Kick 3"
+      }
+    },
+    {
+      "generators": {
+        "initialAttenuation": 0,
+        "instrument": "Hi Hats Treb"
+      }
+    }
+  ]
+}

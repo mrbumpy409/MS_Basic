@@ -1,0 +1,23 @@
+{
+  "name": "Guitar Feedback",
+  "bank": 8,
+  "preset_number": 31,
+  "library": 16187639,
+  "genre": 16187639,
+  "morphology": 16187639,
+  "zones": [
+    {
+      "generators": {}
+    },
+    {
+      "generators": {
+        "initialFilterFc": -1688,
+        "initialFilterQ": 45,
+        "decayVolEnv": 900,
+        "initialAttenuation": 36,
+        "fineTune": 2,
+        "instrument": "Feedback/GS"
+      }
+    }
+  ]
+}

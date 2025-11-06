@@ -1,0 +1,20 @@
+{
+  "name": "Steel Drums",
+  "bank": 0,
+  "preset_number": 114,
+  "library": 50201342,
+  "genre": 50201342,
+  "morphology": 50201342,
+  "zones": [
+    {
+      "generators": {}
+    },
+    {
+      "generators": {
+        "initialFilterQ": 90,
+        "reverbEffectsSend": 100,
+        "instrument": "Steel Drum"
+      }
+    }
+  ]
+}

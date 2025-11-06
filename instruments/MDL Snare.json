@@ -1,0 +1,169 @@
+{
+  "name": "MDL Snare",
+  "zones": [
+    {
+      "generators": {
+        "releaseVolEnv": 7973,
+        "scaleTuning": 0
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "48-48",
+        "velRange": "0-74",
+        "releaseVolEnv": -1200,
+        "sample": "MSnr-crush long 1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "48-48",
+        "velRange": "75-127",
+        "releaseVolEnv": -1200,
+        "sample": "MSnr-crush long 3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "50-50",
+        "velRange": "75-127",
+        "sample": "MSnr-hit 3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "50-50",
+        "velRange": "0-74",
+        "sample": "MSnr-hit 4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "53-53",
+        "velRange": "0-74",
+        "sample": "MSnr-rim 1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "53-53",
+        "velRange": "75-127",
+        "sample": "MSnr-rim 3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "52-52",
+        "velRange": "86-127",
+        "initialAttenuation": 50,
+        "sample": "MSnr-rim shot 3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "52-52",
+        "velRange": "0-85",
+        "sample": "MSnr-rim shot 4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "59-59",
+        "velRange": "0-42",
+        "sample": "MSnr-shell 1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "59-59",
+        "velRange": "86-127",
+        "sample": "MSnr-shell 2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "59-59",
+        "velRange": "43-85",
+        "sample": "MSnr-shell 3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "55-55",
+        "velRange": "86-127",
+        "sample": "MSnr-stick click 1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "55-55",
+        "velRange": "0-42",
+        "sample": "MSnr-stick click 2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "55-55",
+        "velRange": "43-85",
+        "sample": "MSnr-stick click 3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "55-55",
+        "sample": "MSnr-stick click 4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "57-57",
+        "velRange": "0-74",
+        "sample": "MSnr-stick shot 1"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "57-57",
+        "velRange": "75-127",
+        "sample": "MSnr-stick shot 2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "60-60",
+        "velRange": "0-74",
+        "sample": "MSnr-backstick 2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "60-60",
+        "velRange": "75-127",
+        "sample": "MSnr-backstick 3"
+      }
+    }
+  ]
+}

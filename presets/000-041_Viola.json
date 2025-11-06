@@ -1,0 +1,31 @@
+{
+  "name": "Viola",
+  "bank": 0,
+  "preset_number": 41,
+  "library": 18743582,
+  "genre": 18743582,
+  "morphology": 18743582,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 150,
+        "releaseVolEnv": 702,
+        "initialAttenuation": 90
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "instrument": "Viola"
+      }
+    }
+  ]
+}

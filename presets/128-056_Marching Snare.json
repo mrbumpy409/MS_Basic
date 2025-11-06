@@ -1,0 +1,23 @@
+{
+  "name": "Marching Snare",
+  "bank": 128,
+  "preset_number": 56,
+  "library": 53347118,
+  "genre": 53347118,
+  "morphology": 53347118,
+  "zones": [
+    {
+      "generators": {}
+    },
+    {
+      "generators": {
+        "instrument": "MDL Snare"
+      }
+    },
+    {
+      "generators": {
+        "instrument": "Marching Snare Cym"
+      }
+    }
+  ]
+}

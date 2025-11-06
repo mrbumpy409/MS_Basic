@@ -1,0 +1,29 @@
+{
+  "name": "Slap Bass",
+  "bank": 0,
+  "preset_number": 36,
+  "library": 14155992,
+  "genre": 14155992,
+  "morphology": 14155992,
+  "zones": [
+    {
+      "generators": {}
+    },
+    {
+      "generators": {
+        "initialFilterFc": 6386,
+        "reverbEffectsSend": 20,
+        "instrument": "Slap Bass"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -4800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    }
+  ]
+}

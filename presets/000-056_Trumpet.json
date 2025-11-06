@@ -1,0 +1,51 @@
+{
+  "name": "Trumpet",
+  "bank": 0,
+  "preset_number": 56,
+  "library": 54395710,
+  "genre": 54395710,
+  "morphology": 54395710,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 150,
+        "delayModLFO": 3986
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 700,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 11,
+          "amount": -2000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -2480,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 9,
+          "amount": 8,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "instrument": "Trumpet"
+      }
+    }
+  ]
+}

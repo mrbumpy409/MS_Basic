@@ -1,0 +1,140 @@
+{
+  "name": "Power Toms",
+  "zones": [
+    {
+      "generators": {
+        "holdVolEnv": 2786,
+        "sustainVolEnv": 1000
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "41-41",
+        "releaseVolEnv": 5769,
+        "fineTune": -5,
+        "overridingRootKey": 41,
+        "sample": "Tom Floor"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "43-43",
+        "releaseVolEnv": 5769,
+        "coarseTune": 1,
+        "fineTune": -5,
+        "overridingRootKey": 42,
+        "sample": "Tom Floor"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "45-45",
+        "releaseVolEnv": 5573,
+        "overridingRootKey": 45,
+        "sample": "Tom Low"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "47-47",
+        "releaseVolEnv": 4688,
+        "overridingRootKey": 47,
+        "sample": "Tom Med"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "48-48",
+        "releaseVolEnv": 3986,
+        "overridingRootKey": 48,
+        "sample": "Tom Hi"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "50-50",
+        "releaseVolEnv": 2786,
+        "coarseTune": 3,
+        "overridingRootKey": 50,
+        "sample": "Tom Hi"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    }
+  ]
+}

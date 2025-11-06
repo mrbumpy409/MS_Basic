@@ -1,0 +1,71 @@
+{
+  "name": "Clean Guitar",
+  "bank": 0,
+  "preset_number": 27,
+  "library": 26214800,
+  "genre": 26214800,
+  "morphology": 26214800,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 100,
+        "attackVolEnv": -7973,
+        "releaseVolEnv": -2084
+      }
+    },
+    {
+      "generators": {
+        "velRange": "121-127",
+        "instrument": "Clean Guitar"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "113-120",
+        "instrument": "Clean Guitar"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "105-112",
+        "instrument": "Clean Guitar"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "97-104",
+        "instrument": "Clean Guitar"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "89-96",
+        "instrument": "Clean Guitar"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "81-88",
+        "instrument": "Clean Guitar"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "73-80",
+        "instrument": "Clean Guitar"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "65-72",
+        "instrument": "Clean Guitar"
+      }
+    },
+    {
+      "generators": {
+        "velRange": "0-64",
+        "instrument": "Clean Guitar"
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "name": "Bowed Glass Expr.",
+  "bank": 17,
+  "preset_number": 92,
+  "library": 64226260,
+  "genre": 64226260,
+  "morphology": 64226260,
+  "zones": [
+    {
+      "generators": {
+        "chorusEffectsSend": 120,
+        "reverbEffectsSend": 70,
+        "freqVibLFO": -856,
+        "delayModEnv": -7973,
+        "attackModEnv": -7973,
+        "holdModEnv": -7973,
+        "decayModEnv": -7973,
+        "releaseModEnv": 7973,
+        "delayVolEnv": -7973,
+        "attackVolEnv": 3600,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 5888,
+        "sustainVolEnv": 160,
+        "releaseVolEnv": -7973
+      },
+      "modulators": [
+        {
+          "src_oper": 1410,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 386,
+          "dest_oper": 8,
+          "amount": -3600,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "modEnvToFilterFc": 500,
+        "chorusEffectsSend": 320,
+        "reverbEffectsSend": 320,
+        "attackVolEnv": 2400,
+        "decayVolEnv": 6773,
+        "sustainVolEnv": 960,
+        "releaseVolEnv": 6773,
+        "initialAttenuation": 120,
+        "coarseTune": -12,
+        "instrument": "Bowed Glass"
+      }
+    },
+    {
+      "generators": {
+        "initialFilterFc": 0,
+        "modEnvToFilterFc": 2000,
+        "releaseModEnv": 3986,
+        "releaseVolEnv": 3102,
+        "initialAttenuation": 200,
+        "fineTune": -1,
+        "instrument": "0 Saw Stack-lite"
+      },
+      "modulators": [
+        {
+          "src_oper": 515,
+          "dest_oper": 8,
+          "amount": 2000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "name": "Clavinet",
+  "zones": [
+    {
+      "generators": {
+        "chorusEffectsSend": 50,
+        "decayVolEnv": 5641,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": -2084,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-31",
+        "decayVolEnv": 5641,
+        "overridingRootKey": 31,
+        "sample": "Clavinet G2"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "32-36",
+        "decayVolEnv": 5502,
+        "overridingRootKey": 36,
+        "sample": "Clavinet C3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "37-43",
+        "decayVolEnv": 5351,
+        "overridingRootKey": 43,
+        "sample": "Clavinet G3"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "44-48",
+        "decayVolEnv": 5186,
+        "overridingRootKey": 48,
+        "sample": "Clavinet C4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "49-55",
+        "decayVolEnv": 5004,
+        "overridingRootKey": 55,
+        "sample": "Clavinet G4"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "56-60",
+        "decayVolEnv": 4800,
+        "sample": "Clavinet C5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "61-67",
+        "decayVolEnv": 4569,
+        "overridingRootKey": 67,
+        "sample": "Clavinet G5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "68-72",
+        "decayVolEnv": 4302,
+        "overridingRootKey": 72,
+        "sample": "Clavinet C6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "73-79",
+        "decayVolEnv": 3986,
+        "overridingRootKey": 79,
+        "sample": "Clavinet G6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "80-84",
+        "decayVolEnv": 3600,
+        "overridingRootKey": 84,
+        "sample": "Clavinet C7"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "85-108",
+        "decayVolEnv": 3102,
+        "overridingRootKey": 91,
+        "sample": "Clavinet G7"
+      }
+    }
+  ]
+}

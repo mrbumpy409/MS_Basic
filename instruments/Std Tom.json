@@ -1,0 +1,81 @@
+{
+  "name": "Std Tom",
+  "zones": [
+    {
+      "generators": {
+        "initialFilterFc": 11921,
+        "holdVolEnv": 3974,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": 5830,
+        "fineTune": -5
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "41-41",
+        "initialAttenuation": 70,
+        "overridingRootKey": 41,
+        "sample": "Low Flr Studio"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "43-43",
+        "initialAttenuation": 70,
+        "overridingRootKey": 43,
+        "sample": "Flr Studio"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "45-45",
+        "overridingRootKey": 45,
+        "sample": "Low Studio"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "47-47",
+        "overridingRootKey": 47,
+        "sample": "Md Studio(L)"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "48-48",
+        "overridingRootKey": 48,
+        "sample": "MdHi Studio(L)"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "50-50",
+        "overridingRootKey": 50,
+        "sample": "Hi Studio"
+      }
+    }
+  ]
+}

@@ -1,0 +1,707 @@
+{
+  "name": "Grand Piano",
+  "bank": 0,
+  "preset_number": 0,
+  "library": 67830795,
+  "genre": 67830795,
+  "morphology": 67830795,
+  "zones": [
+    {
+      "generators": {
+        "initialFilterQ": 60,
+        "decayModEnv": 583,
+        "decayVolEnv": 583,
+        "initialAttenuation": 130,
+        "fineTune": -5
+      },
+      "modulators": [
+        {
+          "src_oper": 2,
+          "dest_oper": 9,
+          "amount": -160,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 259,
+          "dest_oper": 30,
+          "amount": 1901,
+          "amt_src_oper": 2,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 259,
+          "dest_oper": 38,
+          "amount": 1901,
+          "amt_src_oper": 2,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "velRange": "3-74",
+        "attackVolEnv": -7973,
+        "releaseVolEnv": 165,
+        "initialAttenuation": 174,
+        "instrument": "Piano MF-low"
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 700,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 2,
+          "dest_oper": 11,
+          "amount": 6500,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 259,
+          "dest_oper": 30,
+          "amount": 2499,
+          "amt_src_oper": 2,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 259,
+          "dest_oper": 38,
+          "amount": 2500,
+          "amt_src_oper": 2,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 515,
+          "dest_oper": 8,
+          "amount": 1929,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "velRange": "3-74",
+        "releaseModEnv": 702,
+        "attackVolEnv": -7973,
+        "releaseVolEnv": 1902,
+        "initialAttenuation": 174,
+        "instrument": "Piano MF-high"
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 700,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 2,
+          "dest_oper": 11,
+          "amount": 6000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 515,
+          "dest_oper": 8,
+          "amount": 1929,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "velRange": "75-107",
+        "modEnvToFilterFc": -2350,
+        "attackVolEnv": -7973,
+        "releaseVolEnv": 165,
+        "initialAttenuation": 140,
+        "instrument": "Piano MF-low"
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 700,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 2,
+          "dest_oper": 11,
+          "amount": 10000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 259,
+          "dest_oper": 30,
+          "amount": 2499,
+          "amt_src_oper": 2,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 259,
+          "dest_oper": 38,
+          "amount": 2500,
+          "amt_src_oper": 2,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 515,
+          "dest_oper": 8,
+          "amount": 1929,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "velRange": "75-107",
+        "modEnvToFilterFc": -2350,
+        "releaseModEnv": 702,
+        "attackVolEnv": -7973,
+        "releaseVolEnv": 1902,
+        "initialAttenuation": 140,
+        "instrument": "Piano MF-high"
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 700,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 2,
+          "dest_oper": 11,
+          "amount": 9500,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 515,
+          "dest_oper": 8,
+          "amount": 1929,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "velRange": "108-127",
+        "initialFilterFc": -343,
+        "modEnvToFilterFc": 900,
+        "releaseVolEnv": 165,
+        "instrument": "Piano FF-low"
+      },
+      "modulators": [
+        {
+          "src_oper": 1026,
+          "dest_oper": 11,
+          "amount": 12000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 259,
+          "dest_oper": 38,
+          "amount": 2499,
+          "amt_src_oper": 2,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 259,
+          "dest_oper": 30,
+          "amount": 2499,
+          "amt_src_oper": 2,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 515,
+          "dest_oper": 8,
+          "amount": 1929,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "velRange": "108-127",
+        "initialFilterFc": -343,
+        "modEnvToFilterFc": 900,
+        "releaseModEnv": 702,
+        "releaseVolEnv": 1902,
+        "instrument": "Piano FF-high"
+      },
+      "modulators": [
+        {
+          "src_oper": 1026,
+          "dest_oper": 11,
+          "amount": 12000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 515,
+          "dest_oper": 8,
+          "amount": 1929,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-59",
+        "velRange": "3-8",
+        "initialFilterQ": 0,
+        "attackVolEnv": 5573,
+        "releaseVolEnv": 165,
+        "initialAttenuation": 120,
+        "instrument": "Piano MF-low"
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 600,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 771,
+          "dest_oper": 48,
+          "amount": 160,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 771,
+          "dest_oper": 34,
+          "amount": 7,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 2,
+          "dest_oper": 11,
+          "amount": 2000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 259,
+          "dest_oper": 30,
+          "amount": 2499,
+          "amt_src_oper": 2,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 259,
+          "dest_oper": 38,
+          "amount": 2500,
+          "amt_src_oper": 2,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 515,
+          "dest_oper": 8,
+          "amount": 2000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "60-127",
+        "velRange": "3-8",
+        "initialFilterQ": 0,
+        "attackVolEnv": 5573,
+        "releaseVolEnv": 165,
+        "initialAttenuation": 70,
+        "instrument": "Piano MF-low"
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 600,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 771,
+          "dest_oper": 48,
+          "amount": 160,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 771,
+          "dest_oper": 34,
+          "amount": 7,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 2,
+          "dest_oper": 11,
+          "amount": 2000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 259,
+          "dest_oper": 30,
+          "amount": 2499,
+          "amt_src_oper": 2,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 259,
+          "dest_oper": 38,
+          "amount": 2500,
+          "amt_src_oper": 2,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 515,
+          "dest_oper": 8,
+          "amount": 4000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-59",
+        "velRange": "9-63",
+        "initialFilterQ": 0,
+        "attackVolEnv": 5573,
+        "releaseVolEnv": 165,
+        "initialAttenuation": 220,
+        "instrument": "Piano MF-low"
+      },
+      "modulators": [
+        {
+          "src_oper": 771,
+          "dest_oper": 48,
+          "amount": 160,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 771,
+          "dest_oper": 34,
+          "amount": 7,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 400,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 2,
+          "dest_oper": 11,
+          "amount": 2000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 259,
+          "dest_oper": 30,
+          "amount": 2499,
+          "amt_src_oper": 2,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 259,
+          "dest_oper": 38,
+          "amount": 2500,
+          "amt_src_oper": 2,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 515,
+          "dest_oper": 8,
+          "amount": 2000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "60-127",
+        "velRange": "9-63",
+        "initialFilterQ": 0,
+        "attackVolEnv": 5573,
+        "releaseVolEnv": 165,
+        "initialAttenuation": 170,
+        "instrument": "Piano MF-low"
+      },
+      "modulators": [
+        {
+          "src_oper": 771,
+          "dest_oper": 48,
+          "amount": 160,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 771,
+          "dest_oper": 34,
+          "amount": 7,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 400,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 2,
+          "dest_oper": 11,
+          "amount": 2000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 259,
+          "dest_oper": 30,
+          "amount": 2499,
+          "amt_src_oper": 2,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 259,
+          "dest_oper": 38,
+          "amount": 2500,
+          "amt_src_oper": 2,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 515,
+          "dest_oper": 8,
+          "amount": 4000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "velRange": "64-107",
+        "initialFilterQ": 0,
+        "attackVolEnv": 5573,
+        "releaseVolEnv": 165,
+        "initialAttenuation": 300,
+        "instrument": "Piano MF-low"
+      },
+      "modulators": [
+        {
+          "src_oper": 771,
+          "dest_oper": 48,
+          "amount": 160,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 771,
+          "dest_oper": 34,
+          "amount": 7,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 2,
+          "dest_oper": 11,
+          "amount": 2000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 259,
+          "dest_oper": 30,
+          "amount": 2499,
+          "amt_src_oper": 2,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 259,
+          "dest_oper": 38,
+          "amount": 2500,
+          "amt_src_oper": 2,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 515,
+          "dest_oper": 8,
+          "amount": 8000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "velRange": "3-8",
+        "initialFilterQ": 0,
+        "releaseModEnv": 702,
+        "attackVolEnv": 5573,
+        "releaseVolEnv": 1902,
+        "initialAttenuation": 0,
+        "instrument": "Piano MF-high"
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 600,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 771,
+          "dest_oper": 34,
+          "amount": 7,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 2,
+          "dest_oper": 11,
+          "amount": 2000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 515,
+          "dest_oper": 8,
+          "amount": 8000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "velRange": "9-63",
+        "initialFilterQ": 0,
+        "releaseModEnv": 702,
+        "attackVolEnv": 5573,
+        "releaseVolEnv": 1902,
+        "initialAttenuation": 100,
+        "instrument": "Piano MF-high"
+      },
+      "modulators": [
+        {
+          "src_oper": 771,
+          "dest_oper": 34,
+          "amount": 7,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 400,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 2,
+          "dest_oper": 11,
+          "amount": 2000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 515,
+          "dest_oper": 8,
+          "amount": 8000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "velRange": "64-107",
+        "initialFilterQ": 0,
+        "modEnvToFilterFc": 1000,
+        "releaseModEnv": 702,
+        "attackVolEnv": 5573,
+        "releaseVolEnv": 1902,
+        "initialAttenuation": 230,
+        "instrument": "Piano MF-high"
+      },
+      "modulators": [
+        {
+          "src_oper": 771,
+          "dest_oper": 34,
+          "amount": 7,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 400,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 2,
+          "dest_oper": 11,
+          "amount": 2000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 515,
+          "dest_oper": 8,
+          "amount": 8000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    }
+  ]
+}

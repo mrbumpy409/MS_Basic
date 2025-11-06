@@ -1,0 +1,54 @@
+{
+  "name": "Warm Pad Expr.",
+  "bank": 17,
+  "preset_number": 89,
+  "library": 79496381,
+  "genre": 79496381,
+  "morphology": 79496381,
+  "zones": [
+    {
+      "generators": {
+        "initialFilterFc": -498,
+        "initialFilterQ": 40,
+        "modEnvToFilterFc": 500,
+        "chorusEffectsSend": 140,
+        "reverbEffectsSend": 140,
+        "attackModEnv": 3600,
+        "releaseModEnv": -1200,
+        "attackVolEnv": 3600,
+        "holdVolEnv": 3699,
+        "decayVolEnv": 5451,
+        "sustainVolEnv": 984,
+        "releaseVolEnv": 2951
+      },
+      "modulators": [
+        {
+          "src_oper": 386,
+          "dest_oper": 8,
+          "amount": -1800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 515,
+          "dest_oper": 8,
+          "amount": 1200,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1410,
+          "dest_oper": 48,
+          "amount": 600,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "instrument": "Strings Layer"
+      }
+    }
+  ]
+}

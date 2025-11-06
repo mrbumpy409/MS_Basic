@@ -1,0 +1,20 @@
+{
+  "name": "Sitar",
+  "bank": 0,
+  "preset_number": 104,
+  "library": 14287066,
+  "genre": 14287066,
+  "morphology": 14287066,
+  "zones": [
+    {
+      "generators": {}
+    },
+    {
+      "generators": {
+        "reverbEffectsSend": 130,
+        "initialAttenuation": 45,
+        "instrument": "Sitar"
+      }
+    }
+  ]
+}

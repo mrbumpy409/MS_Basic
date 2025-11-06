@@ -1,0 +1,103 @@
+{
+  "name": "Metal Pad",
+  "bank": 0,
+  "preset_number": 93,
+  "library": 5242960,
+  "genre": 5242960,
+  "morphology": 5242960,
+  "zones": [
+    {
+      "generators": {
+        "chorusEffectsSend": 150,
+        "reverbEffectsSend": 140
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -3600,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "initialFilterFc": -2084,
+        "initialFilterQ": 75,
+        "modEnvToFilterFc": 7200,
+        "chorusEffectsSend": 240,
+        "reverbEffectsSend": 70,
+        "delayVibLFO": 1200,
+        "delayModEnv": -7973,
+        "attackModEnv": -7973,
+        "holdModEnv": -7973,
+        "decayModEnv": 0,
+        "sustainModEnv": -688,
+        "releaseModEnv": 7973,
+        "attackVolEnv": 6311,
+        "holdVolEnv": -7973,
+        "decayVolEnv": -1586,
+        "sustainVolEnv": -680,
+        "releaseVolEnv": 4302,
+        "instrument": "Metal Pad"
+      }
+    },
+    {
+      "generators": {
+        "vibLfoToPitch": 10,
+        "initialFilterFc": 2604,
+        "initialFilterQ": 80,
+        "modEnvToFilterFc": 2500,
+        "chorusEffectsSend": 200,
+        "reverbEffectsSend": 200,
+        "delayModLFO": -7973,
+        "delayVibLFO": -7973,
+        "delayModEnv": -7973,
+        "attackModEnv": -7973,
+        "holdModEnv": -2786,
+        "decayModEnv": 0,
+        "sustainModEnv": 1000,
+        "releaseModEnv": 0,
+        "delayVolEnv": -7973,
+        "attackVolEnv": 0,
+        "holdVolEnv": -7973,
+        "decayVolEnv": 0,
+        "releaseVolEnv": 3102,
+        "initialAttenuation": 180,
+        "fineTune": -1,
+        "instrument": "0 Saw Stack-lite"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -2000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 2,
+          "dest_oper": 11,
+          "amount": 700,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 515,
+          "dest_oper": 8,
+          "amount": 2000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    }
+  ]
+}

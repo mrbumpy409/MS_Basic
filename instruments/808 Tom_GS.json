@@ -1,0 +1,41 @@
+{
+  "name": "808 Tom/GS",
+  "zones": [
+    {
+      "generators": {},
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "modEnvToPitch": 150,
+        "coarseTune": 7,
+        "fineTune": -80,
+        "scaleTuning": 55,
+        "overridingRootKey": 82,
+        "sample": "808 Tom 6"
+      }
+    }
+  ]
+}

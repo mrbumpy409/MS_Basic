@@ -1,0 +1,40 @@
+{
+  "name": "Calliope Lead",
+  "bank": 0,
+  "preset_number": 82,
+  "library": 55837524,
+  "genre": 55837524,
+  "morphology": 55837524,
+  "zones": [
+    {
+      "generators": {
+        "initialFilterQ": 20,
+        "chorusEffectsSend": 500,
+        "reverbEffectsSend": 120,
+        "initialAttenuation": 30
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 8,
+          "amount": -13500,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "initialFilterFc": -1586,
+        "instrument": "Calliope Lead"
+      }
+    }
+  ]
+}

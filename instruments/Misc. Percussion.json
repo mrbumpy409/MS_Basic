@@ -1,0 +1,278 @@
+{
+  "name": "Misc. Percussion",
+  "zones": [
+    {
+      "generators": {
+        "releaseVolEnv": 1200
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "27-27",
+        "initialAttenuation": 150,
+        "overridingRootKey": 27,
+        "sample": "High Q"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "28-28",
+        "initialAttenuation": 100,
+        "overridingRootKey": 28,
+        "sample": "Slap"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "31-31",
+        "decayVolEnv": -1200,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": 1902,
+        "overridingRootKey": 31,
+        "sample": "Sticks",
+        "sample_channel": "left"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "32-32",
+        "initialAttenuation": 200,
+        "overridingRootKey": 32,
+        "sample": "Square Click"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "33-33",
+        "initialAttenuation": 80,
+        "overridingRootKey": 33,
+        "sample": "Metronome Click"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "34-34",
+        "initialAttenuation": 120,
+        "overridingRootKey": 34,
+        "sample": "Metronome Bell(L)"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "39-39",
+        "overridingRootKey": 39,
+        "sample": "Clap"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "58-58",
+        "releaseVolEnv": 5888,
+        "overridingRootKey": 58,
+        "sample": "Vibra Slap"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "31-31",
+        "decayVolEnv": -1200,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": 1902,
+        "overridingRootKey": 31,
+        "sample": "Sticks",
+        "sample_channel": "right"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "37-37",
+        "decayVolEnv": 1902,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": 1902,
+        "initialAttenuation": 100,
+        "overridingRootKey": 37,
+        "sample": "Rim Tap"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "56-56",
+        "initialAttenuation": 50,
+        "overridingRootKey": 56,
+        "sample": "Cow Bell"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "30-30",
+        "initialAttenuation": 150,
+        "overridingRootKey": 30,
+        "sample": "Scratch Pull"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "29-29",
+        "initialAttenuation": 150,
+        "overridingRootKey": 29,
+        "sample": "Scratch Push"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "54-54",
+        "overridingRootKey": 54,
+        "sample": "Tambourine"
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    }
+  ]
+}

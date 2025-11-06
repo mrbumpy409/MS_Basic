@@ -1,0 +1,57 @@
+{
+  "name": "Room 6",
+  "bank": 128,
+  "preset_number": 14,
+  "library": 28049836,
+  "genre": 28049836,
+  "morphology": 28049836,
+  "zones": [
+    {
+      "generators": {
+        "reverbEffectsSend": 200,
+        "initialAttenuation": -200
+      }
+    },
+    {
+      "generators": {
+        "instrument": "Misc. Percussion"
+      }
+    },
+    {
+      "generators": {
+        "instrument": "Std Snare 2"
+      }
+    },
+    {
+      "generators": {
+        "instrument": "Percussion"
+      }
+    },
+    {
+      "generators": {
+        "instrument": "Std Tom"
+      }
+    },
+    {
+      "generators": {
+        "instrument": "Crashes & Rides"
+      }
+    },
+    {
+      "generators": {
+        "instrument": "Hand Perc"
+      }
+    },
+    {
+      "generators": {
+        "instrument": "Std Kick 7"
+      }
+    },
+    {
+      "generators": {
+        "initialAttenuation": -140,
+        "instrument": "Hi Hats"
+      }
+    }
+  ]
+}
