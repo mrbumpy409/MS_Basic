@@ -1,0 +1,121 @@
+name: "Build Soundfont"
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  release:
+    types:
+      - created
+  workflow_dispatch:
+    inputs:
+      ogg_quality:
+        description: "ogg quality (0.0 - 1.0)"
+        required: false
+        default: "0.8"
+
+jobs:
+  build:
+    runs-on: "ubuntu-latest"
+
+    env:
+      # --- Configuration ---
+      # Set the source directory containing decompiled soundfont files
+      SOURCE_DIRECTORY: "."
+      # Set the default ogg quality (used for PR/Release)
+      DEFAULT_OGG_QUALITY: "0.8"
+      # --- End Configuration ---
+
+      # Filenames will be set dynamically later
+      SF2_FILENAME: "soundfont.sf2"
+      SF3_FILENAME: "soundfont.sf3"
+      ARCHIVE_FILENAME: "soundfont.7z"
+
+    steps:
+      # Checkout repository source code
+      - name: "Checkout code"
+        uses: "actions/checkout@v5"
+
+      # Set up Python environment (for sfutils)
+      - name: "Set up Python"
+        uses: "actions/setup-python@v6"
+        with:
+          python-version: "3.12"
+
+      # Install apt dependencies (for 7-Zip and sftools build)
+      - name: "Install apt dependencies"
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends ffmpeg p7zip-full
+
+      # Install sfutils repository
+      - name: "Install sfutils"
+        run: |
+          pip install git+https://github.com/bakajikara/sfutils.git
+
+      # Determine output filenames
+      - name: "Determine output filenames"
+        run: |
+          REPO_NAME=$(echo "${{ github.repository }}" | cut -d"/" -f2)
+
+          if [ "${{ github.event_name }}" == "release" ]; then
+            TAG_NAME="${{ github.ref_name }}"
+            BASE_FILENAME="${REPO_NAME}-${TAG_NAME}"
+          elif [ "${{ github.event_name }}" == "pull_request" ]; then
+            PR_NUMBER="${{ github.event.number }}"
+            BASE_FILENAME="${REPO_NAME}-PR-${PR_NUMBER}"
+          else # workflow_dispatch
+            BRANCH_NAME=$(echo "${{ github.ref_name }}" | sed 's/\//-/g')
+            SHORT_SHA=$(echo "${{ github.sha }}" | cut -c1-7)
+            BASE_FILENAME="${REPO_NAME}-${BRANCH_NAME}-${SHORT_SHA}"
+          fi
+
+          echo "SF2_FILENAME=${BASE_FILENAME}.sf2" >> $GITHUB_ENV
+          echo "SF3_FILENAME=${BASE_FILENAME}.sf3" >> $GITHUB_ENV
+          echo "ARCHIVE_FILENAME=${BASE_FILENAME}.7z" >> $GITHUB_ENV
+          echo "BASE_FILENAME=${BASE_FILENAME}" >> $GITHUB_ENV
+
+      # Compile sf2
+      - name: "Compile sf2"
+        run: |
+          echo "Compiling sf2: ${{ env.SF2_FILENAME }}..."
+          sfutils compile ${{ env.SOURCE_DIRECTORY }} ${{ env.SF2_FILENAME }}
+
+      # Compile sf3
+      - name: "Compile sf3"
+        run: |
+          # Set quality based on trigger
+          if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+            QUALITY="${{ github.event.inputs.ogg_quality }}"
+          else
+            # Use the default value for PR and Release builds
+            QUALITY="${{ env.DEFAULT_OGG_QUALITY }}"
+          fi
+
+          echo "Compiling sf3: ${{ env.SF3_FILENAME }}"
+          sfutils compile ${{ env.SOURCE_DIRECTORY }} ${{ env.SF3_FILENAME }} -q $QUALITY
+
+      # [If PR or Manual or Push] Compress files into one 7z archive
+      - name: "Compress generated files (for PR or Manual or Push)"
+        if: github.event_name != 'release'
+        run: |
+          echo "Compressing files to ${{ env.ARCHIVE_FILENAME }}..."
+          7z a ${{ env.ARCHIVE_FILENAME }} ${{ env.SF2_FILENAME }} ${{ env.SF3_FILENAME }}
+
+      # [If PR or Manual or Push] Upload compressed artifact
+      - name: "Upload Artifact (for PR or Manual or Push)"
+        if: github.event_name != 'release'
+        uses: "actions/upload-artifact@v5"
+        with:
+          name: ${{ env.BASE_FILENAME }}
+          path: ${{ env.ARCHIVE_FILENAME }}
+
+      # [If Release] Upload individual assets to Release
+      - name: "Upload to Release"
+        if: github.event_name == 'release'
+        uses: "softprops/action-gh-release@v2"
+        with:
+          files: |
+            ${{ env.SF2_FILENAME }}
+            ${{ env.SF3_FILENAME }}
