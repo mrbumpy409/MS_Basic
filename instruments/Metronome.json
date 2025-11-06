@@ -1,0 +1,54 @@
+{
+  "name": "Metronome",
+  "zones": [
+    {
+      "generators": {
+        "releaseVolEnv": 8000
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "77-77",
+        "sample": "metronome-tack"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "76-76",
+        "sample": "metronome-tick"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "33-33",
+        "pan": -500,
+        "sample": "metronome-MDL1",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "33-33",
+        "pan": 500,
+        "sample": "metronome-MDL1",
+        "sample_channel": "right"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "34-34",
+        "pan": -500,
+        "sample": "metronome-MDL2",
+        "sample_channel": "left"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "34-34",
+        "pan": 500,
+        "sample": "metronome-MDL2",
+        "sample_channel": "right"
+      }
+    }
+  ]
+}

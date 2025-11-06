@@ -4,6 +4,18 @@
 
 ---
 
+## 0.2.1
+
+* **000:058 Tuba**: Extended top of sounding range since the Tuba preset is used for the bugles and euphonium in MuseScore. In doing so, I have also generated new samples ("Tuba B6", "Tuba F6") for a better sound in the upper range. Fixes issues [#314547](https://musescore.org/en/node/314547) and [#324917](https://musescore.org/en/node/324917).
+* **000:090 Polysynth** and **017:090 Polysynth Expr.**: Tweaked velocity and filter response.
+* Added **010:115 Metronome** and **128:55 Metronome** featuring two pairs of metronome sounds. MuseScore's metronome sound is not produced by the synth engine and therefore it is not possible to render to an audio file as many have requested (see issues [#154666](https://musescore.org/en/node/154666) and [#320431](https://musescore.org/en/node/320431)). As a workaround, you can create a percussion staff (simplest way is to add "Wood Blocks" to the score) and assign it to the "Metronome" preset in the mixer. You can then create metronome clicks by inserting the MIDI notes for one of the following metronome sounds:
+  - The metronome sound from MuseScore Drumline. I synthesized these samples to resemble the sound of the BOSS DB-90 metronome, which is commonly used in drumline percussion.
+    * Note A1: normal click
+    * Note A#1: emphasis click
+  - The metronome sound that MuseScore uses when its built-in metronome is enabled. These samples were originally created years ago by Paul Davis for Ardour.
+    * Note E5: emphasis click
+    * Note F5: normal click
+
 ## 0.2
 
 * Restored [missing hi-hat and ride cymbal](https://musescore.org/en/node/305308) from **"128:056 Marching Snare"**.
@@ -177,7 +189,7 @@
   - **000-099: Atmosphere**
   - **000-100: Brightness**
   - **000-103: Star Theme**
-	
+
 * Performed the following noteworthy per-instrument improvements and fixes:
   - **000-004: Tine Electric Piano** -- Added velocity-to-filter for a mellower sound at low velocities.
   - **000-008: Celesta** -- The conversion to mono used the left samples, but "000-098: Crystal" used the right samples, so both left and right samples were still in the SoundFont. This problem was solved when I replaced the "Crystal" preset using new programming.
