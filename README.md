@@ -1,6 +1,6 @@
 # MuseScore_General_HQ.sf2
 
-**Version 0.2**
+**Version 0.2.1**
 
 ---
 
@@ -122,3 +122,63 @@ The Staccato presets will only be added if there are enough SoundFont instrument
   * There was no bass section in the VSCO 2 samples (only solo contrabass), so I combined solo bass samples to create a small section.
   * Many noises have been removed/reduced (scrapes, bangs, notes from instrument in neighboring room).
   * Pitch drift on some samples has been fixed.
+
+### Metronome Clicks
+
+This SoundFont includes two pairs of metronome clicks that can be used for “counting in” and/or a “click track”; see [#154666](https://musescore.org/en/node/154666) for some background story.
+
+#### MDL Metronome
+
+This is the metronome sound from MuseScore Drumline, synthesized by S. Christian Collins to resemble the sound of the BOSS DB-90 metronome, which is commonly used in drumline percussion.
+
+- emphasis click: note A♯₁ (MIDI note 34, percussion (General MIDI 2 drums) Metronome Bell)
+- normal click: note A₁ (MIDI note 33, percussion (General MIDI 2 drums) Metronome Click)
+
+There is no default percussion staff type set up for this metronome in MuseScore, but the sounds do have an appropriate MIDI fallback. It can be used, for example with a temporary mid-stave instrument change, in any pitched instrument staff though.
+
+#### Ardour Metronome
+
+This is the metronome sound built into MuseScore and used when its count-in and/or metronome functionality is used. These were created by Paul Davis, originally for Ardour, by generating them following a mathematical formula, so they are not original and therefore not protected by copyright.
+
+- emphasis click: note E₅ (MIDI note 76, percussion (MuseScore) High Woodblock)
+- normal click: note F₅ (MIDI note 77, percussion (MuseScore) Low Woodblock)
+
+This metronome can easily be used by a (possibly temporary) mid-stave instrument change with any pitched instrument; furthermore, a percussion stave is already set up for it as MuseScore instrument Wood Blocks. Keep the volume at or near 100, which is close to what MuseScore uses for its built-in metronome.
+
+Incidentally (see the example picture below), the MIDI note number of the emphasis pitch is **lower** than the one of the normal pitch. Do not let this fool you; this setup stems from the General MIDI drum map for Wood Blocks. Note that, in the percussion stave, the High Woodblock *is* displayed above the Low Woodblock.
+
+#### How to use the Metronome sounds
+
+Each of these pairs has an “emphasis” and a “normal” click. They are used, with varying velocities, for different types of beats; MuseScore uses them as follows:
+
+| beat type        | click    | velocity | colour (in the picture below) |
+| ----------------:| --------:| --------:| ----------------------------- |
+| downbeat         | emphasis |      127 | green                         |
+| stressed         | normal   |      127 | red                           |
+| unstressed       | normal   |       80 | blue                          |
+| compound subbeat | normal   |       25 | (not present)                 |
+| other subbeat    | normal   |       15 | (not present)                 |
+
+In the following example picture, the use of the Ardour Metronome is shown in a common time signature:
+
+![Example showing the Metronome sounds](images/Metronom.png)
+
+This is how you would enter this in MuseScore:
+
+- Assign the Metronome sound to a staff, either permanently or using a mid-stave instrument change:
+  - Patch 010:115 “Metronome” as ordinary instrument
+  - Patch 128:055 “Metronome” as drumset
+- Enter the clicks (emphasis or normal) on every beat
+  - Enter E₅/F₅ or A♯₁/A₁ when in a melodic instrument
+  - Enter High/Low Woodblock (Ardour metronome only) for percussion
+- Select all metronome notes, open the mu͒ Inspector (F8 key)
+  - Change Velocity type to “User”
+  - Set Velocity, for all notes at first, to 127
+- Select the metronome notes for unstressed beats only
+  - Change Velocity to 80
+- If you have any subbeats, select only them and apply the correct velocity
+
+In a DAW, do the same, but you can probably enter by MIDI note number there.
+
+For other time signatures or measure divisions (such as dividing a four-quarter time into dotted-quarter + dotted-quarter + quarter), use the respective appropriate beat stress pattern.
+

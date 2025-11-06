@@ -1,3 +1,4 @@
+sep=,
 Bank #,Expr. Bank #,Preset #,Preset Name,Details,Sample Credit,Changes from Original Version,Different from “MuseScore_General.sf2”?
 0,,0,Grand Piano,"""Splendid Grand"" for AKAI S5000
  . Steinway Model D grand piano ""close-mic""","Samples: AKAI, edited by S. Christian Collins
@@ -217,6 +218,7 @@ License: Public Domain"," . Downsampled from 48 KHz to 44.1 KHz.
 128,,41,Brush 1,,,,
 128,,42,Brush 2,,,,
 128,,48,Orchestra Kit,,,,
+128,,55,Metronome,Two pairs of metronome clicks for users who want metronome sounds in their exported audio. See #154666.,Samples: created by Paul Davis and S. Christian Collins,,
 128,,56,Marching Snare,Uses samples from MuseScore Drumline (MDL),Samples: created by S. Christian Collins & Amir Oosman,,
 128,,57,OldMarchingBass,Uses samples from MuseScore Drumline (MDL),Samples: created by S. Christian Collins & Amir Oosman,,
 128,,58,Marching Cymbals,"Open crash samples are from the Versilian Community Sample Library (VCSL)

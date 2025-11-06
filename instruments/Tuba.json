@@ -4,7 +4,6 @@
     {
       "generators": {
         "initialFilterFc": 11690,
-        "chorusEffectsSend": 20,
         "releaseVolEnv": -1586,
         "sampleModes": 1
       },
@@ -77,8 +76,20 @@
     },
     {
       "generators": {
-        "keyRange": "55-72",
+        "keyRange": "55-62",
         "sample": "Tuba B5"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "63-68",
+        "sample": "Tuba F6"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "69-127",
+        "sample": "Tuba B6"
       }
     }
   ]

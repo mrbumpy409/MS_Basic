@@ -30,7 +30,7 @@
         {
           "src_oper": 130,
           "dest_oper": 11,
-          "amount": 7000,
+          "amount": 6000,
           "amt_src_oper": 0,
           "trans_oper": 0
         },
@@ -44,7 +44,7 @@
         {
           "src_oper": 1410,
           "dest_oper": 48,
-          "amount": 960,
+          "amount": 800,
           "amt_src_oper": 0,
           "trans_oper": 0
         }
