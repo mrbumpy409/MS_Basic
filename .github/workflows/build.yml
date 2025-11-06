@@ -1,4 +1,4 @@
-name: "Build Soundfont"
+name: "Build SoundFont"
 
 on:
   push:
@@ -30,7 +30,6 @@ jobs:
       # Filenames will be set dynamically later
       SF2_FILENAME: "soundfont.sf2"
       SF3_FILENAME: "soundfont.sf3"
-      ARCHIVE_FILENAME: "soundfont.7z"
 
     steps:
       # Checkout repository source code
@@ -43,11 +42,11 @@ jobs:
         with:
           python-version: "3.12"
 
-      # Install apt dependencies (for 7-Zip and sftools build)
-      - name: "Install apt dependencies"
+      # Install ffmpeg (dependency for sfutils)
+      - name: "Install ffmpeg"
         run: |
           sudo apt-get update
-          sudo apt-get install -y --no-install-recommends ffmpeg p7zip-full
+          sudo apt-get install -y --no-install-recommends ffmpeg
 
       # Install sfutils repository
       - name: "Install sfutils"
@@ -73,14 +72,20 @@ jobs:
 
           echo "SF2_FILENAME=${BASE_FILENAME}.sf2" >> $GITHUB_ENV
           echo "SF3_FILENAME=${BASE_FILENAME}.sf3" >> $GITHUB_ENV
-          echo "ARCHIVE_FILENAME=${BASE_FILENAME}.7z" >> $GITHUB_ENV
-          echo "BASE_FILENAME=${BASE_FILENAME}" >> $GITHUB_ENV
 
       # Compile sf2
       - name: "Compile sf2"
         run: |
           echo "Compiling sf2: ${{ env.SF2_FILENAME }}..."
           sfutils compile ${{ env.SOURCE_DIRECTORY }} ${{ env.SF2_FILENAME }}
+
+      # [If PR or Manual or Push] Upload sf2 for download
+      - name: "Upload sf2 (for PR or Manual or Push)"
+        if: github.event_name != 'release'
+        uses: "actions/upload-artifact@v5"
+        with:
+          name: ${{ env.SF2_FILENAME }}
+          path: ${{ env.SF2_FILENAME }}
 
       # Compile sf3
       - name: "Compile sf3"
@@ -96,20 +101,13 @@ jobs:
           echo "Compiling sf3: ${{ env.SF3_FILENAME }}"
           sfutils compile ${{ env.SOURCE_DIRECTORY }} ${{ env.SF3_FILENAME }} -q $QUALITY
 
-      # [If PR or Manual or Push] Compress files into one 7z archive
-      - name: "Compress generated files (for PR or Manual or Push)"
-        if: github.event_name != 'release'
-        run: |
-          echo "Compressing files to ${{ env.ARCHIVE_FILENAME }}..."
-          7z a ${{ env.ARCHIVE_FILENAME }} ${{ env.SF2_FILENAME }} ${{ env.SF3_FILENAME }}
-
-      # [If PR or Manual or Push] Upload compressed artifact
-      - name: "Upload Artifact (for PR or Manual or Push)"
+      # [If PR or Manual or Push] Upload sf3 for download
+      - name: "Upload sf3 (for PR or Manual or Push)"
         if: github.event_name != 'release'
         uses: "actions/upload-artifact@v5"
         with:
-          name: ${{ env.BASE_FILENAME }}
-          path: ${{ env.ARCHIVE_FILENAME }}
+          name: ${{ env.SF3_FILENAME }}
+          path: ${{ env.SF3_FILENAME }}
 
       # [If Release] Upload individual assets to Release
       - name: "Upload to Release"
