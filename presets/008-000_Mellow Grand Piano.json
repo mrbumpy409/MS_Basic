@@ -2,9 +2,9 @@
   "name": "Mellow Grand Piano",
   "bank": 8,
   "preset_number": 0,
-  "library": 70648886,
-  "genre": 70648886,
-  "morphology": 70648886,
+  "library": 1172,
+  "genre": 1172,
+  "morphology": 1172,
   "zones": [
     {
       "generators": {

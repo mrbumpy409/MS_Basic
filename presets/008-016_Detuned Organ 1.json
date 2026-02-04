@@ -2,9 +2,9 @@
   "name": "Detuned Organ 1",
   "bank": 8,
   "preset_number": 16,
-  "library": 17367305,
-  "genre": 17367305,
-  "morphology": 17367305,
+  "library": 257,
+  "genre": 257,
+  "morphology": 257,
   "zones": [
     {
       "generators": {},

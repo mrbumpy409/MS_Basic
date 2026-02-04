@@ -2,9 +2,9 @@
   "name": "Polysynth Expr.",
   "bank": 17,
   "preset_number": 90,
-  "library": 63570890,
-  "genre": 63570890,
-  "morphology": 63570890,
+  "library": 1217,
+  "genre": 1217,
+  "morphology": 1217,
   "zones": [
     {
       "generators": {

@@ -2,9 +2,9 @@
   "name": "Detuned Tine EP",
   "bank": 8,
   "preset_number": 4,
-  "library": 17891601,
-  "genre": 17891601,
-  "morphology": 17891601,
+  "library": 265,
+  "genre": 265,
+  "morphology": 265,
   "zones": [
     {
       "generators": {

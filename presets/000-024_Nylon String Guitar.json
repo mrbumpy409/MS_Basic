@@ -2,9 +2,9 @@
   "name": "Nylon String Guitar",
   "bank": 0,
   "preset_number": 24,
-  "library": 38273608,
-  "genre": 38273608,
-  "morphology": 38273608,
+  "library": 576,
+  "genre": 576,
+  "morphology": 576,
   "zones": [
     {
       "generators": {

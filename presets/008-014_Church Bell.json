@@ -2,9 +2,9 @@
   "name": "Church Bell",
   "bank": 8,
   "preset_number": 14,
-  "library": 17498379,
-  "genre": 17498379,
-  "morphology": 17498379,
+  "library": 259,
+  "genre": 259,
+  "morphology": 259,
   "zones": [
     {
       "generators": {}

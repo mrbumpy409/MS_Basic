@@ -2,9 +2,9 @@
   "name": "Coupled Harpsichord",
   "bank": 8,
   "preset_number": 6,
-  "library": 17694990,
-  "genre": 17694990,
-  "morphology": 17694990,
+  "library": 262,
+  "genre": 262,
+  "morphology": 262,
   "zones": [
     {
       "generators": {

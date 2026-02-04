@@ -2,9 +2,9 @@
   "name": "Percussive Organ",
   "bank": 0,
   "preset_number": 17,
-  "library": 39256663,
-  "genre": 39256663,
-  "morphology": 39256663,
+  "library": 591,
+  "genre": 591,
+  "morphology": 591,
   "zones": [
     {
       "generators": {

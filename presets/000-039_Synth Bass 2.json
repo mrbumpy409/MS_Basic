@@ -2,9 +2,9 @@
   "name": "Synth Bass 2",
   "bank": 0,
   "preset_number": 39,
-  "library": 10944679,
-  "genre": 10944679,
-  "morphology": 10944679,
+  "library": 159,
+  "genre": 159,
+  "morphology": 159,
   "zones": [
     {
       "generators": {

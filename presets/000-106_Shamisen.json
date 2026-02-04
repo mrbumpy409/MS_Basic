@@ -2,9 +2,9 @@
   "name": "Shamisen",
   "bank": 0,
   "preset_number": 106,
-  "library": 19595563,
-  "genre": 19595563,
-  "morphology": 19595563,
+  "library": 291,
+  "genre": 291,
+  "morphology": 291,
   "zones": [
     {
       "generators": {}

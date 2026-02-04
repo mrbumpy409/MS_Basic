@@ -2,9 +2,9 @@
   "name": "Funk Guitar",
   "bank": 8,
   "preset_number": 28,
-  "library": 13828307,
-  "genre": 13828307,
-  "morphology": 13828307,
+  "library": 203,
+  "genre": 203,
+  "morphology": 203,
   "zones": [
     {
       "generators": {}

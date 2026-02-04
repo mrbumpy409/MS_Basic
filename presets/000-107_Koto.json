@@ -2,9 +2,9 @@
   "name": "Koto",
   "bank": 0,
   "preset_number": 107,
-  "library": 19726637,
-  "genre": 19726637,
-  "morphology": 19726637,
+  "library": 293,
+  "genre": 293,
+  "morphology": 293,
   "zones": [
     {
       "generators": {}

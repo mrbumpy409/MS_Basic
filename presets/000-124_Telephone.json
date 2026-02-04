@@ -2,9 +2,9 @@
   "name": "Telephone",
   "bank": 0,
   "preset_number": 124,
-  "library": 52691748,
-  "genre": 52691748,
-  "morphology": 52691748,
+  "library": 796,
+  "genre": 796,
+  "morphology": 796,
   "zones": [
     {
       "generators": {}

@@ -2,9 +2,9 @@
   "name": "Temple Blocks",
   "bank": 1,
   "preset_number": 115,
-  "library": 53216044,
-  "genre": 53216044,
-  "morphology": 53216044,
+  "library": 804,
+  "genre": 804,
+  "morphology": 804,
   "zones": [
     {
       "generators": {

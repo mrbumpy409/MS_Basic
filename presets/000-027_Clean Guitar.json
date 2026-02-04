@@ -2,9 +2,9 @@
   "name": "Clean Guitar",
   "bank": 0,
   "preset_number": 27,
-  "library": 26214800,
-  "genre": 26214800,
-  "morphology": 26214800,
+  "library": 392,
+  "genre": 392,
+  "morphology": 392,
   "zones": [
     {
       "generators": {

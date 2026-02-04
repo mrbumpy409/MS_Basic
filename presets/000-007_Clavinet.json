@@ -2,13 +2,13 @@
   "name": "Clavinet",
   "bank": 0,
   "preset_number": 7,
-  "library": 46727881,
-  "genre": 46727881,
-  "morphology": 46727881,
+  "library": 705,
+  "genre": 705,
+  "morphology": 705,
   "zones": [
     {
       "generators": {
-        "reverbEffectsSend": 100,
+        "reverbEffectsSend": 30,
         "initialAttenuation": 100
       },
       "modulators": [

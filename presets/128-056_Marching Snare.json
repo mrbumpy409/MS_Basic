@@ -2,9 +2,9 @@
   "name": "Marching Snare",
   "bank": 128,
   "preset_number": 56,
-  "library": 53347118,
-  "genre": 53347118,
-  "morphology": 53347118,
+  "library": 806,
+  "genre": 806,
+  "morphology": 806,
   "zones": [
     {
       "generators": {}

@@ -2,15 +2,15 @@
   "name": "FM Electric Piano",
   "bank": 0,
   "preset_number": 5,
-  "library": 11468975,
-  "genre": 11468975,
-  "morphology": 11468975,
+  "library": 167,
+  "genre": 167,
+  "morphology": 167,
   "zones": [
     {
       "generators": {
         "initialFilterFc": 6386,
         "chorusEffectsSend": 150,
-        "reverbEffectsSend": 70,
+        "reverbEffectsSend": 30,
         "pan": -70,
         "delayModLFO": -7973,
         "delayVibLFO": -7973,

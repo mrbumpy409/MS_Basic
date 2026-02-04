@@ -2,9 +2,9 @@
   "name": "Timpani",
   "bank": 0,
   "preset_number": 47,
-  "library": 42730124,
-  "genre": 42730124,
-  "morphology": 42730124,
+  "library": 644,
+  "genre": 644,
+  "morphology": 644,
   "zones": [
     {
       "generators": {

@@ -4,6 +4,7 @@
     {
       "generators": {
         "releaseVolEnv": 1530,
+        "coarseTune": -12,
         "sampleModes": 1
       },
       "modulators": [
@@ -32,127 +33,127 @@
     },
     {
       "generators": {
-        "keyRange": "0-36",
+        "keyRange": "0-48",
         "sample": "Church Organ C1"
       }
     },
     {
       "generators": {
-        "keyRange": "37-39",
+        "keyRange": "49-51",
         "sample": "Church Organ D1"
       }
     },
     {
       "generators": {
-        "keyRange": "40-42",
+        "keyRange": "52-54",
         "sample": "Church Organ F1"
       }
     },
     {
       "generators": {
-        "keyRange": "43-45",
+        "keyRange": "55-57",
         "sample": "Church Organ A1"
       }
     },
     {
       "generators": {
-        "keyRange": "46-48",
+        "keyRange": "58-60",
         "sample": "Church Organ C2"
       }
     },
     {
       "generators": {
-        "keyRange": "49-51",
+        "keyRange": "61-63",
         "sample": "Church Organ D2"
       }
     },
     {
       "generators": {
-        "keyRange": "52-54",
+        "keyRange": "64-66",
         "sample": "Church Organ F2"
       }
     },
     {
       "generators": {
-        "keyRange": "55-57",
+        "keyRange": "67-69",
         "sample": "Church Organ A2"
       }
     },
     {
       "generators": {
-        "keyRange": "58-60",
+        "keyRange": "70-72",
         "sample": "Church Organ C3"
       }
     },
     {
       "generators": {
-        "keyRange": "61-63",
+        "keyRange": "73-75",
         "sample": "Church Organ D3"
       }
     },
     {
       "generators": {
-        "keyRange": "64-66",
+        "keyRange": "76-78",
         "sample": "Church Organ F3"
       }
     },
     {
       "generators": {
-        "keyRange": "67-69",
+        "keyRange": "79-81",
         "sample": "Church Organ A3"
       }
     },
     {
       "generators": {
-        "keyRange": "70-72",
+        "keyRange": "82-84",
         "sample": "Church Organ C4"
       }
     },
     {
       "generators": {
-        "keyRange": "73-75",
+        "keyRange": "85-87",
         "sample": "Church Organ D4"
       }
     },
     {
       "generators": {
-        "keyRange": "76-78",
+        "keyRange": "88-90",
         "sample": "Church Organ F4"
       }
     },
     {
       "generators": {
-        "keyRange": "79-81",
+        "keyRange": "91-93",
         "sample": "Church Organ A4"
       }
     },
     {
       "generators": {
-        "keyRange": "82-84",
+        "keyRange": "95-96",
         "sample": "Church Organ C5"
       }
     },
     {
       "generators": {
-        "keyRange": "85-87",
+        "keyRange": "97-99",
         "sample": "Church Organ D5"
       }
     },
     {
       "generators": {
-        "keyRange": "88-90",
+        "keyRange": "100-102",
         "sample": "Church Organ F5"
       }
     },
     {
       "generators": {
-        "keyRange": "91-93",
+        "keyRange": "103-105",
         "sample": "Church Organ A5"
       }
     },
     {
       "generators": {
-        "keyRange": "94-96",
+        "keyRange": "106-108",
         "sample": "Church Organ C6"
       }
     }

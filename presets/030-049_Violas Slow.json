@@ -2,72 +2,45 @@
   "name": "Violas Slow",
   "bank": 30,
   "preset_number": 49,
-  "library": 84477193,
-  "genre": 84477193,
-  "morphology": 84477193,
+  "library": 1064,
+  "genre": 1064,
+  "morphology": 1064,
   "zones": [
     {
       "generators": {
         "reverbEffectsSend": 100,
-        "releaseVolEnv": 583,
-        "initialAttenuation": 130
-      }
-    },
-    {
-      "generators": {
-        "keyRange": "0-103",
-        "initialAttenuation": 180,
-        "instrument": "Violas Slow_v1"
+        "attackVolEnv": 919,
+        "releaseVolEnv": 702
       },
       "modulators": [
         {
-          "src_oper": 1282,
-          "dest_oper": 48,
-          "amount": 570,
-          "amt_src_oper": 0,
-          "trans_oper": 0
-        }
-      ]
-    },
-    {
-      "generators": {
-        "keyRange": "0-103",
-        "releaseVolEnv": 165,
-        "instrument": "Violas Slow_v2"
-      },
-      "modulators": [
-        {
-          "src_oper": 1282,
-          "dest_oper": 48,
-          "amount": 950,
-          "amt_src_oper": 0,
-          "trans_oper": 0
-        }
-      ]
-    },
-    {
-      "generators": {
-        "keyRange": "104-127",
-        "initialFilterFc": -182,
-        "initialAttenuation": 180,
-        "instrument": "Violas High"
-      },
-      "modulators": [
-        {
-          "src_oper": 1282,
-          "dest_oper": 48,
-          "amount": 600,
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -2400,
           "amt_src_oper": 0,
           "trans_oper": 0
         },
         {
-          "src_oper": 258,
-          "dest_oper": 8,
-          "amount": -500,
+          "src_oper": 2,
+          "dest_oper": 34,
+          "amount": -2400,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
           "amt_src_oper": 0,
           "trans_oper": 0
         }
       ]
+    },
+    {
+      "generators": {
+        "initialAttenuation": 120,
+        "instrument": "Strings"
+      }
     }
   ]
 }

@@ -2,13 +2,13 @@
   "name": "Harpsichord",
   "bank": 0,
   "preset_number": 6,
-  "library": 25559430,
-  "genre": 25559430,
-  "morphology": 25559430,
+  "library": 382,
+  "genre": 382,
+  "morphology": 382,
   "zones": [
     {
       "generators": {
-        "reverbEffectsSend": 100,
+        "reverbEffectsSend": 70,
         "initialAttenuation": 170
       }
     },

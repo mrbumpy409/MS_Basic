@@ -2,9 +2,9 @@
   "name": "OldMarchingBass",
   "bank": 128,
   "preset_number": 57,
-  "library": 54264636,
-  "genre": 54264636,
-  "morphology": 54264636,
+  "library": 820,
+  "genre": 820,
+  "morphology": 820,
   "zones": [
     {
       "generators": {}

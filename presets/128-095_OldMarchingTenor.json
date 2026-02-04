@@ -2,9 +2,9 @@
   "name": "OldMarchingTenor",
   "bank": 128,
   "preset_number": 95,
-  "library": 54068025,
-  "genre": 54068025,
-  "morphology": 54068025,
+  "library": 817,
+  "genre": 817,
+  "morphology": 817,
   "zones": [
     {
       "generators": {}

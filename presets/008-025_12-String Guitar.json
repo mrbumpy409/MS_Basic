@@ -2,9 +2,9 @@
   "name": "12-String Guitar",
   "bank": 8,
   "preset_number": 25,
-  "library": 4128831,
-  "genre": 4128831,
-  "morphology": 4128831,
+  "library": 63,
+  "genre": 63,
+  "morphology": 63,
   "zones": [
     {
       "generators": {

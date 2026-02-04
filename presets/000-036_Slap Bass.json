@@ -2,9 +2,9 @@
   "name": "Slap Bass",
   "bank": 0,
   "preset_number": 36,
-  "library": 14155992,
-  "genre": 14155992,
-  "morphology": 14155992,
+  "library": 208,
+  "genre": 208,
+  "morphology": 208,
   "zones": [
     {
       "generators": {}

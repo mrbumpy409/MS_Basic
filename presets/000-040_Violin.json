@@ -2,9 +2,9 @@
   "name": "Violin",
   "bank": 0,
   "preset_number": 40,
-  "library": 18874656,
-  "genre": 18874656,
-  "morphology": 18874656,
+  "library": 280,
+  "genre": 280,
+  "morphology": 280,
   "zones": [
     {
       "generators": {

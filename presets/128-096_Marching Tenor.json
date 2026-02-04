@@ -2,9 +2,9 @@
   "name": "Marching Tenor",
   "bank": 128,
   "preset_number": 96,
-  "library": 53871414,
-  "genre": 53871414,
-  "morphology": 53871414,
+  "library": 814,
+  "genre": 814,
+  "morphology": 814,
   "zones": [
     {
       "generators": {}

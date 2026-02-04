@@ -2,9 +2,9 @@
   "name": "Brush",
   "bank": 128,
   "preset_number": 40,
-  "library": 39846496,
-  "genre": 39846496,
-  "morphology": 39846496,
+  "library": 600,
+  "genre": 600,
+  "morphology": 600,
   "zones": [
     {
       "generators": {

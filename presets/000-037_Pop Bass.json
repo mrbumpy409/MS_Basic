@@ -2,9 +2,9 @@
   "name": "Pop Bass",
   "bank": 0,
   "preset_number": 37,
-  "library": 14680288,
-  "genre": 14680288,
-  "morphology": 14680288,
+  "library": 216,
+  "genre": 216,
+  "morphology": 216,
   "zones": [
     {
       "generators": {}

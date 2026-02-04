@@ -1,0 +1,144 @@
+{
+  "name": "Strings/GS",
+  "zones": [
+    {
+      "generators": {
+        "initialFilterFc": 12308,
+        "modEnvToFilterFc": 200,
+        "freqModLFO": 4335,
+        "releaseModEnv": 3986,
+        "holdVolEnv": -3986,
+        "decayVolEnv": 1902,
+        "sustainVolEnv": 30,
+        "releaseVolEnv": 1902,
+        "initialAttenuation": 30,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-31",
+        "sample": "Strings G2L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "32-34",
+        "sample": "Strings A#2L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "35-37",
+        "sample": "Strings C#3L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "38-40",
+        "sample": "Strings E3L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "41-43",
+        "sample": "Strings G3L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "44-47",
+        "sample": "Strings B3L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "48-51",
+        "sample": "Strings C#4L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "52-54",
+        "sample": "Strings E4L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "55-59",
+        "sample": "Strings A#4L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "60-62",
+        "sample": "Strings C#5L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "63-65",
+        "sample": "Strings E5L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "66-68",
+        "sample": "Strings G5L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "69-71",
+        "sample": "Strings A#5L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "72-74",
+        "sample": "Strings C#6L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "75-77",
+        "sample": "Strings E6L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "78-81",
+        "sample": "Strings G6L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "82-96",
+        "sample": "Strings B6L"
+      }
+    }
+  ]
+}

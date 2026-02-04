@@ -2,9 +2,9 @@
   "name": "Synth Brass 2 Expr.",
   "bank": 17,
   "preset_number": 63,
-  "library": 59835281,
-  "genre": 59835281,
-  "morphology": 59835281,
+  "library": 905,
+  "genre": 905,
+  "morphology": 905,
   "zones": [
     {
       "generators": {

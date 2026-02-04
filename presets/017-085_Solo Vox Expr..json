@@ -2,9 +2,9 @@
   "name": "Solo Vox Expr.",
   "bank": 17,
   "preset_number": 85,
-  "library": 62915520,
-  "genre": 62915520,
-  "morphology": 62915520,
+  "library": 952,
+  "genre": 952,
+  "morphology": 952,
   "zones": [
     {
       "generators": {},

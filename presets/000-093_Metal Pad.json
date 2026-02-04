@@ -2,9 +2,9 @@
   "name": "Metal Pad",
   "bank": 0,
   "preset_number": 93,
-  "library": 5242960,
-  "genre": 5242960,
-  "morphology": 5242960,
+  "library": 80,
+  "genre": 80,
+  "morphology": 80,
   "zones": [
     {
       "generators": {

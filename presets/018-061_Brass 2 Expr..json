@@ -2,9 +2,9 @@
   "name": "Brass 2 Expr.",
   "bank": 18,
   "preset_number": 61,
-  "library": 66978814,
-  "genre": 66978814,
-  "morphology": 66978814,
+  "library": 1006,
+  "genre": 1006,
+  "morphology": 1006,
   "zones": [
     {
       "generators": {},

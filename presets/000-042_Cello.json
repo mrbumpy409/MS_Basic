@@ -2,9 +2,9 @@
   "name": "Cello",
   "bank": 0,
   "preset_number": 42,
-  "library": 131074,
-  "genre": 131074,
-  "morphology": 131074,
+  "library": 2,
+  "genre": 2,
+  "morphology": 2,
   "zones": [
     {
       "generators": {

@@ -2,71 +2,45 @@
   "name": "Violins Slow Expr.",
   "bank": 21,
   "preset_number": 49,
-  "library": 81462491,
-  "genre": 81462491,
-  "morphology": 81462491,
+  "library": 1103,
+  "genre": 1103,
+  "morphology": 1103,
   "zones": [
     {
       "generators": {
         "reverbEffectsSend": 100,
-        "releaseVolEnv": 583,
-        "initialAttenuation": 30
-      }
-    },
-    {
-      "generators": {
-        "keyRange": "0-103",
-        "initialAttenuation": 80,
-        "instrument": "Violins Slow_v1"
+        "attackVolEnv": 919,
+        "releaseVolEnv": 702
       },
       "modulators": [
         {
-          "src_oper": 1410,
-          "dest_oper": 48,
-          "amount": 470,
-          "amt_src_oper": 0,
-          "trans_oper": 0
-        }
-      ]
-    },
-    {
-      "generators": {
-        "keyRange": "0-103",
-        "releaseVolEnv": 165,
-        "instrument": "Violins Slow_v2x"
-      },
-      "modulators": [
-        {
-          "src_oper": 1410,
-          "dest_oper": 48,
-          "amount": 1050,
-          "amt_src_oper": 0,
-          "trans_oper": 0
-        }
-      ]
-    },
-    {
-      "generators": {
-        "keyRange": "104-127",
-        "initialFilterFc": -182,
-        "instrument": "Violins High"
-      },
-      "modulators": [
-        {
-          "src_oper": 1410,
-          "dest_oper": 48,
-          "amount": 600,
+          "src_oper": 386,
+          "dest_oper": 8,
+          "amount": -2400,
           "amt_src_oper": 0,
           "trans_oper": 0
         },
         {
-          "src_oper": 386,
-          "dest_oper": 8,
-          "amount": -500,
+          "src_oper": 2,
+          "dest_oper": 34,
+          "amount": -2400,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1410,
+          "dest_oper": 48,
+          "amount": 800,
           "amt_src_oper": 0,
           "trans_oper": 0
         }
       ]
+    },
+    {
+      "generators": {
+        "initialAttenuation": 120,
+        "instrument": "Strings"
+      }
     }
   ]
 }

@@ -2,9 +2,9 @@
   "name": "Space Voice Expr.",
   "bank": 17,
   "preset_number": 91,
-  "library": 64095186,
-  "genre": 64095186,
-  "morphology": 64095186,
+  "library": 962,
+  "genre": 962,
+  "morphology": 962,
   "zones": [
     {
       "generators": {},

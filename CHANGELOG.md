@@ -1,14 +1,50 @@
-# MuseScore_General_HQ.sf2
+# MS Basic.sf2
 
 **Changelog**
 
 ---
 
+## 2.0.0
+
+* Restored original sample quality for all samples, as Polyphone [has been altering sample data slightly](https://github.com/davy7125/polyphone/pull/278) each time the SoundFont was saved.
+* Changed the SoundFont name to "MS Basic" and bumped the version number to **2.0.0** to differentiate it as the second major version of MS Basic. The earlier version of MS Basic that has been shipping with MuseScore 4 for a while was based on "MuseScore_General_HQ.sf2" version **0.2**. Originally, the plan was for the SoundFont to reach version 1.0 once new samples had been created for all of the orchestral instruments, but this plan was shelved in favor of MuseSounds.
+* Re-based "MS Basic" on "MuseScore_General.sf2" instead of "MuseScore_General_HQ.sf2". The only difference this creates is the removal of the VSCO2 strings, which are now unnecessary thanks to the superior strings library in MuseSounds. This change reduces MS_Basic's RAM usage considerably, allowing for higher-quality sample compression in the distributed SF3 file, which should fix all of the buzzing loops and fuzzy-sounding synths.
+* Added global reverb percentage value adjustments from [MuseScore Commit 37128c5](https://github.com/musescore/MuseScore/commit/37128c5ac8f9af804b63650610952414421828b8):
+  - **000:000 Grand piano**: 0% → 10%
+  - **000:001 Bright Grand Piano**: 0% → 10%
+  - **000:002 Electric Grand**: 10% → 3%
+  - **000:003 Honky-Tonk Piano**: 0% → 8%
+  - **000:004 Tine Electric Piano**: 10% → 3%
+  - **000:005 FM Electric Piano**: 7% → 3%
+  - **000:006 Harpsichord**: 10% → 7%
+  - **000:007 Clavinet**: 10% → 3%
+  - **Orchestra Kit**: 60% → 10%
+* Removed metronome presets that were added in MuseScore_General v0.2.1, as they were complicated to use and not really a proper solution to the problem of [not being able to export audio with metronome included](https://musescore.org/en/node/154666).
+
+## 0.2.3
+
+* Adjusted loop points of the following samples to prevent warnings (even though the loops are never used):
+  - High Q
+  - Long Taiko Hit
+  - Square Click
+
+## 0.2.2
+
+* Corrected the pitch of the following instruments and their expressive variants (fixes issue [#23659](https://github.com/musescore/MuseScore/issues/23659)):
+  - **000:016 Drawbar Organ**: was 8va too low
+  - **008:016 Detuned Organ 1**: was 8va too low
+  - **008:017 Detuned Organ 2**: was 8va too low
+  - **000:019 Church Organ**: was 8va too high
+* Removed odd velocity effects (filter cutoff, filter emphasis, reverb level & more) in the following presets and their expressive variants:
+  - **000:016 Drawbar Organ**
+  - **008:016 Detuned Organ 1**
+  - **008:017 Detuned Organ 2**
+
 ## 0.2.1
 
 * **000:058 Tuba**: Extended top of sounding range since the Tuba preset is used for the bugles and euphonium in MuseScore. In doing so, I have also generated new samples ("Tuba B6", "Tuba F6") for a better sound in the upper range. Fixes issues [#314547](https://musescore.org/en/node/314547) and [#324917](https://musescore.org/en/node/324917).
 * **000:090 Polysynth** and **017:090 Polysynth Expr.**: Tweaked velocity and filter response.
-* Added **010:115 Metronome** and **128:55 Metronome** featuring two pairs of metronome sounds. MuseScore's metronome sound is not produced by the synth engine and therefore it is not possible to render to an audio file as many have requested (see issues [#154666](https://musescore.org/en/node/154666) and [#320431](https://musescore.org/en/node/320431)). As a workaround, you can create a percussion staff (simplest way is to add "Wood Blocks" to the score) and assign it to the "Metronome" preset in the mixer. You can then create metronome clicks by inserting the MIDI notes for one of the following metronome sounds:
+* Added **010:115 Metronome** and **128:55 Metronome** featuring two pairs of metronome sounds. "MuseScore_General_HQ_Readme.md" contains full instructions for this feature in the section "How to use the Metronome sounds". MuseScore's metronome sound is not produced by the synth engine and therefore it is not possible to render to an audio file as many have requested (see issues [#154666](https://musescore.org/en/node/154666) and [#320431](https://musescore.org/en/node/320431)). As a workaround, you can create a percussion staff (simplest way is to add "Wood Blocks" to the score) and assign it to the "Metronome" preset in the mixer. You can then create metronome clicks by inserting the MIDI notes for one of the following metronome sounds:
   - The metronome sound from MuseScore Drumline. I synthesized these samples to resemble the sound of the BOSS DB-90 metronome, which is commonly used in drumline percussion.
     * Note A1: normal click
     * Note A#1: emphasis click
@@ -21,7 +57,6 @@
 * Restored [missing hi-hat and ride cymbal](https://musescore.org/en/node/305308) from **"128:056 Marching Snare"**.
 * Fixed [bad loop in "Cello G4" sample](https://musescore.org/en/node/305333) in **"000:043 Contrabass"** and **"017:043 Contrabass Expr."**.
 * Altered **"000:081 Saw Lead"** and **"017:081 Saw Lead Expr."** to reduce detuning effect and improve the sound. Users who prefer the old sound can find it at **"020:081 Detuned Saw"** and **"021:081 Detuned Saw Expr."**
-* Removed the cello samples that had snuck into **"050:049 Basses Slow"** and **"051:049 Basses Slow Expr."**.
 
 ## 0.1.9
 
@@ -58,20 +93,17 @@
 * All instruments have been updated to cancel the default SoundFont 2.04 "velocity-to-filter cutoff" modulator. Previously, only the SoundFont 2.01 version of this modulator was being canceled, but now both versions should be canceled when using synths that support modulators. This change only impacts the use of the SoundFont outside of MuseScore.
 * Added missing velocity override modulators in **"000:102 Echo Drops"** and its expressive variant.
 
-## 0.1.7
-
-* Fixed the slight popping noise present in the fast ensemble Violas, Celli and Basses.
-* Fixed notes E6 and above in the ensemble Celli (fast and slow) playing at the wrong pitch.
-* Improved note attack speed in the fast ensemble Violas, Celli and Basses.
-
 ## 0.1.6
 
-* The SoundFont was renamed from "MuseScore_General.sf2" to "MuseScore_General_HQ.sf2", and will be downloadable through the MuseScore resource manager. The new pianos have been added to the SoundFont formerly named "MuseScore_General_Lite.sf2", which has been renamed to "MuseScore_General.sf2" and will be the version that ships with MuseScore by default. Currently, the only difference between the two versions is that the HQ version includes the new ensemble strings based on VSCO 2 samples. Over time, more instruments will be upgraded in the HQ version, and the difference between the two versions will grow.
-* Capped the upper key limit of **"008:048 Orchestral Pad"** to note C8 due to aliasing effects present on notes above that. Fixes [issue #284281](https://musescore.org/en/node/284281).
+* The SoundFont was renamed from "MuseScore_General_Lite.sf2" to "MuseScore_General.sf2" and will be the version that ships with MuseScore by default. The SoundFont formerly named "MuseScore_General.sf2" has been renamed to "MuseScore_General_HQ.sf2" and will be downloadable through the MuseScore resource manager. Currently, the only difference between the two versions is that the HQ version includes the new ensemble strings based on VSCO 2 samples. Over time, more instruments will be upgraded in the HQ version, and the difference between the two versions will grow.
+* Added the new pianos from the full version of the SoundFont, updating the following presets:
+  - **"000:000 Grand Piano"**
+  - **"008:000 Mellow Grand Piano"**
+  - **"000:001 Bright Grand Piano"**
+  - **"000:002 Honky-Tonk Piano"**
 
 ## 0.1.5
 
-* Improved note attack speed of all "fast" ensemble strings.
 * MuseScore_General now includes additional presets labeled "Expr." that can be dynamically controlled via MIDI Control Change #2 (CC2). To accommodate this new functionality, many instruments were reprogrammed to use modulators for velocity-based filtering rather than separate instrument layers within the preset. Please refer to the included "MuseScore_General_Readme.md" file for more information on these new presets.
 * Reprogrammed the velocity-based effects for the following instruments:
   - **"000:056 Trumpet"**
@@ -82,11 +114,8 @@
 
 ## 0.1.4
 
-* Corrected the tranposition offset in the bright, mellow and honky-tonk pianos. My parameter optimization in v0.1.3 negated the need for the coarse tuning hack I had been using on these presets, but I forgot to remove the hack. <https://musescore.org/en/node/281732>
-* Improved the dynamic response for all acoustic pianos and balanced the transition between the MF and FF layers.
 * Fixed clarinet & flute notes taking too long to sound when played in bass flute & bass clarinet range. <https://musescore.org/en/node/280907>, <https://musescore.org/en/node/280904>
 * Filtered annoying overtones from Viola note E4 (sample "Viola E3") and softened the attack. <https://musescore.org/en/node/272992>
-* Fixed incorrect instrument mapping in **"020:044 Violins Tremolo"**.
 * Re-numbered ensemble strings bank numbers to make room for future expansion.
 
 ## 0.1.3
@@ -94,11 +123,9 @@
 * There are now two versions of the SoundFont:
   - **MuseScore_General**: This is the version that will include all of the new instrument sounds as they are developed. To reach a higher sound quality, new instrument presets will often require more RAM and CPU than the older versions.
   - **MuseScore_General_Lite**: This version is intended for more limited computers and uses less RAM and CPU by retaining the older, smaller instrument sounds where it is advantageous to do so. Currently, the only difference between the two versions is the acoustic pianos and ensemble strings (plus some synth-style presets that also use the strings samples: "Warm Pad", "Orchestra Pad", "Synth Strings 3"), but this difference will grow much greater over time.
-* New ensemble strings have been added based on the VSCO2 samples. Please see the included **"MuseScore_General-readme.md"** file for details.
-* Made the following improvements to the pianos:
-  - Improved accuracy of dynamics and brightness scaling across the entire velocity range.
-  - Improved initial note decay at lower velocities at the expense of additional polyphony required.
+* Added "dummy" presets to **MuseScore_General_Lite** for preset compatibility with the new ensemble strings in the full version of **MuseScore_General**. These strings presets can be found on banks 20-32, but are merely duplicates of the ensemble strings presets present on bank 0 (Tremolo, Pizzicato, Fast and Slow strings).
 * Removed the superfluous **"001:048 Dry Strings"** preset.
+* Returned to the original FluidR3Mono pianos for lower memory consumption in **MuseScore_General_Lite**.
 * Optimized the use of generators in all instruments, freeing thousands of generators for future instrument use (the limit is 65,535 instrument-level generators).
 
 ## 0.1.2
@@ -203,7 +230,7 @@
   - **000-048: Strings** (& variants) -- Eliminated the unnaturally long release, so staccato notes will now sound correct. Note tone and attack now follow velocity. I also extended the strings to the full MIDI range (previously they stopped at E7).
   - **000-057: Trombone** -- Fixed short release.
   - **000-058: Tuba** -- Release was too short for notes at low velocities.
-  - **000-061: Brass Section** -- There was some strange programming in this one that caused two voices to be used up per note for no real benefit. Both voices were playing the same sample, one panned hard right and the other hard left with the only difference being slightly different filter settings. This resulted in notes that seemed to pan toward the left at lighter velocities. I fixed this to only use one voice per note and also removed the useless "Key on velocity -> initialFilterQ" modulator that had been added (it was attempting to subtract up to 47 dB from the filter Q, but nowhere was the filter Q greater than 0).
+  - **000-061: Brass Section** -- There was some strange programming in this one that caused two voices to be used up per note for no real benefit. Both voices were playing the same sample, one panned hard right and the other hard left with the only difference being slightly different filter settings. This resulted in notes that seemed to pan toward the left at lighter velocities. I fixed this to only use one voice per note and also removed the useless "Key on velocity → initialFilterQ" modulator that had been added (it was attempting to subtract up to 47 dB from the filter Q, but nowhere was the filter Q greater than 0).
   - **000-069: English Horn** -- Tamed the crazy volume swell that occured on most notes. Unfortunately, this instrument ends up being a bit quieter than the other woodwinds. It would be necessary to edit the samples to remedy this.
   - **000-071: Clarinet** -- EQ'd the samples and added a bit of release for better realism. The original samples were incredibly nasally and cut off too abruptly on note release.
   - **000-074: Recorder** -- Duplicate samples were panned hard left and right for no discernable reason, which was causing twice the polyphony to be used. I fixed this to use single, center-panned samples instead. I also improved the tuning and countered the pitch bend at the beginning of some notes.

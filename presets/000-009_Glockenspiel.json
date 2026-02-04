@@ -2,9 +2,9 @@
   "name": "Glockenspiel",
   "bank": 0,
   "preset_number": 9,
-  "library": 51381008,
-  "genre": 51381008,
-  "morphology": 51381008,
+  "library": 776,
+  "genre": 776,
+  "morphology": 776,
   "zones": [
     {
       "generators": {

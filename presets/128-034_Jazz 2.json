@@ -2,9 +2,9 @@
   "name": "Jazz 2",
   "bank": 128,
   "preset_number": 34,
-  "library": 24117616,
-  "genre": 24117616,
-  "morphology": 24117616,
+  "library": 360,
+  "genre": 360,
+  "morphology": 360,
   "zones": [
     {
       "generators": {

@@ -2,9 +2,9 @@
   "name": "Standard 7",
   "bank": 128,
   "preset_number": 7,
-  "library": 32178667,
-  "genre": 32178667,
-  "morphology": 32178667,
+  "library": 483,
+  "genre": 483,
+  "morphology": 483,
   "zones": [
     {
       "generators": {

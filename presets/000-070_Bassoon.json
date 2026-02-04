@@ -2,9 +2,9 @@
   "name": "Bassoon",
   "bank": 0,
   "preset_number": 70,
-  "library": 18481434,
-  "genre": 18481434,
-  "morphology": 18481434,
+  "library": 274,
+  "genre": 274,
+  "morphology": 274,
   "zones": [
     {
       "generators": {

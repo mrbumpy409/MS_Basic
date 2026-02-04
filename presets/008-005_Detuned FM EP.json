@@ -2,9 +2,9 @@
   "name": "Detuned FM EP",
   "bank": 8,
   "preset_number": 5,
-  "library": 786444,
-  "genre": 786444,
-  "morphology": 786444,
+  "library": 12,
+  "genre": 12,
+  "morphology": 12,
   "zones": [
     {
       "generators": {

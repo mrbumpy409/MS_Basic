@@ -2,9 +2,9 @@
   "name": "Castanets",
   "bank": 8,
   "preset_number": 115,
-  "library": 15532269,
-  "genre": 15532269,
-  "morphology": 15532269,
+  "library": 229,
+  "genre": 229,
+  "morphology": 229,
   "zones": [
     {
       "generators": {}

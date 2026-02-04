@@ -2,9 +2,9 @@
   "name": "Synth Strings 2",
   "bank": 0,
   "preset_number": 51,
-  "library": 10551457,
-  "genre": 10551457,
-  "morphology": 10551457,
+  "library": 153,
+  "genre": 153,
+  "morphology": 153,
   "zones": [
     {
       "generators": {

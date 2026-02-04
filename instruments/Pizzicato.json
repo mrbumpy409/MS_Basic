@@ -1,0 +1,276 @@
+{
+  "name": "Pizzicato",
+  "zones": [
+    {
+      "generators": {
+        "initialFilterQ": 50,
+        "pan": -500,
+        "decayVolEnv": 3102,
+        "sustainVolEnv": 1000,
+        "releaseVolEnv": 3102
+      },
+      "modulators": [
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -3000,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 9,
+          "amount": 100,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 515,
+          "dest_oper": 38,
+          "amount": -1919,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 515,
+          "dest_oper": 36,
+          "amount": -1919,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-37",
+        "sample": "Pizz C3-L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "0-37",
+        "pan": 500,
+        "sample": "Pizz C3-R"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "38-41",
+        "sample": "Pizz D#3-L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "38-41",
+        "pan": 500,
+        "sample": "Pizz D#3-R"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "42-45",
+        "sample": "Pizz A3-L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "42-45",
+        "pan": 500,
+        "sample": "Pizz A3-R"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "46-48",
+        "sample": "Pizz C4-L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "46-48",
+        "pan": 500,
+        "sample": "Pizz C4-R"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "49-52",
+        "sample": "Pizz E4-L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "49-52",
+        "pan": 500,
+        "sample": "Pizz E4-R"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "53-56",
+        "sample": "Pizz G#4-L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "53-56",
+        "pan": 500,
+        "sample": "Pizz G#4-R"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "57-59",
+        "sample": "Pizz B4-L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "57-59",
+        "pan": 500,
+        "sample": "Pizz B4-R"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "60-63",
+        "sample": "Pizz D#5-L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "60-63",
+        "pan": 500,
+        "sample": "Pizz D#5-R"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "64-66",
+        "sample": "Pizz F#5-L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "64-66",
+        "pan": 500,
+        "sample": "Pizz F#5-R"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "67-70",
+        "sample": "Pizz A#5-L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "67-70",
+        "pan": 500,
+        "sample": "Pizz A#5-R"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "71-74",
+        "sample": "Pizz D6-L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "71-74",
+        "pan": 500,
+        "sample": "Pizz D6-R"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "75-78",
+        "sample": "Pizz F#6-L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "75-78",
+        "pan": 500,
+        "sample": "Pizz F#6-R"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "79-83",
+        "sample": "Pizz B6-L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "79-83",
+        "pan": 500,
+        "sample": "Pizz B6-R"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "84-108",
+        "decayVolEnv": 3986,
+        "releaseVolEnv": 3986,
+        "sample": "Pizz E7-L"
+      },
+      "modulators": [
+        {
+          "src_oper": 515,
+          "dest_oper": 36,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 515,
+          "dest_oper": 38,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "84-108",
+        "pan": 500,
+        "decayVolEnv": 3986,
+        "releaseVolEnv": 3986,
+        "sample": "Pizz E7-R"
+      },
+      "modulators": [
+        {
+          "src_oper": 515,
+          "dest_oper": 36,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 515,
+          "dest_oper": 38,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    }
+  ]
+}

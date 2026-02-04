@@ -2,9 +2,9 @@
   "name": "Tubular Bells",
   "bank": 0,
   "preset_number": 14,
-  "library": 52298526,
-  "genre": 52298526,
-  "morphology": 52298526,
+  "library": 790,
+  "genre": 790,
+  "morphology": 790,
   "zones": [
     {
       "generators": {}

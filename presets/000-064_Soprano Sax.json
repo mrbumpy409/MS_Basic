@@ -2,9 +2,9 @@
   "name": "Soprano Sax",
   "bank": 0,
   "preset_number": 64,
-  "library": 54920006,
-  "genre": 54920006,
-  "morphology": 54920006,
+  "library": 830,
+  "genre": 830,
+  "morphology": 830,
   "zones": [
     {
       "generators": {

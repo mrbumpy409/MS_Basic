@@ -2,9 +2,9 @@
   "name": "Piccolo",
   "bank": 0,
   "preset_number": 72,
-  "library": 18350360,
-  "genre": 18350360,
-  "morphology": 18350360,
+  "library": 272,
+  "genre": 272,
+  "morphology": 272,
   "zones": [
     {
       "generators": {

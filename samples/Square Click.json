@@ -1,8 +1,8 @@
 {
   "sample_name": "Square Click",
   "sample_type": "mono",
-  "start_loop": 3,
-  "end_loop": 64,
+  "start_loop": 8,
+  "end_loop": 1044,
   "original_key": 60,
   "correction": 0
 }

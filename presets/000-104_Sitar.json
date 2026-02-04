@@ -2,9 +2,9 @@
   "name": "Sitar",
   "bank": 0,
   "preset_number": 104,
-  "library": 14287066,
-  "genre": 14287066,
-  "morphology": 14287066,
+  "library": 210,
+  "genre": 210,
+  "morphology": 210,
   "zones": [
     {
       "generators": {}

@@ -2,9 +2,9 @@
   "name": "Fantasia",
   "bank": 0,
   "preset_number": 88,
-  "library": 8061051,
-  "genre": 8061051,
-  "morphology": 8061051,
+  "library": 115,
+  "genre": 115,
+  "morphology": 115,
   "zones": [
     {
       "generators": {

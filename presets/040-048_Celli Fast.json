@@ -2,74 +2,34 @@
   "name": "Celli Fast",
   "bank": 40,
   "preset_number": 48,
-  "library": 86050081,
-  "genre": 86050081,
-  "morphology": 86050081,
+  "library": 1070,
+  "genre": 1070,
+  "morphology": 1070,
   "zones": [
     {
       "generators": {
         "reverbEffectsSend": 100,
-        "releaseVolEnv": 454,
-        "initialAttenuation": 130
-      }
-    },
-    {
-      "generators": {
-        "keyRange": "0-95",
-        "initialAttenuation": 180,
-        "instrument": "Celli Fast_v1"
+        "releaseVolEnv": 454
       },
       "modulators": [
-        {
-          "src_oper": 1282,
-          "dest_oper": 48,
-          "amount": 570,
-          "amt_src_oper": 0,
-          "trans_oper": 0
-        }
-      ]
-    },
-    {
-      "generators": {
-        "keyRange": "0-95",
-        "releaseVolEnv": 0,
-        "instrument": "Celli Fast_v2"
-      },
-      "modulators": [
-        {
-          "src_oper": 258,
-          "dest_oper": 34,
-          "amount": 1901,
-          "amt_src_oper": 0,
-          "trans_oper": 0
-        },
-        {
-          "src_oper": 1282,
-          "dest_oper": 48,
-          "amount": 950,
-          "amt_src_oper": 0,
-          "trans_oper": 0
-        }
-      ]
-    },
-    {
-      "generators": {
-        "keyRange": "96-127",
-        "initialFilterFc": -182,
-        "instrument": "Celli High"
-      },
-      "modulators": [
-        {
-          "src_oper": 1282,
-          "dest_oper": 48,
-          "amount": 600,
-          "amt_src_oper": 0,
-          "trans_oper": 0
-        },
         {
           "src_oper": 258,
           "dest_oper": 8,
-          "amount": -500,
+          "amount": -2400,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 2,
+          "dest_oper": 34,
+          "amount": -3986,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 800,
           "amt_src_oper": 0,
           "trans_oper": 0
         }
@@ -77,39 +37,9 @@
     },
     {
       "generators": {
-        "keyRange": "0-79",
-        "velRange": "0-86",
-        "releaseVolEnv": 0,
-        "initialAttenuation": 590,
-        "instrument": "Celli Fast_Att1"
-      },
-      "modulators": [
-        {
-          "src_oper": 1282,
-          "dest_oper": 48,
-          "amount": 900,
-          "amt_src_oper": 0,
-          "trans_oper": 0
-        }
-      ]
-    },
-    {
-      "generators": {
-        "keyRange": "0-79",
-        "velRange": "87-127",
-        "releaseVolEnv": 0,
-        "initialAttenuation": 470,
-        "instrument": "Celli Fast_Att2"
-      },
-      "modulators": [
-        {
-          "src_oper": 1282,
-          "dest_oper": 48,
-          "amount": 1200,
-          "amt_src_oper": 0,
-          "trans_oper": 0
-        }
-      ]
+        "initialAttenuation": 120,
+        "instrument": "Strings"
+      }
     }
   ]
 }

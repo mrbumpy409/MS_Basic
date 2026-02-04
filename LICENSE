@@ -1,21 +1,21 @@
-# MuseScore_General_HQ.sf2
+# MS Basic
 ---
 
-Current version: 0.2.1  28th September 2021
+Current version: 2.0.0  4th February 2026
 
-This is a fork of FluidR3Mono_GM.sf2, with many samples (eventually) being replaced and/or reprogrammed. The SoundFont is currently a work-in-progress. Detailed information on sample sources used can be found in "MuseScore_General_HQ_Sample_Sources.csv". All instruments without attribution are still using samples from FluidR3Mono.
+MS Basic is a General MIDI-compatible SoundFont for virtual instrument playback in MuseScore Studio. It is based on the previous “MuseScore_General” SoundFont, which itself was based on “FluidR3” by Frank Wen. Detailed information on presets and sample sources used can be found in `Sample_Sources.csv`. All instruments without attribution are still using samples from FluidR3.
 
-FluidR3 (original version) by Frank Wen Copyright (c) 2000-02
+FluidR3 (original version) by Frank Wen Copyright (c) 2000-2002
 
-Mono conversion (FluidR3Mono) by Michael Cowgill Copyright (c) 2014-17
+Mono conversion (FluidR3Mono) by Michael Cowgill Copyright (c) 2014-2017
 
-Adaptation for MuseScore_General_HQ.sf2 by S. Christian Collins Copyright (c) 2018
+Adaptation for MuseScore_General and MS Basic by S. Christian Collins Copyright (c) 2018-2026
 
 Temple Blocks instrument provided by Ethan Winer Copyright (c) 2002
 
 Drumline Cymbals provided by Michael Schorsch Copyright (c) 2016
 
-MuseScore_General_HQ.sf2 is shared under the MIT license as described in COPYING, as was FluidR3Mono and FluidR3 before it.
+MS Basic is shared under the MIT license as described in COPYING, as was FluidR3Mono and FluidR3 before it.
 
 The COPYING and README files from the original FluidR3GM file are now displayed here for reference.
 

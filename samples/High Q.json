@@ -1,8 +1,8 @@
 {
   "sample_name": "High Q",
   "sample_type": "mono",
-  "start_loop": 1,
-  "end_loop": 1557,
+  "start_loop": 8,
+  "end_loop": 1548,
   "original_key": 60,
   "correction": 0
 }

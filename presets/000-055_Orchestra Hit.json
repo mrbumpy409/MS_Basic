@@ -2,9 +2,9 @@
   "name": "Orchestra Hit",
   "bank": 0,
   "preset_number": 55,
-  "library": 53084970,
-  "genre": 53084970,
-  "morphology": 53084970,
+  "library": 802,
+  "genre": 802,
+  "morphology": 802,
   "zones": [
     {
       "generators": {

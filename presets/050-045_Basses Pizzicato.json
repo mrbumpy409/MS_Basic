@@ -2,9 +2,9 @@
   "name": "Basses Pizzicato",
   "bank": 50,
   "preset_number": 45,
-  "library": 87819580,
-  "genre": 87819580,
-  "morphology": 87819580,
+  "library": 1076,
+  "genre": 1076,
+  "morphology": 1076,
   "zones": [
     {
       "generators": {
@@ -13,50 +13,9 @@
     },
     {
       "generators": {
-        "keyRange": "0-40",
-        "initialAttenuation": 330,
-        "instrument": "Basses Pizz_v1"
-      },
-      "modulators": [
-        {
-          "src_oper": 1282,
-          "dest_oper": 48,
-          "amount": 470,
-          "amt_src_oper": 0,
-          "trans_oper": 0
-        }
-      ]
-    },
-    {
-      "generators": {
-        "initialAttenuation": 180,
-        "instrument": "Basses Pizz_v2"
-      },
-      "modulators": [
-        {
-          "src_oper": 1282,
-          "dest_oper": 48,
-          "amount": 1050,
-          "amt_src_oper": 0,
-          "trans_oper": 0
-        }
-      ]
-    },
-    {
-      "generators": {
-        "keyRange": "41-127",
-        "initialAttenuation": 160,
-        "instrument": "Basses Pizz_v1"
-      },
-      "modulators": [
-        {
-          "src_oper": 1282,
-          "dest_oper": 48,
-          "amount": 760,
-          "amt_src_oper": 0,
-          "trans_oper": 0
-        }
-      ]
+        "initialAttenuation": 120,
+        "instrument": "Pizzicato"
+      }
     }
   ]
 }

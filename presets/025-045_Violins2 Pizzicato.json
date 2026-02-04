@@ -2,9 +2,9 @@
   "name": "Violins2 Pizzicato",
   "bank": 25,
   "preset_number": 45,
-  "library": 81921250,
-  "genre": 81921250,
-  "morphology": 81921250,
+  "library": 1052,
+  "genre": 1052,
+  "morphology": 1052,
   "zones": [
     {
       "generators": {
@@ -13,33 +13,9 @@
     },
     {
       "generators": {
-        "initialAttenuation": 410,
-        "instrument": "Violins2 Pizz_v1"
-      },
-      "modulators": [
-        {
-          "src_oper": 1282,
-          "dest_oper": 48,
-          "amount": 470,
-          "amt_src_oper": 0,
-          "trans_oper": 0
-        }
-      ]
-    },
-    {
-      "generators": {
-        "initialAttenuation": 210,
-        "instrument": "Violins2 Pizz_v2"
-      },
-      "modulators": [
-        {
-          "src_oper": 1282,
-          "dest_oper": 48,
-          "amount": 1050,
-          "amt_src_oper": 0,
-          "trans_oper": 0
-        }
-      ]
+        "initialAttenuation": 120,
+        "instrument": "Pizzicato"
+      }
     }
   ]
 }

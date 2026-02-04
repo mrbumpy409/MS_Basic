@@ -2,9 +2,9 @@
   "name": "Celesta",
   "bank": 0,
   "preset_number": 8,
-  "library": 48300769,
-  "genre": 48300769,
-  "morphology": 48300769,
+  "library": 729,
+  "genre": 729,
+  "morphology": 729,
   "zones": [
     {
       "generators": {

@@ -2,9 +2,9 @@
   "name": "Hawaiian Guitar",
   "bank": 8,
   "preset_number": 26,
-  "library": 16515324,
-  "genre": 16515324,
-  "morphology": 16515324,
+  "library": 244,
+  "genre": 244,
+  "morphology": 244,
   "zones": [
     {
       "generators": {}

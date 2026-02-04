@@ -2,262 +2,17 @@
   "name": "Orchestral Pad",
   "bank": 8,
   "preset_number": 48,
-  "library": 75433087,
-  "genre": 75433087,
-  "morphology": 75433087,
+  "library": 1035,
+  "genre": 1035,
+  "morphology": 1035,
   "zones": [
     {
-      "generators": {
-        "reverbEffectsSend": 100,
-        "releaseVolEnv": 1200,
-        "initialAttenuation": 250
-      }
-    },
-    {
-      "generators": {
-        "keyRange": "0-37",
-        "velRange": "0-86",
-        "pan": 250,
-        "releaseVolEnv": 0,
-        "initialAttenuation": 620,
-        "instrument": "Basses Fast_Att1"
-      },
+      "generators": {},
       "modulators": [
         {
           "src_oper": 1282,
           "dest_oper": 48,
-          "amount": 900,
-          "amt_src_oper": 0,
-          "trans_oper": 0
-        }
-      ]
-    },
-    {
-      "generators": {
-        "keyRange": "38-53",
-        "velRange": "0-86",
-        "releaseVolEnv": 0,
-        "initialAttenuation": 700,
-        "instrument": "Celli Fast_Att1"
-      },
-      "modulators": [
-        {
-          "src_oper": 1282,
-          "dest_oper": 48,
-          "amount": 900,
-          "amt_src_oper": 0,
-          "trans_oper": 0
-        }
-      ]
-    },
-    {
-      "generators": {
-        "keyRange": "54-63",
-        "velRange": "0-86",
-        "releaseVolEnv": 0,
-        "initialAttenuation": 650,
-        "instrument": "Violas Fast_Att1"
-      },
-      "modulators": [
-        {
-          "src_oper": 1282,
-          "dest_oper": 48,
-          "amount": 900,
-          "amt_src_oper": 0,
-          "trans_oper": 0
-        }
-      ]
-    },
-    {
-      "generators": {
-        "keyRange": "64-127",
-        "velRange": "0-86",
-        "releaseVolEnv": 0,
-        "initialAttenuation": 470,
-        "instrument": "Violins Fast_Att1"
-      },
-      "modulators": [
-        {
-          "src_oper": 1282,
-          "dest_oper": 48,
-          "amount": 900,
-          "amt_src_oper": 0,
-          "trans_oper": 0
-        }
-      ]
-    },
-    {
-      "generators": {
-        "keyRange": "0-37",
-        "pan": 250,
-        "attackVolEnv": 702,
-        "initialAttenuation": 260,
-        "fineTune": -2,
-        "instrument": "Basses Fast_v2"
-      },
-      "modulators": [
-        {
-          "src_oper": 1282,
-          "dest_oper": 48,
-          "amount": 700,
-          "amt_src_oper": 0,
-          "trans_oper": 0
-        }
-      ]
-    },
-    {
-      "generators": {
-        "keyRange": "0-37",
-        "velRange": "87-127",
-        "pan": 250,
-        "releaseVolEnv": 0,
-        "initialAttenuation": 500,
-        "instrument": "Basses Fast_Att2"
-      },
-      "modulators": [
-        {
-          "src_oper": 1282,
-          "dest_oper": 48,
-          "amount": 1200,
-          "amt_src_oper": 0,
-          "trans_oper": 0
-        }
-      ]
-    },
-    {
-      "generators": {
-        "keyRange": "38-53",
-        "instrument": "Celli Fast_v2"
-      },
-      "modulators": [
-        {
-          "src_oper": 258,
-          "dest_oper": 34,
-          "amount": 1901,
-          "amt_src_oper": 0,
-          "trans_oper": 0
-        },
-        {
-          "src_oper": 1282,
-          "dest_oper": 48,
-          "amount": 700,
-          "amt_src_oper": 0,
-          "trans_oper": 0
-        }
-      ]
-    },
-    {
-      "generators": {
-        "keyRange": "38-53",
-        "velRange": "87-127",
-        "releaseVolEnv": 0,
-        "initialAttenuation": 580,
-        "instrument": "Celli Fast_Att2"
-      },
-      "modulators": [
-        {
-          "src_oper": 1282,
-          "dest_oper": 48,
-          "amount": 1200,
-          "amt_src_oper": 0,
-          "trans_oper": 0
-        }
-      ]
-    },
-    {
-      "generators": {
-        "keyRange": "54-63",
-        "instrument": "Violas Fast_v2"
-      },
-      "modulators": [
-        {
-          "src_oper": 258,
-          "dest_oper": 34,
-          "amount": 1200,
-          "amt_src_oper": 0,
-          "trans_oper": 0
-        },
-        {
-          "src_oper": 1282,
-          "dest_oper": 48,
-          "amount": 700,
-          "amt_src_oper": 0,
-          "trans_oper": 0
-        }
-      ]
-    },
-    {
-      "generators": {
-        "keyRange": "54-63",
-        "velRange": "87-127",
-        "releaseVolEnv": 0,
-        "initialAttenuation": 530,
-        "instrument": "Violas Fast_Att2"
-      },
-      "modulators": [
-        {
-          "src_oper": 1282,
-          "dest_oper": 48,
-          "amount": 1200,
-          "amt_src_oper": 0,
-          "trans_oper": 0
-        }
-      ]
-    },
-    {
-      "generators": {
-        "keyRange": "64-103",
-        "attackVolEnv": 702,
-        "initialAttenuation": 140,
-        "instrument": "Violins Fast_v2"
-      },
-      "modulators": [
-        {
-          "src_oper": 1282,
-          "dest_oper": 48,
-          "amount": 700,
-          "amt_src_oper": 0,
-          "trans_oper": 0
-        }
-      ]
-    },
-    {
-      "generators": {
-        "keyRange": "64-127",
-        "velRange": "87-127",
-        "releaseVolEnv": 0,
-        "initialAttenuation": 390,
-        "instrument": "Violins Fast_Att2"
-      },
-      "modulators": [
-        {
-          "src_oper": 1282,
-          "dest_oper": 48,
-          "amount": 1200,
-          "amt_src_oper": 0,
-          "trans_oper": 0
-        }
-      ]
-    },
-    {
-      "generators": {
-        "keyRange": "104-127",
-        "initialFilterFc": -182,
-        "initialAttenuation": 140,
-        "instrument": "Violins High"
-      },
-      "modulators": [
-        {
-          "src_oper": 1282,
-          "dest_oper": 48,
-          "amount": 700,
-          "amt_src_oper": 0,
-          "trans_oper": 0
-        },
-        {
-          "src_oper": 258,
-          "dest_oper": 8,
-          "amount": -500,
+          "amount": 800,
           "amt_src_oper": 0,
           "trans_oper": 0
         }
@@ -269,19 +24,40 @@
         "decayModEnv": -300,
         "sustainModEnv": -40,
         "releaseVolEnv": 2350,
-        "initialAttenuation": -30,
-        "instrument": "Brass +1"
+        "initialAttenuation": 119,
+        "coarseTune": 12,
+        "instrument": "Brass Left/GS"
       },
       "modulators": [
         {
-          "src_oper": 1282,
-          "dest_oper": 48,
-          "amount": 800,
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -1000,
           "amt_src_oper": 0,
           "trans_oper": 0
-        },
+        }
+      ]
+    },
+    {
+      "generators": {
+        "releaseVolEnv": -600,
+        "initialAttenuation": 78,
+        "instrument": "Strings/GS"
+      }
+    },
+    {
+      "generators": {
+        "initialFilterFc": -200,
+        "decayModEnv": -300,
+        "sustainModEnv": -40,
+        "releaseVolEnv": 2350,
+        "initialAttenuation": 119,
+        "coarseTune": 12,
+        "instrument": "Brass Right/GS"
+      },
+      "modulators": [
         {
-          "src_oper": 1282,
+          "src_oper": 258,
           "dest_oper": 8,
           "amount": -1000,
           "amt_src_oper": 0,

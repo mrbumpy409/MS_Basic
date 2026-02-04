@@ -2,9 +2,9 @@
   "name": "Marching Bass",
   "bank": 128,
   "preset_number": 59,
-  "library": 53543729,
-  "genre": 53543729,
-  "morphology": 53543729,
+  "library": 809,
+  "genre": 809,
+  "morphology": 809,
   "zones": [
     {
       "generators": {}

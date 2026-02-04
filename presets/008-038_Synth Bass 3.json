@@ -2,9 +2,9 @@
   "name": "Synth Bass 3",
   "bank": 8,
   "preset_number": 38,
-  "library": 5111886,
-  "genre": 5111886,
-  "morphology": 5111886,
+  "library": 78,
+  "genre": 78,
+  "morphology": 78,
   "zones": [
     {
       "generators": {

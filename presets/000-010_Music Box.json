@@ -2,9 +2,9 @@
   "name": "Music Box",
   "bank": 0,
   "preset_number": 10,
-  "library": 11337901,
-  "genre": 11337901,
-  "morphology": 11337901,
+  "library": 165,
+  "genre": 165,
+  "morphology": 165,
   "zones": [
     {
       "generators": {}

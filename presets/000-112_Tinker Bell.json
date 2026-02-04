@@ -2,9 +2,9 @@
   "name": "Tinker Bell",
   "bank": 0,
   "preset_number": 112,
-  "library": 14418140,
-  "genre": 14418140,
-  "morphology": 14418140,
+  "library": 212,
+  "genre": 212,
+  "morphology": 212,
   "zones": [
     {
       "generators": {}

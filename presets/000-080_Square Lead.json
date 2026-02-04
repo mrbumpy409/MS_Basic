@@ -2,9 +2,9 @@
   "name": "Square Lead",
   "bank": 0,
   "preset_number": 80,
-  "library": 10092698,
-  "genre": 10092698,
-  "morphology": 10092698,
+  "library": 146,
+  "genre": 146,
+  "morphology": 146,
   "zones": [
     {
       "generators": {

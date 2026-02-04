@@ -2,9 +2,9 @@
   "name": "Sine Wave",
   "bank": 8,
   "preset_number": 80,
-  "library": 3997757,
-  "genre": 3997757,
-  "morphology": 3997757,
+  "library": 61,
+  "genre": 61,
+  "morphology": 61,
   "zones": [
     {
       "generators": {},

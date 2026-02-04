@@ -43,14 +43,14 @@
       "generators": {
         "keyRange": "0-84",
         "startAddrsOffset": 3000,
-        "sample": "Bottle Chiff-hpf C7_1"
+        "sample": "Bottle Chiff-hpf C7a"
       }
     },
     {
       "generators": {
         "keyRange": "85-96",
         "startAddrsOffset": 1500,
-        "sample": "Bottle Chiff-hpf C7"
+        "sample": "Bottle Chiff-hpf C7b"
       }
     }
   ]

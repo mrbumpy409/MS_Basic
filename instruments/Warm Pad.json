@@ -1,0 +1,156 @@
+{
+  "name": "Warm Pad",
+  "zones": [
+    {
+      "generators": {
+        "initialFilterFc": 7437,
+        "releaseModEnv": -1200,
+        "attackVolEnv": -386,
+        "holdVolEnv": 3699,
+        "decayVolEnv": 5451,
+        "sustainVolEnv": 16,
+        "releaseVolEnv": 803,
+        "sampleModes": 1
+      },
+      "modulators": [
+        {
+          "src_oper": 1282,
+          "dest_oper": 48,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 3330,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": 0,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "keyRange": "0-31",
+        "sample": "Strings G2L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "32-34",
+        "freqModLFO": 931,
+        "sample": "Strings A#2L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "35-37",
+        "freqModLFO": 1051,
+        "sample": "Strings C#3L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "38-40",
+        "freqModLFO": 803,
+        "sample": "Strings E3L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "41-43",
+        "freqModLFO": 931,
+        "sample": "Strings G3L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "44-47",
+        "freqModLFO": 664,
+        "sample": "Strings B3L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "48-51",
+        "sample": "Strings C#4L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "52-54",
+        "freqModLFO": 1162,
+        "sample": "Strings E4L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "55-59",
+        "freqModLFO": 868,
+        "sample": "Strings A#4L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "60-62",
+        "freqModLFO": 1051,
+        "sample": "Strings C#5L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "63-65",
+        "freqModLFO": 735,
+        "sample": "Strings E5L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "66-68",
+        "sample": "Strings G5L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "69-71",
+        "freqModLFO": 1162,
+        "sample": "Strings A#5L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "72-74",
+        "freqModLFO": 735,
+        "sample": "Strings C#6L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "75-77",
+        "freqModLFO": 1162,
+        "sample": "Strings E6L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "78-81",
+        "freqModLFO": 931,
+        "initialAttenuation": 60,
+        "sample": "Strings G6L"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "82-127",
+        "sample": "Strings B6L"
+      }
+    }
+  ]
+}

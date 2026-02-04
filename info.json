@@ -1,11 +1,11 @@
 {
   "version": "2.01",
   "sound_engine": "E-mu 10K2",
-  "bank_name": "MuseScore_General_HQ v0.2.1",
+  "bank_name": "MS Basic v2.0.0",
   "creation_date": "Friday 23 March 2018, 13:27:43",
   "engineer": "Frank Wen, Michael Cowgill & S. Christian Collins - see license file for details",
   "product": "SBAWE32",
-  "copyright": "Frank Wen 2000-02, Michael Cowgill 2014-17, S. Christian Collins 2018-21",
-  "comment": "Released under the MIT license. Please see \"MuseScore_General_HQ-License.md\" for more information.",
+  "copyright": "Frank Wen 2000-2002, Michael Cowgill 2014-2017, S. Christian Collins 2018-2026",
+  "comment": "Released under the MIT license. Please see \"MS Basic-License.md\" for more information.",
   "software": "Polyphone"
 }

@@ -2,9 +2,9 @@
   "name": "Baritone Sax Expr.",
   "bank": 17,
   "preset_number": 67,
-  "library": 60490651,
-  "genre": 60490651,
-  "morphology": 60490651,
+  "library": 915,
+  "genre": 915,
+  "morphology": 915,
   "zones": [
     {
       "generators": {

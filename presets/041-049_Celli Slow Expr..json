@@ -2,73 +2,45 @@
   "name": "Celli Slow Expr.",
   "bank": 41,
   "preset_number": 49,
-  "library": 87360821,
-  "genre": 87360821,
-  "morphology": 87360821,
+  "library": 1121,
+  "genre": 1121,
+  "morphology": 1121,
   "zones": [
     {
       "generators": {
         "reverbEffectsSend": 100,
+        "attackVolEnv": 919,
         "releaseVolEnv": 702
-      }
-    },
-    {
-      "generators": {
-        "keyRange": "0-95",
-        "initialAttenuation": 180,
-        "instrument": "Celli Slow_v1"
       },
       "modulators": [
         {
-          "src_oper": 1410,
-          "dest_oper": 48,
-          "amount": 570,
-          "amt_src_oper": 0,
-          "trans_oper": 0
-        }
-      ]
-    },
-    {
-      "generators": {
-        "keyRange": "0-95",
-        "releaseVolEnv": 316,
-        "initialAttenuation": 130,
-        "instrument": "Celli Slow_v2x"
-      },
-      "modulators": [
-        {
-          "src_oper": 1410,
-          "dest_oper": 48,
-          "amount": 950,
-          "amt_src_oper": 0,
-          "trans_oper": 0
-        }
-      ]
-    },
-    {
-      "generators": {
-        "keyRange": "96-127",
-        "initialFilterFc": -182,
-        "attackVolEnv": 1200,
-        "initialAttenuation": 110,
-        "instrument": "Celli High"
-      },
-      "modulators": [
-        {
-          "src_oper": 1410,
-          "dest_oper": 48,
-          "amount": 600,
+          "src_oper": 386,
+          "dest_oper": 8,
+          "amount": -2400,
           "amt_src_oper": 0,
           "trans_oper": 0
         },
         {
-          "src_oper": 386,
-          "dest_oper": 8,
-          "amount": -500,
+          "src_oper": 2,
+          "dest_oper": 34,
+          "amount": -2400,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1410,
+          "dest_oper": 48,
+          "amount": 800,
           "amt_src_oper": 0,
           "trans_oper": 0
         }
       ]
+    },
+    {
+      "generators": {
+        "initialAttenuation": 120,
+        "instrument": "Strings"
+      }
     }
   ]
 }

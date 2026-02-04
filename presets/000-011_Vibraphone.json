@@ -2,9 +2,9 @@
   "name": "Vibraphone",
   "bank": 0,
   "preset_number": 11,
-  "library": 44040864,
-  "genre": 44040864,
-  "morphology": 44040864,
+  "library": 664,
+  "genre": 664,
+  "morphology": 664,
   "zones": [
     {
       "generators": {

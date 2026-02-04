@@ -2,13 +2,13 @@
   "name": "Orchestra Kit",
   "bank": 128,
   "preset_number": 48,
-  "library": 39518811,
-  "genre": 39518811,
-  "morphology": 39518811,
+  "library": 595,
+  "genre": 595,
+  "morphology": 595,
   "zones": [
     {
       "generators": {
-        "reverbEffectsSend": 600
+        "reverbEffectsSend": 100
       }
     },
     {

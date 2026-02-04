@@ -2,9 +2,9 @@
   "name": "Power 2",
   "bank": 128,
   "preset_number": 18,
-  "library": 20447544,
-  "genre": 20447544,
-  "morphology": 20447544,
+  "library": 304,
+  "genre": 304,
+  "morphology": 304,
   "zones": [
     {
       "generators": {

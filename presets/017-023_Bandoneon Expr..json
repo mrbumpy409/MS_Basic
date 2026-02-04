@@ -2,9 +2,9 @@
   "name": "Bandoneon Expr.",
   "bank": 17,
   "preset_number": 23,
-  "library": 57017190,
-  "genre": 57017190,
-  "morphology": 57017190,
+  "library": 862,
+  "genre": 862,
+  "morphology": 862,
   "zones": [
     {
       "generators": {

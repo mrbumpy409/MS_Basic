@@ -2,111 +2,44 @@
   "name": "Basses Fast",
   "bank": 50,
   "preset_number": 48,
-  "library": 88081728,
-  "genre": 88081728,
-  "morphology": 88081728,
+  "library": 1078,
+  "genre": 1078,
+  "morphology": 1078,
   "zones": [
     {
       "generators": {
         "reverbEffectsSend": 100,
         "releaseVolEnv": 454
-      }
-    },
-    {
-      "generators": {
-        "keyRange": "0-78",
-        "initialAttenuation": 230,
-        "fineTune": 2,
-        "instrument": "Basses Fast_v1"
       },
       "modulators": [
         {
-          "src_oper": 1282,
-          "dest_oper": 48,
-          "amount": 470,
+          "src_oper": 258,
+          "dest_oper": 8,
+          "amount": -2400,
           "amt_src_oper": 0,
           "trans_oper": 0
-        }
-      ]
-    },
-    {
-      "generators": {
-        "keyRange": "0-78",
-        "attackVolEnv": 386,
-        "releaseVolEnv": -281,
-        "initialAttenuation": 150,
-        "fineTune": -2,
-        "instrument": "Basses Fast_v2"
-      },
-      "modulators": [
+        },
         {
-          "src_oper": 1282,
-          "dest_oper": 48,
-          "amount": 1050,
+          "src_oper": 2,
+          "dest_oper": 34,
+          "amount": -3986,
           "amt_src_oper": 0,
           "trans_oper": 0
-        }
-      ]
-    },
-    {
-      "generators": {
-        "keyRange": "79-127",
-        "initialFilterFc": -182,
-        "initialAttenuation": 380,
-        "instrument": "Basses High"
-      },
-      "modulators": [
+        },
         {
           "src_oper": 1282,
           "dest_oper": 48,
           "amount": 800,
           "amt_src_oper": 0,
           "trans_oper": 0
-        },
-        {
-          "src_oper": 258,
-          "dest_oper": 8,
-          "amount": -500,
-          "amt_src_oper": 0,
-          "trans_oper": 0
         }
       ]
     },
     {
       "generators": {
-        "keyRange": "0-78",
-        "velRange": "0-86",
-        "releaseVolEnv": 0,
-        "initialAttenuation": 510,
-        "instrument": "Basses Fast_Att1"
-      },
-      "modulators": [
-        {
-          "src_oper": 1282,
-          "dest_oper": 48,
-          "amount": 900,
-          "amt_src_oper": 0,
-          "trans_oper": 0
-        }
-      ]
-    },
-    {
-      "generators": {
-        "keyRange": "0-78",
-        "velRange": "87-127",
-        "releaseVolEnv": 0,
-        "initialAttenuation": 390,
-        "instrument": "Basses Fast_Att2"
-      },
-      "modulators": [
-        {
-          "src_oper": 1282,
-          "dest_oper": 48,
-          "amount": 1200,
-          "amt_src_oper": 0,
-          "trans_oper": 0
-        }
-      ]
+        "initialAttenuation": 120,
+        "instrument": "Strings"
+      }
     }
   ]
 }

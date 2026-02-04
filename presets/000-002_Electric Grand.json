@@ -2,13 +2,13 @@
   "name": "Electric Grand",
   "bank": 0,
   "preset_number": 2,
-  "library": 45744826,
-  "genre": 45744826,
-  "morphology": 45744826,
+  "library": 690,
+  "genre": 690,
+  "morphology": 690,
   "zones": [
     {
       "generators": {
-        "reverbEffectsSend": 100,
+        "reverbEffectsSend": 30,
         "initialAttenuation": 150
       }
     },

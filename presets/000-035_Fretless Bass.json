@@ -2,9 +2,9 @@
   "name": "Fretless Bass",
   "bank": 0,
   "preset_number": 35,
-  "library": 49939194,
-  "genre": 49939194,
-  "morphology": 49939194,
+  "library": 754,
+  "genre": 754,
+  "morphology": 754,
   "zones": [
     {
       "generators": {

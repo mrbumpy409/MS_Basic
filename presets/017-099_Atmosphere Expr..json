@@ -2,9 +2,9 @@
   "name": "Atmosphere Expr.",
   "bank": 17,
   "preset_number": 99,
-  "library": 65209315,
-  "genre": 65209315,
-  "morphology": 65209315,
+  "library": 979,
+  "genre": 979,
+  "morphology": 979,
   "zones": [
     {
       "generators": {

@@ -2,9 +2,9 @@
   "name": "Kalimba",
   "bank": 0,
   "preset_number": 108,
-  "library": 52429600,
-  "genre": 52429600,
-  "morphology": 52429600,
+  "library": 792,
+  "genre": 792,
+  "morphology": 792,
   "zones": [
     {
       "generators": {}

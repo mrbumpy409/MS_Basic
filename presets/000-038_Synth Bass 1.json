@@ -2,9 +2,9 @@
   "name": "Synth Bass 1",
   "bank": 0,
   "preset_number": 38,
-  "library": 11141290,
-  "genre": 11141290,
-  "morphology": 11141290,
+  "library": 162,
+  "genre": 162,
+  "morphology": 162,
   "zones": [
     {
       "generators": {

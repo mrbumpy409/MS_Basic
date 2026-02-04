@@ -2,9 +2,9 @@
   "name": "Ukulele",
   "bank": 8,
   "preset_number": 24,
-  "library": 16646398,
-  "genre": 16646398,
-  "morphology": 16646398,
+  "library": 246,
+  "genre": 246,
+  "morphology": 246,
   "zones": [
     {
       "generators": {}

@@ -2,9 +2,9 @@
   "name": "Perc. Organ Expr.",
   "bank": 17,
   "preset_number": 17,
-  "library": 56230746,
-  "genre": 56230746,
-  "morphology": 56230746,
+  "library": 850,
+  "genre": 850,
+  "morphology": 850,
   "zones": [
     {
       "generators": {

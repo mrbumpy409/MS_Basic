@@ -2,9 +2,9 @@
   "name": "Guitar Feedback",
   "bank": 8,
   "preset_number": 31,
-  "library": 16187639,
-  "genre": 16187639,
-  "morphology": 16187639,
+  "library": 239,
+  "genre": 239,
+  "morphology": 239,
   "zones": [
     {
       "generators": {}

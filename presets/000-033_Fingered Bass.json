@@ -2,9 +2,9 @@
   "name": "Fingered Bass",
   "bank": 0,
   "preset_number": 33,
-  "library": 38011460,
-  "genre": 38011460,
-  "morphology": 38011460,
+  "library": 572,
+  "genre": 572,
+  "morphology": 572,
   "zones": [
     {
       "generators": {}

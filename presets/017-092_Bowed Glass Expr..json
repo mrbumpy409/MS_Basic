@@ -2,9 +2,9 @@
   "name": "Bowed Glass Expr.",
   "bank": 17,
   "preset_number": 92,
-  "library": 64226260,
-  "genre": 64226260,
-  "morphology": 64226260,
+  "library": 964,
+  "genre": 964,
+  "morphology": 964,
   "zones": [
     {
       "generators": {

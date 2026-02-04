@@ -2,14 +2,15 @@
   "name": "Bright Grand Piano",
   "bank": 0,
   "preset_number": 1,
-  "library": 68813850,
-  "genre": 68813850,
-  "morphology": 68813850,
+  "library": 1144,
+  "genre": 1144,
+  "morphology": 1144,
   "zones": [
     {
       "generators": {
         "initialFilterQ": 60,
         "modEnvToFilterFc": 300,
+        "reverbEffectsSend": 100,
         "decayModEnv": 583,
         "decayVolEnv": 583,
         "initialAttenuation": 130,

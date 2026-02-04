@@ -2,9 +2,9 @@
   "name": "Room 7",
   "bank": 128,
   "preset_number": 15,
-  "library": 27460003,
-  "genre": 27460003,
-  "morphology": 27460003,
+  "library": 411,
+  "genre": 411,
+  "morphology": 411,
   "zones": [
     {
       "generators": {

@@ -2,9 +2,9 @@
   "name": "Sea Shore",
   "bank": 0,
   "preset_number": 122,
-  "library": 45613752,
-  "genre": 45613752,
-  "morphology": 45613752,
+  "library": 688,
+  "genre": 688,
+  "morphology": 688,
   "zones": [
     {
       "generators": {}

@@ -4,9 +4,7 @@
     {
       "generators": {
         "chorusEffectsSend": 100,
-        "coarseTune": -24,
-        "sampleModes": 1,
-        "overridingRootKey": 72
+        "reverbEffectsSend": 100
       },
       "modulators": [
         {
@@ -34,107 +32,9 @@
     },
     {
       "generators": {
-        "velRange": "121-127",
-        "initialFilterFc": 12046,
-        "initialFilterQ": 2,
-        "reverbEffectsSend": 100,
         "releaseVolEnv": -2400,
-        "sample": "Drawbar Organ"
-      }
-    },
-    {
-      "generators": {
-        "velRange": "113-120",
-        "initialFilterFc": 12026,
-        "initialFilterQ": 3,
-        "reverbEffectsSend": 90,
-        "attackVolEnv": -9173,
-        "sustainVolEnv": 5,
-        "releaseVolEnv": -2471,
-        "sample": "Drawbar Organ"
-      }
-    },
-    {
-      "generators": {
-        "velRange": "105-112",
-        "initialFilterFc": 12006,
-        "initialFilterQ": 4,
-        "reverbEffectsSend": 80,
-        "attackVolEnv": -8590,
-        "sustainVolEnv": 10,
-        "releaseVolEnv": -2544,
-        "sample": "Drawbar Organ"
-      }
-    },
-    {
-      "generators": {
-        "velRange": "97-104",
-        "initialFilterFc": 11985,
-        "initialFilterQ": 5,
-        "reverbEffectsSend": 70,
-        "attackVolEnv": -8155,
-        "sustainVolEnv": 15,
-        "releaseVolEnv": -2621,
-        "sample": "Drawbar Organ"
-      }
-    },
-    {
-      "generators": {
-        "velRange": "89-96",
-        "initialFilterFc": 11964,
-        "initialFilterQ": 6,
-        "reverbEffectsSend": 60,
-        "attackVolEnv": -7808,
-        "sustainVolEnv": 20,
-        "releaseVolEnv": -2621,
-        "sample": "Drawbar Organ"
-      }
-    },
-    {
-      "generators": {
-        "velRange": "81-88",
-        "initialFilterFc": 11943,
-        "initialFilterQ": 7,
-        "reverbEffectsSend": 50,
-        "attackVolEnv": -7518,
-        "sustainVolEnv": 25,
-        "releaseVolEnv": -2702,
-        "sample": "Drawbar Organ"
-      }
-    },
-    {
-      "generators": {
-        "velRange": "73-80",
-        "initialFilterFc": 11921,
-        "initialFilterQ": 8,
-        "reverbEffectsSend": 40,
-        "attackVolEnv": -7271,
-        "sustainVolEnv": 30,
-        "releaseVolEnv": -2786,
-        "sample": "Drawbar Organ"
-      }
-    },
-    {
-      "generators": {
-        "velRange": "65-72",
-        "initialFilterFc": 11900,
-        "initialFilterQ": 9,
-        "reverbEffectsSend": 30,
-        "attackVolEnv": -7054,
-        "sustainVolEnv": 35,
-        "releaseVolEnv": -2875,
-        "sample": "Drawbar Organ"
-      }
-    },
-    {
-      "generators": {
-        "velRange": "0-64",
-        "initialFilterFc": 11877,
-        "initialFilterQ": 10,
-        "reverbEffectsSend": 20,
-        "attackVolEnv": -6861,
-        "sustainVolEnv": 40,
-        "releaseVolEnv": -2969,
+        "sampleModes": 1,
+        "overridingRootKey": 84,
         "sample": "Drawbar Organ"
       }
     }

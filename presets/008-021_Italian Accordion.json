@@ -2,9 +2,9 @@
   "name": "Italian Accordion",
   "bank": 8,
   "preset_number": 21,
-  "library": 16777472,
-  "genre": 16777472,
-  "morphology": 16777472,
+  "library": 248,
+  "genre": 248,
+  "morphology": 248,
   "zones": [
     {
       "generators": {},

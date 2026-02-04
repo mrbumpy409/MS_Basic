@@ -2,9 +2,9 @@
   "name": "TR-808",
   "bank": 128,
   "preset_number": 25,
-  "library": 40501866,
-  "genre": 40501866,
-  "morphology": 40501866,
+  "library": 610,
+  "genre": 610,
+  "morphology": 610,
   "zones": [
     {
       "generators": {

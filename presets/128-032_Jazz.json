@@ -2,9 +2,9 @@
   "name": "Jazz",
   "bank": 128,
   "preset_number": 32,
-  "library": 26870170,
-  "genre": 26870170,
-  "morphology": 26870170,
+  "library": 402,
+  "genre": 402,
+  "morphology": 402,
   "zones": [
     {
       "generators": {

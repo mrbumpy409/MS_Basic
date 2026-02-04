@@ -2,9 +2,9 @@
   "name": "Synth Strings 1",
   "bank": 0,
   "preset_number": 50,
-  "library": 10748068,
-  "genre": 10748068,
-  "morphology": 10748068,
+  "library": 156,
+  "genre": 156,
+  "morphology": 156,
   "zones": [
     {
       "generators": {

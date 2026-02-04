@@ -2,9 +2,9 @@
   "name": "Taiko Drum",
   "bank": 0,
   "preset_number": 116,
-  "library": 47383251,
-  "genre": 47383251,
-  "morphology": 47383251,
+  "library": 715,
+  "genre": 715,
+  "morphology": 715,
   "zones": [
     {
       "generators": {}

@@ -2,9 +2,9 @@
   "name": "Halo Pad Expr.",
   "bank": 17,
   "preset_number": 94,
-  "library": 64619482,
-  "genre": 64619482,
-  "morphology": 64619482,
+  "library": 970,
+  "genre": 970,
+  "morphology": 970,
   "zones": [
     {
       "generators": {

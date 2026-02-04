@@ -2,9 +2,9 @@
   "name": "Melo Tom 2",
   "bank": 8,
   "preset_number": 117,
-  "library": 15204584,
-  "genre": 15204584,
-  "morphology": 15204584,
+  "library": 224,
+  "genre": 224,
+  "morphology": 224,
   "zones": [
     {
       "generators": {}

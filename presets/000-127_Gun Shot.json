@@ -2,9 +2,9 @@
   "name": "Gun Shot",
   "bank": 0,
   "preset_number": 127,
-  "library": 13697233,
-  "genre": 13697233,
-  "morphology": 13697233,
+  "library": 201,
+  "genre": 201,
+  "morphology": 201,
   "zones": [
     {
       "generators": {}

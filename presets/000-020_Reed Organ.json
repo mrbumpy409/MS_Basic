@@ -2,9 +2,9 @@
   "name": "Reed Organ",
   "bank": 0,
   "preset_number": 20,
-  "library": 19267878,
-  "genre": 19267878,
-  "morphology": 19267878,
+  "library": 286,
+  "genre": 286,
+  "morphology": 286,
   "zones": [
     {
       "generators": {},

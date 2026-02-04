@@ -2,9 +2,9 @@
   "name": "Bagpipe",
   "bank": 0,
   "preset_number": 109,
-  "library": 19398952,
-  "genre": 19398952,
-  "morphology": 19398952,
+  "library": 288,
+  "genre": 288,
+  "morphology": 288,
   "zones": [
     {
       "generators": {

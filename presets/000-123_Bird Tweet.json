@@ -2,9 +2,9 @@
   "name": "Bird Tweet",
   "bank": 0,
   "preset_number": 123,
-  "library": 46596807,
-  "genre": 46596807,
-  "morphology": 46596807,
+  "library": 703,
+  "genre": 703,
+  "morphology": 703,
   "zones": [
     {
       "generators": {}

@@ -2,9 +2,9 @@
   "name": "Overdrive Guitar",
   "bank": 0,
   "preset_number": 29,
-  "library": 25428356,
-  "genre": 25428356,
-  "morphology": 25428356,
+  "library": 380,
+  "genre": 380,
+  "morphology": 380,
   "zones": [
     {
       "generators": {

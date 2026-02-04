@@ -2,46 +2,48 @@
   "name": "Violins Trem Expr.",
   "bank": 21,
   "preset_number": 44,
-  "library": 80872658,
-  "genre": 80872658,
-  "morphology": 80872658,
+  "library": 1099,
+  "genre": 1099,
+  "morphology": 1099,
   "zones": [
     {
       "generators": {
+        "modLfoToFilterFc": 2000,
+        "modLfoToVolume": 15,
         "reverbEffectsSend": 100,
+        "decayVolEnv": 2786,
+        "sustainVolEnv": 90,
         "releaseVolEnv": 316
+      },
+      "modulators": [
+        {
+          "src_oper": 386,
+          "dest_oper": 8,
+          "amount": -2400,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 2,
+          "dest_oper": 34,
+          "amount": -5186,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 1410,
+          "dest_oper": 48,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        }
+      ]
+    },
+    {
+      "generators": {
+        "initialAttenuation": 120,
+        "instrument": "Strings"
       }
-    },
-    {
-      "generators": {
-        "initialAttenuation": 130,
-        "instrument": "Violins Trem_v1"
-      },
-      "modulators": [
-        {
-          "src_oper": 1410,
-          "dest_oper": 48,
-          "amount": 470,
-          "amt_src_oper": 0,
-          "trans_oper": 0
-        }
-      ]
-    },
-    {
-      "generators": {
-        "releaseVolEnv": 0,
-        "initialAttenuation": 80,
-        "instrument": "Violins Trem_v2x"
-      },
-      "modulators": [
-        {
-          "src_oper": 1410,
-          "dest_oper": 48,
-          "amount": 1050,
-          "amt_src_oper": 0,
-          "trans_oper": 0
-        }
-      ]
     }
   ]
 }

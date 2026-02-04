@@ -2,9 +2,9 @@
   "name": "Synth Brass 3 Expr.",
   "bank": 18,
   "preset_number": 62,
-  "library": 67175425,
-  "genre": 67175425,
-  "morphology": 67175425,
+  "library": 1009,
+  "genre": 1009,
+  "morphology": 1009,
   "zones": [
     {
       "generators": {

@@ -2,9 +2,9 @@
   "name": "Goblin",
   "bank": 0,
   "preset_number": 101,
-  "library": 50332416,
-  "genre": 50332416,
-  "morphology": 50332416,
+  "library": 760,
+  "genre": 760,
+  "morphology": 760,
   "zones": [
     {
       "generators": {},

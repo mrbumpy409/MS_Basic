@@ -2,9 +2,9 @@
   "name": "Xylophone",
   "bank": 0,
   "preset_number": 13,
-  "library": 37093942,
-  "genre": 37093942,
-  "morphology": 37093942,
+  "library": 558,
+  "genre": 558,
+  "morphology": 558,
   "zones": [
     {
       "generators": {

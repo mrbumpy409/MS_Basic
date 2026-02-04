@@ -2,9 +2,9 @@
   "name": "Melodic Tom",
   "bank": 0,
   "preset_number": 117,
-  "library": 50463490,
-  "genre": 50463490,
-  "morphology": 50463490,
+  "library": 762,
+  "genre": 762,
+  "morphology": 762,
   "zones": [
     {
       "generators": {}

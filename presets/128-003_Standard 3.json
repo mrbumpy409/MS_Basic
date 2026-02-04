@@ -2,9 +2,9 @@
   "name": "Standard 3",
   "bank": 128,
   "preset_number": 3,
-  "library": 34537999,
-  "genre": 34537999,
-  "morphology": 34537999,
+  "library": 519,
+  "genre": 519,
+  "morphology": 519,
   "zones": [
     {
       "generators": {

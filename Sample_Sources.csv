@@ -1,5 +1,5 @@
 sep=,
-Bank #,Expr. Bank #,Preset #,Preset Name,Details,Sample Credit,Changes from Original Version,Different from “MuseScore_General.sf2”?
+Bank #,Expr. Bank #,Preset #,Preset Name,Details,Sample Credit,Changes from Original Version,Different from “MuseScore_General_HQ.sf2”?
 0,,0,Grand Piano,"""Splendid Grand"" for AKAI S5000
  . Steinway Model D grand piano ""close-mic""","Samples: AKAI, edited by S. Christian Collins
 Original License: Public Domain (confirmed via AKAI rep.)"," . Created SF2 from scratch using the WAV files (original was in AKAI S5000 sampler format).
@@ -48,14 +48,12 @@ Original License: Public Domain (confirmed via AKAI rep.)"," . Created SF2 from 
 0,17,41,Viola,,,,
 0,17,42,Cello,,,,
 0,17,43,Contrabass,,,,
-0,17,44,Strings Tremolo,same info as 000:048 Strings Fast,,,x
-0,,45,Strings Pizzicato,same info as 000:048 Strings Fast,,,x
+0,17,44,Strings Tremolo,,,,x
+0,,45,Strings Pizzicato,,,,x
 0,,46,Harp,,,,
 0,,47,Timpani,,,,
-0,17,48,Strings Fast,Ensemble strings samples from Versilian Studios Chamber Orchestra (VSCO) 2.1.1 Community Edition: http://vis.versilstudios.net/vsco-community.html,"Samples: Sam Gossner, Simon Dalzell, Elan Hickler/Soundemote + modifications by S. Christian Collins
-Original License: CC0 1.0 Universal"," . Samples were normalized, looped and doctored in various ways.
- . The contrabass ensemble samples were created via various combinations of the solo contrabass samples.",x
-0,17,49,Strings Slow,same info as 000:048 Strings Fast,,,x
+0,17,48,Strings Fast,,,,x
+0,17,49,Strings Slow,,,,x
 0,17,50,Synth Strings 1,I generated my own analog synth waveforms and programmed the sound in the same way I would on a a real analog synth.,Samples: created by S. Christian Collins,,
 0,17,51,Synth Strings 2,I generated my own analog synth waveforms and programmed the sound in the same way I would on a a real analog synth.,Samples: created by S. Christian Collins,,
 0,17,52,Choir Aahs,,,,
@@ -139,7 +137,7 @@ License: Public Domain"," . Downsampled from 48 KHz to 44.1 KHz.
 1,,115,Temple Blocks,,Samples: created by Ethan Winer,,
 8,,0,Mellow Grand Piano,same info as 000:000 Grand Piano,,,
 8,,4,Detuned Tine EP,,,,
-8,,5,Detuned FM EP,same info as 000:005 FM Electric Piano,,,
+8,,5,Detuned FM EP,same as 000:005 FM Electric Piano,,,
 8,,6,Coupled Harpsichord,,,,
 8,,14,Church Bell,,,,
 8,18,16,Detuned Organ 1,,,,
@@ -156,7 +154,7 @@ License: Public Domain"," . Downsampled from 48 KHz to 44.1 KHz.
 8,,39,Synth Bass 4,uses samples from 000:039 Synth Bass 2 and 000:036 Slap Bass,Samples: mix of public domain / Frank Wen,,
 8,18,40,Slow Violin,,,,
 8,,48,Orchestral Pad,,,,x
-8,18,50,Synth Strings 3,Uses a combination of my analog synth waveforms and processed VSCO2 strings samples (see 000:048 Strings Fast).,Samples: mix of samples by S. Christian Collins / Versilian Studios,,x
+8,18,50,Synth Strings 3,I generated my own analog synth waveforms and programmed the sound in the same way I would on a a real analog synth.,Samples: created by S. Christian Collins,,x
 8,18,61,Brass 2,,,,
 8,18,62,Synth Brass 3,I generated my own analog synth waveforms and programmed the sound in the same way I would on a a real analog synth.,Samples: created by S. Christian Collins,,
 8,18,63,Synth Brass 4,I generated my own analog synth waveforms and programmed the sound in the same way I would on a a real analog synth.,Samples: created by S. Christian Collins,,
@@ -166,27 +164,28 @@ License: Public Domain"," . Downsampled from 48 KHz to 44.1 KHz.
 8,,116,Concert Bass Drum,,,,
 8,,117,Melo Tom 2,,,,
 8,,118,808 Tom,,,,
+10,,115,Metronome,Two pairs of metronome clicks for users who want metronome sounds in their exported audio. See #154666.,Samples: created by Paul Davis and S. Christian Collins,,
 16,,25,Mandolin,,,,
-20,21,44,Violins Tremolo,same info as 000:048 Strings Fast,,,x
-20,21,45,Violins Pizzicato,same info as 000:048 Strings Fast,,,x
-20,21,48,Violins Fast,same info as 000:048 Strings Fast,,,x
-20,21,49,Violins Slow,same info as 000:048 Strings Fast,,,x
-25,26,44,Violins2 Tremolo,same info as 000:048 Strings Fast,,,x
-25,26,45,Violins2 Pizzicato,same info as 000:048 Strings Fast,,,x
-25,26,48,Violins2 Fast,same info as 000:048 Strings Fast,,,x
-25,26,49,Violins2 Slow,same info as 000:048 Strings Fast,,,x
-30,31,44,Violas Tremolo,same info as 000:048 Strings Fast,,,x
-30,31,45,Violas Pizzicato,same info as 000:048 Strings Fast,,,x
-30,31,48,Violas Fast,same info as 000:048 Strings Fast,,,x
-30,31,49,Violas Slow,same info as 000:048 Strings Fast,,,x
-40,41,44,Celli Tremolo,same info as 000:048 Strings Fast,,,x
-40,41,45,Celli Pizzicato,same info as 000:048 Strings Fast,,,x
-40,41,48,Celli Fast,same info as 000:048 Strings Fast,,,x
-40,41,49,Celli Slow,same info as 000:048 Strings Fast,,,x
-50,51,44,Basses Tremolo,same info as 000:048 Strings Fast,,,x
-50,51,45,Basses Pizzicato,same info as 000:048 Strings Fast,,,x
-50,51,48,Basses Fast,same info as 000:048 Strings Fast,,,x
-50,51,49,Basses Slow,same info as 000:048 Strings Fast,,,x
+20,21,44,Violins Tremolo,dummy preset for compatibility with MuseScore_General_HQ (plays standard strings samples),,,x
+20,21,45,Violins Pizzicato,dummy preset for compatibility with MuseScore_General_HQ (plays standard strings samples),,,x
+20,21,48,Violins Fast,dummy preset for compatibility with MuseScore_General_HQ (plays standard strings samples),,,x
+20,21,49,Violins Slow,dummy preset for compatibility with MuseScore_General_HQ (plays standard strings samples),,,x
+25,26,44,Violins2 Tremolo,dummy preset for compatibility with MuseScore_General_HQ (plays standard strings samples),,,x
+25,26,45,Violins2 Pizzicato,dummy preset for compatibility with MuseScore_General_HQ (plays standard strings samples),,,x
+25,26,48,Violins2 Fast,dummy preset for compatibility with MuseScore_General_HQ (plays standard strings samples),,,x
+25,26,49,Violins2 Slow,dummy preset for compatibility with MuseScore_General_HQ (plays standard strings samples),,,x
+30,31,44,Violas Tremolo,dummy preset for compatibility with MuseScore_General_HQ (plays standard strings samples),,,x
+30,31,45,Violas Pizzicato,dummy preset for compatibility with MuseScore_General_HQ (plays standard strings samples),,,x
+30,31,48,Violas Fast,dummy preset for compatibility with MuseScore_General_HQ (plays standard strings samples),,,x
+30,31,49,Violas Slow,dummy preset for compatibility with MuseScore_General_HQ (plays standard strings samples),,,x
+40,41,44,Celli Tremolo,dummy preset for compatibility with MuseScore_General_HQ (plays standard strings samples),,,x
+40,41,45,Celli Pizzicato,dummy preset for compatibility with MuseScore_General_HQ (plays standard strings samples),,,x
+40,41,48,Celli Fast,dummy preset for compatibility with MuseScore_General_HQ (plays standard strings samples),,,x
+40,41,49,Celli Slow,dummy preset for compatibility with MuseScore_General_HQ (plays standard strings samples),,,x
+50,51,44,Basses Tremolo,dummy preset for compatibility with MuseScore_General_HQ (plays standard strings samples),,,x
+50,51,45,Basses Pizzicato,dummy preset for compatibility with MuseScore_General_HQ (plays standard strings samples),,,x
+50,51,48,Basses Fast,dummy preset for compatibility with MuseScore_General_HQ (plays standard strings samples),,,x
+50,51,49,Basses Slow,dummy preset for compatibility with MuseScore_General_HQ (plays standard strings samples),,,
 128,,0,Standard,,,,
 128,,1,Standard 1,,,,
 128,,2,Standard 2,,,,

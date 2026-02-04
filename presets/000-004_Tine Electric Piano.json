@@ -2,14 +2,14 @@
   "name": "Tine Electric Piano",
   "bank": 0,
   "preset_number": 4,
-  "library": 36307498,
-  "genre": 36307498,
-  "morphology": 36307498,
+  "library": 546,
+  "genre": 546,
+  "morphology": 546,
   "zones": [
     {
       "generators": {
         "chorusEffectsSend": 70,
-        "reverbEffectsSend": 100,
+        "reverbEffectsSend": 30,
         "initialAttenuation": 140
       },
       "modulators": [

@@ -2,9 +2,9 @@
   "name": "Harmonica Expr.",
   "bank": 17,
   "preset_number": 22,
-  "library": 56886116,
-  "genre": 56886116,
-  "morphology": 56886116,
+  "library": 860,
+  "genre": 860,
+  "morphology": 860,
   "zones": [
     {
       "generators": {},

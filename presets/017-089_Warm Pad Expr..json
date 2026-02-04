@@ -2,44 +2,32 @@
   "name": "Warm Pad Expr.",
   "bank": 17,
   "preset_number": 89,
-  "library": 79496381,
-  "genre": 79496381,
-  "morphology": 79496381,
+  "library": 1088,
+  "genre": 1088,
+  "morphology": 1088,
   "zones": [
     {
       "generators": {
-        "initialFilterFc": -498,
-        "initialFilterQ": 40,
         "modEnvToFilterFc": 500,
         "chorusEffectsSend": 140,
         "reverbEffectsSend": 140,
-        "attackModEnv": 3600,
-        "releaseModEnv": -1200,
-        "attackVolEnv": 3600,
-        "holdVolEnv": 3699,
-        "decayVolEnv": 5451,
-        "sustainVolEnv": 984,
-        "releaseVolEnv": 2951
+        "freqModLFO": -856,
+        "freqVibLFO": -856,
+        "releaseVolEnv": 1813,
+        "initialAttenuation": 100
       },
       "modulators": [
         {
-          "src_oper": 386,
-          "dest_oper": 8,
-          "amount": -1800,
-          "amt_src_oper": 0,
-          "trans_oper": 0
-        },
-        {
-          "src_oper": 515,
-          "dest_oper": 8,
-          "amount": 1200,
-          "amt_src_oper": 0,
-          "trans_oper": 0
-        },
-        {
           "src_oper": 1410,
           "dest_oper": 48,
-          "amount": 600,
+          "amount": 800,
+          "amt_src_oper": 0,
+          "trans_oper": 0
+        },
+        {
+          "src_oper": 386,
+          "dest_oper": 8,
+          "amount": -2400,
           "amt_src_oper": 0,
           "trans_oper": 0
         }
@@ -47,7 +35,57 @@
     },
     {
       "generators": {
-        "instrument": "Strings Layer"
+        "keyRange": "0-61",
+        "fineTune": -3,
+        "instrument": "Warm Pad"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "62-70",
+        "initialFilterFc": 454,
+        "fineTune": -3,
+        "instrument": "Warm Pad"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "71-79",
+        "initialFilterFc": 814,
+        "fineTune": -3,
+        "instrument": "Warm Pad"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "80-88",
+        "initialFilterFc": 1111,
+        "fineTune": -3,
+        "instrument": "Warm Pad"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "89-97",
+        "initialFilterFc": 1365,
+        "fineTune": -3,
+        "instrument": "Warm Pad"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "98-106",
+        "initialFilterFc": 1586,
+        "fineTune": -3,
+        "instrument": "Warm Pad"
+      }
+    },
+    {
+      "generators": {
+        "keyRange": "107-127",
+        "initialFilterFc": 1783,
+        "fineTune": -3,
+        "instrument": "Warm Pad"
       }
     }
   ]

@@ -2,14 +2,15 @@
   "name": "Honky-Tonk Piano",
   "bank": 0,
   "preset_number": 3,
-  "library": 69796905,
-  "genre": 69796905,
-  "morphology": 69796905,
+  "library": 1159,
+  "genre": 1159,
+  "morphology": 1159,
   "zones": [
     {
       "generators": {
         "initialFilterQ": 60,
         "modEnvToFilterFc": 300,
+        "reverbEffectsSend": 80,
         "decayModEnv": 583,
         "decayVolEnv": 583,
         "initialAttenuation": 200

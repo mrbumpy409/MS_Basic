@@ -2,9 +2,9 @@
   "name": "Feedback Guitar",
   "bank": 8,
   "preset_number": 30,
-  "library": 16318713,
-  "genre": 16318713,
-  "morphology": 16318713,
+  "library": 241,
+  "genre": 241,
+  "morphology": 241,
   "zones": [
     {
       "generators": {}

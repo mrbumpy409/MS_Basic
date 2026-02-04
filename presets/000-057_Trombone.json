@@ -2,9 +2,9 @@
   "name": "Trombone",
   "bank": 0,
   "preset_number": 57,
-  "library": 54526784,
-  "genre": 54526784,
-  "morphology": 54526784,
+  "library": 824,
+  "genre": 824,
+  "morphology": 824,
   "zones": [
     {
       "generators": {

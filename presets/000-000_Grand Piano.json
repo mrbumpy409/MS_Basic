@@ -2,13 +2,14 @@
   "name": "Grand Piano",
   "bank": 0,
   "preset_number": 0,
-  "library": 67830795,
-  "genre": 67830795,
-  "morphology": 67830795,
+  "library": 1129,
+  "genre": 1129,
+  "morphology": 1129,
   "zones": [
     {
       "generators": {
         "initialFilterQ": 60,
+        "reverbEffectsSend": 100,
         "decayModEnv": 583,
         "decayVolEnv": 583,
         "initialAttenuation": 130,

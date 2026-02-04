@@ -2,9 +2,9 @@
   "name": "Crystal",
   "bank": 0,
   "preset_number": 98,
-  "library": 6291552,
-  "genre": 6291552,
-  "morphology": 6291552,
+  "library": 96,
+  "genre": 96,
+  "morphology": 96,
   "zones": [
     {
       "generators": {

@@ -2,9 +2,9 @@
   "name": "Church Organ Expr.",
   "bank": 17,
   "preset_number": 19,
-  "library": 56492894,
-  "genre": 56492894,
-  "morphology": 56492894,
+  "library": 854,
+  "genre": 854,
+  "morphology": 854,
   "zones": [
     {
       "generators": {
@@ -23,7 +23,7 @@
     },
     {
       "generators": {
-        "releaseVolEnv": -2084,
+        "releaseVolEnv": -1586,
         "instrument": "Church Organ"
       }
     }

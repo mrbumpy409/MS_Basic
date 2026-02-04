@@ -2,9 +2,9 @@
   "name": "Alto Sax",
   "bank": 0,
   "preset_number": 65,
-  "library": 55051080,
-  "genre": 55051080,
-  "morphology": 55051080,
+  "library": 832,
+  "genre": 832,
+  "morphology": 832,
   "zones": [
     {
       "generators": {

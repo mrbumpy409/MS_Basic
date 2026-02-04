@@ -2,9 +2,9 @@
   "name": "Echo Drops Expr.",
   "bank": 17,
   "preset_number": 102,
-  "library": 65537000,
-  "genre": 65537000,
-  "morphology": 65537000,
+  "library": 984,
+  "genre": 984,
+  "morphology": 984,
   "zones": [
     {
       "generators": {},

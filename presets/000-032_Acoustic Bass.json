@@ -2,9 +2,9 @@
   "name": "Acoustic Bass",
   "bank": 0,
   "preset_number": 32,
-  "library": 46465733,
-  "genre": 46465733,
-  "morphology": 46465733,
+  "library": 701,
+  "genre": 701,
+  "morphology": 701,
   "zones": [
     {
       "generators": {
